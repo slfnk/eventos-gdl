@@ -107,7 +107,7 @@ def fetch_posts(accounts: list[str]) -> list[dict]:
     }
     print(f"Starting Apify run for {len(accounts)} accounts...")
     run = client.actor("apify/instagram-scraper").call(run_input=run_input)
-    items = list(client.dataset(run["defaultDatasetId"]).iterate_items())
+    items = list(client.dataset(run.default_dataset_id).iterate_items())
     print(f"Apify returned {len(items)} posts.")
     return items
 
