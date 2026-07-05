@@ -26,6 +26,9 @@
 # guadalajara90210
 
 @inglesia.primitiva_
+@tiroalblancogaleria
+@paramogaleria
+@galeriasepiagdl
 
 # --- collectives / promoters ---
 
