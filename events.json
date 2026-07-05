@@ -1,1 +1,293 @@
-[]
+[
+  {
+    "is_event": true,
+    "title": "Siesta Acústica",
+    "artists": [
+      "Anne Gouverneur",
+      "Paola Meza",
+      "Ximena Cars"
+    ],
+    "venue": "Foro Diez",
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "notes": "Second participation, acoustic music experience project",
+    "account": "cuervoglez",
+    "post_url": "https://www.instagram.com/p/DaLaWXYxD-c/",
+    "found_at": "2026-07-05T02:46:47.410577+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Siesta Acústica",
+    "artists": [
+      "Ximena Carstensen",
+      "Paola Meza",
+      "Cuervo Glez",
+      "Anne Gouverneur"
+    ],
+    "venue": "Foro Diez - Semillero Estudios",
+    "date": "2026-07-21",
+    "time": "19:30",
+    "cover": null,
+    "type": "concert",
+    "notes": "Acoustic siesta event. Address: Priv Andrés Terán 31, Col Americana",
+    "account": "ximena_cars",
+    "post_url": "https://www.instagram.com/p/DaN0sDXCslp/",
+    "found_at": "2026-07-05T02:46:57.008837+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "TOKYO STREETS X Guadalajara",
+    "artists": [],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "notes": "Extended 2 more weeks. Second week of show currently running.",
+    "account": "mmagdalenoo",
+    "post_url": "https://www.instagram.com/p/DaBmX7FiXgu/",
+    "found_at": "2026-07-05T02:47:02.857198+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Noche Amarella",
+    "artists": [
+      "DVAN",
+      "TY$A",
+      "APCH"
+    ],
+    "venue": "Galería Sepia",
+    "date": "2026-07-04",
+    "time": "20:00",
+    "cover": null,
+    "type": "dj",
+    "notes": "Tropical party, afrobeats & house. After party location revealed at event.",
+    "account": "celestiale.x",
+    "post_url": "https://www.instagram.com/p/DaTFIHqx7E1/",
+    "found_at": "2026-07-05T02:47:04.724593+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Concierto en Memoria – Oveja Negra",
+    "artists": [
+      "Alex Fernández"
+    ],
+    "venue": "Galería Sepia",
+    "date": "2026-07-09",
+    "time": "20:00",
+    "cover": "entrada libre",
+    "type": "concert",
+    "notes": "Memorial concert. Open mic tribute. Free entry.",
+    "account": "reyasco",
+    "post_url": "https://www.instagram.com/p/DaOtV_mRVzx/",
+    "found_at": "2026-07-05T02:47:06.720073+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Woodstockhausen Festival 2026",
+    "artists": [],
+    "venue": "Old dairy farm with meadows, mountains, forests, gardens, streams, ponds and barns",
+    "date": "2026-08-01",
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "notes": "Experimental music, synesthetic video, performance art festival in Mexico",
+    "account": "afasia.mx",
+    "post_url": "https://www.instagram.com/p/DaER1-_BhV4/",
+    "found_at": "2026-07-05T02:47:10.846239+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "TOKYO STREETS X - Mexico",
+    "artists": null,
+    "venue": null,
+    "date": "2026-07-17",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "notes": "Photography exhibition. Guided tours available via DM.",
+    "account": "mmagdalenoo",
+    "post_url": "https://www.instagram.com/p/DaRDZIHiaZ4/",
+    "found_at": "2026-07-05T02:47:12.572846+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Diles Que No Me Maten",
+    "artists": [
+      "Diles Que No Me Maten",
+      "Clothing",
+      "Ivania"
+    ],
+    "venue": "Foro Larva",
+    "date": "2026-09-05",
+    "time": "20:00",
+    "cover": null,
+    "type": "concert",
+    "notes": "Full band, new album 'Escrito en Agua', local opening act",
+    "account": "afasia.mx",
+    "post_url": "https://www.instagram.com/p/DaEBpuvMt6T/",
+    "found_at": "2026-07-05T02:47:14.398436+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Habitantes - Último Show en Guadalajara",
+    "artists": [
+      "Habitantes",
+      "The Shulls",
+      "Sueños Frustrados"
+    ],
+    "venue": "Ritual Cultural",
+    "date": "2026-07-10",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "notes": "Last show before hiatus; special preparation for future event",
+    "account": "habitantesmx",
+    "post_url": "https://www.instagram.com/p/DZ-2ZVnqlRo/",
+    "found_at": "2026-07-05T02:47:18.109329+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "The Fresh Days, Los Mangurrianes Heavy Blues, Gordo Banda",
+    "artists": [
+      "The Fresh Days",
+      "Los Mangurrianes Heavy Blues",
+      "Gordo Banda"
+    ],
+    "venue": "Concert Room de Hake al Rey",
+    "date": null,
+    "time": "19:00",
+    "cover": "$100",
+    "type": "concert",
+    "notes": "Three local Tapatía bands. Doors open 7:00 PM.",
+    "account": "terrenolibreoficial",
+    "post_url": "https://www.instagram.com/p/DaOTUNNvEHi/",
+    "found_at": "2026-07-05T02:47:25.016047+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Bandas Emergentes #38",
+    "artists": [
+      "Bloody Dahlia",
+      "Atomic Marginals",
+      "Radium",
+      "Tierrita Mojada",
+      "Caveat Emptor",
+      "Flores"
+    ],
+    "venue": "Garibaldi #580, Zona Centro",
+    "date": "2026-07-12",
+    "time": null,
+    "cover": "$100 preventa / $150 día del evento",
+    "type": "concert",
+    "notes": "Edition 38 of Bandas Emergentes series, emerging bands showcase",
+    "account": "cuerdacultura",
+    "post_url": "https://www.instagram.com/p/DaOUWBdpV1S/",
+    "found_at": "2026-07-05T02:47:28.092566+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "VIE 14 AGO",
+    "artists": [
+      "Hake Al Rey",
+      "Los Mangurrianes Heavy Blues",
+      "Gordo",
+      "The Fresh Days"
+    ],
+    "venue": "Hake Al Rey",
+    "date": "2026-08-14",
+    "time": "20:00",
+    "cover": "$100",
+    "type": "concert",
+    "notes": "Libertad 1482, Col Americana, GDL. Multiple bands.",
+    "account": "paquito_ramirezdrums",
+    "post_url": "https://www.instagram.com/p/DaBWveGJl_0/",
+    "found_at": "2026-07-05T02:47:31.348668+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Adios Shosanna presenta 'Tristestar' EP",
+    "artists": [
+      "Adios Shosanna",
+      "Gibbons",
+      "Sin Sitio"
+    ],
+    "venue": "Cuerda Cultura",
+    "date": "2026-07-18",
+    "time": null,
+    "cover": "Cooperación Voluntaria",
+    "type": "concert",
+    "notes": "Grunge/hard rock/punk. First time Adios Shosanna in Guadalajara.",
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DaONWYwGPC1/",
+    "found_at": "2026-07-05T02:47:37.819483+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "The Brain Rage - Mexafest",
+    "artists": [
+      "The Brain Rage"
+    ],
+    "venue": "Cuerda Cultura GDL",
+    "date": "2026-08-29",
+    "time": "18:00",
+    "cover": "$150 preventa / $200 día del evento",
+    "type": "concert",
+    "notes": "Progressive groove metal band from Puebla. 10 year trajectory.",
+    "account": "daphnemor_",
+    "post_url": "https://www.instagram.com/p/DaUPhx0M3pE/",
+    "found_at": "2026-07-05T02:47:39.573267+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "El Culto a la Diosa - Lanzamiento Oficial de Videoclip",
+    "artists": [
+      "El Culto a la Diosa",
+      "Freak la Femme",
+      "The Liquidambars"
+    ],
+    "venue": "Ritual Cultural",
+    "date": "2026-07-17",
+    "time": "20:00",
+    "cover": "$100 preventa, $150 taquilla",
+    "type": "concert",
+    "notes": "Videoclip launch event. Location: López Cotilla #570, Guadalajara, Jalisco",
+    "account": "elcultoaladiosa",
+    "post_url": "https://www.instagram.com/p/DaWd6KZDB1O/",
+    "found_at": "2026-07-05T02:47:41.700996+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Como Si Fuera 2022",
+    "artists": [
+      "Death Young",
+      "Pett Welss",
+      "Tropical Depression"
+    ],
+    "venue": "Ritual Cultural",
+    "date": "2026-08-15",
+    "time": "20:00",
+    "cover": "$100 preventa, $150 día del evento",
+    "type": "concert",
+    "notes": "Showcase featuring Death Young (CDMX), Pett Welss (GDL), Tropical Depression (TOL)",
+    "account": "rott_weileroficial",
+    "post_url": "https://www.instagram.com/p/DaYkoVsh5fS/",
+    "found_at": "2026-07-05T02:47:44.189680+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Hake Al Rey",
+    "artists": null,
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "notes": "Live music event. Bands perform, cheap beer, cool weather season",
+    "account": "hakealrey",
+    "post_url": "https://www.instagram.com/p/DZ5dgrlMkOi/",
+    "found_at": "2026-07-05T02:47:45.635398+00:00"
+  }
+]
