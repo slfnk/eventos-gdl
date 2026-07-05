@@ -1,0 +1,19 @@
+# One Instagram handle per line, @ optional. Lines starting with # are ignored.
+# THIS FILE IS THE PRODUCT. Curate it well. Start with 10-15, grow as you scout.
+#
+# Fill in real handles — verify each one exists before adding.
+# Categories to cover in GDL / Colonia Americana:
+#   - small concert venues / foros
+#   - art galleries
+#   - cultural centers
+#   - record shops that host in-stores
+#   - promoter collectives / bookers
+
+# --- venues (examples, REPLACE with verified handles) ---
+# foroindependencia
+# c3stage
+
+# --- galleries ---
+# guadalajara90210
+
+# --- collectives / promoters ---
