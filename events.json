@@ -271,5 +271,41 @@
     "account": "hakealrey",
     "post_url": "https://www.instagram.com/p/DZ5dgrlMkOi/",
     "found_at": "2026-07-05T02:47:45.635398+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Cartas de Vincent en Guadalajara",
+    "artists": [
+      "Cartas de Vincent",
+      "Will of One",
+      "Norte Verdadero"
+    ],
+    "venue": "Ritval Cultural",
+    "date": "2026-09-19",
+    "time": "20:00",
+    "cover": null,
+    "type": "concert",
+    "notes": "Lopez Cotilla 570, Guadalajara. Doors 19:30. Tickets at boletomovil.com",
+    "account": "conciertosmagmx",
+    "post_url": "https://www.instagram.com/p/Dac8YZ_OwKb/",
+    "found_at": "2026-07-06T18:13:45.890634+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Cartas de Vincent en Guadalajara",
+    "artists": [
+      "Cartas de Vincent",
+      "Will of One",
+      "Norte Verdadero"
+    ],
+    "venue": "Ritual Cultural",
+    "date": "2026-09-19",
+    "time": "20:00",
+    "cover": null,
+    "type": "concert",
+    "notes": "Metalcore event. Doors 19:30. Tickets via boletomovil.com",
+    "account": "cartasdevincent",
+    "post_url": "https://www.instagram.com/p/Dab9OHcgOn7/",
+    "found_at": "2026-07-06T18:13:49.372774+00:00"
   }
 ]
