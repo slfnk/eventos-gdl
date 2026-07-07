@@ -262,5 +262,24 @@
     "cover": null,
     "post_url": null,
     "notes": null
+  },
+  {
+    "account": "manual",
+    "found_at": "2026-07-07T05:24:58.599Z",
+    "title": "Noche Pop",
+    "artists": [
+      "Ashbieri",
+      "Kolibri",
+      "Dekoi",
+      "Pista Pop",
+      "Gram JR"
+    ],
+    "venue": "Hake Al Rey",
+    "date": "2026-07-12",
+    "time": "06:30",
+    "cover": "$150",
+    "post_url": "https://www.instagram.com/p/DZddImjh0k2/",
+    "notes": null,
+    "featured": true
   }
 ]
