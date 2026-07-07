@@ -283,5 +283,23 @@
     "found_at": "2026-07-07T05:51:09.976702+00:00",
     "post_url": null,
     "featured": true
+  },
+  {
+    "is_event": true,
+    "title": "Zenith en Cuerda Cultura",
+    "artists": [
+      "Dulce de Leche",
+      "Coyote Viejo",
+      "Vas Tarde",
+      "Overlook"
+    ],
+    "venue": "C. Garibaldi 580 - Centro, 44100",
+    "date": "2026-07-11",
+    "time": "18:00",
+    "cover": "$100",
+    "type": "concert",
+    "notes": "Four-band show at Vox venue, punk/rock event",
+    "account": "flier callejero",
+    "found_at": "2026-07-07T06:01:01.616410+00:00"
   }
 ]
