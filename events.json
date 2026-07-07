@@ -667,5 +667,25 @@
     "account": "plataformagdl",
     "post_url": "https://www.instagram.com/p/DaJjlR9uVYO/",
     "found_at": "2026-07-07T18:04:48.246318+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Weyes Pez",
+    "artists": [
+      "Weyes Pez",
+      "The Eeves",
+      "Dan Goose",
+      "Karacel",
+      "Melancholes Bass",
+      "Hellraiser"
+    ],
+    "venue": "Hake Al Rey",
+    "date": "2026-07-11",
+    "time": "18:00",
+    "cover": "$100",
+    "type": "concert",
+    "notes": "Libertad 1482, Col. Americano, Gdl. Multiple bands.",
+    "account": "flier callejero",
+    "found_at": "2026-07-07T21:14:22.608972+00:00"
   }
 ]
