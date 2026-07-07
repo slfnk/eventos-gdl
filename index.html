@@ -15,6 +15,7 @@
     --ink-soft: #6b6b66;
     --hair: #e2e2dd;
     --rosa: #e4007c;
+    --amarillo: #fff3a8;
     --measure: 34rem;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -34,7 +35,7 @@
   /* ---------- header ---------- */
   header {
     max-width: 56rem; margin: 0 auto;
-    padding: 2.5rem 0 3.5rem;
+    padding: 2.5rem 0 3rem;
   }
   header h1 {
     font-weight: 900;
@@ -44,12 +45,34 @@
     text-transform: uppercase;
     line-height: 1;
   }
-  header p {
+  header .sub {
     font-family: "IBM Plex Mono", monospace;
     font-size: 0.72rem;
     color: var(--ink-soft);
     margin-top: 0.6rem;
     letter-spacing: 0.04em;
+  }
+  header .cuentas {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.7rem;
+    margin-top: 0.8rem;
+    letter-spacing: 0.02em;
+    line-height: 1.9;
+  }
+  header .cuentas a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    border-bottom: 1px solid var(--hair);
+    margin-right: 0.9em;
+    white-space: nowrap;
+  }
+  header .cuentas a:hover, header .cuentas a:focus-visible { color: var(--rosa); border-color: var(--rosa); }
+  header .about {
+    max-width: var(--measure);
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    margin-top: 1.3rem;
+    line-height: 1.55;
   }
 
   /* ---------- date groups ---------- */
@@ -57,7 +80,7 @@
 
   .day {
     display: grid;
-    grid-template-columns: 8.5rem 1fr;
+    grid-template-columns: 9.5rem 1fr;
     gap: 0 2.5rem;
     padding: 2.2rem 0;
     border-top: 1px solid var(--hair);
@@ -67,48 +90,65 @@
   .datemark { line-height: 0.9; }
   .datemark .dow {
     font-family: "IBM Plex Mono", monospace;
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--ink-soft);
     display: block;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.4rem;
   }
   .datemark .num {
     font-weight: 900;
     font-stretch: 72%;
-    font-size: clamp(3.4rem, 9vw, 5.4rem);
-    letter-spacing: -0.04em;
+    font-size: clamp(2.4rem, 6vw, 3.4rem);
+    letter-spacing: -0.03em;
     display: block;
   }
   .datemark .mon {
     font-family: "IBM Plex Mono", monospace;
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--ink-soft);
     display: block;
-    margin-top: 0.45rem;
+    margin-top: 0.5rem;
   }
   .datemark .hoy {
     font-family: "IBM Plex Mono", monospace;
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
     color: var(--rosa);
     display: block;
-    margin-top: 0.45rem;
+    margin-top: 0.5rem;
   }
   .day.today .num { color: var(--rosa); }
 
+  /* undated section */
+  .day.undated .datemark .sf {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    line-height: 1.7;
+    display: block;
+  }
+
   /* ---------- events ---------- */
-  .events { display: flex; flex-direction: column; gap: 1.7rem; padding-top: 0.35rem; }
+  .events { display: flex; flex-direction: column; gap: 1.7rem; padding-top: 0.35rem; min-width: 0; }
 
   .event { max-width: var(--measure); }
   .event h2 {
     font-weight: 700;
     font-size: 1.05rem;
     letter-spacing: -0.01em;
-    line-height: 1.25;
+    line-height: 1.3;
+  }
+  .event.featured h2 span {
+    background: var(--amarillo);
+    padding: 0.05em 0.25em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
   }
   .event .artists {
     color: var(--ink-soft);
@@ -127,23 +167,23 @@
   .event .links {
     font-family: "IBM Plex Mono", monospace;
     font-size: 0.74rem;
-    margin-top: 0.35rem;
+    margin-top: 0.4rem;
   }
   .event .links a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--hair); }
   .event .links a:hover, .event .links a:focus-visible { color: var(--rosa); border-color: var(--rosa); }
+  .event .fuente {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem;
+    margin-top: 0.3rem;
+    color: var(--ink-soft);
+  }
+  .event .fuente a { color: inherit; text-decoration: none; }
+  .event .fuente a:hover, .event .fuente a:focus-visible { color: var(--rosa); }
   .event .notes {
     font-size: 0.85rem;
     color: var(--ink-soft);
     margin-top: 0.3rem;
     font-style: italic;
-  }
-
-  /* undated section */
-  .day.undated .datemark .num {
-    font-size: clamp(1.6rem, 4vw, 2.2rem);
-    font-stretch: 72%;
-    letter-spacing: 0.02em;
-    line-height: 1.1;
   }
 
   /* ---------- footer / admin ---------- */
@@ -171,7 +211,6 @@
   }
 
   /* ---------- edit mode ---------- */
-  body.editing .event { position: relative; }
   .admintools {
     display: none;
     font-family: "IBM Plex Mono", monospace;
@@ -223,7 +262,29 @@
     background: transparent; padding: 0.25rem 0; color: var(--ink);
   }
   dialog input:focus, dialog textarea:focus { outline: none; border-bottom-color: var(--rosa); }
+  dialog input[type="date"] { font-family: "IBM Plex Mono", monospace; font-size: 0.85rem; }
   dialog .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  dialog .toggle {
+    display: flex; align-items: center; gap: 0.6rem;
+    margin-top: 1.1rem; cursor: pointer;
+  }
+  dialog .toggle input {
+    width: auto; appearance: none; -webkit-appearance: none;
+    width: 2.1rem; height: 1.15rem; border: 1px solid var(--ink);
+    border-radius: 1rem; position: relative; cursor: pointer; flex-shrink: 0;
+  }
+  dialog .toggle input::after {
+    content: ""; position: absolute; top: 1px; left: 1px;
+    width: 0.95rem; height: 0.95rem; border-radius: 50%;
+    background: var(--ink); transition: transform 0.15s ease;
+  }
+  dialog .toggle input:checked { background: var(--amarillo); }
+  dialog .toggle input:checked::after { transform: translateX(0.93rem); }
+  dialog .toggle span {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--ink-soft);
+  }
   dialog .actions { display: flex; gap: 1.5rem; margin-top: 1.6rem; align-items: center; }
   dialog .actions button {
     font-family: "IBM Plex Mono", monospace; font-size: 0.78rem;
@@ -243,8 +304,8 @@
   /* ---------- mobile ---------- */
   @media (max-width: 640px) {
     .day { grid-template-columns: 1fr; gap: 1rem 0; padding: 1.8rem 0; }
-    .datemark { display: flex; align-items: baseline; gap: 0.7rem; line-height: 1; }
-    .datemark .num { font-size: 2.6rem; }
+    .datemark { display: flex; align-items: baseline; gap: 0.7rem; line-height: 1; flex-wrap: wrap; }
+    .datemark .num { font-size: 2.1rem; }
     .datemark .dow, .datemark .mon, .datemark .hoy { margin: 0; }
   }
 
@@ -258,7 +319,12 @@
 
 <header>
   <h1>Cartelera GDL</h1>
-  <p>foros · galerías · conciertos — guadalajara</p>
+  <p class="sub">foros · galerías · conciertos — guadalajara</p>
+  <p class="cuentas" id="cuentas"></p>
+  <p class="about">Esta cartelera se arma sola: una vez al día revisa las publicaciones
+  de las cuentas de Instagram listadas arriba y extrae los eventos de sus flyers.
+  Puede equivocarse con fechas y precios — verifica los detalles en el post original
+  antes de salir.</p>
 </header>
 
 <div class="addbar"><button id="addBtn" type="button">+ agregar evento</button></div>
@@ -280,8 +346,8 @@
   <input id="f_venue" autocomplete="off">
   <div class="row">
     <div>
-      <label for="f_date">fecha (AAAA-MM-DD)</label>
-      <input id="f_date" placeholder="2026-07-15" autocomplete="off">
+      <label for="f_date">fecha</label>
+      <input id="f_date" type="date">
     </div>
     <div>
       <label for="f_time">hora (HH:MM)</label>
@@ -294,6 +360,10 @@
   <input id="f_url" autocomplete="off">
   <label for="f_notes">notas</label>
   <input id="f_notes" autocomplete="off">
+  <label class="toggle">
+    <input type="checkbox" id="f_featured">
+    <span>destacado — título resaltado en amarillo</span>
+  </label>
   <div class="actions">
     <button class="save" id="saveBtn" type="button">Guardar</button>
     <button class="cancel" id="cancelBtn" type="button">cancelar</button>
@@ -310,11 +380,12 @@ const GH_BRANCH = "main";
 
 /* ================= state ================= */
 let events = [];
-let fileSha = null;
 let editIndex = null; // null = adding
 
-const MESES = ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"];
-const DIAS  = ["DOM","LUN","MAR","MIÉ","JUE","VIE","SÁB"];
+const MESES = ["ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO",
+               "JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE"];
+const DIAS  = ["DOMINGO","LUNES","MARTES","MIÉRCOLES","JUEVES","VIERNES","SÁBADO"];
+const NON_IG_SOURCES = new Set(["manual", "flier callejero"]);
 
 /* Parse YYYY-MM-DD as LOCAL date (avoid UTC off-by-one). */
 function localDate(s) {
@@ -333,6 +404,7 @@ function esc(s) {
 
 /* ================= load ================= */
 async function load() {
+  loadAccounts(); // fire and forget
   try {
     const r = await fetch(GH_FILE + "?t=" + Date.now());
     if (!r.ok) throw new Error(r.status);
@@ -343,6 +415,21 @@ async function load() {
     return;
   }
   render();
+}
+
+/* Header list of watched accounts, read from accounts.txt in the repo. */
+async function loadAccounts() {
+  try {
+    const r = await fetch("accounts.txt?t=" + Date.now());
+    if (!r.ok) return;
+    const handles = (await r.text()).split("\n")
+      .map(l => l.trim().replace(/^@/, ""))
+      .filter(l => l && !l.startsWith("#"));
+    if (!handles.length) return;
+    document.getElementById("cuentas").innerHTML = handles
+      .map(h => `<a href="https://www.instagram.com/${esc(h)}/" target="_blank" rel="noopener">@${esc(h)}</a>`)
+      .join("");
+  } catch (e) { /* header just stays without the list */ }
 }
 
 /* ================= render ================= */
@@ -384,7 +471,7 @@ function render() {
   }
   if (undated.length) {
     html += `<section class="day undated">
-      <div class="datemark"><span class="num">POR<br>CONFIRMAR</span></div>
+      <div class="datemark"><span class="sf">POR<br>CONFIRMAR</span></div>
       <div class="events">${undated.map(renderEvent).join("")}</div>
     </section>`;
   }
@@ -406,12 +493,14 @@ function renderEvent(ev) {
   if (ev.time) meta.push(esc(ev.time));
   if (ev.venue) meta.push(esc(ev.venue));
   if (ev.cover) meta.push(esc(ev.cover));
-  return `<article class="event">
-    <h2>${esc(ev.title || artists || "(sin título)")}</h2>
+  const showAccount = ev.account && !NON_IG_SOURCES.has(ev.account);
+  return `<article class="event${ev.featured ? " featured" : ""}">
+    <h2><span>${esc(ev.title || artists || "(sin título)")}</span></h2>
     ${artists && artists !== ev.title ? `<p class="artists">${esc(artists)}</p>` : ""}
     ${meta.length ? `<p class="meta">${meta.join('<span class="sep">·</span>')}</p>` : ""}
     ${ev.notes ? `<p class="notes">${esc(ev.notes)}</p>` : ""}
     ${ev.post_url ? `<p class="links"><a href="${esc(ev.post_url)}" target="_blank" rel="noopener">ver post ↗</a></p>` : ""}
+    ${showAccount ? `<p class="fuente"><a href="https://www.instagram.com/${esc(ev.account)}/" target="_blank" rel="noopener">@${esc(ev.account)}</a></p>` : ""}
     <div class="admintools">
       <button type="button" data-edit="${ev._i}">editar</button>
       <button type="button" class="del" data-del="${ev._i}">borrar</button>
@@ -458,15 +547,13 @@ function openEditor(index) {
   F("f_cover").value = ev.cover || "";
   F("f_url").value = ev.post_url || "";
   F("f_notes").value = ev.notes || "";
+  F("f_featured").checked = !!ev.featured;
   F("editorErr").style.display = "none";
   editor.showModal();
 }
 
 document.getElementById("saveBtn").addEventListener("click", async () => {
-  const date = F("f_date").value.trim();
-  if (date && !/^\d{4}-\d{2}-\d{2}$/.test(date)) {
-    return showErr("La fecha debe ser AAAA-MM-DD.");
-  }
+  const date = F("f_date").value.trim(); // input[type=date] gives YYYY-MM-DD
   const ev = {
     ...(editIndex !== null ? events[editIndex] : { account: "manual", found_at: new Date().toISOString() }),
     title: F("f_title").value.trim() || null,
@@ -477,10 +564,11 @@ document.getElementById("saveBtn").addEventListener("click", async () => {
     cover: F("f_cover").value.trim() || null,
     post_url: F("f_url").value.trim() || null,
     notes: F("f_notes").value.trim() || null,
+    featured: F("f_featured").checked,
   };
   if (editIndex === null) events.push(ev);
   else events[editIndex] = ev;
-  await persist("guardando…");
+  await persist();
 });
 
 async function delEvent(index) {
