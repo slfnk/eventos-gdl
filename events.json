@@ -229,20 +229,6 @@
   },
   {
     "is_event": true,
-    "title": "Hake Al Rey",
-    "artists": null,
-    "venue": null,
-    "date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "notes": "Live music event. Bands perform, cheap beer, cool weather season",
-    "account": "hakealrey",
-    "post_url": "https://www.instagram.com/p/DZ5dgrlMkOi/",
-    "found_at": "2026-07-05T02:47:45.635398+00:00"
-  },
-  {
-    "is_event": true,
     "title": "Cartas de Vincent en Guadalajara",
     "artists": [
       "Cartas de Vincent",
