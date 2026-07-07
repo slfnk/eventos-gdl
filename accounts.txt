@@ -28,12 +28,26 @@
 # guadalajara90210
 
 @iglesia.primitiva_
+@almacolectiva51
+@paos-gdl
+@espaciocabeza
+@palmagaleria
 @tiroalblancogaleria
 @paramogaleria
 @galeriasepiagdl
 @muragdl
+@galeriacurro
 @musa.museodelasartes
 @plataformagdl
+@castillointerior_
+@espaciomorelosgdl
+@rayon.376
+@guadalajara90210
+@improntacasaeditora
+@otroespacio.gdl
+@galeriatiroalblanco
+
+
 
 # --- collectives / promoters ---
 
