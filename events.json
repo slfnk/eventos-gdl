@@ -262,5 +262,24 @@
     "cover": null,
     "post_url": null,
     "notes": null
+  },
+  {
+    "is_event": true,
+    "title": "Noche Pop",
+    "artists": [
+      "Ashashashbrowns",
+      "Dekoi",
+      "Kolibri",
+      "Gram Junior",
+      "Pistapop"
+    ],
+    "venue": "Hake Al Rey Concert Room",
+    "date": "2026-07-12",
+    "time": "18:30",
+    "cover": "$150",
+    "type": "concert",
+    "notes": "5 projects: R&B, rock pop, pop solito, synth pop y ambiente",
+    "account": "flier callejero",
+    "found_at": "2026-07-07T05:51:09.976702+00:00"
   }
 ]
