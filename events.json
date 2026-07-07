@@ -304,5 +304,22 @@
     "found_at": "2026-07-07T06:01:01.616410+00:00",
     "post_url": null,
     "featured": false
+  },
+  {
+    "is_event": true,
+    "title": "Colectivo Subversivo presenta",
+    "artists": [
+      "Perros Plaga",
+      "Taco Verde",
+      "Tofana"
+    ],
+    "venue": "Ritual Cultural López Cotilla 570, Guadalajara Centro",
+    "date": "2026-07-10",
+    "time": "20:30",
+    "cover": "$100",
+    "type": "concert",
+    "notes": "Featuring live bands. Tickets at door only.",
+    "account": "flier callejero",
+    "found_at": "2026-07-07T07:04:16.576846+00:00"
   }
 ]
