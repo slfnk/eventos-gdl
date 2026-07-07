@@ -128,7 +128,6 @@
     "is_event": true,
     "title": "VIE 14 AGO",
     "artists": [
-      "Hake Al Rey",
       "Los Mangurrianes Heavy Blues",
       "Gordo",
       "The Fresh Days"
@@ -141,7 +140,8 @@
     "notes": "Libertad 1482, Col Americana, GDL. Multiple bands.",
     "account": "paquito_ramirezdrums",
     "post_url": "https://www.instagram.com/p/DaBWveGJl_0/",
-    "found_at": "2026-07-05T02:47:31.348668+00:00"
+    "found_at": "2026-07-05T02:47:31.348668+00:00",
+    "featured": true
   },
   {
     "is_event": true,
