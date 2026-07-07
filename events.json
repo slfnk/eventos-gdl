@@ -275,5 +275,19 @@
     "account": "cartasdevincent",
     "post_url": "https://www.instagram.com/p/Dab9OHcgOn7/",
     "found_at": "2026-07-06T18:13:49.372774+00:00"
+  },
+  {
+    "account": "manual",
+    "found_at": "2026-07-07T04:03:03.661Z",
+    "title": "Yorka en Vivo",
+    "artists": [
+      "Yorka"
+    ],
+    "venue": "Cuerda Cultura",
+    "date": "2026-07-09",
+    "time": "08:00",
+    "cover": null,
+    "post_url": null,
+    "notes": null
   }
 ]
