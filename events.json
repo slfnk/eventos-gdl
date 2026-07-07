@@ -94,14 +94,15 @@
       "Gordo Banda"
     ],
     "venue": "Concert Room de Hake al Rey",
-    "date": null,
+    "date": "2026-08-14",
     "time": "19:00",
     "cover": "$100",
     "type": "concert",
     "notes": "Three local Tapatía bands. Doors open 7:00 PM.",
     "account": "terrenolibreoficial",
     "post_url": "https://www.instagram.com/p/DaOTUNNvEHi/",
-    "found_at": "2026-07-05T02:47:25.016047+00:00"
+    "found_at": "2026-07-05T02:47:25.016047+00:00",
+    "featured": false
   },
   {
     "is_event": true,
