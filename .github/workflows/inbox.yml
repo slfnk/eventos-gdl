@@ -1,0 +1,45 @@
+name: Process flier inbox
+
+on:
+  push:
+    paths:
+      - "inbox/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# same group as the daily scan so the two never commit simultaneously
+concurrency:
+  group: event-scan
+  cancel-in-progress: false
+
+jobs:
+  inbox:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Process inbox photos
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python inbox.py
+
+      - name: Commit results
+        run: |
+          git config user.name "events-bot"
+          git config user.email "actions@github.com"
+          git add -A events.json inbox/
+          git diff --cached --quiet || git commit -m "inbox: process flier photos"
+          git pull --rebase origin main
+          git push
