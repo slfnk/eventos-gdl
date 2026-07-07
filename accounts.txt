@@ -20,6 +20,8 @@
 @ritual.cultural
 @afasia.mx
 @hakealrey
+@c4concerthouse
+@c3stage
 
 
 # --- galleries ---
@@ -29,6 +31,9 @@
 @tiroalblancogaleria
 @paramogaleria
 @galeriasepiagdl
+@muragdl
+@musa.museodelasartes
+@plataformagdl
 
 # --- collectives / promoters ---
 
