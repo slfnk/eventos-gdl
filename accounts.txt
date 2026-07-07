@@ -27,7 +27,7 @@
 # --- galleries ---
 # guadalajara90210
 
-@inglesia.primitiva_
+@iglesia.primitiva_
 @tiroalblancogaleria
 @paramogaleria
 @galeriasepiagdl
