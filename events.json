@@ -280,6 +280,8 @@
     "type": "concert",
     "notes": "5 projects: R&B, rock pop, pop solito, synth pop y ambiente",
     "account": "flier callejero",
-    "found_at": "2026-07-07T05:51:09.976702+00:00"
+    "found_at": "2026-07-07T05:51:09.976702+00:00",
+    "post_url": null,
+    "featured": true
   }
 ]
