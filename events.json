@@ -304,5 +304,368 @@
     "found_at": "2026-07-07T07:04:16.576846+00:00",
     "post_url": "https://www.instagram.com/p/DZYC-R9Rsmm/",
     "featured": true
+  },
+  {
+    "is_event": true,
+    "title": "Human Tetris",
+    "artists": [
+      "Human Tetris"
+    ],
+    "venue": "C3 STAGE",
+    "date": "2026-08-14",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "notes": "Post-punk band from Moscow. Last tickets available via ticketnowmexico.",
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DaeIP0Bnzgy/",
+    "found_at": "2026-07-07T18:03:37.851748+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Cartelera Julio",
+    "artists": [],
+    "venue": "La Musicanos Shac3 / Corooftop",
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "notes": "July monthly programming preview. Multiple artists/events featured.",
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DaQj9fUgb3d/",
+    "found_at": "2026-07-07T18:03:40.757303+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Proyecciones: El acorazado Potemkin y La huelga",
+    "artists": [
+      "Sergei Eisenstein"
+    ],
+    "venue": "MUSA (Museo de las Artes, Universidad de Guadalajara)",
+    "date": "2026-07-07",
+    "time": "12:00",
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "notes": "Free film screenings in Patio MUSA, part of Correspondencias exhibition",
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/Dad9PKcgXj8/",
+    "found_at": "2026-07-07T18:03:43.475840+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Aqui Hay Aqui Hay",
+    "artists": [
+      "Aqui Hay Aqui Hay"
+    ],
+    "venue": "C3 ROOFTOP",
+    "date": "2026-10-17",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "notes": "Five-piece M-pop band: hip hop, R&B, salsa, Jersey club",
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DadYLg-H1Qs/",
+    "found_at": "2026-07-07T18:03:46.020902+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Black Country, New Road",
+    "artists": [
+      "Black Country, New Road"
+    ],
+    "venue": "C3 Stage",
+    "date": "2026-10-25",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "notes": "First time in Guadalajara. Tickets via Ticketnow Mexico.",
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DaRQaFgohy_/",
+    "found_at": "2026-07-07T18:03:52.688770+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Murales en Movimiento",
+    "artists": [
+      "Sergio Valdivia"
+    ],
+    "venue": "MUSA Museo de las Artes, Universidad de Guadalajara",
+    "date": "2026-07-09",
+    "time": "13:00",
+    "cover": "entrada libre",
+    "type": "other",
+    "notes": "Stop motion workshop. Two sessions required: July 9 and 11. Limited to 10 participants.",
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/DadwvCAEo-u/",
+    "found_at": "2026-07-07T18:03:55.178402+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Mirror Revelations",
+    "artists": [],
+    "venue": null,
+    "date": "2026-07-24",
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "notes": "Full lineup coming this week. Venue: afasia",
+    "account": "afasia.mx",
+    "post_url": "https://www.instagram.com/p/DafwBvHBpaQ/",
+    "found_at": "2026-07-07T18:03:58.601089+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "INYEON FT DVAN",
+    "artists": [
+      "INYEON",
+      "DVAN"
+    ],
+    "venue": "Galerías Sepia",
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "dj",
+    "notes": "Gallery event in Guadalajara. No date/time visible in image.",
+    "account": "tysa.mp3",
+    "post_url": "https://www.instagram.com/p/Dady4n4tU32/",
+    "found_at": "2026-07-07T18:04:00.599613+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Taller de Cartonería",
+    "artists": [],
+    "venue": "Museo de Arte Raúl Anguiano (MURA)",
+    "date": "2026-07-12",
+    "time": "11:00",
+    "cover": "entrada libre",
+    "type": "other",
+    "notes": "Family cardboard craft workshop, no prior registration needed",
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/DaeEQ3Jxo3C/",
+    "found_at": "2026-07-07T18:04:02.221747+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Verano Relax - Curso de Verano 2026",
+    "artists": [
+      "Pietro Morino"
+    ],
+    "venue": null,
+    "date": "2026-07-27",
+    "time": "10:00",
+    "cover": "entrada libre",
+    "type": "other",
+    "notes": "Summer art course for children ages 6-12. Limited spots. No materials included.",
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/DaTQF92xg8u/",
+    "found_at": "2026-07-07T18:04:05.922052+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "El Error como Umbral",
+    "artists": [
+      "Joey Priego",
+      "Alejandro Zaragoza",
+      "Yuriko Cortes",
+      "Comunidad CAAV"
+    ],
+    "venue": "Museo Raúl Anguiano",
+    "date": "2026-07-17",
+    "time": "19:00",
+    "cover": null,
+    "type": "exhibition",
+    "notes": "Collective exhibition: photography, painting, drawing. Until July 26.",
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/DadVdjmxjPT/",
+    "found_at": "2026-07-07T18:04:08.365310+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "CRISIS - Presentación EP 'Ex Memoriae'",
+    "artists": [
+      "Crisis",
+      "Omega",
+      "HIUB"
+    ],
+    "venue": "Hake Al Rey",
+    "date": "2026-07-31",
+    "time": "19:00",
+    "cover": "$120 preventa / $150 general",
+    "type": "concert",
+    "notes": "Hardcore/metal show. Third band TBA. Tickets on sale July 17.",
+    "account": "crisishardcore",
+    "post_url": "https://www.instagram.com/p/DaeJD21IVfa/",
+    "found_at": "2026-07-07T18:04:14.828384+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Injector + Endless Soph over Mexico",
+    "artists": [
+      "Injector",
+      "Endless Soph",
+      "Crimson Froxx",
+      "Aggressive Conspiracy",
+      "Mictian"
+    ],
+    "venue": "Ritual Cultural",
+    "date": "2026-07-07",
+    "time": "20:00",
+    "cover": null,
+    "type": "concert",
+    "notes": "Metal show with multiple bands starting 8pm. Support: Crimson Frax.",
+    "account": "utter_silence_prods",
+    "post_url": "https://www.instagram.com/p/Daf2cwgNN7Q/",
+    "found_at": "2026-07-07T18:04:17.875232+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Bandelletas - Taller práctico",
+    "artists": [
+      "Laura Bordes",
+      "Emi Ramírez",
+      "Daniel Román",
+      "Helios García"
+    ],
+    "venue": "Plataforma",
+    "date": "2026-07-12",
+    "time": "11:30",
+    "cover": "entrada libre",
+    "type": "other",
+    "notes": "Creative workshop: decorating cookies, printmaking, LGBTIQ+ flags discussion",
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DaeCvZ2uU-r/",
+    "found_at": "2026-07-07T18:04:22.546506+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "P4R4S1T0",
+    "artists": [
+      "P4R4S1T0"
+    ],
+    "venue": "C3 ROOFTOP",
+    "date": "2026-07-18",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "notes": "Groove metal with hardcore soul. Tickets via TicketNow México.",
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/Dadl5NEDziJ/",
+    "found_at": "2026-07-07T18:04:24.474412+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Ladrones",
+    "artists": [
+      "Ladrones"
+    ],
+    "venue": "C4 Concert House",
+    "date": "2026-08-15",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "notes": "Mexican hip-hop group. Tickets via TicketNow México.",
+    "account": "c4concerthouse",
+    "post_url": "https://www.instagram.com/p/DaEHHC3H9qy/",
+    "found_at": "2026-07-07T18:04:26.592805+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "We're All in the Same Boat",
+    "artists": [
+      "SUPERFLEX"
+    ],
+    "venue": "Plataforma",
+    "date": null,
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "notes": "Installation. Open Wednesday to Sunday. Ongoing exhibition.",
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DaT2nvIjmzC/",
+    "found_at": "2026-07-07T18:04:30.079785+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Cuerda Cultura - Noche Musical",
+    "artists": [
+      "Vas Tarde",
+      "Over.Look",
+      "Coyote Viejo",
+      "Dulce de Leche"
+    ],
+    "venue": "Cuerda Cultura",
+    "date": "2026-07-11",
+    "time": "18:00",
+    "cover": "100 pesos",
+    "type": "concert",
+    "notes": "Multiple artists performing Saturday night. DM for tickets.",
+    "account": "zenitt_band",
+    "post_url": "https://www.instagram.com/p/DaeRxlbMoKE/",
+    "found_at": "2026-07-07T18:04:37.740804+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Fuera de cancha",
+    "artists": [
+      "Simon Barber"
+    ],
+    "venue": "Plataforma",
+    "date": "2026-07-26",
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "notes": "Chivas archive and photography exhibition by JOVEM, FIFA World Cup 2026",
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DaCH-YLDqqF/",
+    "found_at": "2026-07-07T18:04:39.951709+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Insitemusic Concert",
+    "artists": [
+      "Insitemusic"
+    ],
+    "venue": "C4 Concert House",
+    "date": "2026-11-06",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "notes": "Post-hardcore band with violin. Tickets via Ticketnow México.",
+    "account": "c4concerthouse",
+    "post_url": "https://www.instagram.com/p/DaQ_LFOAYEY/",
+    "found_at": "2026-07-07T18:04:41.884227+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "Maria Daniela y Su Sonido Lässer",
+    "artists": [
+      "Maria Daniela y Su Sonido Lässer"
+    ],
+    "venue": "C4 Concert House",
+    "date": "2026-08-01",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "notes": "Tickets via TicketNow México. Electronic/synth band performance.",
+    "account": "c4concerthouse",
+    "post_url": "https://www.instagram.com/p/DaWdRlPH2qQ/",
+    "found_at": "2026-07-07T18:04:45.638895+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "AV",
+    "artists": [
+      "Rafa Esparza",
+      "Maria Mara"
+    ],
+    "venue": "Plataforma",
+    "date": "2026-09-04",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "notes": "Closing exhibition for Sacha Craddock's curatorial cycle 'Attention'",
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DaJjlR9uVYO/",
+    "found_at": "2026-07-07T18:04:48.246318+00:00"
   }
 ]
