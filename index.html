@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cartelera GDL</title>
+<meta name="description" content="Cartelera independiente de Guadalajara — foros, galerías, conciertos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #fcfcfa;
+    --ink: #141412;
+    --ink-soft: #6b6b66;
+    --hair: #e2e2dd;
+    --rosa: #e4007c;
+    --measure: 34rem;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Archivo", sans-serif;
+    font-size: 15px;
+    line-height: 1.45;
+    padding: 0 1.25rem;
+  }
+  a { color: inherit; }
+  a:hover, a:focus-visible { color: var(--rosa); }
+  :focus-visible { outline: 2px solid var(--rosa); outline-offset: 2px; }
+
+  /* ---------- header ---------- */
+  header {
+    max-width: 56rem; margin: 0 auto;
+    padding: 2.5rem 0 3.5rem;
+  }
+  header h1 {
+    font-weight: 900;
+    font-stretch: 115%;
+    font-size: clamp(1.6rem, 4.5vw, 2.4rem);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  header p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+    margin-top: 0.6rem;
+    letter-spacing: 0.04em;
+  }
+
+  /* ---------- date groups ---------- */
+  main { max-width: 56rem; margin: 0 auto; padding-bottom: 4rem; }
+
+  .day {
+    display: grid;
+    grid-template-columns: 8.5rem 1fr;
+    gap: 0 2.5rem;
+    padding: 2.2rem 0;
+    border-top: 1px solid var(--hair);
+  }
+  .day:first-child { border-top: none; }
+
+  .datemark { line-height: 0.9; }
+  .datemark .dow {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    display: block;
+    margin-bottom: 0.35rem;
+  }
+  .datemark .num {
+    font-weight: 900;
+    font-stretch: 72%;
+    font-size: clamp(3.4rem, 9vw, 5.4rem);
+    letter-spacing: -0.04em;
+    display: block;
+  }
+  .datemark .mon {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    display: block;
+    margin-top: 0.45rem;
+  }
+  .datemark .hoy {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    color: var(--rosa);
+    display: block;
+    margin-top: 0.45rem;
+  }
+  .day.today .num { color: var(--rosa); }
+
+  /* ---------- events ---------- */
+  .events { display: flex; flex-direction: column; gap: 1.7rem; padding-top: 0.35rem; }
+
+  .event { max-width: var(--measure); }
+  .event h2 {
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+  }
+  .event .artists {
+    color: var(--ink-soft);
+    font-size: 0.92rem;
+    margin-top: 0.15rem;
+  }
+  .event .meta {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.74rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    color: var(--ink);
+  }
+  .event .meta .sep { color: var(--hair); padding: 0 0.35em; }
+  .event .links {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.74rem;
+    margin-top: 0.35rem;
+  }
+  .event .links a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--hair); }
+  .event .links a:hover, .event .links a:focus-visible { color: var(--rosa); border-color: var(--rosa); }
+  .event .notes {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    margin-top: 0.3rem;
+    font-style: italic;
+  }
+
+  /* undated section */
+  .day.undated .datemark .num {
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-stretch: 72%;
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+  }
+
+  /* ---------- footer / admin ---------- */
+  footer {
+    max-width: 56rem; margin: 0 auto;
+    padding: 2rem 0 3rem;
+    border-top: 1px solid var(--hair);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+    display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+  }
+  footer button {
+    font: inherit; color: inherit;
+    background: none; border: none;
+    border-bottom: 1px solid var(--hair);
+    cursor: pointer; padding: 0;
+  }
+  footer button:hover, footer button:focus-visible { color: var(--rosa); border-color: var(--rosa); }
+
+  .status {
+    max-width: 56rem; margin: 0 auto; padding: 3rem 0;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.8rem; color: var(--ink-soft);
+  }
+
+  /* ---------- edit mode ---------- */
+  body.editing .event { position: relative; }
+  .admintools {
+    display: none;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    gap: 1rem;
+  }
+  body.editing .admintools { display: flex; }
+  .admintools button {
+    font: inherit; background: none; border: none; cursor: pointer;
+    color: var(--ink-soft); border-bottom: 1px solid var(--hair); padding: 0;
+  }
+  .admintools button:hover { color: var(--rosa); border-color: var(--rosa); }
+  .admintools button.del:hover { color: #b00020; border-color: #b00020; }
+
+  .addbar { display: none; max-width: 56rem; margin: 0 auto 2rem; }
+  body.editing .addbar { display: block; }
+  .addbar button {
+    font-family: "IBM Plex Mono", monospace; font-size: 0.78rem;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    background: var(--ink); color: var(--paper);
+    border: none; padding: 0.65rem 1.1rem; cursor: pointer;
+  }
+  .addbar button:hover { background: var(--rosa); }
+
+  /* editor dialog */
+  dialog {
+    border: 1px solid var(--ink);
+    background: var(--paper);
+    padding: 1.6rem;
+    max-width: 26rem; width: calc(100vw - 3rem);
+    font-family: "Archivo", sans-serif;
+  }
+  dialog::backdrop { background: rgba(20,20,18,0.35); }
+  dialog h3 {
+    font-weight: 900; font-stretch: 115%; text-transform: uppercase;
+    font-size: 1rem; margin-bottom: 1.2rem; letter-spacing: 0.01em;
+  }
+  dialog label {
+    display: block;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0.9rem 0 0.25rem;
+  }
+  dialog input, dialog textarea {
+    width: 100%; font: inherit; font-size: 0.9rem;
+    border: none; border-bottom: 1px solid var(--ink);
+    background: transparent; padding: 0.25rem 0; color: var(--ink);
+  }
+  dialog input:focus, dialog textarea:focus { outline: none; border-bottom-color: var(--rosa); }
+  dialog .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  dialog .actions { display: flex; gap: 1.5rem; margin-top: 1.6rem; align-items: center; }
+  dialog .actions button {
+    font-family: "IBM Plex Mono", monospace; font-size: 0.78rem;
+    letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer;
+  }
+  dialog .actions .save {
+    background: var(--ink); color: var(--paper); border: none; padding: 0.6rem 1.1rem;
+  }
+  dialog .actions .save:hover { background: var(--rosa); }
+  dialog .actions .cancel { background: none; border: none; color: var(--ink-soft); padding: 0; }
+  dialog .actions .cancel:hover { color: var(--ink); }
+  dialog .err {
+    font-family: "IBM Plex Mono", monospace; font-size: 0.72rem;
+    color: #b00020; margin-top: 1rem; display: none;
+  }
+
+  /* ---------- mobile ---------- */
+  @media (max-width: 640px) {
+    .day { grid-template-columns: 1fr; gap: 1rem 0; padding: 1.8rem 0; }
+    .datemark { display: flex; align-items: baseline; gap: 0.7rem; line-height: 1; }
+    .datemark .num { font-size: 2.6rem; }
+    .datemark .dow, .datemark .mon, .datemark .hoy { margin: 0; }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .day { animation: rise 0.45s ease both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Cartelera GDL</h1>
+  <p>foros · galerías · conciertos — guadalajara</p>
+</header>
+
+<div class="addbar"><button id="addBtn" type="button">+ agregar evento</button></div>
+
+<main id="main"><div class="status">cargando…</div></main>
+
+<footer>
+  <span id="updated"></span>
+  <button id="editToggle" type="button">editar</button>
+</footer>
+
+<dialog id="editor">
+  <h3 id="editorTitle">Evento</h3>
+  <label for="f_title">título</label>
+  <input id="f_title" autocomplete="off">
+  <label for="f_artists">artistas (separados por coma)</label>
+  <input id="f_artists" autocomplete="off">
+  <label for="f_venue">lugar</label>
+  <input id="f_venue" autocomplete="off">
+  <div class="row">
+    <div>
+      <label for="f_date">fecha (AAAA-MM-DD)</label>
+      <input id="f_date" placeholder="2026-07-15" autocomplete="off">
+    </div>
+    <div>
+      <label for="f_time">hora (HH:MM)</label>
+      <input id="f_time" placeholder="20:00" autocomplete="off">
+    </div>
+  </div>
+  <label for="f_cover">cover</label>
+  <input id="f_cover" placeholder="$100 preventa / entrada libre" autocomplete="off">
+  <label for="f_url">link (post / boletos)</label>
+  <input id="f_url" autocomplete="off">
+  <label for="f_notes">notas</label>
+  <input id="f_notes" autocomplete="off">
+  <div class="actions">
+    <button class="save" id="saveBtn" type="button">Guardar</button>
+    <button class="cancel" id="cancelBtn" type="button">cancelar</button>
+  </div>
+  <p class="err" id="editorErr"></p>
+</dialog>
+
+<script>
+/* ================= config ================= */
+const GH_OWNER = "scottfunk";        // <-- your GitHub username
+const GH_REPO  = "eventos-gdl";      // <-- your repo name
+const GH_FILE  = "events.json";
+const GH_BRANCH = "main";
+
+/* ================= state ================= */
+let events = [];
+let fileSha = null;
+let editIndex = null; // null = adding
+
+const MESES = ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"];
+const DIAS  = ["DOM","LUN","MAR","MIÉ","JUE","VIE","SÁB"];
+
+/* Parse YYYY-MM-DD as LOCAL date (avoid UTC off-by-one). */
+function localDate(s) {
+  if (!s || !/^\d{4}-\d{2}-\d{2}$/.test(s)) return null;
+  const [y, m, d] = s.split("-").map(Number);
+  return new Date(y, m - 1, d);
+}
+function todayStr() {
+  const n = new Date();
+  return `${n.getFullYear()}-${String(n.getMonth()+1).padStart(2,"0")}-${String(n.getDate()).padStart(2,"0")}`;
+}
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c =>
+    ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+/* ================= load ================= */
+async function load() {
+  try {
+    const r = await fetch(GH_FILE + "?t=" + Date.now());
+    if (!r.ok) throw new Error(r.status);
+    events = await r.json();
+  } catch (e) {
+    document.getElementById("main").innerHTML =
+      '<div class="status">no se pudo cargar events.json — si abriste este archivo directamente, súbelo al repo y míralo desde el sitio publicado.</div>';
+    return;
+  }
+  render();
+}
+
+/* ================= render ================= */
+function render() {
+  const main = document.getElementById("main");
+  const today = todayStr();
+
+  const upcoming = events
+    .map((ev, i) => ({ ...ev, _i: i }))
+    .filter(ev => !ev.date || ev.date >= today);
+
+  if (!upcoming.length) {
+    main.innerHTML = '<div class="status">nada en cartelera por ahora.</div>';
+    return;
+  }
+
+  const dated = upcoming.filter(e => e.date).sort((a, b) => a.date.localeCompare(b.date) || (a.time||"").localeCompare(b.time||""));
+  const undated = upcoming.filter(e => !e.date);
+
+  const groups = new Map();
+  for (const ev of dated) {
+    if (!groups.has(ev.date)) groups.set(ev.date, []);
+    groups.get(ev.date).push(ev);
+  }
+
+  let html = "";
+  for (const [date, evs] of groups) {
+    const d = localDate(date);
+    const isToday = date === today;
+    html += `<section class="day${isToday ? " today" : ""}">
+      <div class="datemark">
+        <span class="dow">${DIAS[d.getDay()]}</span>
+        <span class="num">${d.getDate()}</span>
+        <span class="mon">${MESES[d.getMonth()]}</span>
+        ${isToday ? '<span class="hoy">HOY</span>' : ""}
+      </div>
+      <div class="events">${evs.map(renderEvent).join("")}</div>
+    </section>`;
+  }
+  if (undated.length) {
+    html += `<section class="day undated">
+      <div class="datemark"><span class="num">POR<br>CONFIRMAR</span></div>
+      <div class="events">${undated.map(renderEvent).join("")}</div>
+    </section>`;
+  }
+  main.innerHTML = html;
+
+  main.querySelectorAll("[data-edit]").forEach(b =>
+    b.addEventListener("click", () => openEditor(Number(b.dataset.edit))));
+  main.querySelectorAll("[data-del]").forEach(b =>
+    b.addEventListener("click", () => delEvent(Number(b.dataset.del))));
+
+  const dt = new Date();
+  document.getElementById("updated").textContent =
+    `actualizado ${dt.getDate()} ${MESES[dt.getMonth()].toLowerCase()} ${dt.getFullYear()}`;
+}
+
+function renderEvent(ev) {
+  const artists = (ev.artists || []).join(", ");
+  const meta = [];
+  if (ev.time) meta.push(esc(ev.time));
+  if (ev.venue) meta.push(esc(ev.venue));
+  if (ev.cover) meta.push(esc(ev.cover));
+  return `<article class="event">
+    <h2>${esc(ev.title || artists || "(sin título)")}</h2>
+    ${artists && artists !== ev.title ? `<p class="artists">${esc(artists)}</p>` : ""}
+    ${meta.length ? `<p class="meta">${meta.join('<span class="sep">·</span>')}</p>` : ""}
+    ${ev.notes ? `<p class="notes">${esc(ev.notes)}</p>` : ""}
+    ${ev.post_url ? `<p class="links"><a href="${esc(ev.post_url)}" target="_blank" rel="noopener">ver post ↗</a></p>` : ""}
+    <div class="admintools">
+      <button type="button" data-edit="${ev._i}">editar</button>
+      <button type="button" class="del" data-del="${ev._i}">borrar</button>
+    </div>
+  </article>`;
+}
+
+/* ================= admin ================= */
+function getToken(forcePrompt = false) {
+  let t = localStorage.getItem("gh_token");
+  if (!t || forcePrompt) {
+    t = prompt("Token de GitHub (fine-grained, solo este repo, permiso Contents read/write).\nSe guarda únicamente en este navegador.");
+    if (t) localStorage.setItem("gh_token", t.trim());
+  }
+  return t;
+}
+
+document.getElementById("editToggle").addEventListener("click", () => {
+  if (!document.body.classList.contains("editing")) {
+    if (!getToken()) return;
+    document.body.classList.add("editing");
+    document.getElementById("editToggle").textContent = "salir de edición";
+  } else {
+    document.body.classList.remove("editing");
+    document.getElementById("editToggle").textContent = "editar";
+  }
+});
+
+const editor = document.getElementById("editor");
+const F = id => document.getElementById(id);
+
+document.getElementById("addBtn").addEventListener("click", () => openEditor(null));
+document.getElementById("cancelBtn").addEventListener("click", () => editor.close());
+
+function openEditor(index) {
+  editIndex = index;
+  const ev = index === null ? {} : events[index];
+  F("editorTitle").textContent = index === null ? "Agregar evento" : "Editar evento";
+  F("f_title").value = ev.title || "";
+  F("f_artists").value = (ev.artists || []).join(", ");
+  F("f_venue").value = ev.venue || "";
+  F("f_date").value = ev.date || "";
+  F("f_time").value = ev.time || "";
+  F("f_cover").value = ev.cover || "";
+  F("f_url").value = ev.post_url || "";
+  F("f_notes").value = ev.notes || "";
+  F("editorErr").style.display = "none";
+  editor.showModal();
+}
+
+document.getElementById("saveBtn").addEventListener("click", async () => {
+  const date = F("f_date").value.trim();
+  if (date && !/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+    return showErr("La fecha debe ser AAAA-MM-DD.");
+  }
+  const ev = {
+    ...(editIndex !== null ? events[editIndex] : { account: "manual", found_at: new Date().toISOString() }),
+    title: F("f_title").value.trim() || null,
+    artists: F("f_artists").value.split(",").map(s => s.trim()).filter(Boolean),
+    venue: F("f_venue").value.trim() || null,
+    date: date || null,
+    time: F("f_time").value.trim() || null,
+    cover: F("f_cover").value.trim() || null,
+    post_url: F("f_url").value.trim() || null,
+    notes: F("f_notes").value.trim() || null,
+  };
+  if (editIndex === null) events.push(ev);
+  else events[editIndex] = ev;
+  await persist("guardando…");
+});
+
+async function delEvent(index) {
+  const ev = events[index];
+  if (!confirm(`¿Borrar "${ev.title || "(sin título)"}"?`)) return;
+  events.splice(index, 1);
+  await persist();
+}
+
+function showErr(msg) {
+  const el = F("editorErr");
+  el.textContent = msg;
+  el.style.display = "block";
+}
+
+/* Write events.json back to the repo via GitHub Contents API. */
+async function persist() {
+  const token = getToken();
+  if (!token) return;
+  const api = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_FILE}`;
+  const headers = {
+    "Authorization": `Bearer ${token}`,
+    "Accept": "application/vnd.github+json",
+  };
+  try {
+    // fresh sha every time (the daily Action also commits this file)
+    const cur = await fetch(`${api}?ref=${GH_BRANCH}&t=${Date.now()}`, { headers, cache: "no-store" });
+    if (!cur.ok) throw new Error(`GitHub ${cur.status} al leer el archivo`);
+    const sha = (await cur.json()).sha;
+
+    const body = JSON.stringify(events, null, 2);
+    const put = await fetch(api, {
+      method: "PUT",
+      headers,
+      body: JSON.stringify({
+        message: "manual edit via cartelera",
+        content: btoa(unescape(encodeURIComponent(body))),
+        sha,
+        branch: GH_BRANCH,
+      }),
+    });
+    if (!put.ok) {
+      if (put.status === 401 || put.status === 403) {
+        localStorage.removeItem("gh_token");
+        throw new Error("Token inválido o sin permisos — vuelve a intentar para capturarlo de nuevo.");
+      }
+      throw new Error(`GitHub ${put.status} al guardar`);
+    }
+    editor.close();
+    render();
+  } catch (e) {
+    if (editor.open) showErr(e.message);
+    else alert(e.message);
+  }
+}
+
+load();
+</script>
+</body>
+</html>
