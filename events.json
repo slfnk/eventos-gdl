@@ -323,20 +323,6 @@
   },
   {
     "is_event": true,
-    "title": "Cartelera Julio",
-    "artists": [],
-    "venue": "La Musicanos Shac3 / Corooftop",
-    "date": null,
-    "time": null,
-    "cover": null,
-    "type": "other",
-    "notes": "July monthly programming preview. Multiple artists/events featured.",
-    "account": "c3stage",
-    "post_url": "https://www.instagram.com/p/DaQj9fUgb3d/",
-    "found_at": "2026-07-07T18:03:40.757303+00:00"
-  },
-  {
-    "is_event": true,
     "title": "Proyecciones: El acorazado Potemkin y La huelga",
     "artists": [
       "Sergei Eisenstein"
