@@ -23,8 +23,9 @@ from pipeline import (
     GDL_TZ,
     MAX_EVENTS_PER_POST,
     MAX_IMAGE_DIM,
+    apply_cancellations,
     load_json,
-    parse_events_json,
+    parse_extraction,
     save_json,
     send_telegram,
 )
@@ -42,7 +43,7 @@ def image_to_b64(path: Path) -> tuple[str, str]:
     return base64.standard_b64encode(buf.getvalue()).decode(), "image/jpeg"
 
 
-def extract_from_photo(path: Path) -> list[dict]:
+def extract_from_photo(path: Path) -> tuple[list[dict], list[dict]]:
     b64, media_type = image_to_b64(path)
     today = datetime.now(GDL_TZ).strftime("%Y-%m-%d (%A)")
     prompt = EXTRACTION_PROMPT.format(
@@ -83,7 +84,7 @@ def extract_from_photo(path: Path) -> list[dict]:
     text = "".join(
         b.get("text", "") for b in resp.json()["content"] if b.get("type") == "text"
     )
-    return parse_events_json(text)
+    return parse_extraction(text)
 
 
 def main():
@@ -98,28 +99,33 @@ def main():
 
     events = load_json(EVENTS_FILE, [])
     added, failed = [], []
+    all_cancellations = []
 
     for photo in photos:
         print(f"Processing {photo.name}")
         try:
-            found = extract_from_photo(photo)
+            found, cancels = extract_from_photo(photo)
         except Exception as e:  # noqa: BLE001
             print(f"  extraction error: {e}")
             failed.append(photo.name)
             continue  # photo stays in inbox for a retry on next push
 
+        if cancels:
+            all_cancellations.extend(cancels)
         if found:
             for event in found:
                 event["account"] = "flier callejero"
                 event["found_at"] = datetime.now(timezone.utc).isoformat()
                 events.append(event)
                 added.append(event)
-                print(f"  ✓ {event.get('title')} — {event.get('date')}")
-        else:
+                flag = " (revisar)" if event.get("needs_review") else ""
+                print(f"  ✓ {event.get('title')} — {event.get('date')}{flag}")
+        elif not cancels:
             failed.append(photo.name)
             print("  could not read an event from this photo")
         photo.unlink()  # processed (or unreadable) — remove either way
 
+    events, removed = apply_cancellations(events, all_cancellations)
     save_json(EVENTS_FILE, events)
 
     lines = []
@@ -128,7 +134,12 @@ def main():
         for ev in added:
             date = ev.get("date") or "fecha por confirmar"
             venue = ev.get("venue") or "?"
-            lines.append(f"✓ <b>{ev.get('title')}</b> — {venue}, {date}")
+            flag = " ⚠️ <i>(revisar)</i>" if ev.get("needs_review") else ""
+            lines.append(f"✓ <b>{ev.get('title')}</b> — {venue}, {date}{flag}")
+    if removed:
+        lines.append("\n🚫 <b>Cancelados</b>")
+        for ev in removed:
+            lines.append(f"— {ev.get('title')}")
     if failed:
         lines.append(
             f"\n⚠️ No pude leer: {', '.join(failed)}. "
