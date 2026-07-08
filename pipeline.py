@@ -33,9 +33,12 @@ POSTS_PER_ACCOUNT = 6          # latest N posts checked per account per run
 MAX_POST_AGE_DAYS = 14         # ignore anything older (first-run guard)
 CLAUDE_MODEL = "claude-haiku-4-5"
 MAX_IMAGE_DIM = 1568           # resize cap keeps tokens + megapixels low
+MAX_EVENTS_PER_POST = 20       # cap for monthly-calendar / residency fliers
 
 GDL_TZ = timezone(timedelta(hours=-6))  # America/Mexico_City (no DST since 2022)
 
+# This is the full instruction set the Haiku model receives for every post.
+# Edit the rules here to change extraction behavior; inbox.py reuses it too.
 EXTRACTION_PROMPT = """\
 You are extracting event info from an Instagram post by a music venue or \
 art gallery in Guadalajara, Mexico. Today's date is {today}.
@@ -48,24 +51,36 @@ The post caption is:
 The attached image is the post's first image (often an event flier).
 
 Return ONLY a JSON object, no markdown fences, no commentary:
+{{"events": [ ...zero or more event objects... ]}}
+
+Each event object has this shape:
 {{
-  "is_event": true/false,
   "title": "event or show name",
   "artists": ["performer/artist names"],
   "venue": "venue name if shown, else null",
   "date": "YYYY-MM-DD or null if unparseable",
   "time": "HH:MM 24h or null",
-  "cover": "price string like '$150' or 'entrada libre', or null",
+  "cover": "price like '$150mxn' or '$100mxn preventa, $150mxn taquilla' or 'entrada libre', or null",
   "type": "concert | exhibition | opening | dj | other",
-  "notes": "anything else useful, max 15 words, or null"
+  "notes": "anything else useful, max 15 words, IN SPANISH, or null"
 }}
 
 Rules:
-- is_event=false for recaps, memes, merch, thank-you posts, or events that
-  already happened before today.
+- Return "events": [] for recaps, memes, merch, thank-you posts, or events
+  that already happened before today.
+- ONE flier can contain MANY events (monthly calendars, festival lineups,
+  weekly programs). Return one object per distinct date. For recurring
+  programs ("todos los martes de julio", "live jazz daily"), expand into
+  individual dated events within the stated period, most imminent first,
+  up to {max_events} events maximum.
+- ONLY include events in the Guadalajara metro area (Guadalajara, Zapopan,
+  Tlaquepaque, Tonalá). If the location is clearly another city or country,
+  exclude that event. If no city is shown, assume the venue's own space in GDL.
 - Fliers usually omit the year: resolve dates to the NEXT occurrence on or
   after today. "VIE 10 JUL" with today={today} means the upcoming July 10.
+- Format all prices in Mexican pesos as "$NNNmxn".
 - Spanish day/month abbreviations are common (VIE, SÁB, ENE, JUL...).
+- Write the "notes" field in Spanish.
 - If image and caption conflict, trust the image (the flier).
 """
 
@@ -132,8 +147,22 @@ def download_image_b64(url: str) -> tuple[str, str] | None:
         return None
 
 
-def extract_event(post: dict) -> dict | None:
-    """Send caption + first image to Claude, get structured event JSON."""
+def parse_events_json(text: str) -> list[dict]:
+    """Parse the model's response into a list of event dicts."""
+    text = text.replace("```json", "").replace("```", "").strip()
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        print(f"  unparseable model output: {text[:120]}")
+        return []
+    events = data.get("events") or []
+    if not isinstance(events, list):
+        return []
+    return [e for e in events if isinstance(e, dict)][:MAX_EVENTS_PER_POST]
+
+
+def extract_events(post: dict) -> list[dict]:
+    """Send caption + first image to Claude; get zero or more events back."""
     caption = (post.get("caption") or "")[:2000]
     image_url = post.get("displayUrl") or (post.get("images") or [None])[0]
 
@@ -156,7 +185,9 @@ def extract_event(post: dict) -> dict | None:
     content.append(
         {
             "type": "text",
-            "text": EXTRACTION_PROMPT.format(today=today, caption=caption),
+            "text": EXTRACTION_PROMPT.format(
+                today=today, caption=caption, max_events=MAX_EVENTS_PER_POST
+            ),
         }
     )
 
@@ -169,10 +200,10 @@ def extract_event(post: dict) -> dict | None:
         },
         json={
             "model": CLAUDE_MODEL,
-            "max_tokens": 500,
+            "max_tokens": 2500,  # room for multi-event fliers
             "messages": [{"role": "user", "content": content}],
         },
-        timeout=90,
+        timeout=120,
     )
     resp.raise_for_status()
     text = "".join(
@@ -180,15 +211,7 @@ def extract_event(post: dict) -> dict | None:
         for block in resp.json()["content"]
         if block.get("type") == "text"
     )
-    text = text.replace("```json", "").replace("```", "").strip()
-    try:
-        data = json.loads(text)
-    except json.JSONDecodeError:
-        print(f"  unparseable model output: {text[:120]}")
-        return None
-    if not data.get("is_event"):
-        return None
-    return data
+    return parse_events_json(text)
 
 
 # ---------------------------------------------------------------- 3. digest
@@ -257,18 +280,19 @@ def main():
         account = post.get("ownerUsername", "?")
         print(f"Processing @{account} / {pid}")
         try:
-            event = extract_event(post)
+            found = extract_events(post)
         except Exception as e:  # noqa: BLE001 — one bad post shouldn't kill the run
             print(f"  extraction error, will retry next run: {e}")
             continue  # NOT marked seen -> retried tomorrow
 
         seen_set.add(pid)
-        if event:
-            event["account"] = account
-            event["post_url"] = post.get("url") or f"https://www.instagram.com/p/{pid}/"
-            event["found_at"] = datetime.now(timezone.utc).isoformat()
-            new_events.append(event)
-            print(f"  ✓ event: {event.get('title')} on {event.get('date')}")
+        if found:
+            for event in found:
+                event["account"] = account
+                event["post_url"] = post.get("url") or f"https://www.instagram.com/p/{pid}/"
+                event["found_at"] = datetime.now(timezone.utc).isoformat()
+                new_events.append(event)
+                print(f"  ✓ event: {event.get('title')} on {event.get('date')}")
         else:
             print("  not an event")
 
