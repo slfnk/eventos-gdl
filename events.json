@@ -307,22 +307,6 @@
   },
   {
     "is_event": true,
-    "title": "Proyecciones: El acorazado Potemkin y La huelga",
-    "artists": [
-      "Sergei Eisenstein"
-    ],
-    "venue": "MUSA (Museo de las Artes, Universidad de Guadalajara)",
-    "date": "2026-07-07",
-    "time": "12:00",
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "notes": "Free film screenings in Patio MUSA, part of Correspondencias exhibition",
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/Dad9PKcgXj8/",
-    "found_at": "2026-07-07T18:03:43.475840+00:00"
-  },
-  {
-    "is_event": true,
     "title": "Aqui Hay Aqui Hay",
     "artists": [
       "Aqui Hay Aqui Hay"
@@ -466,26 +450,6 @@
     "account": "crisishardcore",
     "post_url": "https://www.instagram.com/p/DaeJD21IVfa/",
     "found_at": "2026-07-07T18:04:14.828384+00:00"
-  },
-  {
-    "is_event": true,
-    "title": "Injector + Endless Soph over Mexico",
-    "artists": [
-      "Injector",
-      "Endless Soph",
-      "Crimson Froxx",
-      "Aggressive Conspiracy",
-      "Mictian"
-    ],
-    "venue": "Ritual Cultural",
-    "date": "2026-07-07",
-    "time": "20:00",
-    "cover": null,
-    "type": "concert",
-    "notes": "Metal show with multiple bands starting 8pm. Support: Crimson Frax.",
-    "account": "utter_silence_prods",
-    "post_url": "https://www.instagram.com/p/Daf2cwgNN7Q/",
-    "found_at": "2026-07-07T18:04:17.875232+00:00"
   },
   {
     "is_event": true,
@@ -768,5 +732,976 @@
     "notes": "Cierre de semana con Live Solo Jazz e invitado sorpresa",
     "account": "flier callejero",
     "found_at": "2026-07-08T07:35:04.274488+00:00"
+  },
+  {
+    "title": "Bad Bunny Jazz con Malambres",
+    "artists": [
+      "Malambres"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-09",
+    "time": "20:30",
+    "cover": "$100mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Éxitos de Bad Bunny reinventados en jazz. Todos los jueves de julio.",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaGc6hxOMLD/",
+    "found_at": "2026-07-08T17:27:05.011161+00:00"
+  },
+  {
+    "title": "Bad Bunny Jazz con Malambres",
+    "artists": [
+      "Malambres"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-16",
+    "time": "20:30",
+    "cover": "$100mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Éxitos de Bad Bunny reinventados en jazz. Todos los jueves de julio.",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaGc6hxOMLD/",
+    "found_at": "2026-07-08T17:27:05.011183+00:00"
+  },
+  {
+    "title": "Bad Bunny Jazz con Malambres",
+    "artists": [
+      "Malambres"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-23",
+    "time": "20:30",
+    "cover": "$100mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Éxitos de Bad Bunny reinventados en jazz. Todos los jueves de julio.",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaGc6hxOMLD/",
+    "found_at": "2026-07-08T17:27:05.011188+00:00"
+  },
+  {
+    "title": "Bad Bunny Jazz con Malambres",
+    "artists": [
+      "Malambres"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-30",
+    "time": "20:30",
+    "cover": "$100mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Éxitos de Bad Bunny reinventados en jazz. Todos los jueves de julio.",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaGc6hxOMLD/",
+    "found_at": "2026-07-08T17:27:05.011192+00:00"
+  },
+  {
+    "title": "Tu & Yo",
+    "artists": [],
+    "venue": "Casa Mudra",
+    "date": "2026-07-10",
+    "time": null,
+    "cover": null,
+    "type": "dj",
+    "ticket_url": null,
+    "age_restriction": "+18",
+    "notes": "Jazz club, viernes en la noche. Fecha inferida del próximo viernes.",
+    "needs_review": true,
+    "account": "top.picks.mx",
+    "post_url": "https://www.instagram.com/p/DaYm7yqBQo-/",
+    "found_at": "2026-07-08T17:27:07.044997+00:00"
+  },
+  {
+    "title": "Queen Jazz Tribute - Charlie Hörn Trio",
+    "artists": [
+      "Charlie Hörn Trio"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-10",
+    "time": "20:30",
+    "cover": "$100mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Tributo a Queen reinterpretado con jazz y swing.",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaTlV2nuIO2/",
+    "found_at": "2026-07-08T17:27:09.270184+00:00"
+  },
+  {
+    "title": "De vuelta a casa",
+    "artists": [
+      "Almost Done"
+    ],
+    "venue": "C3 Rooftop",
+    "date": "2026-07-17",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Presentación del álbum. Regreso al circuito de la banda.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/Dagz6MIAesP/",
+    "found_at": "2026-07-08T17:27:18.687745+00:00"
+  },
+  {
+    "title": "Desértico Jazz + Samah Dueto",
+    "artists": [
+      "Desértico Jazz",
+      "Samah Dueto"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-14",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Martes de Fusión en Casa Mudra",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748814+00:00"
+  },
+  {
+    "title": "Mac Miller Acoustic + El Xanto",
+    "artists": [
+      "Mac Miller Acoustic",
+      "El Xanto"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-15",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Miércoles de Homenajes Acústicos",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748833+00:00"
+  },
+  {
+    "title": "Bad Bunny Jazz + Malambres",
+    "artists": [
+      "Bad Bunny Jazz",
+      "Malambres"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-16",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Jueves de Sorpresas en Casa Mudra",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748838+00:00"
+  },
+  {
+    "title": "Queen Jazz Tribute + Charlie Hörn Trío",
+    "artists": [
+      "Queen Jazz Tribute",
+      "Charlie Hörn Trío"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-17",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Viernes de Legado en Casa Mudra",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748841+00:00"
+  },
+  {
+    "title": "Ballads in Jazz + The Gentleman + Black and Swing",
+    "artists": [
+      "Ballads in Jazz",
+      "The Gentleman",
+      "Black and Swing"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-18",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Sábados de Clásicos en Casa Mudra",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748845+00:00"
+  },
+  {
+    "title": "Live Solo Jazz + Invitado Sorpresa",
+    "artists": [
+      "Live Solo Jazz"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-19",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Domingos de Libertad, invitado por confirmar",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748848+00:00"
+  },
+  {
+    "title": "Cartelera Casa Mudra - Julio 21",
+    "artists": [
+      "Desértico Jazz",
+      "Samah Dueto"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-21",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Martes de Fusión en Casa Mudra",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748850+00:00"
+  },
+  {
+    "title": "Mac Miller Acoustic + El Xanto",
+    "artists": [
+      "Mac Miller Acoustic",
+      "El Xanto"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-22",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Miércoles de Homenajes Acústicos",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748853+00:00"
+  },
+  {
+    "title": "Bad Bunny Jazz + Malambres",
+    "artists": [
+      "Bad Bunny Jazz",
+      "Malambres"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-23",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Jueves de Sorpresas en Casa Mudra",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748856+00:00"
+  },
+  {
+    "title": "Queen Jazz Tribute + Charlie Hörn Trío",
+    "artists": [
+      "Queen Jazz Tribute",
+      "Charlie Hörn Trío"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-24",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Viernes de Legado en Casa Mudra",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748858+00:00"
+  },
+  {
+    "title": "Ballads in Jazz + The Gentleman + Black and Swing",
+    "artists": [
+      "Ballads in Jazz",
+      "The Gentleman",
+      "Black and Swing"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-25",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Sábados de Clásicos en Casa Mudra",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748861+00:00"
+  },
+  {
+    "title": "Live Solo Jazz + Invitado Sorpresa",
+    "artists": [
+      "Live Solo Jazz"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-26",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Domingos de Libertad, invitado por confirmar",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748864+00:00"
+  },
+  {
+    "title": "Desértico Jazz + Samah Dueto",
+    "artists": [
+      "Desértico Jazz",
+      "Samah Dueto"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-28",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Martes de Fusión en Casa Mudra",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748866+00:00"
+  },
+  {
+    "title": "Mac Miller Acoustic + El Xanto",
+    "artists": [
+      "Mac Miller Acoustic",
+      "El Xanto"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-29",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Miércoles de Homenajes Acústicos",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748868+00:00"
+  },
+  {
+    "title": "Bad Bunny Jazz + Malambres",
+    "artists": [
+      "Bad Bunny Jazz",
+      "Malambres"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-30",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Jueves de Sorpresas en Casa Mudra",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748871+00:00"
+  },
+  {
+    "title": "Queen Jazz Tribute + Charlie Hörn Trío",
+    "artists": [
+      "Queen Jazz Tribute",
+      "Charlie Hörn Trío"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-31",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Viernes de Legado en Casa Mudra",
+    "needs_review": false,
+    "account": "casamudrajazzclub",
+    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
+    "found_at": "2026-07-08T17:27:29.748874+00:00"
+  },
+  {
+    "title": "Paisaje Abrupto",
+    "artists": [
+      "Esteban Leñero"
+    ],
+    "venue": "guadalajara90210",
+    "date": "2026-07-25",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Solo show. Horarios: jueves-viernes 15-19h, sábado 11-15h",
+    "needs_review": false,
+    "account": "guadalajara90210",
+    "post_url": "https://www.instagram.com/p/DadgK8ml1oE/",
+    "found_at": "2026-07-08T17:27:33.156275+00:00"
+  },
+  {
+    "title": "Debut Album Release",
+    "artists": [
+      "Autosabotaje"
+    ],
+    "venue": "Hake Al Rey",
+    "date": "2026-08-23",
+    "time": null,
+    "cover": "entrada libre",
+    "type": "concert",
+    "ticket_url": "https://jotamoore.com",
+    "age_restriction": null,
+    "notes": "Acto abridor: Silent Noir y Chitu",
+    "needs_review": false,
+    "account": "jotamoore",
+    "post_url": "https://www.instagram.com/p/Dagqq2RpI1v/",
+    "found_at": "2026-07-08T17:27:39.170727+00:00"
+  },
+  {
+    "title": "Sesión de Dibujo Musicalizada",
+    "artists": [
+      "Abigail Vásquez"
+    ],
+    "venue": "Museo de Arte Raúl Anguiano (MURA)",
+    "date": "2026-07-11",
+    "time": "12:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Anatomía humana, luz, sombra y proporción. Nivel básico.",
+    "needs_review": false,
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/DagFglaEWg8/",
+    "found_at": "2026-07-08T17:27:41.162881+00:00"
+  },
+  {
+    "title": "Comisario Pantera",
+    "artists": [
+      "Comisario Pantera"
+    ],
+    "venue": "C3 Rooftop",
+    "date": "2026-08-29",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Balada romántica mexicana con guitarras y voces que confiesan.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DagYa6FAfO5/",
+    "found_at": "2026-07-08T17:27:43.610610+00:00"
+  },
+  {
+    "title": "Donde terminan las montañas",
+    "artists": [
+      "Cynthia Gutiérrez"
+    ],
+    "venue": "Galería Curro",
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Última semana de exhibición. Cierra antes del 2026-07-15.",
+    "needs_review": true,
+    "account": "galeriacurro",
+    "post_url": "https://www.instagram.com/p/DadXtmulEQr/",
+    "found_at": "2026-07-08T17:27:46.562312+00:00"
+  },
+  {
+    "title": "desde un prado lejano",
+    "artists": [
+      "María Fernanda Enríquez"
+    ],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "En vista hasta el 8 de agosto. Agendar por DM.",
+    "needs_review": true,
+    "account": "espaciocabeza",
+    "post_url": "https://www.instagram.com/p/Daeei_4jSni/",
+    "found_at": "2026-07-08T17:27:53.415066+00:00"
+  },
+  {
+    "title": "fulguraciones",
+    "artists": [
+      "Valeria Villegas"
+    ],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "En vista hasta el 8 de agosto. Agendar por DM.",
+    "needs_review": true,
+    "account": "espaciocabeza",
+    "post_url": "https://www.instagram.com/p/Daeei_4jSni/",
+    "found_at": "2026-07-08T17:27:53.415087+00:00"
+  },
+  {
+    "title": "Amaraña",
+    "artists": [
+      "Javier Velázquez Cabrero"
+    ],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "En vista hasta el 8 de agosto. Agendar por DM.",
+    "needs_review": true,
+    "account": "espaciocabeza",
+    "post_url": "https://www.instagram.com/p/Daeei_4jSni/",
+    "found_at": "2026-07-08T17:27:53.415092+00:00"
+  },
+  {
+    "title": "Maestros en Lucha - Entrevista sobre la CNTE",
+    "artists": [
+      "Aldo Santana (CNTE)",
+      "Eli González (entrevistadora)"
+    ],
+    "venue": "Casa Impronta",
+    "date": "2026-07-16",
+    "time": "18:30",
+    "cover": "entrada libre",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Entrevista y conversatorio sobre la lucha magisterial de la CNTE.",
+    "needs_review": false,
+    "account": "lamiscelaneagdl",
+    "post_url": "https://www.instagram.com/p/Dagud4RtJHN/",
+    "found_at": "2026-07-08T17:27:59.110898+00:00"
+  },
+  {
+    "title": "Ciclo de Cine x Mariana Casillas: Cine y Política - Cartografías de las crisis en la ciudad",
+    "artists": [
+      "Mariana Casillas"
+    ],
+    "venue": "Rayón (tres seis)",
+    "date": "2026-07-08",
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "YINTAH (2024). Ciclo de cine sobre crisis urbanas.",
+    "needs_review": false,
+    "account": "rayon.376",
+    "post_url": "https://www.instagram.com/p/DagfVR7GqmK/",
+    "found_at": "2026-07-08T17:28:04.021594+00:00"
+  },
+  {
+    "title": "Ciclo de Cine x Mariana Casillas: Cine y Política - Cartografías de las crisis en la ciudad",
+    "artists": [
+      "Mariana Casillas"
+    ],
+    "venue": "Rayón (tres seis)",
+    "date": "2026-07-15",
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "PUSH (2019). Ciclo de cine sobre crisis urbanas.",
+    "needs_review": false,
+    "account": "rayon.376",
+    "post_url": "https://www.instagram.com/p/DagfVR7GqmK/",
+    "found_at": "2026-07-08T17:28:04.021615+00:00"
+  },
+  {
+    "title": "Ciclo de Cine x Mariana Casillas: Cine y Política - Cartografías de las crisis en la ciudad",
+    "artists": [
+      "Mariana Casillas"
+    ],
+    "venue": "Rayón (tres seis)",
+    "date": "2026-07-22",
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "SIN SENAS PARTICULARES (2020). Ciclo de cine sobre crisis urbanas.",
+    "needs_review": false,
+    "account": "rayon.376",
+    "post_url": "https://www.instagram.com/p/DagfVR7GqmK/",
+    "found_at": "2026-07-08T17:28:04.021620+00:00"
+  },
+  {
+    "title": "Ciclo de Cine x Mariana Casillas: Cine y Política - Cartografías de las crisis en la ciudad",
+    "artists": [
+      "Mariana Casillas"
+    ],
+    "venue": "Rayón (tres seis)",
+    "date": "2026-07-29",
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "HACER CIUDAD (2012). Ciclo de cine sobre crisis urbanas.",
+    "needs_review": false,
+    "account": "rayon.376",
+    "post_url": "https://www.instagram.com/p/DagfVR7GqmK/",
+    "found_at": "2026-07-08T17:28:04.021623+00:00"
+  },
+  {
+    "title": "Donde terminan las montañas",
+    "artists": [
+      "Cynthia Gutiérrez"
+    ],
+    "venue": "CURRO",
+    "date": "2026-07-10",
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición de esculturas abstractas y obras que exploran lo intangible.",
+    "needs_review": false,
+    "account": "galeriacurro",
+    "post_url": "https://www.instagram.com/p/DaSpmMoOUi-/",
+    "found_at": "2026-07-08T17:28:06.331228+00:00"
+  },
+  {
+    "title": "Nunca Estás Solx - Alejandra Muñoz",
+    "artists": [
+      "Alejandra Muñoz"
+    ],
+    "venue": "Rayón #376",
+    "date": "2026-07-16",
+    "time": "19:00",
+    "cover": null,
+    "type": "opening",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Inauguración de exposición. Curación: Paulina A. F. PECDA Jalisco 2025.",
+    "needs_review": false,
+    "account": "ascandra__",
+    "post_url": "https://www.instagram.com/p/DadXPq6qdhr/",
+    "found_at": "2026-07-08T17:28:11.420142+00:00"
+  },
+  {
+    "title": "Activación cámara minutera con Tomás Casademunt",
+    "artists": [
+      "Tomás Casademunt"
+    ],
+    "venue": null,
+    "date": "2026-07-16",
+    "time": "15:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Fotografía minutera tradicional. Registro previo requerido. Primeros participantes obtienen fotografía.",
+    "needs_review": false,
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/DaiTl4xM3QW/",
+    "found_at": "2026-07-08T17:28:18.200946+00:00"
+  },
+  {
+    "title": "Steve Blanco plays the music of Imprints of Man - Solo Piano Mexico Tour 2026",
+    "artists": [
+      "Steve Blanco"
+    ],
+    "venue": "Anexo Independencia",
+    "date": "2026-08-14",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Tour de piano solo, música de Imprints of Man",
+    "needs_review": false,
+    "account": "heladosprod",
+    "post_url": "https://www.instagram.com/p/DaOJblYpD3g/",
+    "found_at": "2026-07-08T17:28:23.975649+00:00"
+  },
+  {
+    "title": "Steve Blanco plays the music of Imprints of Man - Solo Piano Mexico Tour 2026",
+    "artists": [
+      "Steve Blanco"
+    ],
+    "venue": "Bahia 57",
+    "date": "2026-08-15",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Tour de piano solo, música de Imprints of Man",
+    "needs_review": false,
+    "account": "heladosprod",
+    "post_url": "https://www.instagram.com/p/DaOJblYpD3g/",
+    "found_at": "2026-07-08T17:28:23.975669+00:00"
+  },
+  {
+    "title": "Steve Blanco plays the music of Imprints of Man - Solo Piano Mexico Tour 2026",
+    "artists": [
+      "Steve Blanco"
+    ],
+    "venue": "Circo Volador",
+    "date": "2026-08-16",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Tour de piano solo, música de Imprints of Man",
+    "needs_review": false,
+    "account": "heladosprod",
+    "post_url": "https://www.instagram.com/p/DaOJblYpD3g/",
+    "found_at": "2026-07-08T17:28:23.975674+00:00"
+  },
+  {
+    "title": "Sekta Core",
+    "artists": [
+      "Sekta Core",
+      "Ace Kool",
+      "INSN",
+      "Waking & Miando"
+    ],
+    "venue": "Foro Independencia",
+    "date": "2026-07-11",
+    "time": "19:00",
+    "cover": "$300mxn preventa, $400mxn taquilla",
+    "type": "concert",
+    "ticket_url": "https://www.passline.com/eventos/sekta-core-en-guadalajara",
+    "age_restriction": null,
+    "notes": "Puertas 7:00 PM. Boletos físicos también en El Nopalito Reggae",
+    "needs_review": false,
+    "account": "foroindependencia",
+    "post_url": "https://www.instagram.com/p/DaDpsBVhofT/",
+    "found_at": "2026-07-08T17:28:29.797532+00:00"
+  },
+  {
+    "title": "Electrify",
+    "artists": [
+      "Electrify"
+    ],
+    "venue": "Foro Independencia",
+    "date": "2026-07-10",
+    "time": "20:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Banda de mujeres, indie rock",
+    "needs_review": false,
+    "account": "foroindependencia",
+    "post_url": "https://www.instagram.com/p/DagB1qFvH68/",
+    "found_at": "2026-07-08T17:28:34.799567+00:00"
+  },
+  {
+    "title": "Riot Kids",
+    "artists": [
+      "Banqueteros",
+      "2 Pesos D Neurona",
+      "Banana Punch",
+      "Maivivientes",
+      "Buena Miseria",
+      "Scordura"
+    ],
+    "venue": "Anexo",
+    "date": "2026-07-11",
+    "time": "18:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": "+18",
+    "notes": "Evento reservado a mayores de 18 años",
+    "needs_review": false,
+    "account": "foroindependencia",
+    "post_url": "https://www.instagram.com/p/DagB1qFvH68/",
+    "found_at": "2026-07-08T17:28:34.799588+00:00"
+  },
+  {
+    "title": "Sekta Core",
+    "artists": [
+      "Sekta Core"
+    ],
+    "venue": "Foro Independencia",
+    "date": "2026-07-11",
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Banda de metal/deathcore",
+    "needs_review": false,
+    "account": "foroindependencia",
+    "post_url": "https://www.instagram.com/p/DagB1qFvH68/",
+    "found_at": "2026-07-08T17:28:34.799592+00:00"
+  },
+  {
+    "title": "Guerra de las Casas - Gran Final",
+    "artists": [
+      "Suculenta",
+      "Alfysander",
+      "Armando Vigs"
+    ],
+    "venue": "Foro Independencia",
+    "date": "2026-07-12",
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Gran final de evento competitivo de música",
+    "needs_review": false,
+    "account": "foroindependencia",
+    "post_url": "https://www.instagram.com/p/DagB1qFvH68/",
+    "found_at": "2026-07-08T17:28:34.799595+00:00"
+  },
+  {
+    "title": "Death by Stereo",
+    "artists": [
+      "Death by Stereo"
+    ],
+    "venue": "Foro Independencia",
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Banda hardcore/punk estadounidense. Fecha no especificada en flyer.",
+    "needs_review": true,
+    "account": "peterphotoinfinito",
+    "post_url": "https://www.instagram.com/p/DaLuL8UmFKr/",
+    "found_at": "2026-07-08T17:28:36.936441+00:00"
+  },
+  {
+    "title": "En una estrella mi mamá, en una estrella un potro salvaje, en una estrella un maní",
+    "artists": [
+      "Rena Kudoh"
+    ],
+    "venue": "guadalajara90210 GDL",
+    "date": "2026-07-25",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición individual de cerámica. Abierto jueves-viernes 15-19h, sábado 11-15h",
+    "needs_review": false,
+    "account": "guadalajara90210",
+    "post_url": "https://www.instagram.com/p/DaS2kINl4As/",
+    "found_at": "2026-07-08T17:28:47.641135+00:00"
+  },
+  {
+    "title": "MAÑANA",
+    "artists": [
+      "Annika Kahrs",
+      "Iñaki Bonillas",
+      "Silvestre Borgatello",
+      "Martín Soto Climent",
+      "Rubén Méndez",
+      "y más de 25 artistas adicionales"
+    ],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Curada por Polina Stroganova. Más de 30 artistas locales e internacionales.",
+    "needs_review": true,
+    "account": "palmagaleria",
+    "post_url": "https://www.instagram.com/p/DZ-wAiOmRtf/",
+    "found_at": "2026-07-08T17:28:49.993615+00:00"
+  },
+  {
+    "title": "MAÑANA",
+    "artists": [
+      "Luisa Mendoza",
+      "Alejandro Almanza Pereda",
+      "Raúl Rebolledo",
+      "Alfonso González Jr.",
+      "Polina Stroganova (curator)",
+      "30+ local and international artists"
+    ],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición curada por Polina Stroganova. Más de 30 artistas.",
+    "needs_review": true,
+    "account": "palmagaleria",
+    "post_url": "https://www.instagram.com/p/DaQzAAhlJeQ/",
+    "found_at": "2026-07-08T17:28:52.507050+00:00"
+  },
+  {
+    "title": "Bestia Bebé",
+    "artists": [
+      "Bestia Bebé"
+    ],
+    "venue": "Cuerda Cultura",
+    "date": "2026-08-21",
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://passline.mx",
+    "age_restriction": null,
+    "notes": "Regreso de la banda a Guadalajara",
+    "needs_review": false,
+    "account": "elbrillante_",
+    "post_url": "https://www.instagram.com/p/DagXBWfPjk-/",
+    "found_at": "2026-07-08T17:28:57.249050+00:00"
   }
 ]
