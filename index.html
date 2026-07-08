@@ -433,6 +433,7 @@ async function load() {
 async function loadAccounts() {
   try {
     const r = await fetch("accounts.txt?t=" + Date.now());
+    for (let i = handles.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [handles[i], handles[j]] = [handles[j], handles[i]]; }
     if (!r.ok) return;
     const handles = (await r.text()).split("\n")
       .map(l => l.trim().replace(/^@/, ""))
