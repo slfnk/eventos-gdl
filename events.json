@@ -1252,22 +1252,25 @@
     "found_at": "2026-07-08T17:27:46.562312+00:00"
   },
   {
-    "title": "desde un prado lejano",
+    "title": "cierre en espacio cabeza",
     "artists": [
-      "María Fernanda Enríquez"
+      "María Fernanda Enríquez",
+      "Javier Velázquez Cabrero",
+      "Valeria Villegas"
     ],
     "venue": null,
-    "date": null,
+    "date": "2026-08-08",
     "time": null,
     "cover": null,
     "type": "exhibition",
     "ticket_url": null,
     "age_restriction": null,
     "notes": "En vista hasta el 8 de agosto. Agendar por DM.",
-    "needs_review": true,
+    "needs_review": false,
     "account": "espaciocabeza",
     "post_url": "https://www.instagram.com/p/Daeei_4jSni/",
-    "found_at": "2026-07-08T17:27:53.415066+00:00"
+    "found_at": "2026-07-08T17:27:53.415066+00:00",
+    "featured": false
   },
   {
     "title": "fulguraciones",
