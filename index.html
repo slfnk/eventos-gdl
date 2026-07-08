@@ -137,10 +137,13 @@
   }
 
   /* ---------- events ---------- */
-  .events { display: flex; flex-direction: column; gap: 1.7rem; padding-top: 0.35rem; min-width: 0;
-  border-left: 1px solid var(--hair); padding-left: 1.75rem; }
+  .events { display: flex; flex-direction: column; gap: 1.7rem; padding-top: 0.35rem; min-width: 0; }
 
-  .event { max-width: var(--measure); }
+  .event {
+    max-width: var(--measure);
+    border-left: 1px solid var(--hair);
+    padding-left: 1.4rem;
+  }
   .event h2 {
     font-weight: 700;
     font-size: 1.05rem;
@@ -326,7 +329,7 @@
 
 <header>
   <h1>Cartelera GDL</h1>
-  <p class="sub">eventos · conciertos · foros · galerías</p>
+  <p class="sub">conciertos · eventos · foros · galerías</p>
   <p class="cuentas" id="cuentas"></p>
   <p class="about">Esta cartelera se arma sola: una vez al día revisa las publicaciones
   de las cuentas de Instagram listadas arriba y extrae los eventos de sus flyers.
@@ -413,6 +416,19 @@ function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, c =>
     ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
+/* 20:00 -> 8pm, 20:30 -> 8:30pm */
+function fmtTime(t) {
+  const m = /^(\d{1,2}):(\d{2})$/.exec(t || "");
+  if (!m) return t || "";
+  let h = Number(m[1]); const min = m[2];
+  const ap = h >= 12 ? "pm" : "am";
+  h = h % 12 || 12;
+  return min === "00" ? `${h}${ap}` : `${h}:${min}${ap}`;
+}
+/* $150 -> $150mxn (leaves existing mxn and non-price text alone) */
+function fmtCover(c) {
+  return (c || "").replace(/\$\s?([\d,]+)(?![\d,])(?!\s*mxn)/gi, "$$$1mxn");
+}
 
 /* ================= load ================= */
 async function load() {
@@ -433,12 +449,16 @@ async function load() {
 async function loadAccounts() {
   try {
     const r = await fetch("accounts.txt?t=" + Date.now());
-    for (let i = handles.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [handles[i], handles[j]] = [handles[j], handles[i]]; }
     if (!r.ok) return;
     const handles = (await r.text()).split("\n")
       .map(l => l.trim().replace(/^@/, ""))
       .filter(l => l && !l.startsWith("#"));
     if (!handles.length) return;
+    // random order on every reload
+    for (let i = handles.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [handles[i], handles[j]] = [handles[j], handles[i]];
+    }
     document.getElementById("cuentas").innerHTML = handles
       .map(h => `<a href="https://www.instagram.com/${esc(h)}/" target="_blank" rel="noopener">@${esc(h)}</a>`)
       .join("");
@@ -503,9 +523,9 @@ function render() {
 function renderEvent(ev) {
   const artists = (ev.artists || []).join(", ");
   const meta = [];
-  if (ev.time) meta.push(esc(ev.time));
+  if (ev.time) meta.push(esc(fmtTime(ev.time)));
   if (ev.venue) meta.push(esc(ev.venue));
-  if (ev.cover) meta.push(esc(ev.cover));
+  if (ev.cover) meta.push(esc(fmtCover(ev.cover)));
   const showAccount = ev.account && !NON_IG_SOURCES.has(ev.account);
   return `<article class="event${ev.featured ? " featured" : ""}">
     <h2><span>${esc(ev.title || artists || "(sin título)")}</span></h2>
