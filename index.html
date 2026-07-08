@@ -55,6 +55,7 @@
   header .cuentas {
     font-family: "IBM Plex Mono", monospace;
     font-size: 0.7rem;
+    max-width: var(--measure);
     margin-top: 0.8rem;
     letter-spacing: 0.02em;
     line-height: 1.9;
@@ -67,6 +68,24 @@
     white-space: nowrap;
   }
   header .cuentas a:hover, header .cuentas a:focus-visible { color: var(--rosa); border-color: var(--rosa); }
+  header .updated {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    margin-top: 0.5rem;
+  }
+  .event .revisar {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.66rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #b06000;
+    border: 1px solid #b06000;
+    padding: 0.1em 0.4em;
+    margin-left: 0.5em;
+    vertical-align: middle;
+  }
 
 
   header .about {
@@ -330,11 +349,11 @@
 <header>
   <h1>Cartelera GDL</h1>
   <p class="sub">conciertos · eventos · foros · galerías</p>
+  <p class="updated" id="updated"></p>
   <p class="cuentas" id="cuentas"></p>
-  <p class="about">Esta cartelera se arma sola: una vez al día revisa las publicaciones
-  de las cuentas de Instagram listadas arriba y extrae los eventos de sus flyers.
-  Puede equivocarse con fechas y precios — verifica los detalles en el post original
-  antes de salir.</p>
+  <p class="about">Un robot lee los flyers de estas cuentas cada mañana para que
+  tú no tengas que vivir en Instagram. A veces le falla el ojo — confirma fecha
+  y precio en el post antes de salir.</p>
 </header>
 
 <div class="addbar">
@@ -347,7 +366,7 @@
 <main id="main"><div class="status">cargando…</div></main>
 
 <footer>
-  <span id="updated"></span>
+  <span></span>
   <button id="editToggle" type="button">editar</button>
 </footer>
 
@@ -429,6 +448,15 @@ function fmtTime(t) {
 function fmtCover(c) {
   return (c || "").replace(/\$\s?([\d,]+)(?![\d,])(?!\s*mxn)/gi, "$$$1mxn");
 }
+/* stable anchor id per event, e.g. "2026-07-11-applecats-en-guadalajara" */
+function slugOf(ev) {
+  const base = ((ev.date || "sf") + "-" + (ev.title || "evento"))
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+  return base.slice(0, 80);
+}
 
 /* ================= load ================= */
 async function load() {
@@ -469,10 +497,11 @@ async function loadAccounts() {
 function render() {
   const main = document.getElementById("main");
   const today = todayStr();
+  const editing = document.body.classList.contains("editing");
 
   const upcoming = events
     .map((ev, i) => ({ ...ev, _i: i }))
-    .filter(ev => !ev.date || ev.date >= today);
+    .filter(ev => (!ev.needs_review || editing) && (!ev.date || ev.date >= today));
 
   if (!upcoming.length) {
     main.innerHTML = '<div class="status">nada en cartelera por ahora.</div>';
@@ -515,9 +544,18 @@ function render() {
   main.querySelectorAll("[data-del]").forEach(b =>
     b.addEventListener("click", () => delEvent(Number(b.dataset.del))));
 
-  const dt = new Date();
+  const stamps = events.map(e => e.found_at).filter(Boolean).sort();
+  const last = stamps.length ? new Date(stamps[stamps.length - 1]) : new Date();
+  const hh = last.getHours() % 12 || 12;
+  const ap = last.getHours() >= 12 ? "pm" : "am";
+  const mm = String(last.getMinutes()).padStart(2, "0");
   document.getElementById("updated").textContent =
-    `actualizado ${dt.getDate()} ${MESES[dt.getMonth()].toLowerCase()} ${dt.getFullYear()}`;
+    `actualizado ${last.getDate()} ${MESES[last.getMonth()].toLowerCase()} · ${hh}:${mm}${ap}`;
+
+  if (location.hash) {
+    const target = document.getElementById(location.hash.slice(1));
+    if (target) target.scrollIntoView({ block: "start" });
+  }
 }
 
 function renderEvent(ev) {
@@ -526,13 +564,24 @@ function renderEvent(ev) {
   if (ev.time) meta.push(esc(fmtTime(ev.time)));
   if (ev.venue) meta.push(esc(ev.venue));
   if (ev.cover) meta.push(esc(fmtCover(ev.cover)));
+  if (ev.age_restriction) meta.push(esc(ev.age_restriction));
   const showAccount = ev.account && !NON_IG_SOURCES.has(ev.account);
-  return `<article class="event${ev.featured ? " featured" : ""}">
-    <h2><span>${esc(ev.title || artists || "(sin título)")}</span></h2>
+  const slug = slugOf(ev);
+  const pageUrl = location.origin + location.pathname;
+  const waText = encodeURIComponent(
+    `${ev.title || artists || "Evento"} — ${ev.date || "fecha por confirmar"}` +
+    (ev.venue ? ` en ${ev.venue}` : "") + `\n${pageUrl}#${slug}`
+  );
+  const links = [];
+  if (ev.post_url) links.push(`<a href="${esc(ev.post_url)}" target="_blank" rel="noopener">ver post ↗</a>`);
+  if (ev.ticket_url) links.push(`<a href="${esc(ev.ticket_url)}" target="_blank" rel="noopener">boletos ↗</a>`);
+  links.push(`<a href="https://wa.me/?text=${waText}" target="_blank" rel="noopener">compartir ↗</a>`);
+  return `<article class="event${ev.featured ? " featured" : ""}" id="${esc(slug)}">
+    <h2><span>${esc(ev.title || artists || "(sin título)")}</span>${ev.needs_review ? '<span class="revisar">revisar</span>' : ""}</h2>
     ${artists && artists !== ev.title ? `<p class="artists">${esc(artists)}</p>` : ""}
     ${meta.length ? `<p class="meta">${meta.join('<span class="sep">·</span>')}</p>` : ""}
     ${ev.notes ? `<p class="notes">${esc(ev.notes)}</p>` : ""}
-    ${ev.post_url ? `<p class="links"><a href="${esc(ev.post_url)}" target="_blank" rel="noopener">ver post ↗</a></p>` : ""}
+    <p class="links">${links.join('<span class="sep"> · </span>')}</p>
     ${showAccount ? `<p class="fuente"><a href="https://www.instagram.com/${esc(ev.account)}/" target="_blank" rel="noopener">@${esc(ev.account)}</a></p>` : ""}
     <div class="admintools">
       <button type="button" data-edit="${ev._i}">editar</button>
@@ -560,6 +609,7 @@ document.getElementById("editToggle").addEventListener("click", () => {
     document.body.classList.remove("editing");
     document.getElementById("editToggle").textContent = "editar";
   }
+  render(); // review-flagged events show only in edit mode
 });
 
 const editor = document.getElementById("editor");
@@ -648,6 +698,7 @@ document.getElementById("saveBtn").addEventListener("click", async () => {
     post_url: F("f_url").value.trim() || null,
     notes: F("f_notes").value.trim() || null,
     featured: F("f_featured").checked,
+    needs_review: false, // saving = reviewed = published
   };
   if (editIndex === null) events.push(ev);
   else events[editIndex] = ev;
