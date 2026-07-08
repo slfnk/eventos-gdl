@@ -135,7 +135,10 @@ def main():
             "Agrégalo a mano en la cartelera."
         )
     if lines:
-        send_telegram("\n".join(lines))
+        try:
+            send_telegram("\n".join(lines))
+        except Exception as e:  # noqa: BLE001 — notification is optional, data is not
+            print(f"Telegram send failed (events still saved): {e}")
 
 
 if __name__ == "__main__":
