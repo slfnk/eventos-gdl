@@ -708,5 +708,95 @@
     "notes": "Regreso de AppleCats a Guadalajara con múltiples artistas invitados",
     "account": "flier callejero",
     "found_at": "2026-07-08T05:50:45.431705+00:00"
+  },
+  {
+    "title": "Desértico Jazz",
+    "artists": [
+      "Desértico Jazz",
+      "Samah Dueto"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-14",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "notes": "Energía fresca de Desértico Jazz y sofisticación de Samah Dueto",
+    "account": "flier callejero",
+    "found_at": "2026-07-08T07:35:04.274451+00:00"
+  },
+  {
+    "title": "Mac Miller Acoustic",
+    "artists": [
+      "Mac Miller Acoustic",
+      "El Xanto"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-15",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "notes": "Reinterpretación íntima de Mac Miller y sonidos envolventes de El Xanto",
+    "account": "flier callejero",
+    "found_at": "2026-07-08T07:35:04.274475+00:00"
+  },
+  {
+    "title": "Bad Bunny Jazz",
+    "artists": [
+      "Bad Bunny Jazz",
+      "Malambres"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-16",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "notes": "Jazz de altos vuelos con la fuerza de Malambres",
+    "account": "flier callejero",
+    "found_at": "2026-07-08T07:35:04.274480+00:00"
+  },
+  {
+    "title": "Queen Jazz Tribute",
+    "artists": [
+      "Queen Jazz Tribute",
+      "Charlie Hörn Trio"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-17",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "notes": "Tributo a Queen con el estilo impecable de Charlie Hörn Trio",
+    "account": "flier callejero",
+    "found_at": "2026-07-08T07:35:04.274483+00:00"
+  },
+  {
+    "title": "Ballads in Jazz",
+    "artists": [
+      "Ballads in Jazz",
+      "The Gentleman",
+      "Black and Swing"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-18",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "notes": "Viaje nostálgico con elegancia de The Gentleman y ritmo de Black and Swing",
+    "account": "flier callejero",
+    "found_at": "2026-07-08T07:35:04.274485+00:00"
+  },
+  {
+    "title": "Live Solo Jazz",
+    "artists": [
+      "Live Solo Jazz"
+    ],
+    "venue": "Casa Mudra",
+    "date": "2026-07-19",
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "notes": "Cierre de semana con Live Solo Jazz e invitado sorpresa",
+    "account": "flier callejero",
+    "found_at": "2026-07-08T07:35:04.274488+00:00"
   }
 ]
