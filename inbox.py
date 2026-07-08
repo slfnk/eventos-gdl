@@ -9,7 +9,6 @@ Env vars required: ANTHROPIC_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 
 import base64
 import io
-import json
 import os
 from datetime import datetime, timezone
 from pathlib import Path
@@ -22,8 +21,10 @@ from pipeline import (
     EVENTS_FILE,
     EXTRACTION_PROMPT,
     GDL_TZ,
+    MAX_EVENTS_PER_POST,
     MAX_IMAGE_DIM,
     load_json,
+    parse_events_json,
     save_json,
     send_telegram,
 )
@@ -41,12 +42,13 @@ def image_to_b64(path: Path) -> tuple[str, str]:
     return base64.standard_b64encode(buf.getvalue()).decode(), "image/jpeg"
 
 
-def extract_from_photo(path: Path) -> dict | None:
+def extract_from_photo(path: Path) -> list[dict]:
     b64, media_type = image_to_b64(path)
     today = datetime.now(GDL_TZ).strftime("%Y-%m-%d (%A)")
     prompt = EXTRACTION_PROMPT.format(
         today=today,
         caption="(sin caption — foto de un flier tomada en la calle)",
+        max_events=MAX_EVENTS_PER_POST,
     )
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
@@ -57,7 +59,7 @@ def extract_from_photo(path: Path) -> dict | None:
         },
         json={
             "model": CLAUDE_MODEL,
-            "max_tokens": 500,
+            "max_tokens": 2500,
             "messages": [
                 {
                     "role": "user",
@@ -75,18 +77,13 @@ def extract_from_photo(path: Path) -> dict | None:
                 }
             ],
         },
-        timeout=90,
+        timeout=120,
     )
     resp.raise_for_status()
     text = "".join(
         b.get("text", "") for b in resp.json()["content"] if b.get("type") == "text"
     )
-    text = text.replace("```json", "").replace("```", "").strip()
-    try:
-        data = json.loads(text)
-    except json.JSONDecodeError:
-        return None
-    return data if data.get("is_event") else None
+    return parse_events_json(text)
 
 
 def main():
@@ -105,18 +102,19 @@ def main():
     for photo in photos:
         print(f"Processing {photo.name}")
         try:
-            event = extract_from_photo(photo)
+            found = extract_from_photo(photo)
         except Exception as e:  # noqa: BLE001
             print(f"  extraction error: {e}")
             failed.append(photo.name)
             continue  # photo stays in inbox for a retry on next push
 
-        if event:
-            event["account"] = "flier callejero"
-            event["found_at"] = datetime.now(timezone.utc).isoformat()
-            events.append(event)
-            added.append(event)
-            print(f"  ✓ {event.get('title')} — {event.get('date')}")
+        if found:
+            for event in found:
+                event["account"] = "flier callejero"
+                event["found_at"] = datetime.now(timezone.utc).isoformat()
+                events.append(event)
+                added.append(event)
+                print(f"  ✓ {event.get('title')} — {event.get('date')}")
         else:
             failed.append(photo.name)
             print("  could not read an event from this photo")
