@@ -7,222 +7,205 @@
 <meta name="description" content="Cartelera independiente de Guadalajara — foros, galerías, conciertos.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --paper: #fcfcfa;
-    --ink: #141412;
-    --ink-soft: #6b6b66;
-    --hair: #e2e2dd;
-    --rosa: #e4007c;
-    --azul: #88b9f6;
-    --amarillo: #fff3a8;
+    --bg: #0e0e0c;
+    --fg: #f4f4ea;
+    --dim: #8a8a80;
+    --hair: #2b2b26;
+    --acid: #c6ff2e;   /* <- main accent, tweak here */
+    --rosa: #ff4fd8;   /* <- second accent */
+    --amarillo: #c6ff2e;
     --measure: 34rem;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { -webkit-text-size-adjust: 100%; }
   body {
-    background: var(--paper);
-    color: var(--ink);
-    font-family: "Archivo", sans-serif;
-    font-size: 15px;
-    line-height: 1.45;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Space Mono", monospace;
+    font-size: 14px;
+    line-height: 1.5;
     padding: 0 1.25rem;
   }
+  ::selection { background: var(--acid); color: #000; }
   a { color: inherit; }
-  a:hover, a:focus-visible { color: var(--rosa); }
-  :focus-visible { outline: 2px solid var(--rosa); outline-offset: 2px; }
+  :focus-visible { outline: 2px solid var(--acid); outline-offset: 2px; }
 
   /* ---------- header ---------- */
-  header {
-    max-width: 56rem; margin: 0 auto;
-    padding: 2.5rem 0 3rem;
-  }
+  header { max-width: 56rem; margin: 0 auto; padding: 2.8rem 0 2.2rem; }
   header h1 {
-    color: var(--azul);
+    font-family: "Unbounded", sans-serif;
     font-weight: 900;
-    font-stretch: 115%;
-    font-size: clamp(1.6rem, 4.5vw, 2.4rem);
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    line-height: 1;
+    font-size: clamp(1.9rem, 6.5vw, 3.4rem);
+    line-height: 0.95;
+    text-transform: lowercase;
+    color: var(--acid);
+    text-shadow: 4px 4px 0 var(--rosa);
+    transform: rotate(-1deg);
+    display: inline-block;
   }
   header .sub {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.98rem;   /* <- tweak subtitle size here */
-    color: var(--ink-soft);
-    margin-top: 0.6rem;
-    letter-spacing: 0.04em;
+    font-size: 0.85rem;   /* <- tweak subtitle size here */
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+    margin-top: 1rem;
+    color: var(--fg);
   }
-  header .cuentas {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.7rem;
-    max-width: var(--measure);
-    margin-top: 0.8rem;
-    letter-spacing: 0.02em;
-    line-height: 1.9;
-  }
-  header .cuentas a {
-    color: var(--ink-soft);
-    text-decoration: none;
-    border-bottom: 1px solid var(--hair);
-    margin-right: 0.9em;
-    white-space: nowrap;
-  }
-  header .cuentas a:hover, header .cuentas a:focus-visible { color: var(--rosa); border-color: var(--rosa); }
   header .updated {
-    font-family: "IBM Plex Mono", monospace;
+    display: inline-block;
     font-size: 0.68rem;
     letter-spacing: 0.06em;
-    color: var(--ink-soft);
-    margin-top: 0.5rem;
-  }
-  .event .revisar {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.66rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #b06000;
-    border: 1px solid #b06000;
-    padding: 0.1em 0.4em;
-    margin-left: 0.5em;
-    vertical-align: middle;
+    color: var(--bg);
+    background: var(--fg);
+    padding: 0.2em 0.7em;
+    border-radius: 999px;
+    margin-top: 0.8rem;
+    transform: rotate(0.6deg);
   }
 
+  /* handles ticker */
+  header .cuentas {
+    margin-top: 1.1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    border-top: 1px solid var(--hair);
+    border-bottom: 1px solid var(--hair);
+    padding: 0.55rem 0;
+    font-size: 0.72rem;
+  }
+  header .cuentas .tira {
+    display: inline-block;
+    padding-right: 2rem;
+    animation: tira 45s linear infinite;
+  }
+  header .cuentas:hover .tira { animation-play-state: paused; }
+  header .cuentas a {
+    text-decoration: none;
+    border: 1px solid var(--hair);
+    border-radius: 999px;
+    padding: 0.1em 0.6em;
+    margin-right: 0.45em;
+    color: var(--dim);
+  }
+  header .cuentas a:hover, header .cuentas a:focus-visible {
+    color: #000; background: var(--acid); border-color: var(--acid);
+  }
+  @keyframes tira { to { transform: translateX(-50%); } }
 
   header .about {
     max-width: var(--measure);
-    font-size: 0.7rem;    /* <- tweak explainer size here */
-    color: #b3b3aa;       /* <- tweak explainer grey here */
-    margin-top: 1.3rem;
-    line-height: 1.6;
+    font-size: 0.68rem;   /* <- tweak explainer size here */
+    color: var(--dim);    /* <- tweak explainer grey here */
+    margin-top: 1.2rem;
+    line-height: 1.7;
   }
 
   /* ---------- date groups ---------- */
   main { max-width: 56rem; margin: 0 auto; padding-bottom: 4rem; }
-
   .day {
     display: grid;
     grid-template-columns: 9.5rem 1fr;
     gap: 0 2.5rem;
-    padding: 2.2rem 0;
-    border-top: 1px solid var(--hair);
+    padding: 2.4rem 0;
+    border-top: 3px solid var(--fg);
   }
   .day:first-child { border-top: none; }
 
   .datemark { line-height: 0.9; }
   .datemark .dow {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.68rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    display: block;
-    margin-bottom: 0.4rem;
+    font-size: 0.66rem; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--dim); display: block; margin-bottom: 0.45rem;
   }
   .datemark .num {
-    color: var(--azul);
+    font-family: "Unbounded", sans-serif;
     font-weight: 900;
-    font-stretch: 72%;
-    font-size: clamp(2.4rem, 6vw, 3.4rem);
-    letter-spacing: -0.03em;
-    display: block;
+    font-size: clamp(2.3rem, 6vw, 3.4rem);
+    color: var(--fg);
+    display: inline-block;
+    transform: rotate(-3deg);
   }
   .datemark .mon {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.68rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    display: block;
-    margin-top: 0.5rem;
+    font-size: 0.66rem; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--dim); display: block; margin-top: 0.55rem;
   }
   .datemark .hoy {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.68rem;
-    letter-spacing: 0.14em;
-    color: var(--rosa);
-    display: block;
-    margin-top: 0.5rem;
+    display: inline-block;
+    font-size: 0.66rem; letter-spacing: 0.14em; font-weight: 700;
+    color: #000; background: var(--acid);
+    padding: 0.2em 0.6em;
+    margin-top: 0.6rem;
+    transform: rotate(3deg);
   }
-  .day.today .num { color: var(--rosa); }
-
-  /* undated section */
+  .day.today .num { color: var(--acid); }
   .day.undated .datemark .sf {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.68rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    line-height: 1.7;
-    display: block;
+    font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--dim); line-height: 1.8; display: block;
   }
 
   /* ---------- events ---------- */
-  .events { display: flex; flex-direction: column; gap: 1.7rem; padding-top: 0.35rem; min-width: 0; }
-
+  .events { display: flex; flex-direction: column; gap: 1.6rem; padding-top: 0.35rem; min-width: 0; }
   .event {
     max-width: var(--measure);
-    border-left: 1px solid var(--hair);
-    padding-left: 1.4rem;
+    border: 2px solid var(--fg);
+    padding: 1rem 1.1rem 1.05rem;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+  }
+  .event:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 6px 6px 0 var(--acid);
   }
   .event h2 {
-    color: var(--azul);
-    font-weight: 700;
-    font-size: 1.05rem;
-    letter-spacing: -0.01em;
-    line-height: 1.3;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 600;
+    font-size: 0.98rem;
+    line-height: 1.35;
+    text-transform: lowercase;
   }
   .event.featured h2 span {
-    background: var(--amarillo);
-    padding: 0.05em 0.25em;
+    background: var(--acid); color: #000;
+    padding: 0.06em 0.3em;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
   }
-  .event .artists {
-    color: var(--ink-soft);
-    font-size: 0.92rem;
-    margin-top: 0.15rem;
+  .event .revisar {
+    font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--rosa); border: 1px solid var(--rosa);
+    padding: 0.12em 0.45em; margin-left: 0.55em;
+    vertical-align: middle; display: inline-block; transform: rotate(-1.5deg);
   }
+  .event .artists { color: var(--dim); font-size: 0.82rem; margin-top: 0.35rem; }
   .event .meta {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.74rem;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-top: 0.5rem;
-    color: var(--ink);
+    font-size: 0.7rem; letter-spacing: 0.04em; text-transform: uppercase;
+    margin-top: 0.6rem; color: var(--fg); font-weight: 700;
   }
   .event .meta .sep { color: var(--hair); padding: 0 0.35em; }
-  .event .links {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.74rem;
-    margin-top: 0.4rem;
+  .event .links { font-size: 0.68rem; margin-top: 0.75rem; }
+  .event .links .sep { display: none; }
+  .event .links a {
+    display: inline-block;
+    text-decoration: none;
+    border: 1.5px solid var(--fg);
+    border-radius: 999px;
+    padding: 0.22em 0.75em;
+    margin: 0 0.4em 0.4em 0;
+    color: var(--fg);
   }
-  .event .links a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--hair); }
-  .event .links a:hover, .event .links a:focus-visible { color: var(--rosa); border-color: var(--rosa); }
-  .event .fuente {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.68rem;
-    margin-top: 0.3rem;
-    color: var(--ink-soft);
+  .event .links a:hover, .event .links a:focus-visible {
+    background: var(--acid); color: #000; border-color: var(--acid);
   }
+  .event .fuente { font-size: 0.66rem; margin-top: 0.25rem; color: var(--dim); }
   .event .fuente a { color: inherit; text-decoration: none; }
-  .event .fuente a:hover, .event .fuente a:focus-visible { color: var(--rosa); }
-  .event .notes {
-    font-size: 0.85rem;
-    color: var(--ink-soft);
-    margin-top: 0.3rem;
-    font-style: italic;
-  }
+  .event .fuente a:hover, .event .fuente a:focus-visible { color: var(--acid); }
+  .event .notes { font-size: 0.76rem; color: var(--dim); margin-top: 0.4rem; font-style: italic; }
 
   /* ---------- footer / admin ---------- */
   footer {
     max-width: 56rem; margin: 0 auto;
     padding: 2rem 0 3rem;
-    border-top: 1px solid var(--hair);
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.72rem;
-    color: var(--ink-soft);
+    border-top: 3px solid var(--fg);
+    font-size: 0.7rem; color: var(--dim);
     display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
   }
   footer button {
@@ -231,114 +214,93 @@
     border-bottom: 1px solid var(--hair);
     cursor: pointer; padding: 0;
   }
-  footer button:hover, footer button:focus-visible { color: var(--rosa); border-color: var(--rosa); }
+  footer button:hover, footer button:focus-visible { color: var(--acid); border-color: var(--acid); }
 
   .status {
     max-width: 56rem; margin: 0 auto; padding: 3rem 0;
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.8rem; color: var(--ink-soft);
+    font-size: 0.8rem; color: var(--dim);
   }
 
   /* ---------- edit mode ---------- */
-  .admintools {
-    display: none;
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.7rem;
-    margin-top: 0.4rem;
-    gap: 1rem;
-  }
+  .admintools { display: none; font-size: 0.68rem; margin-top: 0.6rem; gap: 1rem; }
   body.editing .admintools { display: flex; }
   .admintools button {
     font: inherit; background: none; border: none; cursor: pointer;
-    color: var(--ink-soft); border-bottom: 1px solid var(--hair); padding: 0;
+    color: var(--dim); border-bottom: 1px solid var(--hair); padding: 0;
   }
-  .admintools button:hover { color: var(--rosa); border-color: var(--rosa); }
-  .admintools button.del:hover { color: #b00020; border-color: #b00020; }
+  .admintools button:hover { color: var(--acid); border-color: var(--acid); }
+  .admintools button.del:hover { color: var(--rosa); border-color: var(--rosa); }
 
   .addbar { display: none; max-width: 56rem; margin: 0 auto 2rem; align-items: center; gap: 1rem; flex-wrap: wrap; }
   body.editing .addbar { display: flex; }
   .addbar button {
-    font-family: "IBM Plex Mono", monospace; font-size: 0.78rem;
-    letter-spacing: 0.06em; text-transform: uppercase;
-    background: var(--ink); color: var(--paper);
-    border: none; padding: 0.65rem 1.1rem; cursor: pointer;
+    font-family: "Space Mono", monospace; font-size: 0.74rem;
+    letter-spacing: 0.05em; text-transform: lowercase;
+    background: var(--acid); color: #000;
+    border: none; padding: 0.6rem 1.1rem; cursor: pointer;
+    box-shadow: 4px 4px 0 var(--rosa);
   }
-  .addbar button:hover { background: var(--rosa); }
-  .addbar #flierStatus {
-    font-family: "IBM Plex Mono", monospace; font-size: 0.72rem;
-    color: var(--ink-soft);
-  }
+  .addbar button:hover { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 var(--rosa); }
+  .addbar #flierStatus { font-size: 0.7rem; color: var(--dim); }
 
   /* editor dialog */
   dialog {
-    border: 1px solid var(--ink);
-    background: var(--paper);
+    border: 2px solid var(--acid);
+    background: var(--bg);
+    color: var(--fg);
     padding: 1.6rem;
     max-width: 26rem; width: calc(100vw - 3rem);
-    font-family: "Archivo", sans-serif;
+    font-family: "Space Mono", monospace;
+    box-shadow: 8px 8px 0 var(--rosa);
   }
-  dialog::backdrop { background: rgba(20,20,18,0.35); }
+  dialog::backdrop { background: rgba(10,10,8,0.7); }
   dialog h3 {
-    font-weight: 900; font-stretch: 115%; text-transform: uppercase;
-    font-size: 1rem; margin-bottom: 1.2rem; letter-spacing: 0.01em;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 600; text-transform: lowercase;
+    font-size: 1rem; margin-bottom: 1.2rem; color: var(--acid);
   }
   dialog label {
     display: block;
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
-    color: var(--ink-soft);
+    font-size: 0.64rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--dim);
     margin: 0.9rem 0 0.25rem;
   }
   dialog input, dialog textarea {
-    width: 100%; font: inherit; font-size: 0.9rem;
-    border: none; border-bottom: 1px solid var(--ink);
-    background: transparent; padding: 0.25rem 0; color: var(--ink);
+    width: 100%; font: inherit; font-size: 0.85rem;
+    border: none; border-bottom: 1px solid var(--fg);
+    background: transparent; padding: 0.25rem 0; color: var(--fg);
+    color-scheme: dark;
   }
-  dialog input:focus, dialog textarea:focus { outline: none; border-bottom-color: var(--rosa); }
-  dialog input[type="date"] { font-family: "IBM Plex Mono", monospace; font-size: 0.85rem; }
+  dialog input:focus, dialog textarea:focus { outline: none; border-bottom-color: var(--acid); }
+  dialog input[type="date"] { font-size: 0.8rem; }
   dialog .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-  dialog .toggle {
-    display: flex; align-items: center; gap: 0.6rem;
-    margin-top: 1.1rem; cursor: pointer;
-  }
+  dialog .toggle { display: flex; align-items: center; gap: 0.6rem; margin-top: 1.1rem; cursor: pointer; }
   dialog .toggle input {
-    width: auto; appearance: none; -webkit-appearance: none;
-    width: 2.1rem; height: 1.15rem; border: 1px solid var(--ink);
+    appearance: none; -webkit-appearance: none;
+    width: 2.1rem; height: 1.15rem; border: 1px solid var(--fg);
     border-radius: 1rem; position: relative; cursor: pointer; flex-shrink: 0;
   }
   dialog .toggle input::after {
     content: ""; position: absolute; top: 1px; left: 1px;
     width: 0.95rem; height: 0.95rem; border-radius: 50%;
-    background: var(--ink); transition: transform 0.15s ease;
+    background: var(--fg); transition: transform 0.15s ease;
   }
-  dialog .toggle input:checked { background: var(--amarillo); }
-  dialog .toggle input:checked::after { transform: translateX(0.93rem); }
-  dialog .toggle span {
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
-    color: var(--ink-soft);
-  }
+  dialog .toggle input:checked { background: var(--acid); }
+  dialog .toggle input:checked::after { transform: translateX(0.93rem); background: #000; }
+  dialog .toggle span { font-size: 0.64rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--dim); }
   dialog .actions { display: flex; gap: 1.5rem; margin-top: 1.6rem; align-items: center; }
-  dialog .actions button {
-    font-family: "IBM Plex Mono", monospace; font-size: 0.78rem;
-    letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer;
-  }
-  dialog .actions .save {
-    background: var(--ink); color: var(--paper); border: none; padding: 0.6rem 1.1rem;
-  }
-  dialog .actions .save:hover { background: var(--rosa); }
-  dialog .actions .cancel { background: none; border: none; color: var(--ink-soft); padding: 0; }
-  dialog .actions .cancel:hover { color: var(--ink); }
-  dialog .err {
-    font-family: "IBM Plex Mono", monospace; font-size: 0.72rem;
-    color: #b00020; margin-top: 1rem; display: none;
-  }
+  dialog .actions button { font: inherit; font-size: 0.74rem; letter-spacing: 0.05em; text-transform: lowercase; cursor: pointer; }
+  dialog .actions .save { background: var(--acid); color: #000; border: none; padding: 0.6rem 1.1rem; box-shadow: 3px 3px 0 var(--rosa); }
+  dialog .actions .save:hover { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 var(--rosa); }
+  dialog .actions .cancel { background: none; border: none; color: var(--dim); padding: 0; }
+  dialog .actions .cancel:hover { color: var(--fg); }
+  dialog .err { font-size: 0.7rem; color: var(--rosa); margin-top: 1rem; display: none; }
 
   /* ---------- mobile ---------- */
   @media (max-width: 640px) {
     .day { grid-template-columns: 1fr; gap: 1rem 0; padding: 1.8rem 0; }
     .datemark { display: flex; align-items: baseline; gap: 0.7rem; line-height: 1; flex-wrap: wrap; }
-    .datemark .num { font-size: 2.1rem; }
+    .datemark .num { font-size: 2rem; }
     .datemark .dow, .datemark .mon, .datemark .hoy { margin: 0; }
   }
 
@@ -346,18 +308,23 @@
     .day { animation: rise 0.45s ease both; }
     @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
   }
+  @media (prefers-reduced-motion: reduce) {
+    header .cuentas { white-space: normal; }
+    header .cuentas .tira { animation: none; display: inline; padding: 0; }
+    .event, .addbar button, dialog .actions .save { transition: none; }
+  }
 </style>
 </head>
 <body>
 
 <header>
-  <h1>Cartelera GDL</h1>
-  <p class="sub">conciertos · eventos · foros · galerías</p>
+  <h1>cartelera gdl ★</h1>
+  <p class="sub">conciertos · eventos · foros · galerías</p><br>
   <p class="updated" id="updated"></p>
   <p class="cuentas" id="cuentas"></p>
-  <p class="about">Un robot lee los flyers de estas cuentas cada mañana para que
-  tú no tengas que vivir en Instagram.<br>
-  A veces le falla el ojo — confirma fecha y precio en el post antes de salir.</p>
+  <p class="about">un robot lee los flyers de estas cuentas cada mañana para que
+  tú no tengas que vivir en instagram.<br>
+  a veces alucina — checa fecha y precio en el post antes de salir 🙏</p>
 </header>
 
 <div class="addbar">
@@ -393,17 +360,17 @@
     </div>
   </div>
   <label for="f_cover">cover</label>
-  <input id="f_cover" placeholder="$100 preventa / entrada libre" autocomplete="off">
+  <input id="f_cover" placeholder="$100mxn preventa / entrada libre" autocomplete="off">
   <label for="f_url">link (post / boletos)</label>
   <input id="f_url" autocomplete="off">
   <label for="f_notes">notas</label>
   <input id="f_notes" autocomplete="off">
   <label class="toggle">
     <input type="checkbox" id="f_featured">
-    <span>destacado — título resaltado en amarillo</span>
+    <span>destacado — título resaltado</span>
   </label>
   <div class="actions">
-    <button class="save" id="saveBtn" type="button">Guardar</button>
+    <button class="save" id="saveBtn" type="button">guardar</button>
     <button class="cancel" id="cancelBtn" type="button">cancelar</button>
   </div>
   <p class="err" id="editorErr"></p>
@@ -491,9 +458,11 @@ async function loadAccounts() {
       const j = Math.floor(Math.random() * (i + 1));
       [handles[i], handles[j]] = [handles[j], handles[i]];
     }
-    document.getElementById("cuentas").innerHTML = handles
+    const strip = handles
       .map(h => `<a href="https://www.instagram.com/${esc(h)}/" target="_blank" rel="noopener">@${esc(h)}</a>`)
       .join(" ");
+    document.getElementById("cuentas").innerHTML =
+      `<span class="tira">${strip} ${strip}</span>`;
   } catch (e) { /* header just stays without the list */ }
 }
 
