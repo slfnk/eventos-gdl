@@ -137,7 +137,7 @@ def main():
     if lines:
         try:
             send_telegram("\n".join(lines))
-        except Exception as e:  # noqa: BLE001 — notification is optional, data is not
+        except Exception as e:  # noqa: BLE001 — notification is optional
             print(f"Telegram send failed (events still saved): {e}")
 
 
