@@ -31,7 +31,6 @@
 
 @iglesia.primitiva_
 @almacolectiva51
-@paos-gdl
 @espaciocabeza
 @palmagaleria
 @tiroalblancogaleria
