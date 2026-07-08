@@ -305,11 +305,11 @@ def main():
     save_json(SEEN_FILE, sorted(seen_set)[-5000:])  # cap file growth
     save_json(EVENTS_FILE, all_events)
 
-   if new_events:
+    if new_events:
         try:
             send_telegram(format_digest(new_events))
             print(f"Sent digest with {len(new_events)} new events.")
-        except Exception as e:  # noqa: BLE001 — notification is optional, data is not
+        except Exception as e:  # noqa: BLE001 — notification is optional
             print(f"Telegram send failed (events still saved): {e}")
     else:
         print("No new events today. Staying quiet.")
