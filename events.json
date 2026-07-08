@@ -1658,10 +1658,11 @@
     "ticket_url": null,
     "age_restriction": null,
     "notes": "Curada por Polina Stroganova. Más de 30 artistas locales e internacionales.",
-    "needs_review": true,
+    "needs_review": false,
     "account": "palmagaleria",
     "post_url": "https://www.instagram.com/p/DZ-wAiOmRtf/",
-    "found_at": "2026-07-08T17:28:49.993615+00:00"
+    "found_at": "2026-07-08T17:28:49.993615+00:00",
+    "featured": false
   },
   {
     "title": "Bestia Bebé",
