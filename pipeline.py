@@ -37,6 +37,21 @@ MAX_EVENTS_PER_POST = 20       # cap for monthly-calendar / residency fliers
 
 GDL_TZ = timezone(timedelta(hours=-6))  # America/Mexico_City (no DST since 2022)
 
+# Canonical venue names. Keys are lowercase fragments to match against;
+# values are how the venue should appear on the cartelera. Add as you go.
+VENUE_ALIASES = {
+    "foro diez": "Foro Diez",
+    "semillero estudios": "Foro Diez",
+    "cuerda cultura": "Cuerda Cultura",
+    "galería sepia": "Galería Sepia",
+    "galeria sepia": "Galería Sepia",
+    "ritual cultural": "Ritual Cultural",
+    "hake al rey": "Hake Al Rey",
+    "foro larva": "Foro Larva",
+    "casa mudra": "Casa Mudra",
+    "foro independencia": "Foro Independencia",
+}
+
 # This is the full instruction set the Haiku model receives for every post.
 # Edit the rules here to change extraction behavior; inbox.py reuses it too.
 EXTRACTION_PROMPT = """\
@@ -51,9 +66,9 @@ The post caption is:
 The attached image is the post's first image (often an event flier).
 
 Return ONLY a JSON object, no markdown fences, no commentary:
-{{"events": [ ...zero or more event objects... ]}}
+{{"events": [...], "cancellations": [...]}}
 
-Each event object has this shape:
+Each object in "events" has this shape:
 {{
   "title": "event or show name",
   "artists": ["performer/artist names"],
@@ -61,9 +76,16 @@ Each event object has this shape:
   "date": "YYYY-MM-DD or null if unparseable",
   "time": "HH:MM 24h or null",
   "cover": "price like '$150mxn' or '$100mxn preventa, $150mxn taquilla' or 'entrada libre', or null",
-  "type": "concert | exhibition | opening | dj | other",
+  "type": "concert | exhibition | opening | dj | workshop | other",
+  "ticket_url": "ticket purchase link from the caption (boletia, passline, eventbrite, etc), or null",
+  "age_restriction": "+18 if the flier or caption restricts entry to adults, else null",
+  "confidence": "high or low",
   "notes": "anything else useful, max 15 words, IN SPANISH, or null"
 }}
+
+Each object in "cancellations" (when the post announces a cancellation or
+postponement) has this shape:
+{{"title": "name of the cancelled/postponed event", "venue": "venue or null"}}
 
 Rules:
 - Return "events": [] for recaps, memes, merch, thank-you posts, or events
@@ -76,9 +98,20 @@ Rules:
 - ONLY include events in the Guadalajara metro area (Guadalajara, Zapopan,
   Tlaquepaque, Tonalá). If the location is clearly another city or country,
   exclude that event. If no city is shown, assume the venue's own space in GDL.
+- EXCLUDE workshops/events aimed at children or families (taller infantil,
+  actividades para niños, "para toda la familia"). Workshops aimed at adults
+  at galleries or cultural spaces ARE included, with type "workshop".
+- If the post announces a CANCELLATION or POSTPONEMENT ("cancelado",
+  "pospuesto", "se pospone", "nueva fecha"), list the affected event in
+  "cancellations". If a new date is announced, ALSO include the event in
+  "events" with the new date.
+- Set "confidence": "low" when the date, venue, or year is ambiguous, the
+  flier is hard to read, or you are guessing on any key detail. Otherwise "high".
 - Fliers usually omit the year: resolve dates to the NEXT occurrence on or
   after today. "VIE 10 JUL" with today={today} means the upcoming July 10.
 - Format all prices in Mexican pesos as "$NNNmxn".
+- Use the venue's common short name (e.g. "Foro Diez", not
+  "Foro Diez - Semillero Estudios").
 - Spanish day/month abbreviations are common (VIE, SÁB, ENE, JUL...).
 - Write the "notes" field in Spanish.
 - If image and caption conflict, trust the image (the flier).
@@ -106,6 +139,43 @@ def load_accounts() -> list[str]:
         if line and not line.startswith("#"):
             accounts.append(line)
     return accounts
+
+
+def normalize_venue(venue: str | None) -> str | None:
+    """Map venue name variants to their canonical form via VENUE_ALIASES."""
+    if not venue:
+        return venue
+    low = venue.lower()
+    for fragment, canonical in VENUE_ALIASES.items():
+        if fragment in low:
+            return canonical
+    return venue
+
+
+def _norm_title(s: str | None) -> str:
+    return " ".join((s or "").lower().split())
+
+
+def apply_cancellations(events: list[dict], cancellations: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Remove events matching announced cancellations. Returns (kept, removed)."""
+    if not cancellations:
+        return events, []
+    kept, removed = [], []
+    for ev in events:
+        ev_title = _norm_title(ev.get("title"))
+        hit = False
+        for c in cancellations:
+            c_title = _norm_title(c.get("title"))
+            if not c_title or not ev_title:
+                continue
+            titles_match = c_title in ev_title or ev_title in c_title
+            c_venue = normalize_venue(c.get("venue"))
+            venue_ok = not c_venue or c_venue == ev.get("venue")
+            if titles_match and venue_ok:
+                hit = True
+                break
+        (removed if hit else kept).append(ev)
+    return kept, removed
 
 
 # ---------------------------------------------------------------- 1. scrape
@@ -147,22 +217,31 @@ def download_image_b64(url: str) -> tuple[str, str] | None:
         return None
 
 
-def parse_events_json(text: str) -> list[dict]:
-    """Parse the model's response into a list of event dicts."""
+def parse_extraction(text: str) -> tuple[list[dict], list[dict]]:
+    """Parse the model's response. Returns (events, cancellations)."""
     text = text.replace("```json", "").replace("```", "").strip()
     try:
         data = json.loads(text)
     except json.JSONDecodeError:
         print(f"  unparseable model output: {text[:120]}")
-        return []
+        return [], []
     events = data.get("events") or []
+    cancels = data.get("cancellations") or []
     if not isinstance(events, list):
-        return []
-    return [e for e in events if isinstance(e, dict)][:MAX_EVENTS_PER_POST]
+        events = []
+    if not isinstance(cancels, list):
+        cancels = []
+    events = [e for e in events if isinstance(e, dict)][:MAX_EVENTS_PER_POST]
+    cancels = [c for c in cancels if isinstance(c, dict)]
+    # post-process each event
+    for ev in events:
+        ev["venue"] = normalize_venue(ev.get("venue"))
+        ev["needs_review"] = ev.pop("confidence", "high") == "low"
+    return events, cancels
 
 
-def extract_events(post: dict) -> list[dict]:
-    """Send caption + first image to Claude; get zero or more events back."""
+def extract_events(post: dict) -> tuple[list[dict], list[dict]]:
+    """Send caption + first image to Claude; returns (events, cancellations)."""
     caption = (post.get("caption") or "")[:2000]
     image_url = post.get("displayUrl") or (post.get("images") or [None])[0]
 
@@ -211,28 +290,32 @@ def extract_events(post: dict) -> list[dict]:
         for block in resp.json()["content"]
         if block.get("type") == "text"
     )
-    return parse_events_json(text)
+    return parse_extraction(text)
 
 
 # ---------------------------------------------------------------- 3. digest
 
 
-def format_digest(events: list[dict]) -> str:
+def format_digest(events: list[dict], removed: list[dict] | None = None) -> str:
     lines = ["🎶 <b>Nuevos eventos detectados</b>\n"]
-    # sort: dated events chronologically, undated last
     events.sort(key=lambda e: e.get("date") or "9999-99-99")
     for ev in events:
         date = ev.get("date") or "fecha por confirmar"
         time = f" · {ev['time']}" if ev.get("time") else ""
         cover = f" · {ev['cover']}" if ev.get("cover") else ""
+        flag = "⚠️ " if ev.get("needs_review") else ""
         artists = ", ".join(ev.get("artists") or [])
         title = ev.get("title") or artists or "(sin título)"
         venue = ev.get("venue") or ev.get("account", "?")
-        lines.append(f"<b>{title}</b>")
+        lines.append(f"{flag}<b>{title}</b>" + (" <i>(revisar)</i>" if ev.get("needs_review") else ""))
         if artists and artists != title:
             lines.append(artists)
         lines.append(f"📍 {venue} — {date}{time}{cover}")
         lines.append(f'<a href="{ev["post_url"]}">ver post</a>\n')
+    if removed:
+        lines.append("🚫 <b>Cancelados / pospuestos</b>")
+        for ev in removed:
+            lines.append(f"— {ev.get('title')} ({ev.get('venue') or '?'})")
     return "\n".join(lines)
 
 
@@ -266,6 +349,7 @@ def main():
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_POST_AGE_DAYS)
 
     new_events = []
+    all_cancellations = []
     for post in posts:
         pid = post.get("shortCode") or post.get("id")
         if not pid or pid in seen_set:
@@ -280,35 +364,42 @@ def main():
         account = post.get("ownerUsername", "?")
         print(f"Processing @{account} / {pid}")
         try:
-            found = extract_events(post)
+            found, cancels = extract_events(post)
         except Exception as e:  # noqa: BLE001 — one bad post shouldn't kill the run
             print(f"  extraction error, will retry next run: {e}")
             continue  # NOT marked seen -> retried tomorrow
 
         seen_set.add(pid)
+        if cancels:
+            all_cancellations.extend(cancels)
+            for c in cancels:
+                print(f"  🚫 cancellation notice: {c.get('title')}")
         if found:
             for event in found:
                 event["account"] = account
                 event["post_url"] = post.get("url") or f"https://www.instagram.com/p/{pid}/"
                 event["found_at"] = datetime.now(timezone.utc).isoformat()
                 new_events.append(event)
-                print(f"  ✓ event: {event.get('title')} on {event.get('date')}")
-        else:
+                flag = " (low confidence)" if event.get("needs_review") else ""
+                print(f"  ✓ event: {event.get('title')} on {event.get('date')}{flag}")
+        elif not cancels:
             print("  not an event")
 
-    # persist state
+    # merge, apply cancellations, drop past events
     today_str = datetime.now(GDL_TZ).strftime("%Y-%m-%d")
-    all_events = [
+    merged = [
         e for e in all_events + new_events
-        if (e.get("date") or "9999") >= today_str  # drop past events
+        if (e.get("date") or "9999") >= today_str
     ]
-    save_json(SEEN_FILE, sorted(seen_set)[-5000:])  # cap file growth
-    save_json(EVENTS_FILE, all_events)
+    merged, removed = apply_cancellations(merged, all_cancellations)
 
-    if new_events:
+    save_json(SEEN_FILE, sorted(seen_set)[-5000:])  # cap file growth
+    save_json(EVENTS_FILE, merged)
+
+    if new_events or removed:
         try:
-            send_telegram(format_digest(new_events))
-            print(f"Sent digest with {len(new_events)} new events.")
+            send_telegram(format_digest(new_events, removed))
+            print(f"Sent digest: {len(new_events)} new, {len(removed)} removed.")
         except Exception as e:  # noqa: BLE001 — notification is optional
             print(f"Telegram send failed (events still saved): {e}")
     else:
