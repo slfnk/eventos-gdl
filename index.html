@@ -15,6 +15,7 @@
     --ink-soft: #6b6b66;
     --hair: #e2e2dd;
     --rosa: #e4007c;
+    --azul: #88b9f6;
     --amarillo: #fff3a8;
     --measure: 34rem;
   }
@@ -38,6 +39,7 @@
     padding: 2.5rem 0 3rem;
   }
   header h1 {
+    color: var(--azul);
     font-weight: 900;
     font-stretch: 115%;
     font-size: clamp(1.6rem, 4.5vw, 2.4rem);
@@ -47,7 +49,7 @@
   }
   header .sub {
     font-family: "IBM Plex Mono", monospace;
-    font-size: 0.72rem;
+    font-size: 0.82rem;   /* <- tweak subtitle size here */
     color: var(--ink-soft);
     margin-top: 0.6rem;
     letter-spacing: 0.04em;
@@ -90,11 +92,11 @@
 
   header .about {
     max-width: var(--measure);
-    font-size: 0.75rem;        /* was 0.85rem */
-    color: #a3a39c;            /* lighter than --ink-soft (#6b6b66) */
+    font-size: 0.7rem;    /* <- tweak explainer size here */
+    color: #b3b3aa;       /* <- tweak explainer grey here */
     margin-top: 1.3rem;
-    line-height: 1.55;
-}
+    line-height: 1.6;
+  }
 
   /* ---------- date groups ---------- */
   main { max-width: 56rem; margin: 0 auto; padding-bottom: 4rem; }
@@ -119,6 +121,7 @@
     margin-bottom: 0.4rem;
   }
   .datemark .num {
+    color: var(--azul);
     font-weight: 900;
     font-stretch: 72%;
     font-size: clamp(2.4rem, 6vw, 3.4rem);
@@ -164,6 +167,7 @@
     padding-left: 1.4rem;
   }
   .event h2 {
+    color: var(--azul);
     font-weight: 700;
     font-size: 1.05rem;
     letter-spacing: -0.01em;
@@ -352,8 +356,8 @@
   <p class="updated" id="updated"></p>
   <p class="cuentas" id="cuentas"></p>
   <p class="about">Un robot lee los flyers de estas cuentas cada mañana para que
-  tú no tengas que vivir en Instagram.<br>A veces le falla el ojo — confirma fecha
-  y precio en el post antes de salir.</p>
+  tú no tengas que vivir en Instagram.<br>
+  A veces le falla el ojo — confirma fecha y precio en el post antes de salir.</p>
 </header>
 
 <div class="addbar">
@@ -489,7 +493,7 @@ async function loadAccounts() {
     }
     document.getElementById("cuentas").innerHTML = handles
       .map(h => `<a href="https://www.instagram.com/${esc(h)}/" target="_blank" rel="noopener">@${esc(h)}</a>`)
-      .join("");
+      .join(" ");
   } catch (e) { /* header just stays without the list */ }
 }
 
@@ -550,7 +554,7 @@ function render() {
   const ap = last.getHours() >= 12 ? "pm" : "am";
   const mm = String(last.getMinutes()).padStart(2, "0");
   document.getElementById("updated").textContent =
-    `actualizado ${last.getDate()} ${MESES[last.getMonth()].toLowerCase()} · ${hh}:${mm}${ap}`;
+    `actualizado ${last.getDate()} ${MESES[last.getMonth()].toLowerCase()} · ${hh}:${mm}${ap} · ${upcoming.length} evento${upcoming.length === 1 ? "" : "s"}`;
 
   if (location.hash) {
     const target = document.getElementById(location.hash.slice(1));
