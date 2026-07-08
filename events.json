@@ -687,5 +687,26 @@
     "notes": "Libertad 1482, Col. Americano, Gdl. Multiple bands.",
     "account": "flier callejero",
     "found_at": "2026-07-07T21:14:22.608972+00:00"
+  },
+  {
+    "title": "AppleCats en Guadalajara",
+    "artists": [
+      "AppleCats",
+      "Lefnes",
+      "Pegajo",
+      "José de la Torre",
+      "Dani Catsu",
+      "Gota de Desden",
+      "Trash Vision",
+      "Envi"
+    ],
+    "venue": "Foro Diez",
+    "date": "2026-07-11",
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "notes": "Regreso de AppleCats a Guadalajara con múltiples artistas invitados",
+    "account": "flier callejero",
+    "found_at": "2026-07-08T05:50:45.431705+00:00"
   }
 ]
