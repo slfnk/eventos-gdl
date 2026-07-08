@@ -7,205 +7,222 @@
 <meta name="description" content="Cartelera independiente de Guadalajara — foros, galerías, conciertos.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=IBM+Plex+Mono:wght@400;500&family=Unbounded:wght@400;600;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0e0e0c;
-    --fg: #f4f4ea;
-    --dim: #8a8a80;
-    --hair: #2b2b26;
-    --acid: #c6ff2e;   /* <- main accent, tweak here */
-    --rosa: #ff4fd8;   /* <- second accent */
-    --amarillo: #c6ff2e;
+    --paper: #fcfcfa;
+    --ink: #141412;
+    --ink-soft: #6b6b66;
+    --hair: #e2e2dd;
+    --rosa: #e4007c;
+    --azul: #88b9f6;
+    --amarillo: #fff3a8;
     --measure: 34rem;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { -webkit-text-size-adjust: 100%; }
   body {
-    background: var(--bg);
-    color: var(--fg);
-    font-family: "Space Mono", monospace;
-    font-size: 14px;
-    line-height: 1.5;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Archivo", sans-serif;
+    font-size: 15px;
+    line-height: 1.45;
     padding: 0 1.25rem;
   }
-  ::selection { background: var(--acid); color: #000; }
   a { color: inherit; }
-  :focus-visible { outline: 2px solid var(--acid); outline-offset: 2px; }
+  a:hover, a:focus-visible { color: var(--rosa); }
+  :focus-visible { outline: 2px solid var(--rosa); outline-offset: 2px; }
 
   /* ---------- header ---------- */
-  header { max-width: 56rem; margin: 0 auto; padding: 2.8rem 0 2.2rem; }
+  header {
+    max-width: 56rem; margin: 0 auto;
+    padding: 2.5rem 0 3rem;
+  }
   header h1 {
-    font-family: "Unbounded", sans-serif;
+    color: var(--azul);
     font-weight: 900;
-    font-size: clamp(1.9rem, 6.5vw, 3.4rem);
-    line-height: 0.95;
-    text-transform: lowercase;
-    color: var(--acid);
-    text-shadow: 4px 4px 0 var(--rosa);
-    transform: rotate(-1deg);
-    display: inline-block;
+    font-stretch: 115%;
+    font-size: clamp(1.6rem, 4.5vw, 2.4rem);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    line-height: 1;
   }
   header .sub {
-    font-size: 0.85rem;   /* <- tweak subtitle size here */
-    text-transform: lowercase;
-    letter-spacing: 0.05em;
-    margin-top: 1rem;
-    color: var(--fg);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.82rem;   /* <- tweak subtitle size here */
+    color: var(--ink-soft);
+    margin-top: 0.6rem;
+    letter-spacing: 0.04em;
   }
+  header .cuentas {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.7rem;
+    max-width: var(--measure);
+    margin-top: 0.8rem;
+    letter-spacing: 0.02em;
+    line-height: 1.9;
+  }
+  header .cuentas a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    border-bottom: 1px solid var(--hair);
+    margin-right: 0.9em;
+    white-space: nowrap;
+  }
+  header .cuentas a:hover, header .cuentas a:focus-visible { color: var(--rosa); border-color: var(--rosa); }
   header .updated {
-    display: inline-block;
+    font-family: "IBM Plex Mono", monospace;
     font-size: 0.68rem;
     letter-spacing: 0.06em;
-    color: var(--bg);
-    background: var(--fg);
-    padding: 0.2em 0.7em;
-    border-radius: 999px;
-    margin-top: 0.8rem;
-    transform: rotate(0.6deg);
+    color: var(--ink-soft);
+    margin-top: 0.5rem;
+  }
+  .event .revisar {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.66rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #b06000;
+    border: 1px solid #b06000;
+    padding: 0.1em 0.4em;
+    margin-left: 0.5em;
+    vertical-align: middle;
   }
 
-  /* handles ticker */
-  header .cuentas {
-    margin-top: 1.1rem;
-    overflow: hidden;
-    white-space: nowrap;
-    border-top: 1px solid var(--hair);
-    border-bottom: 1px solid var(--hair);
-    padding: 0.55rem 0;
-    font-size: 0.72rem;
-  }
-  header .cuentas .tira {
-    display: inline-block;
-    padding-right: 2rem;
-    animation: tira 45s linear infinite;
-  }
-  header .cuentas:hover .tira { animation-play-state: paused; }
-  header .cuentas a {
-    text-decoration: none;
-    border: 1px solid var(--hair);
-    border-radius: 999px;
-    padding: 0.1em 0.6em;
-    margin-right: 0.45em;
-    color: var(--dim);
-  }
-  header .cuentas a:hover, header .cuentas a:focus-visible {
-    color: #000; background: var(--acid); border-color: var(--acid);
-  }
-  @keyframes tira { to { transform: translateX(-50%); } }
 
   header .about {
     max-width: var(--measure);
-    font-size: 0.68rem;   /* <- tweak explainer size here */
-    color: var(--dim);    /* <- tweak explainer grey here */
-    margin-top: 1.2rem;
-    line-height: 1.7;
+    font-size: 0.7rem;    /* <- tweak explainer size here */
+    color: #b3b3aa;       /* <- tweak explainer grey here */
+    margin-top: 1.3rem;
+    line-height: 1.6;
   }
 
   /* ---------- date groups ---------- */
   main { max-width: 56rem; margin: 0 auto; padding-bottom: 4rem; }
+
   .day {
     display: grid;
     grid-template-columns: 9.5rem 1fr;
     gap: 0 2.5rem;
-    padding: 2.4rem 0;
-    border-top: 3px solid var(--fg);
+    padding: 2.2rem 0;
+    border-top: 1px solid var(--hair);
   }
   .day:first-child { border-top: none; }
 
   .datemark { line-height: 0.9; }
   .datemark .dow {
-    font-size: 0.66rem; letter-spacing: 0.18em; text-transform: uppercase;
-    color: var(--dim); display: block; margin-bottom: 0.45rem;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    display: block;
+    margin-bottom: 0.4rem;
   }
   .datemark .num {
-    font-family: "Unbounded", sans-serif;
+    color: var(--azul);
     font-weight: 900;
-    font-size: clamp(2.3rem, 6vw, 3.4rem);
-    color: var(--fg);
-    display: inline-block;
-    transform: rotate(-3deg);
+    font-stretch: 72%;
+    font-size: clamp(2.4rem, 6vw, 3.4rem);
+    letter-spacing: -0.03em;
+    display: block;
   }
   .datemark .mon {
-    font-size: 0.66rem; letter-spacing: 0.18em; text-transform: uppercase;
-    color: var(--dim); display: block; margin-top: 0.55rem;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    display: block;
+    margin-top: 0.5rem;
   }
   .datemark .hoy {
-    display: inline-block;
-    font-size: 0.66rem; letter-spacing: 0.14em; font-weight: 700;
-    color: #000; background: var(--acid);
-    padding: 0.2em 0.6em;
-    margin-top: 0.6rem;
-    transform: rotate(3deg);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    color: var(--rosa);
+    display: block;
+    margin-top: 0.5rem;
   }
-  .day.today .num { color: var(--acid); }
+  .day.today .num { color: var(--rosa); }
+
+  /* undated section */
   .day.undated .datemark .sf {
-    font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase;
-    color: var(--dim); line-height: 1.8; display: block;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    line-height: 1.7;
+    display: block;
   }
 
   /* ---------- events ---------- */
-  .events { display: flex; flex-direction: column; gap: 1.6rem; padding-top: 0.35rem; min-width: 0; }
+  .events { display: flex; flex-direction: column; gap: 1.7rem; padding-top: 0.35rem; min-width: 0; }
+
   .event {
     max-width: var(--measure);
-    border: 2px solid var(--fg);
-    padding: 1rem 1.1rem 1.05rem;
-    transition: transform 0.12s ease, box-shadow 0.12s ease;
-  }
-  .event:hover {
-    transform: translate(-3px, -3px);
-    box-shadow: 6px 6px 0 var(--acid);
+    border-left: 1px solid var(--hair);
+    padding-left: 1.4rem;
   }
   .event h2 {
-    font-family: "Unbounded", sans-serif;
-    font-weight: 600;
-    font-size: 0.98rem;
-    line-height: 1.35;
-    text-transform: lowercase;
+    color: var(--azul);
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
   }
   .event.featured h2 span {
-    background: var(--acid); color: #000;
-    padding: 0.06em 0.3em;
+    background: var(--amarillo);
+    padding: 0.05em 0.25em;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
   }
-  .event .revisar {
-    font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase;
-    color: var(--rosa); border: 1px solid var(--rosa);
-    padding: 0.12em 0.45em; margin-left: 0.55em;
-    vertical-align: middle; display: inline-block; transform: rotate(-1.5deg);
+  .event .artists {
+    color: var(--ink-soft);
+    font-size: 0.92rem;
+    margin-top: 0.15rem;
   }
-  .event .artists { color: var(--dim); font-size: 0.82rem; margin-top: 0.35rem; }
   .event .meta {
-    font-size: 0.7rem; letter-spacing: 0.04em; text-transform: uppercase;
-    margin-top: 0.6rem; color: var(--fg); font-weight: 700;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.74rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    color: var(--ink);
   }
   .event .meta .sep { color: var(--hair); padding: 0 0.35em; }
-  .event .links { font-size: 0.68rem; margin-top: 0.75rem; }
-  .event .links .sep { display: none; }
-  .event .links a {
-    display: inline-block;
-    text-decoration: none;
-    border: 1.5px solid var(--fg);
-    border-radius: 999px;
-    padding: 0.22em 0.75em;
-    margin: 0 0.4em 0.4em 0;
-    color: var(--fg);
+  .event .links {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.74rem;
+    margin-top: 0.4rem;
   }
-  .event .links a:hover, .event .links a:focus-visible {
-    background: var(--acid); color: #000; border-color: var(--acid);
+  .event .links a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--hair); }
+  .event .links a:hover, .event .links a:focus-visible { color: var(--rosa); border-color: var(--rosa); }
+  .event .fuente {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem;
+    margin-top: 0.3rem;
+    color: var(--ink-soft);
   }
-  .event .fuente { font-size: 0.66rem; margin-top: 0.25rem; color: var(--dim); }
   .event .fuente a { color: inherit; text-decoration: none; }
-  .event .fuente a:hover, .event .fuente a:focus-visible { color: var(--acid); }
-  .event .notes { font-size: 0.76rem; color: var(--dim); margin-top: 0.4rem; font-style: italic; }
+  .event .fuente a:hover, .event .fuente a:focus-visible { color: var(--rosa); }
+  .event .notes {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    margin-top: 0.3rem;
+    font-style: italic;
+  }
 
   /* ---------- footer / admin ---------- */
   footer {
     max-width: 56rem; margin: 0 auto;
     padding: 2rem 0 3rem;
-    border-top: 3px solid var(--fg);
-    font-size: 0.7rem; color: var(--dim);
+    border-top: 1px solid var(--hair);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.72rem;
+    color: var(--ink-soft);
     display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
   }
   footer button {
@@ -214,93 +231,114 @@
     border-bottom: 1px solid var(--hair);
     cursor: pointer; padding: 0;
   }
-  footer button:hover, footer button:focus-visible { color: var(--acid); border-color: var(--acid); }
+  footer button:hover, footer button:focus-visible { color: var(--rosa); border-color: var(--rosa); }
 
   .status {
     max-width: 56rem; margin: 0 auto; padding: 3rem 0;
-    font-size: 0.8rem; color: var(--dim);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.8rem; color: var(--ink-soft);
   }
 
   /* ---------- edit mode ---------- */
-  .admintools { display: none; font-size: 0.68rem; margin-top: 0.6rem; gap: 1rem; }
+  .admintools {
+    display: none;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    gap: 1rem;
+  }
   body.editing .admintools { display: flex; }
   .admintools button {
     font: inherit; background: none; border: none; cursor: pointer;
-    color: var(--dim); border-bottom: 1px solid var(--hair); padding: 0;
+    color: var(--ink-soft); border-bottom: 1px solid var(--hair); padding: 0;
   }
-  .admintools button:hover { color: var(--acid); border-color: var(--acid); }
-  .admintools button.del:hover { color: var(--rosa); border-color: var(--rosa); }
+  .admintools button:hover { color: var(--rosa); border-color: var(--rosa); }
+  .admintools button.del:hover { color: #b00020; border-color: #b00020; }
 
   .addbar { display: none; max-width: 56rem; margin: 0 auto 2rem; align-items: center; gap: 1rem; flex-wrap: wrap; }
   body.editing .addbar { display: flex; }
   .addbar button {
-    font-family: "Space Mono", monospace; font-size: 0.74rem;
-    letter-spacing: 0.05em; text-transform: lowercase;
-    background: var(--acid); color: #000;
-    border: none; padding: 0.6rem 1.1rem; cursor: pointer;
-    box-shadow: 4px 4px 0 var(--rosa);
+    font-family: "IBM Plex Mono", monospace; font-size: 0.78rem;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    background: var(--ink); color: var(--paper);
+    border: none; padding: 0.65rem 1.1rem; cursor: pointer;
   }
-  .addbar button:hover { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 var(--rosa); }
-  .addbar #flierStatus { font-size: 0.7rem; color: var(--dim); }
+  .addbar button:hover { background: var(--rosa); }
+  .addbar #flierStatus {
+    font-family: "IBM Plex Mono", monospace; font-size: 0.72rem;
+    color: var(--ink-soft);
+  }
 
   /* editor dialog */
   dialog {
-    border: 2px solid var(--acid);
-    background: var(--bg);
-    color: var(--fg);
+    border: 1px solid var(--ink);
+    background: var(--paper);
     padding: 1.6rem;
     max-width: 26rem; width: calc(100vw - 3rem);
-    font-family: "Space Mono", monospace;
-    box-shadow: 8px 8px 0 var(--rosa);
+    font-family: "Archivo", sans-serif;
   }
-  dialog::backdrop { background: rgba(10,10,8,0.7); }
+  dialog::backdrop { background: rgba(20,20,18,0.35); }
   dialog h3 {
-    font-family: "Unbounded", sans-serif;
-    font-weight: 600; text-transform: lowercase;
-    font-size: 1rem; margin-bottom: 1.2rem; color: var(--acid);
+    font-weight: 900; font-stretch: 115%; text-transform: uppercase;
+    font-size: 1rem; margin-bottom: 1.2rem; letter-spacing: 0.01em;
   }
   dialog label {
     display: block;
-    font-size: 0.64rem; letter-spacing: 0.1em; text-transform: uppercase;
-    color: var(--dim);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--ink-soft);
     margin: 0.9rem 0 0.25rem;
   }
   dialog input, dialog textarea {
-    width: 100%; font: inherit; font-size: 0.85rem;
-    border: none; border-bottom: 1px solid var(--fg);
-    background: transparent; padding: 0.25rem 0; color: var(--fg);
-    color-scheme: dark;
+    width: 100%; font: inherit; font-size: 0.9rem;
+    border: none; border-bottom: 1px solid var(--ink);
+    background: transparent; padding: 0.25rem 0; color: var(--ink);
   }
-  dialog input:focus, dialog textarea:focus { outline: none; border-bottom-color: var(--acid); }
-  dialog input[type="date"] { font-size: 0.8rem; }
+  dialog input:focus, dialog textarea:focus { outline: none; border-bottom-color: var(--rosa); }
+  dialog input[type="date"] { font-family: "IBM Plex Mono", monospace; font-size: 0.85rem; }
   dialog .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-  dialog .toggle { display: flex; align-items: center; gap: 0.6rem; margin-top: 1.1rem; cursor: pointer; }
+  dialog .toggle {
+    display: flex; align-items: center; gap: 0.6rem;
+    margin-top: 1.1rem; cursor: pointer;
+  }
   dialog .toggle input {
-    appearance: none; -webkit-appearance: none;
-    width: 2.1rem; height: 1.15rem; border: 1px solid var(--fg);
+    width: auto; appearance: none; -webkit-appearance: none;
+    width: 2.1rem; height: 1.15rem; border: 1px solid var(--ink);
     border-radius: 1rem; position: relative; cursor: pointer; flex-shrink: 0;
   }
   dialog .toggle input::after {
     content: ""; position: absolute; top: 1px; left: 1px;
     width: 0.95rem; height: 0.95rem; border-radius: 50%;
-    background: var(--fg); transition: transform 0.15s ease;
+    background: var(--ink); transition: transform 0.15s ease;
   }
-  dialog .toggle input:checked { background: var(--acid); }
-  dialog .toggle input:checked::after { transform: translateX(0.93rem); background: #000; }
-  dialog .toggle span { font-size: 0.64rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--dim); }
+  dialog .toggle input:checked { background: var(--amarillo); }
+  dialog .toggle input:checked::after { transform: translateX(0.93rem); }
+  dialog .toggle span {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--ink-soft);
+  }
   dialog .actions { display: flex; gap: 1.5rem; margin-top: 1.6rem; align-items: center; }
-  dialog .actions button { font: inherit; font-size: 0.74rem; letter-spacing: 0.05em; text-transform: lowercase; cursor: pointer; }
-  dialog .actions .save { background: var(--acid); color: #000; border: none; padding: 0.6rem 1.1rem; box-shadow: 3px 3px 0 var(--rosa); }
-  dialog .actions .save:hover { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 var(--rosa); }
-  dialog .actions .cancel { background: none; border: none; color: var(--dim); padding: 0; }
-  dialog .actions .cancel:hover { color: var(--fg); }
-  dialog .err { font-size: 0.7rem; color: var(--rosa); margin-top: 1rem; display: none; }
+  dialog .actions button {
+    font-family: "IBM Plex Mono", monospace; font-size: 0.78rem;
+    letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer;
+  }
+  dialog .actions .save {
+    background: var(--ink); color: var(--paper); border: none; padding: 0.6rem 1.1rem;
+  }
+  dialog .actions .save:hover { background: var(--rosa); }
+  dialog .actions .cancel { background: none; border: none; color: var(--ink-soft); padding: 0; }
+  dialog .actions .cancel:hover { color: var(--ink); }
+  dialog .err {
+    font-family: "IBM Plex Mono", monospace; font-size: 0.72rem;
+    color: #b00020; margin-top: 1rem; display: none;
+  }
 
   /* ---------- mobile ---------- */
   @media (max-width: 640px) {
     .day { grid-template-columns: 1fr; gap: 1rem 0; padding: 1.8rem 0; }
     .datemark { display: flex; align-items: baseline; gap: 0.7rem; line-height: 1; flex-wrap: wrap; }
-    .datemark .num { font-size: 2rem; }
+    .datemark .num { font-size: 2.1rem; }
     .datemark .dow, .datemark .mon, .datemark .hoy { margin: 0; }
   }
 
@@ -308,21 +346,177 @@
     .day { animation: rise 0.45s ease both; }
     @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
   }
+
+  /* ---------- theme toggle ---------- */
+  header { position: relative; }
+  #themeToggle {
+    position: absolute; top: 2.6rem; right: 0;
+    font-family: "IBM Plex Mono", monospace; font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    background: none; color: var(--ink-soft);
+    border: 1px solid var(--hair); border-radius: 999px;
+    padding: 0.3em 0.9em; cursor: pointer;
+  }
+  #themeToggle:hover, #themeToggle:focus-visible { color: var(--rosa); border-color: var(--rosa); }
+  .about-wild { display: none; }
+
+  /* ================= modo caótico (body.wild) ================= */
+  body.wild {
+    --paper: #0e0e0c;
+    --ink: #f4f4ea;
+    --ink-soft: #b9b9af;   /* <- wild grey, lighter per request */
+    --hair: #2b2b26;
+    --rosa: #ff4f4f;       /* <- wild accent 2 */
+    --azul: #fff22d;       /* <- wild accent 1 (title) */
+    --amarillo: #fff22d;
+    font-family: "Space Mono", monospace;
+    font-size: 14px;
+  }
+  body.wild ::selection { background: var(--azul); color: #000; }
+  body.wild .about-claro { display: none; }
+  body.wild .about-wild { display: block; }
+  body.wild header .about { color: #b9b9af; }
+
+  body.wild header h1 {
+    font-family: "Unbounded", sans-serif;
+    text-transform: lowercase;
+    text-shadow: 4px 4px 0 var(--rosa);
+    transform: rotate(-1deg);
+    display: inline-block;
+    font-stretch: normal;
+  }
+  body.wild header .sub { text-transform: lowercase; font-family: "Space Mono", monospace; }
+  body.wild header .updated {
+    display: inline-block;
+    background: var(--ink); color: var(--paper);
+    padding: 0.2em 0.7em; border-radius: 999px;
+    transform: rotate(0.6deg);
+  }
+  body.wild #themeToggle { font-family: "Space Mono", monospace; }
+  body.wild #themeToggle:hover { color: var(--azul); border-color: var(--azul); }
+
+  /* handles ticker (wild only) */
+  body.wild header .cuentas {
+    max-width: none;
+    overflow: hidden; white-space: nowrap;
+    border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair);
+    padding: 0.55rem 0;
+  }
+  body.wild header .cuentas .tira {
+    display: inline-block; padding-right: 2rem;
+    animation: tira 45s linear infinite;
+  }
+  body.wild header .cuentas:hover .tira { animation-play-state: paused; }
+  body.wild header .cuentas a {
+    border: 1px solid var(--hair); border-radius: 999px;
+    padding: 0.1em 0.6em; margin-right: 0.45em;
+  }
+  body.wild header .cuentas a:hover, body.wild header .cuentas a:focus-visible {
+    color: #000; background: var(--azul); border-color: var(--azul);
+  }
+  @keyframes tira { to { transform: translateX(-50%); } }
+
+  body.wild .day { border-top: 3px solid var(--ink); }
+  body.wild .datemark .num {
+    font-family: "Unbounded", sans-serif;
+    font-stretch: normal;
+    display: inline-block;
+    transform: rotate(-3deg);
+    color: var(--ink);
+  }
+  body.wild .day.today .num { color: var(--azul); }
+  body.wild .datemark .hoy {
+    display: inline-block;
+    color: #000; background: var(--azul);
+    padding: 0.2em 0.6em; font-weight: 700;
+    transform: rotate(3deg);
+  }
+
+  body.wild .event {
+    border: 1px solid var(--ink);           /* thin outline */
+    padding: 1rem 1.1rem 1.05rem;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+  }
+  body.wild .event:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 6px 6px 0 var(--azul);
+  }
+  body.wild .event h2 {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 600; font-size: 0.98rem;
+    text-transform: lowercase;
+    color: var(--ink);
+  }
+  body.wild .event.featured h2 span { background: var(--azul); color: #000; }
+  body.wild .event .revisar {
+    color: var(--rosa); border-color: var(--rosa);
+    display: inline-block; transform: rotate(-1.5deg);
+  }
+  body.wild .event .meta { font-weight: 700; font-family: "Space Mono", monospace; }
+  body.wild .event .links .sep { display: none; }
+  body.wild .event .links a {
+    display: inline-block; text-decoration: none;
+    border: 1px solid var(--ink);            /* thin buttons */
+    border-radius: 999px;
+    padding: 0.22em 0.75em; margin: 0 0.4em 0.4em 0;
+    color: var(--ink);
+  }
+  body.wild .event .links a:hover, body.wild .event .links a:focus-visible {
+    background: var(--azul); color: #000; border-color: var(--azul);
+  }
+  body.wild .event .fuente a:hover { color: var(--azul); }
+
+  body.wild footer { border-top: 3px solid var(--ink); }
+  body.wild footer button:hover { color: var(--azul); border-color: var(--azul); }
+
+  body.wild .addbar button {
+    background: var(--azul); color: #000;
+    text-transform: lowercase;
+    box-shadow: 4px 4px 0 var(--rosa);
+    font-family: "Space Mono", monospace;
+  }
+  body.wild .addbar button:hover { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 var(--rosa); }
+
+  body.wild dialog {
+    border: 1px solid var(--azul);
+    background: var(--paper); color: var(--ink);
+    font-family: "Space Mono", monospace;
+    box-shadow: 8px 8px 0 var(--rosa);
+  }
+  body.wild dialog h3 {
+    font-family: "Unbounded", sans-serif;
+    text-transform: lowercase; color: var(--azul);
+    font-stretch: normal;
+  }
+  body.wild dialog input, body.wild dialog textarea { color-scheme: dark; }
+  body.wild dialog .toggle input:checked { background: var(--azul); }
+  body.wild dialog .toggle input:checked::after { background: #000; }
+  body.wild dialog .actions .save {
+    background: var(--azul); color: #000;
+    box-shadow: 3px 3px 0 var(--rosa);
+  }
+  body.wild dialog .actions .save:hover { transform: translate(-1px,-1px); }
+  body.wild dialog .err { color: var(--rosa); }
+
   @media (prefers-reduced-motion: reduce) {
-    header .cuentas { white-space: normal; }
-    header .cuentas .tira { animation: none; display: inline; padding: 0; }
-    .event, .addbar button, dialog .actions .save { transition: none; }
+    body.wild header .cuentas { white-space: normal; }
+    body.wild header .cuentas .tira { animation: none; display: inline; padding: 0; }
+    body.wild .event, body.wild .addbar button, body.wild dialog .actions .save { transition: none; }
   }
 </style>
 </head>
 <body>
 
 <header>
-  <h1>cartelera gdl ★</h1>
-  <p class="sub">conciertos · eventos · foros · galerías</p><br>
+  <h1>Cartelera GDL<span id="simbolo"></span></h1>
+  <button id="themeToggle" type="button"></button>
+  <p class="sub">conciertos · eventos · foros · galerías</p>
   <p class="updated" id="updated"></p>
   <p class="cuentas" id="cuentas"></p>
-  <p class="about">un robot lee los flyers de estas cuentas cada mañana para que
+  <p class="about about-claro">Un robot lee los flyers de estas cuentas cada mañana para que
+  tú no tengas que vivir en Instagram.<br>
+  A veces le falla el ojo — confirma fecha y precio en el post antes de salir.</p>
+  <p class="about about-wild">un robot lee los flyers de estas cuentas cada mañana para que
   tú no tengas que vivir en instagram.<br>
   a veces alucina — checa fecha y precio en el post antes de salir 🙏</p>
 </header>
@@ -360,17 +554,17 @@
     </div>
   </div>
   <label for="f_cover">cover</label>
-  <input id="f_cover" placeholder="$100mxn preventa / entrada libre" autocomplete="off">
+  <input id="f_cover" placeholder="$100 preventa / entrada libre" autocomplete="off">
   <label for="f_url">link (post / boletos)</label>
   <input id="f_url" autocomplete="off">
   <label for="f_notes">notas</label>
   <input id="f_notes" autocomplete="off">
   <label class="toggle">
     <input type="checkbox" id="f_featured">
-    <span>destacado — título resaltado</span>
+    <span>destacado — título resaltado en amarillo</span>
   </label>
   <div class="actions">
-    <button class="save" id="saveBtn" type="button">guardar</button>
+    <button class="save" id="saveBtn" type="button">Guardar</button>
     <button class="cancel" id="cancelBtn" type="button">cancelar</button>
   </div>
   <p class="err" id="editorErr"></p>
@@ -458,11 +652,8 @@ async function loadAccounts() {
       const j = Math.floor(Math.random() * (i + 1));
       [handles[i], handles[j]] = [handles[j], handles[i]];
     }
-    const strip = handles
-      .map(h => `<a href="https://www.instagram.com/${esc(h)}/" target="_blank" rel="noopener">@${esc(h)}</a>`)
-      .join(" ");
-    document.getElementById("cuentas").innerHTML =
-      `<span class="tira">${strip} ${strip}</span>`;
+    cuentasHandles = handles;
+    renderCuentas();
   } catch (e) { /* header just stays without the list */ }
 }
 
@@ -731,6 +922,38 @@ async function persist() {
     else alert(e.message);
   }
 }
+
+
+/* ================= theme (claro / caótico) ================= */
+const THEME_KEY = "cartelera_theme";
+const SIMBOLOS = ["⚗︎","☭","⛺︎","☬","☈","✇","☄︎"];
+const simbolo = SIMBOLOS[Math.floor(Math.random() * SIMBOLOS.length)];
+let cuentasHandles = [];
+
+function renderCuentas() {
+  if (!cuentasHandles.length) return;
+  const strip = cuentasHandles
+    .map(h => `<a href="https://www.instagram.com/${esc(h)}/" target="_blank" rel="noopener">@${esc(h)}</a>`)
+    .join(" ");
+  document.getElementById("cuentas").innerHTML =
+    document.body.classList.contains("wild")
+      ? `<span class="tira">${strip} ${strip}</span>`  // duplicated for seamless loop
+      : strip;
+}
+
+function applyTheme(t) {
+  document.body.classList.toggle("wild", t === "wild");
+  document.getElementById("themeToggle").textContent = t === "wild" ? "¿no?" : "¿sí?";
+  document.getElementById("simbolo").textContent = t === "wild" ? " " + simbolo : "";
+  renderCuentas();
+}
+
+document.getElementById("themeToggle").addEventListener("click", () => {
+  const next = (localStorage.getItem(THEME_KEY) || "claro") === "wild" ? "claro" : "wild";
+  localStorage.setItem(THEME_KEY, next);
+  applyTheme(next);
+});
+applyTheme(localStorage.getItem(THEME_KEY) || "claro");
 
 load();
 </script>
