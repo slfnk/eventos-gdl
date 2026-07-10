@@ -1,0 +1,42 @@
+{
+  "Foro Diez": {
+    "address": "Priv. Andrés Terán 31, Col Americana",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6784756,-103.3680174&query_place_id=ChIJl6DCXgCvKIQR1TAgMo4EMqw"
+  },
+  "Cuerda Cultura": {
+    "address": "C. Garibaldi 580, Zona Centro",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6813047,-103.3518475&query_place_id=ChIJAW72DMqxKIQRG5G7lrQswkQ"
+  },
+  "Galería Sepia": {
+    "address": "C. Gabriel Ramos Millán 81, Col Americana",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6772936,-103.3674218&query_place_id=ChIJ3z-wf2CvKIQRM9D27MASDwY"
+  },
+  "Ritual Cultural": {
+    "address": "C. Manuel López Cotilla 570, Zona Centro",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6742847,-103.3518938&query_place_id=ChIJOw4jLVmxKIQRNIsG_MOR4zQ"
+  },
+  "Hake Al Rey": {
+    "address": "Libertad 1482, Col Americana",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6716537,-103.3591123&query_place_id=ChIJayPOKwCvKIQRJt2OFDJc0ik"
+  },
+  "Foro Larva": {
+    "address": "C. Ocampo 120, Zona Centro",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.674684,-103.3499173&query_place_id=ChIJDW-T-_qxKIQR01OIHD4A3j0"
+  },
+  "Casa Mudra": {
+    "address": "C. Francisco Javier Gamboa 110, Arcos Vallarta",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6729414,-103.3776129&query_place_id=ChIJyVbaJKyvKIQRRxYu-LrPeUs"
+  },
+  "Foro Independencia": {
+    "address": "Epigmenio González 66, Mexicaltzingo",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.666407,-103.3478926&query_place_id=ChIJQ8R5BfixKIQRBoJU8wQLJyg"
+  },
+  "C3 Stage": {
+    "address": "Av. Ignacio L. Vallarta 1488, Lafayette",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.674812,-103.369548&query_place_id=ChIJy6aaRAWuKIQRSaCl1AvGHp0"
+  },
+  "MUSA Museo de las Artes": {
+    "address": "Av. Juárez 975, Col Americana",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6744117,-103.3590248&query_place_id=ChIJDYvqv-SxKIQRxTjiNIPPm1s"
+  }
+}
