@@ -14,6 +14,7 @@ import base64
 import io
 import json
 import os
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -176,6 +177,48 @@ def apply_cancellations(events: list[dict], cancellations: list[dict]) -> tuple[
                 break
         (removed if hit else kept).append(ev)
     return kept, removed
+
+
+
+
+def _tokens(s: str | None) -> set[str]:
+    return set(re.findall(r"[a-záéíóúñü0-9]+", (s or "").lower()))
+
+
+def is_same_event(a: dict, b: dict) -> bool:
+    """Heuristic: same date + compatible venue + similar title or shared artists."""
+    if (a.get("date") or None) != (b.get("date") or None):
+        return False
+    va, vb = a.get("venue"), b.get("venue")
+    if va and vb and va != vb:
+        return False
+    ta, tb = _norm_title(a.get("title")), _norm_title(b.get("title"))
+    if ta and tb and (ta in tb or tb in ta):
+        return True
+    aa = {x.lower().strip() for x in (a.get("artists") or [])}
+    ab = {x.lower().strip() for x in (b.get("artists") or [])}
+    if aa and ab and aa & ab:
+        return True
+    ka, kb = _tokens(ta), _tokens(tb)
+    if ka and kb and len(ka & kb) / min(len(ka), len(kb)) >= 0.6:
+        return True
+    return False
+
+
+def dedupe_events(events: list[dict]) -> tuple[list[dict], int]:
+    """Collapse duplicate listings; earlier entry wins, gaps filled from later."""
+    out: list[dict] = []
+    dropped = 0
+    for ev in events:
+        match = next((k for k in out if is_same_event(k, ev)), None)
+        if match is None:
+            out.append(ev)
+        else:
+            dropped += 1
+            for key, val in ev.items():  # fill in anything the kept copy lacks
+                if match.get(key) in (None, "", []) and val not in (None, "", []):
+                    match[key] = val
+    return out, dropped
 
 
 # ---------------------------------------------------------------- 1. scrape
@@ -392,6 +435,9 @@ def main():
         if (e.get("date") or "9999") >= today_str
     ]
     merged, removed = apply_cancellations(merged, all_cancellations)
+    merged, dupes = dedupe_events(merged)
+    if dupes:
+        print(f"Collapsed {dupes} duplicate listing(s).")
 
     save_json(SEEN_FILE, sorted(seen_set)[-5000:])  # cap file growth
     save_json(EVENTS_FILE, merged)
