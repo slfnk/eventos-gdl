@@ -59,6 +59,8 @@ EXTRACTION_PROMPT = """\
 You are extracting event info from an Instagram post by a music venue or \
 art gallery in Guadalajara, Mexico. Today's date is {today}.
 
+This post was PUBLISHED on {posted}.
+
 The post caption is:
 <caption>
 {caption}
@@ -108,8 +110,15 @@ Rules:
   "events" with the new date.
 - Set "confidence": "low" when the date, venue, or year is ambiguous, the
   flier is hard to read, or you are guessing on any key detail. Otherwise "high".
-- Fliers usually omit the year: resolve dates to the NEXT occurrence on or
-  after today. "VIE 10 JUL" with today={today} means the upcoming July 10.
+- RECAPS ARE NOT EVENTS: posts thanking attendees, sharing photos or video
+  of a night that already happened, or celebrating how an event went
+  ("gracias a todos", "así se vivió", "qué gran noche", "sold out anoche")
+  are recaps — return "events": [], even if the original flier is re-shown.
+- Fliers usually omit the year: resolve dates relative to the PUBLISH date
+  of the post ({posted}), NOT today. A post published June 20 showing
+  "VIE 10 JUL" means the July 10 right after June 20. If that resolved date
+  is before today ({today}), the event already happened — exclude it. Never
+  roll a past flier date forward to a future year.
 - Format all prices in Mexican pesos as "$NNNmxn".
 - Use the venue's common short name (e.g. "Foro Diez", not
   "Foro Diez - Semillero Estudios").
@@ -304,11 +313,19 @@ def extract_events(post: dict) -> tuple[list[dict], list[dict]]:
                 }
             )
     today = datetime.now(GDL_TZ).strftime("%Y-%m-%d (%A)")
+    posted = today
+    ts = post.get("timestamp")
+    if ts:
+        try:
+            posted = datetime.fromisoformat(ts.replace("Z", "+00:00")).strftime("%Y-%m-%d")
+        except ValueError:
+            pass
     content.append(
         {
             "type": "text",
             "text": EXTRACTION_PROMPT.format(
-                today=today, caption=caption, max_events=MAX_EVENTS_PER_POST
+                today=today, posted=posted, caption=caption,
+                max_events=MAX_EVENTS_PER_POST,
             ),
         }
     )
