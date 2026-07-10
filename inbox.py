@@ -24,6 +24,7 @@ from pipeline import (
     MAX_EVENTS_PER_POST,
     MAX_IMAGE_DIM,
     apply_cancellations,
+    dedupe_events,
     load_json,
     parse_extraction,
     save_json,
@@ -48,6 +49,7 @@ def extract_from_photo(path: Path) -> tuple[list[dict], list[dict]]:
     today = datetime.now(GDL_TZ).strftime("%Y-%m-%d (%A)")
     prompt = EXTRACTION_PROMPT.format(
         today=today,
+        posted=today,  # street flier: photographed just now
         caption="(sin caption — foto de un flier tomada en la calle)",
         max_events=MAX_EVENTS_PER_POST,
     )
@@ -126,6 +128,9 @@ def main():
         photo.unlink()  # processed (or unreadable) — remove either way
 
     events, removed = apply_cancellations(events, all_cancellations)
+    events, dupes = dedupe_events(events)
+    if dupes:
+        print(f"Collapsed {dupes} duplicate listing(s).")
     save_json(EVENTS_FILE, events)
 
     lines = []
