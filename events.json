@@ -214,22 +214,6 @@
     "found_at": "2026-07-06T18:13:45.890634+00:00"
   },
   {
-    "account": "manual",
-    "found_at": "2026-07-07T04:03:03.661Z",
-    "title": "Yorka en Vivo",
-    "artists": [
-      "Yorka"
-    ],
-    "venue": "Cuerda Cultura",
-    "date": "2026-07-09",
-    "time": "20:00",
-    "cover": null,
-    "post_url": null,
-    "notes": null,
-    "featured": false,
-    "needs_review": false
-  },
-  {
     "is_event": true,
     "title": "Noche Pop",
     "artists": [
