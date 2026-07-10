@@ -556,20 +556,6 @@
     "found_at": "2026-07-08T05:50:45.431705+00:00"
   },
   {
-    "title": "Live Solo Jazz",
-    "artists": [
-      "Live Solo Jazz"
-    ],
-    "venue": "Casa Mudra",
-    "date": "2026-07-19",
-    "time": "20:30",
-    "cover": null,
-    "type": "concert",
-    "notes": "Cierre de semana con Live Solo Jazz e invitado sorpresa",
-    "account": "flier callejero",
-    "found_at": "2026-07-08T07:35:04.274488+00:00"
-  },
-  {
     "title": "Bad Bunny Jazz con Malambres",
     "artists": [
       "Malambres"
@@ -622,25 +608,6 @@
     "account": "casamudrajazzclub",
     "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
     "found_at": "2026-07-08T17:27:29.748848+00:00"
-  },
-  {
-    "title": "Cartelera Casa Mudra - Julio 21",
-    "artists": [
-      "Desértico Jazz",
-      "Samah Dueto"
-    ],
-    "venue": "Casa Mudra",
-    "date": "2026-07-21",
-    "time": "20:30",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Martes de Fusión en Casa Mudra",
-    "needs_review": false,
-    "account": "casamudrajazzclub",
-    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
-    "found_at": "2026-07-08T17:27:29.748850+00:00"
   },
   {
     "title": "Mac Miller Acoustic + El Xanto",
