@@ -556,21 +556,6 @@
     "found_at": "2026-07-08T05:50:45.431705+00:00"
   },
   {
-    "title": "Bad Bunny Jazz",
-    "artists": [
-      "Bad Bunny Jazz",
-      "Malambres"
-    ],
-    "venue": "Casa Mudra",
-    "date": "2026-07-16",
-    "time": "20:30",
-    "cover": null,
-    "type": "concert",
-    "notes": "Jazz de altos vuelos con la fuerza de Malambres",
-    "account": "flier callejero",
-    "found_at": "2026-07-08T07:35:04.274480+00:00"
-  },
-  {
     "title": "Queen Jazz Tribute",
     "artists": [
       "Queen Jazz Tribute",
@@ -632,24 +617,6 @@
     "account": "casamudrajazzclub",
     "post_url": "https://www.instagram.com/p/DaGc6hxOMLD/",
     "found_at": "2026-07-08T17:27:05.011183+00:00"
-  },
-  {
-    "title": "Bad Bunny Jazz con Malambres",
-    "artists": [
-      "Malambres"
-    ],
-    "venue": "Casa Mudra",
-    "date": "2026-07-23",
-    "time": "20:30",
-    "cover": "$100mxn",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Éxitos de Bad Bunny reinventados en jazz. Todos los jueves de julio.",
-    "needs_review": false,
-    "account": "casamudrajazzclub",
-    "post_url": "https://www.instagram.com/p/DaGc6hxOMLD/",
-    "found_at": "2026-07-08T17:27:05.011188+00:00"
   },
   {
     "title": "Bad Bunny Jazz con Malambres",
@@ -724,26 +691,6 @@
     "account": "casamudrajazzclub",
     "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
     "found_at": "2026-07-08T17:27:29.748841+00:00"
-  },
-  {
-    "title": "Ballads in Jazz + The Gentleman + Black and Swing",
-    "artists": [
-      "Ballads in Jazz",
-      "The Gentleman",
-      "Black and Swing"
-    ],
-    "venue": "Casa Mudra",
-    "date": "2026-07-18",
-    "time": "20:30",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Sábados de Clásicos en Casa Mudra",
-    "needs_review": false,
-    "account": "casamudrajazzclub",
-    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
-    "found_at": "2026-07-08T17:27:29.748845+00:00"
   },
   {
     "title": "Live Solo Jazz + Invitado Sorpresa",
