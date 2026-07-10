@@ -20,22 +20,6 @@
   },
   {
     "is_event": true,
-    "title": "Concierto en Memoria – Oveja Negra",
-    "artists": [
-      "Alex Fernández"
-    ],
-    "venue": "Galería Sepia",
-    "date": "2026-07-09",
-    "time": "20:00",
-    "cover": "entrada libre",
-    "type": "concert",
-    "notes": "Memorial concert. Open mic tribute. Free entry.",
-    "account": "reyasco",
-    "post_url": "https://www.instagram.com/p/DaOtV_mRVzx/",
-    "found_at": "2026-07-05T02:47:06.720073+00:00"
-  },
-  {
-    "is_event": true,
     "title": "TOKYO STREETS X - Mexico",
     "artists": null,
     "venue": null,
@@ -300,22 +284,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DaRQaFgohy_/",
     "found_at": "2026-07-07T18:03:52.688770+00:00"
-  },
-  {
-    "is_event": true,
-    "title": "Murales en Movimiento",
-    "artists": [
-      "Sergio Valdivia"
-    ],
-    "venue": "MUSA Museo de las Artes, Universidad de Guadalajara",
-    "date": "2026-07-09",
-    "time": "13:00",
-    "cover": "entrada libre",
-    "type": "other",
-    "notes": "Stop motion workshop. Two sessions required: July 9 and 11. Limited to 10 participants.",
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/DadwvCAEo-u/",
-    "found_at": "2026-07-07T18:03:55.178402+00:00"
   },
   {
     "is_event": true,
@@ -650,25 +618,6 @@
     "found_at": "2026-07-08T17:27:29.748868+00:00"
   },
   {
-    "title": "Bad Bunny Jazz + Malambres",
-    "artists": [
-      "Bad Bunny Jazz",
-      "Malambres"
-    ],
-    "venue": "Casa Mudra",
-    "date": "2026-07-30",
-    "time": "20:30",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Jueves de Sorpresas en Casa Mudra",
-    "needs_review": false,
-    "account": "casamudrajazzclub",
-    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
-    "found_at": "2026-07-08T17:27:29.748871+00:00"
-  },
-  {
     "title": "Queen Jazz Tribute + Charlie Hörn Trío",
     "artists": [
       "Queen Jazz Tribute",
@@ -898,7 +847,7 @@
     "venue": "Rayón #376",
     "date": "2026-07-16",
     "time": "19:00",
-    "cover": null,
+    "cover": "entrada libre",
     "type": "opening",
     "ticket_url": null,
     "age_restriction": null,
@@ -1157,24 +1106,6 @@
     "found_at": "2026-07-09T18:00:52.041751+00:00"
   },
   {
-    "title": "Ferazzz - Inauguración",
-    "artists": [
-      "Niñas Cochinas"
-    ],
-    "venue": "Staditche",
-    "date": "2026-07-09",
-    "time": "21:00",
-    "cover": "entrada libre",
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Jamada con proyectos musicales, venta de merch, regalos. Cooperación voluntaria.",
-    "needs_review": false,
-    "account": "ferazzzzzzz",
-    "post_url": "https://www.instagram.com/p/DaYJnSvxk1R/",
-    "found_at": "2026-07-09T18:00:54.339654+00:00"
-  },
-  {
     "title": "Hierofanía — Conversación con Tuxamee",
     "artists": [
       "Irving de Jesús Segovia Pérez (Tuxamee)"
@@ -1270,25 +1201,6 @@
     "account": "astronotas.music",
     "post_url": "https://www.instagram.com/p/DaitD1TCZgs/",
     "found_at": "2026-07-09T18:01:14.497021+00:00"
-  },
-  {
-    "title": "Niérika. Visiones de la creación. José y Fidencio Benítez",
-    "artists": [
-      "José Benítez",
-      "Fidencio Benítez"
-    ],
-    "venue": "MUSA",
-    "date": "2026-07-09",
-    "time": "19:00",
-    "cover": null,
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Inauguración de exposición. Detrás de escenas visible en imagen.",
-    "needs_review": false,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/DalGnR-vg4s/",
-    "found_at": "2026-07-09T18:01:18.037127+00:00"
   },
   {
     "title": "Guadalajara Chugg 2K26",
@@ -1388,24 +1300,6 @@
     "found_at": "2026-07-09T18:01:35.784265+00:00"
   },
   {
-    "title": "Visita al estudio de Manuel García",
-    "artists": [
-      "Manuel García"
-    ],
-    "venue": null,
-    "date": "2026-07-12",
-    "time": "13:00",
-    "cover": null,
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Privada Gral. Coronado 42, Santa Tere, GDL",
-    "needs_review": false,
-    "account": "castillointerior_",
-    "post_url": "https://www.instagram.com/p/DaiqTeClYoa/",
-    "found_at": "2026-07-09T18:01:35.784293+00:00"
-  },
-  {
     "title": "Clausura de Cierta Realidad",
     "artists": [],
     "venue": "Castillo Interior",
@@ -1420,5 +1314,205 @@
     "account": "castillointerior_",
     "post_url": "https://www.instagram.com/p/DaiqTeClYoa/",
     "found_at": "2026-07-09T18:01:35.784298+00:00"
+  },
+  {
+    "title": "Pool Sessions con Alfonsina Música",
+    "artists": [
+      "Alfonsina Música"
+    ],
+    "venue": "Pool Sessions",
+    "date": "2026-07-12",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "poolsessions.mx",
+    "age_restriction": null,
+    "notes": "Domingo 12 de julio. Boletos en poolsessions.mx",
+    "needs_review": false,
+    "account": "staditche",
+    "post_url": "https://www.instagram.com/p/Dalg5jPOzjN/",
+    "found_at": "2026-07-10T17:50:18.785904+00:00"
+  },
+  {
+    "title": "Macha y El Bloque Depresivo",
+    "artists": [
+      "Macha y El Bloque Depresivo"
+    ],
+    "venue": "C3 Stage",
+    "date": "2026-09-11",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Banda chilena en gira por Latinoamérica, nostalgia y melancolía.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DalQ2p-gZmK/",
+    "found_at": "2026-07-10T17:50:20.740242+00:00"
+  },
+  {
+    "title": "Swallow the Sun",
+    "artists": [
+      "Swallow the Sun"
+    ],
+    "venue": "C3 Rooftop",
+    "date": "2026-08-19",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Banda de doom metal contemporáneo en terraza",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DanoenXn8wb/",
+    "found_at": "2026-07-10T17:50:24.086518+00:00"
+  },
+  {
+    "title": "Billie Marten",
+    "artists": [
+      "Billie Marten"
+    ],
+    "venue": "C3 Rooftop",
+    "date": "2026-08-11",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.instagram.com/ticketnowmexico",
+    "age_restriction": null,
+    "notes": "Construcción de canciones con delicadeza. Noche para susurrar al viento.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/Dal2oX1n6nG/",
+    "found_at": "2026-07-10T17:50:26.530234+00:00"
+  },
+  {
+    "title": "Raíz Latina Vol. 2",
+    "artists": [
+      "Sergio H. Celis",
+      "Isa de la Mora",
+      "Pablo Daniel Navarro"
+    ],
+    "venue": "Foro Diez",
+    "date": "2026-08-06",
+    "time": "19:30",
+    "cover": "$300mxn preventa, $350mxn taquilla",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Concierto de música latina. Boletos por DM con los artistas.",
+    "needs_review": false,
+    "account": "idelamo",
+    "post_url": "https://www.instagram.com/p/DalkVmppHTH/",
+    "found_at": "2026-07-10T17:50:30.954238+00:00"
+  },
+  {
+    "title": "Akribb",
+    "artists": [
+      "Akribb"
+    ],
+    "venue": "C4 Concert House",
+    "date": "2026-10-09",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Primera presentación en C4, propuesta experimental de audio y danza",
+    "needs_review": false,
+    "account": "c4concerthouse",
+    "post_url": "https://www.instagram.com/p/DaliCmCDz_V/",
+    "found_at": "2026-07-10T17:50:35.752640+00:00"
+  },
+  {
+    "title": "Niérika. Visiones de la creación",
+    "artists": [
+      "José Benítez",
+      "Fidencio Benítez"
+    ],
+    "venue": "MUSA",
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición de arte wixárika. Fechas no especificadas en el anuncio.",
+    "needs_review": true,
+    "account": "cunorte_udg",
+    "post_url": "https://www.instagram.com/p/DamS5JqN9fI/",
+    "found_at": "2026-07-10T17:50:38.554683+00:00"
+  },
+  {
+    "title": "Niérika. Visiones de la creación",
+    "artists": [
+      "José Benítez Sánchez",
+      "Fidencio Benítez Rivera"
+    ],
+    "venue": "MUSA",
+    "date": "2026-07-10",
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición de maestros wixaritari sobre cosmovisión indígena.",
+    "needs_review": false,
+    "account": "culturaudg",
+    "post_url": "https://www.instagram.com/p/DandC2ClBOH/",
+    "found_at": "2026-07-10T17:50:41.636314+00:00"
+  },
+  {
+    "title": "Cuando todavía era hoy",
+    "artists": [
+      "Mariana Piña"
+    ],
+    "venue": null,
+    "date": "2026-07-11",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición fotográfica. Se despide este fin de semana.",
+    "needs_review": false,
+    "account": "rayon.376",
+    "post_url": "https://www.instagram.com/p/DanWblEPj5W/",
+    "found_at": "2026-07-10T17:50:51.442940+00:00"
+  },
+  {
+    "title": "Cuando todavía era hoy",
+    "artists": [
+      "Mariana Piña"
+    ],
+    "venue": null,
+    "date": "2026-07-12",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición fotográfica. Se despide este fin de semana.",
+    "needs_review": false,
+    "account": "rayon.376",
+    "post_url": "https://www.instagram.com/p/DanWblEPj5W/",
+    "found_at": "2026-07-10T17:50:51.442956+00:00"
+  },
+  {
+    "title": "Lapisci Third Edition - Cuerda Cultura",
+    "artists": [],
+    "venue": "Cuerda Cultura",
+    "date": "2026-09-19",
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Evento cultural en Guadalajara. Ubicación: C. Garibaldi 580, Centro.",
+    "needs_review": false,
+    "account": "lapisci.oficial",
+    "post_url": "https://www.instagram.com/p/Dal9OwaNuVA/",
+    "found_at": "2026-07-10T17:51:02.605290+00:00"
   }
 ]
