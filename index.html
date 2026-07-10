@@ -98,6 +98,25 @@
     line-height: 1.6;
   }
 
+  /* ---------- filters ---------- */
+  .filtros {
+    max-width: 56rem; margin: 0 auto 0.5rem;
+    display: flex; gap: 0.5rem; flex-wrap: wrap;
+  }
+  .filtros button {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase;
+    background: none; color: var(--ink-soft);
+    border: 1px solid var(--hair); border-radius: 999px;
+    padding: 0.32em 0.95em; cursor: pointer;
+  }
+  .filtros button:hover, .filtros button:focus-visible {
+    color: var(--rosa); border-color: var(--rosa);
+  }
+  .filtros button.activo {
+    background: var(--ink); color: var(--paper); border-color: var(--ink);
+  }
+
   /* ---------- date groups ---------- */
   main { max-width: 56rem; margin: 0 auto; padding-bottom: 4rem; }
 
@@ -498,6 +517,18 @@
   body.wild dialog .actions .save:hover { transform: translate(-1px,-1px); }
   body.wild dialog .err { color: var(--rosa); }
 
+  body.wild .filtros button {
+    font-family: "Space Mono", monospace;
+    text-transform: lowercase;
+    border-color: var(--hair); color: var(--ink-soft);
+  }
+  body.wild .filtros button:hover, body.wild .filtros button:focus-visible {
+    color: var(--azul); border-color: var(--azul);
+  }
+  body.wild .filtros button.activo {
+    background: var(--azul); color: #000; border-color: var(--azul);
+  }
+
   @media (prefers-reduced-motion: reduce) {
     body.wild header .cuentas { white-space: normal; }
     body.wild header .cuentas .tira { animation: none; display: inline; padding: 0; }
@@ -520,6 +551,8 @@
   tú no tengas que vivir en instagram.<br>
   a veces alucina — checa fecha y precio en el post antes de salir 🙏</p>
 </header>
+
+<div class="filtros" id="filtros"></div>
 
 <div class="addbar">
   <button id="addBtn" type="button">+ agregar evento</button>
@@ -585,6 +618,40 @@ const MESES = ["ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO",
                "JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE"];
 const DIAS  = ["DOMINGO","LUNES","MARTES","MIÉRCOLES","JUEVES","VIERNES","SÁBADO"];
 const NON_IG_SOURCES = new Set(["manual", "flier callejero"]);
+
+/* ---- filters: map event "type" (from the extraction) to display buckets */
+const FILTROS = [
+  { id: "todos",  label: "todos" },
+  { id: "musica", label: "música en vivo" },
+  { id: "arte",   label: "arte" },
+  { id: "djs",    label: "djs" },
+];
+const CATEGORIA = {
+  concert: "musica",
+  dj: "djs",
+  exhibition: "arte",
+  opening: "arte",
+  workshop: "arte",
+};
+let filtroActivo = "todos";
+
+function pasaFiltro(ev) {
+  if (filtroActivo === "todos") return true;
+  return CATEGORIA[ev.type] === filtroActivo;
+}
+
+function renderFiltros() {
+  const el = document.getElementById("filtros");
+  el.innerHTML = FILTROS
+    .map(f => `<button type="button" data-filtro="${f.id}"${f.id === filtroActivo ? ' class="activo"' : ""}>${f.label}</button>`)
+    .join("");
+  el.querySelectorAll("[data-filtro]").forEach(b =>
+    b.addEventListener("click", () => {
+      filtroActivo = b.dataset.filtro;
+      renderFiltros();
+      render();
+    }));
+}
 
 /* Parse YYYY-MM-DD as LOCAL date (avoid UTC off-by-one). */
 function localDate(s) {
@@ -675,10 +742,12 @@ function render() {
 
   const upcoming = events
     .map((ev, i) => ({ ...ev, _i: i }))
-    .filter(ev => (!ev.needs_review || editing) && (!ev.date || ev.date >= today));
+    .filter(ev => (!ev.needs_review || editing) && (!ev.date || ev.date >= today) && pasaFiltro(ev));
 
   if (!upcoming.length) {
-    main.innerHTML = '<div class="status">nada en cartelera por ahora.</div>';
+    main.innerHTML = filtroActivo === "todos"
+      ? '<div class="status">nada en cartelera por ahora.</div>'
+      : '<div class="status">nada en esta categoría por ahora.</div>';
     return;
   }
 
@@ -970,6 +1039,7 @@ document.getElementById("themeToggle").addEventListener("click", () => {
   applyTheme(next);
 });
 applyTheme(localStorage.getItem(THEME_KEY) || "claro");
+renderFiltros();
 
 load();
 </script>
