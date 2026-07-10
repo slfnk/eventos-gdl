@@ -484,25 +484,6 @@
   },
   {
     "is_event": true,
-    "title": "Cuerda Cultura - Noche Musical",
-    "artists": [
-      "Vas Tarde",
-      "Over.Look",
-      "Coyote Viejo",
-      "Dulce de Leche"
-    ],
-    "venue": "Cuerda Cultura",
-    "date": "2026-07-11",
-    "time": "18:00",
-    "cover": "100 pesos",
-    "type": "concert",
-    "notes": "Multiple artists performing Saturday night. DM for tickets.",
-    "account": "zenitt_band",
-    "post_url": "https://www.instagram.com/p/DaeRxlbMoKE/",
-    "found_at": "2026-07-07T18:04:37.740804+00:00"
-  },
-  {
-    "is_event": true,
     "title": "Fuera de cancha",
     "artists": [
       "Simon Barber"
