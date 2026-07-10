@@ -517,7 +517,8 @@
   tú no tengas que vivir en Instagram.<br>
   A veces le falla el ojo — confirma fecha y precio en el post antes de salir.</p>
   <p class="about about-wild">un robot lee los flyers de estas cuentas cada mañana para que
-  tú no tengas que vivir en instagram, a veces alucina, checa fecha y precio antes de salir 🫠</p>
+  tú no tengas que vivir en instagram.<br>
+  a veces alucina — checa fecha y precio en el post antes de salir 🙏</p>
 </header>
 
 <div class="addbar">
@@ -623,8 +624,10 @@ function slugOf(ev) {
 }
 
 /* ================= load ================= */
+let venues = {};
 async function load() {
   loadAccounts(); // fire and forget
+  loadVenues();   // fire and forget
   try {
     const r = await fetch(GH_FILE + "?t=" + Date.now());
     if (!r.ok) throw new Error(r.status);
@@ -635,6 +638,14 @@ async function load() {
     return;
   }
   render();
+}
+
+/* Venue addresses + exact map pins, read from venues.json in the repo. */
+async function loadVenues() {
+  try {
+    const r = await fetch("venues.json?t=" + Date.now());
+    if (r.ok) { venues = await r.json(); render(); }
+  } catch (e) { /* map links just fall back to search */ }
 }
 
 /* Header list of watched accounts, read from accounts.txt in the repo. */
@@ -738,6 +749,12 @@ function renderEvent(ev) {
   const links = [];
   if (ev.post_url) links.push(`<a href="${esc(ev.post_url)}" target="_blank" rel="noopener">ver post ↗</a>`);
   if (ev.ticket_url) links.push(`<a href="${esc(ev.ticket_url)}" target="_blank" rel="noopener">boletos ↗</a>`);
+  if (ev.venue) {
+    const v = venues[ev.venue];
+    const mapsUrl = v?.maps_url ||
+      `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ev.venue + ", Guadalajara, Jalisco")}`;
+    links.push(`<a href="${esc(mapsUrl)}" target="_blank" rel="noopener"${v?.address ? ` title="${esc(v.address)}"` : ""}>mapa ↗</a>`);
+  }
   links.push(`<a href="https://wa.me/?text=${waText}" target="_blank" rel="noopener">compartir ↗</a>`);
   return `<article class="event${ev.featured ? " featured" : ""}" id="${esc(slug)}">
     <h2><span>${esc(ev.title || artists || "(sin título)")}</span>${ev.needs_review ? '<span class="revisar">revisar</span>' : ""}</h2>
