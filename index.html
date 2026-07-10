@@ -1028,7 +1028,7 @@ function renderCuentas() {
 function applyTheme(t) {
   document.body.classList.toggle("wild", t === "wild");
   document.getElementById("themeToggle").textContent = t === "wild" ? "¿no?" : "¿sí?";
-  document.getElementById("simbolo").textContent = t === "wild" ? " " + simbolo : "";
+  document.getElementById("simbolo").textContent = " " + simbolo;
   renderCuentas();
 }
 
