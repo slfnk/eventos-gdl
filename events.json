@@ -220,25 +220,6 @@
   },
   {
     "is_event": true,
-    "title": "Colectivo Subversivo presenta",
-    "artists": [
-      "Perros Plaga",
-      "Taco Verde",
-      "Tofana"
-    ],
-    "venue": "Ritual Cultural López Cotilla 570, Guadalajara Centro",
-    "date": "2026-07-10",
-    "time": "20:30",
-    "cover": "$100",
-    "type": "concert",
-    "notes": "Featuring live bands. Tickets at door only.",
-    "account": "flier callejero",
-    "found_at": "2026-07-07T07:04:16.576846+00:00",
-    "post_url": "https://www.instagram.com/p/DZYC-R9Rsmm/",
-    "featured": true
-  },
-  {
-    "is_event": true,
     "title": "Human Tetris",
     "artists": [
       "Human Tetris"
@@ -822,24 +803,6 @@
     "found_at": "2026-07-08T17:28:04.021623+00:00"
   },
   {
-    "title": "Donde terminan las montañas",
-    "artists": [
-      "Cynthia Gutiérrez"
-    ],
-    "venue": "CURRO",
-    "date": "2026-07-10",
-    "time": null,
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición de esculturas abstractas y obras que exploran lo intangible.",
-    "needs_review": false,
-    "account": "galeriacurro",
-    "post_url": "https://www.instagram.com/p/DaSpmMoOUi-/",
-    "found_at": "2026-07-08T17:28:06.331228+00:00"
-  },
-  {
     "title": "Nunca Estás Solx - Alejandra Muñoz",
     "artists": [
       "Alejandra Muñoz"
@@ -951,24 +914,6 @@
     "found_at": "2026-07-08T17:28:29.797532+00:00"
   },
   {
-    "title": "Electrify",
-    "artists": [
-      "Electrify"
-    ],
-    "venue": "Foro Independencia",
-    "date": "2026-07-10",
-    "time": "20:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Banda de mujeres, indie rock",
-    "needs_review": false,
-    "account": "foroindependencia",
-    "post_url": "https://www.instagram.com/p/DagB1qFvH68/",
-    "found_at": "2026-07-08T17:28:34.799567+00:00"
-  },
-  {
     "title": "Riot Kids",
     "artists": [
       "Banqueteros",
@@ -1070,22 +1015,6 @@
     "account": "elbrillante_",
     "post_url": "https://www.instagram.com/p/DagXBWfPjk-/",
     "found_at": "2026-07-08T17:28:57.249050+00:00"
-  },
-  {
-    "title": "OMONIA - Experimentos en Armonía",
-    "artists": [],
-    "venue": "Staditche",
-    "date": "2026-07-10",
-    "time": null,
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Experimentos visuales en la alberca. Dream team por confirmarse.",
-    "needs_review": false,
-    "account": "metachromatic.inc",
-    "post_url": "https://www.instagram.com/p/DadobIFtecW/",
-    "found_at": "2026-07-09T18:00:50.176353+00:00"
   },
   {
     "title": "Pool Sessions #5 con Alfonsina",
@@ -1445,25 +1374,6 @@
     "found_at": "2026-07-10T17:50:38.554683+00:00"
   },
   {
-    "title": "Niérika. Visiones de la creación",
-    "artists": [
-      "José Benítez Sánchez",
-      "Fidencio Benítez Rivera"
-    ],
-    "venue": "MUSA",
-    "date": "2026-07-10",
-    "time": null,
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición de maestros wixaritari sobre cosmovisión indígena.",
-    "needs_review": false,
-    "account": "culturaudg",
-    "post_url": "https://www.instagram.com/p/DandC2ClBOH/",
-    "found_at": "2026-07-10T17:50:41.636314+00:00"
-  },
-  {
     "title": "Cuando todavía era hoy",
     "artists": [
       "Mariana Piña"
@@ -1514,5 +1424,73 @@
     "account": "lapisci.oficial",
     "post_url": "https://www.instagram.com/p/Dal9OwaNuVA/",
     "found_at": "2026-07-10T17:51:02.605290+00:00"
+  },
+  {
+    "title": "SUCESOS Pop-Up Show",
+    "artists": [],
+    "venue": "Casa Impronta",
+    "date": "2026-07-18",
+    "time": "12:09",
+    "cover": null,
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Música, ilustración, tatuajes, ropa. Organizado por @otroespacio.gdl",
+    "needs_review": false,
+    "account": "improntacasaeditora",
+    "post_url": "https://www.instagram.com/p/DanyJGfMRG_/",
+    "found_at": "2026-07-11T17:01:49.504014+00:00"
+  },
+  {
+    "title": "Taller: IMPI - Protege lo que creas",
+    "artists": [],
+    "venue": "rayón (tres siete seis)",
+    "date": "2026-07-25",
+    "time": "09:00",
+    "cover": "$850mxn",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Registro de marcas en México ante el IMPI. Para artistas, diseñadores, creadores.",
+    "needs_review": false,
+    "account": "rayon.376",
+    "post_url": "https://www.instagram.com/p/Daoe3e9vTVD/",
+    "found_at": "2026-07-11T17:01:52.145966+00:00"
+  },
+  {
+    "title": "Psychedfest",
+    "artists": [
+      "Belafonte Sensacional"
+    ],
+    "venue": "C3 Stage",
+    "date": "2026-09-04",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://passline.mx",
+    "age_restriction": null,
+    "notes": "Viaje sonoro con Belafonte Sensacional en festival.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DaobbQgn7UG/",
+    "found_at": "2026-07-11T17:01:55.490249+00:00"
+  },
+  {
+    "title": "One Direction",
+    "artists": [
+      "One Direction"
+    ],
+    "venue": null,
+    "date": "2026-07-24",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Imagen muestra banda británica-irlandesa; fecha 24•07 en caption",
+    "needs_review": true,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DaoOsoXGYB0/",
+    "found_at": "2026-07-11T17:02:05.831315+00:00"
   }
 ]
