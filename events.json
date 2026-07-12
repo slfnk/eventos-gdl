@@ -464,47 +464,6 @@
     "found_at": "2026-07-07T18:04:48.246318+00:00"
   },
   {
-    "is_event": true,
-    "title": "Weyes Pez",
-    "artists": [
-      "Weyes Pez",
-      "The Eeves",
-      "Dan Goose",
-      "Karacel",
-      "Melancholes Bass",
-      "Hellraiser"
-    ],
-    "venue": "Hake Al Rey",
-    "date": "2026-07-11",
-    "time": "18:00",
-    "cover": "$100",
-    "type": "concert",
-    "notes": "Libertad 1482, Col. Americano, Gdl. Multiple bands.",
-    "account": "flier callejero",
-    "found_at": "2026-07-07T21:14:22.608972+00:00"
-  },
-  {
-    "title": "AppleCats en Guadalajara",
-    "artists": [
-      "AppleCats",
-      "Lefnes",
-      "Pegajo",
-      "José de la Torre",
-      "Dani Catsu",
-      "Gota de Desden",
-      "Trash Vision",
-      "Envi"
-    ],
-    "venue": "Foro Diez",
-    "date": "2026-07-11",
-    "time": "19:00",
-    "cover": null,
-    "type": "concert",
-    "notes": "Regreso de AppleCats a Guadalajara con múltiples artistas invitados",
-    "account": "flier callejero",
-    "found_at": "2026-07-08T05:50:45.431705+00:00"
-  },
-  {
     "title": "Bad Bunny Jazz con Malambres",
     "artists": [
       "Malambres"
@@ -652,24 +611,6 @@
     "account": "jotamoore",
     "post_url": "https://www.instagram.com/p/Dagqq2RpI1v/",
     "found_at": "2026-07-08T17:27:39.170727+00:00"
-  },
-  {
-    "title": "Sesión de Dibujo Musicalizada",
-    "artists": [
-      "Abigail Vásquez"
-    ],
-    "venue": "Museo de Arte Raúl Anguiano (MURA)",
-    "date": "2026-07-11",
-    "time": "12:00",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Anatomía humana, luz, sombra y proporción. Nivel básico.",
-    "needs_review": false,
-    "account": "muragdl",
-    "post_url": "https://www.instagram.com/p/DagFglaEWg8/",
-    "found_at": "2026-07-08T17:27:41.162881+00:00"
   },
   {
     "title": "Comisario Pantera",
@@ -893,50 +834,6 @@
     "found_at": "2026-07-08T17:28:23.975674+00:00"
   },
   {
-    "title": "Sekta Core",
-    "artists": [
-      "Sekta Core",
-      "Ace Kool",
-      "INSN",
-      "Waking & Miando"
-    ],
-    "venue": "Foro Independencia",
-    "date": "2026-07-11",
-    "time": "19:00",
-    "cover": "$300mxn preventa, $400mxn taquilla",
-    "type": "concert",
-    "ticket_url": "https://www.passline.com/eventos/sekta-core-en-guadalajara",
-    "age_restriction": null,
-    "notes": "Puertas 7:00 PM. Boletos físicos también en El Nopalito Reggae",
-    "needs_review": false,
-    "account": "foroindependencia",
-    "post_url": "https://www.instagram.com/p/DaDpsBVhofT/",
-    "found_at": "2026-07-08T17:28:29.797532+00:00"
-  },
-  {
-    "title": "Riot Kids",
-    "artists": [
-      "Banqueteros",
-      "2 Pesos D Neurona",
-      "Banana Punch",
-      "Maivivientes",
-      "Buena Miseria",
-      "Scordura"
-    ],
-    "venue": "Anexo",
-    "date": "2026-07-11",
-    "time": "18:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": "+18",
-    "notes": "Evento reservado a mayores de 18 años",
-    "needs_review": false,
-    "account": "foroindependencia",
-    "post_url": "https://www.instagram.com/p/DagB1qFvH68/",
-    "found_at": "2026-07-08T17:28:34.799588+00:00"
-  },
-  {
     "title": "Guerra de las Casas - Gran Final",
     "artists": [
       "Suculenta",
@@ -1093,25 +990,6 @@
     "found_at": "2026-07-09T18:01:08.667242+00:00"
   },
   {
-    "title": "Tokyo Streets X - Butoh Dance & DJ Set",
-    "artists": [
-      "Haiku",
-      "Xola"
-    ],
-    "venue": "Galería Sepia",
-    "date": "2026-07-11",
-    "time": "19:00",
-    "cover": null,
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Performance de danza butoh y DJ set en marco de Tokyo Streets X",
-    "needs_review": false,
-    "account": "mmagdalenoo",
-    "post_url": "https://www.instagram.com/p/DajFES1JqYL/",
-    "found_at": "2026-07-09T18:01:10.415216+00:00"
-  },
-  {
     "title": "Jota Moore en Guadalajara",
     "artists": [
       "Jota Moore",
@@ -1166,28 +1044,6 @@
     "account": "resurrected.cult",
     "post_url": "https://www.instagram.com/p/DaeQ8gCDGhf/",
     "found_at": "2026-07-09T18:01:22.386359+00:00"
-  },
-  {
-    "title": "Emergente",
-    "artists": [
-      "Vas Tarde",
-      "Coyote Viejo TL",
-      "Dulce D Lechee",
-      "Zenitt Band",
-      "Over Loook"
-    ],
-    "venue": "Cuerda Cultura",
-    "date": "2026-07-11",
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Preventa vía DM con las bandas",
-    "needs_review": false,
-    "account": "cuerdacmedios",
-    "post_url": "https://www.instagram.com/p/DaiXPdplPpa/",
-    "found_at": "2026-07-09T18:01:25.160862+00:00"
   },
   {
     "title": "Renee Tour",
@@ -1379,24 +1235,6 @@
       "Mariana Piña"
     ],
     "venue": null,
-    "date": "2026-07-11",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición fotográfica. Se despide este fin de semana.",
-    "needs_review": false,
-    "account": "rayon.376",
-    "post_url": "https://www.instagram.com/p/DanWblEPj5W/",
-    "found_at": "2026-07-10T17:50:51.442940+00:00"
-  },
-  {
-    "title": "Cuando todavía era hoy",
-    "artists": [
-      "Mariana Piña"
-    ],
-    "venue": null,
     "date": "2026-07-12",
     "time": null,
     "cover": null,
@@ -1492,5 +1330,155 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DaoOsoXGYB0/",
     "found_at": "2026-07-11T17:02:05.831315+00:00"
+  },
+  {
+    "title": "Noche de Boleros - Catalina y Las Bordonas de Oro",
+    "artists": [
+      "Catalina y Las Bordonas de Oro"
+    ],
+    "venue": "Cuerda Cultura",
+    "date": "2026-10-03",
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Puesta en escena renovada, fiesta y emoción en escena.",
+    "needs_review": false,
+    "account": "oyeoyecl",
+    "post_url": "https://www.instagram.com/p/DaoQwMNJ0z_/",
+    "found_at": "2026-07-12T17:02:14.035113+00:00"
+  },
+  {
+    "title": "Matt Dodo en Guadalajara",
+    "artists": [
+      "Matt Dodo",
+      "Yo amo a Pao",
+      "Galgos",
+      "Unexpected Heroes"
+    ],
+    "venue": "Cuerda Cultura",
+    "date": "2026-07-17",
+    "time": "20:00",
+    "cover": "$100mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Post rock. Matt Dodo es visitante acompañado por bandas locales.",
+    "needs_review": false,
+    "account": "mattdodomx",
+    "post_url": "https://www.instagram.com/p/DaoABUPJ1X2/",
+    "found_at": "2026-07-12T17:02:16.279141+00:00"
+  },
+  {
+    "title": "Zojepze Zol / Jazzo / LVX Infera / Charlie The Plant",
+    "artists": [
+      "Zojepze Zol",
+      "Jazzo",
+      "LVX Infera",
+      "Charlie The Plant"
+    ],
+    "venue": "Ritual Cultural",
+    "date": "2026-08-07",
+    "time": "20:30",
+    "cover": "$100mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Masacre sonora con 4 propuestas de sonido único",
+    "needs_review": false,
+    "account": "zojepze_zol",
+    "post_url": "https://www.instagram.com/p/DarHsLyNbvt/",
+    "found_at": "2026-07-12T17:02:19.418437+00:00"
+  },
+  {
+    "title": "Antidoping - La Era del León Tour",
+    "artists": [
+      "Antidoping",
+      "Oh My Jah Reggae",
+      "Crixta",
+      "Johky DJ",
+      "Erick Tepexicuapan"
+    ],
+    "venue": "Foro Independencia",
+    "date": "2026-10-24",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.passline.com/eventos/antidoping-la-era-del-leon-guadalajara",
+    "age_restriction": null,
+    "notes": "Gira La Era del León con artistas de México y Latinoamérica.",
+    "needs_review": false,
+    "account": "antidopingoficial",
+    "post_url": "https://www.instagram.com/p/DarRe-4x2o6/",
+    "found_at": "2026-07-12T17:02:22.139748+00:00"
+  },
+  {
+    "title": "Billie Marten",
+    "artists": [
+      "Billie Marten"
+    ],
+    "venue": "C3 Rooftop",
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Giveaway para pase doble. Fecha del concierto no especificada.",
+    "needs_review": true,
+    "account": "ackpromoteofficial",
+    "post_url": "https://www.instagram.com/p/DaolHCbDYay/",
+    "found_at": "2026-07-12T17:02:30.864584+00:00"
+  },
+  {
+    "title": "Alberca_Ambiental [#1] - MICRO festival",
+    "artists": [],
+    "venue": null,
+    "date": "2026-09-12",
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "8 horas audio/visual/instalación/pintura/moda/performance. Colaboración metachromatic.inc + staditche",
+    "needs_review": false,
+    "account": "cerro_de.los_espejos",
+    "post_url": "https://www.instagram.com/p/DaqfiUliXNF/",
+    "found_at": "2026-07-12T17:02:33.164513+00:00"
+  },
+  {
+    "title": "Bazar Gordo 2da edición",
+    "artists": [],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Convocatoria para expositores. Fecha: finales de agosto. Requisito: habitar un cuerpo gordx.",
+    "needs_review": true,
+    "account": "paydemanzanita",
+    "post_url": "https://www.instagram.com/p/Daqc1T5j_R3/",
+    "found_at": "2026-07-12T17:02:36.892733+00:00"
+  },
+  {
+    "title": "SkaCore",
+    "artists": [
+      "Sekta Core"
+    ],
+    "venue": "Foro Independencia",
+    "date": "2026-07-12",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Concierto de ska en vivo, foto de evento en progreso.",
+    "needs_review": false,
+    "account": "peterphotoinfinito",
+    "post_url": "https://www.instagram.com/p/Dark7Kdq8ut/",
+    "found_at": "2026-07-12T17:02:39.878096+00:00"
   }
 ]
