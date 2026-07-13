@@ -71,27 +71,6 @@
   },
   {
     "is_event": true,
-    "title": "Bandas Emergentes #38",
-    "artists": [
-      "Bloody Dahlia",
-      "Atomic Marginals",
-      "Radium",
-      "Tierrita Mojada",
-      "Caveat Emptor",
-      "Flores"
-    ],
-    "venue": "Cuerda Cultura - Garibaldi #580, Zona Centro",
-    "date": "2026-07-12",
-    "time": null,
-    "cover": "$100 preventa / $150 día del evento",
-    "type": "concert",
-    "notes": "Edition 38 of Bandas Emergentes series, emerging bands showcase",
-    "account": "cuerdacultura",
-    "post_url": "https://www.instagram.com/p/DaOUWBdpV1S/",
-    "found_at": "2026-07-05T02:47:28.092566+00:00"
-  },
-  {
-    "is_event": true,
     "title": "VIE 14 AGO",
     "artists": [
       "Los Mangurrianes Heavy Blues",
@@ -196,27 +175,6 @@
     "account": "conciertosmagmx",
     "post_url": "https://www.instagram.com/p/Dac8YZ_OwKb/",
     "found_at": "2026-07-06T18:13:45.890634+00:00"
-  },
-  {
-    "is_event": true,
-    "title": "Noche Pop",
-    "artists": [
-      "Ashashashbrowns",
-      "Dekoi",
-      "Kolibri",
-      "Gram Junior",
-      "Pistapop"
-    ],
-    "venue": "Hake Al Rey Concert Room",
-    "date": "2026-07-12",
-    "time": "18:30",
-    "cover": "$150",
-    "type": "concert",
-    "notes": "5 projects: R&B, rock pop, pop solito, synth pop y ambiente",
-    "account": "flier callejero",
-    "found_at": "2026-07-07T05:51:09.976702+00:00",
-    "post_url": null,
-    "featured": true
   },
   {
     "is_event": true,
@@ -834,26 +792,6 @@
     "found_at": "2026-07-08T17:28:23.975674+00:00"
   },
   {
-    "title": "Guerra de las Casas - Gran Final",
-    "artists": [
-      "Suculenta",
-      "Alfysander",
-      "Armando Vigs"
-    ],
-    "venue": "Foro Independencia",
-    "date": "2026-07-12",
-    "time": "19:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Gran final de evento competitivo de música",
-    "needs_review": false,
-    "account": "foroindependencia",
-    "post_url": "https://www.instagram.com/p/DagB1qFvH68/",
-    "found_at": "2026-07-08T17:28:34.799595+00:00"
-  },
-  {
     "title": "En una estrella mi mamá, en una estrella un potro salvaje, en una estrella un maní",
     "artists": [
       "Rena Kudoh"
@@ -912,24 +850,6 @@
     "account": "elbrillante_",
     "post_url": "https://www.instagram.com/p/DagXBWfPjk-/",
     "found_at": "2026-07-08T17:28:57.249050+00:00"
-  },
-  {
-    "title": "Pool Sessions #5 con Alfonsina",
-    "artists": [
-      "Alfonsina"
-    ],
-    "venue": "Centro Cultural",
-    "date": "2026-07-12",
-    "time": "13:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Cupo limitado. Boletos en bio. Domingo.",
-    "needs_review": false,
-    "account": "poolsessions_",
-    "post_url": "https://www.instagram.com/p/Dado8nlJYxh/",
-    "found_at": "2026-07-09T18:00:52.041751+00:00"
   },
   {
     "title": "Hierofanía — Conversación con Tuxamee",
@@ -1035,7 +955,7 @@
     "venue": "Staditche",
     "date": "2026-07-18",
     "time": "14:00",
-    "cover": null,
+    "cover": "entrada libre",
     "type": "opening",
     "ticket_url": null,
     "age_restriction": null,
@@ -1062,61 +982,6 @@
     "account": "somosfansdifusion",
     "post_url": "https://www.instagram.com/p/DajwHudtY7y/",
     "found_at": "2026-07-09T18:01:27.778866+00:00"
-  },
-  {
-    "title": "Recorrido Polvo Llanero",
-    "artists": [
-      "Manuel García",
-      "Lorena Peña",
-      "Leonardo Ascencio",
-      "Mónica Gámez"
-    ],
-    "venue": "Museo Cabañas",
-    "date": "2026-07-12",
-    "time": "11:00",
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Entrada al museo con costo reducido al apartar lugar",
-    "needs_review": false,
-    "account": "castillointerior_",
-    "post_url": "https://www.instagram.com/p/DaiqTeClYoa/",
-    "found_at": "2026-07-09T18:01:35.784265+00:00"
-  },
-  {
-    "title": "Clausura de Cierta Realidad",
-    "artists": [],
-    "venue": "Castillo Interior",
-    "date": "2026-07-12",
-    "time": "14:00",
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Clausura de exposición. Ignacio Ramírez 526, Santa Tere",
-    "needs_review": false,
-    "account": "castillointerior_",
-    "post_url": "https://www.instagram.com/p/DaiqTeClYoa/",
-    "found_at": "2026-07-09T18:01:35.784298+00:00"
-  },
-  {
-    "title": "Pool Sessions con Alfonsina Música",
-    "artists": [
-      "Alfonsina Música"
-    ],
-    "venue": "Pool Sessions",
-    "date": "2026-07-12",
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "poolsessions.mx",
-    "age_restriction": null,
-    "notes": "Domingo 12 de julio. Boletos en poolsessions.mx",
-    "needs_review": false,
-    "account": "staditche",
-    "post_url": "https://www.instagram.com/p/Dalg5jPOzjN/",
-    "found_at": "2026-07-10T17:50:18.785904+00:00"
   },
   {
     "title": "Macha y El Bloque Depresivo",
@@ -1230,24 +1095,6 @@
     "found_at": "2026-07-10T17:50:38.554683+00:00"
   },
   {
-    "title": "Cuando todavía era hoy",
-    "artists": [
-      "Mariana Piña"
-    ],
-    "venue": null,
-    "date": "2026-07-12",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición fotográfica. Se despide este fin de semana.",
-    "needs_review": false,
-    "account": "rayon.376",
-    "post_url": "https://www.instagram.com/p/DanWblEPj5W/",
-    "found_at": "2026-07-10T17:50:51.442956+00:00"
-  },
-  {
     "title": "Lapisci Third Edition - Cuerda Cultura",
     "artists": [],
     "venue": "Cuerda Cultura",
@@ -1318,12 +1165,12 @@
     "artists": [
       "One Direction"
     ],
-    "venue": null,
+    "venue": "C3 Stage",
     "date": "2026-07-24",
-    "time": null,
-    "cover": null,
+    "time": "19:00",
+    "cover": "$200mxn (1D Full Experience), $100mxn (General)",
     "type": "concert",
-    "ticket_url": null,
+    "ticket_url": "https://www.ticketnowmexico.com",
     "age_restriction": null,
     "notes": "Imagen muestra banda británica-irlandesa; fecha 24•07 en caption",
     "needs_review": true,
@@ -1464,21 +1311,157 @@
     "found_at": "2026-07-12T17:02:36.892733+00:00"
   },
   {
-    "title": "SkaCore",
+    "title": "LEVEDAD I – Laboratorio coreográfico",
     "artists": [
-      "Sekta Core"
+      "Rodrigo Agraz",
+      "Mariana Campa",
+      "Marisol Villanueva",
+      "Humberto Mendoza",
+      "Lola Ramírez"
     ],
-    "venue": "Foro Independencia",
-    "date": "2026-07-12",
+    "venue": "Museo MURA",
+    "date": "2026-07-22",
+    "time": "18:00",
+    "cover": null,
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio para artistas escénicos y performers. Registro previo requerido.",
+    "needs_review": false,
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/DavYXMchitW/",
+    "found_at": "2026-07-13T17:58:17.078989+00:00"
+  },
+  {
+    "title": "LEVEDAD I – Laboratorio coreográfico",
+    "artists": [
+      "Rodrigo Agraz",
+      "Mariana Campa",
+      "Marisol Villanueva",
+      "Humberto Mendoza",
+      "Lola Ramírez"
+    ],
+    "venue": "Museo MURA",
+    "date": "2026-07-23",
+    "time": "18:00",
+    "cover": null,
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio para artistas escénicos y performers. Registro previo requerido.",
+    "needs_review": false,
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/DavYXMchitW/",
+    "found_at": "2026-07-13T17:58:17.079012+00:00"
+  },
+  {
+    "title": "LEVEDAD I – Laboratorio coreográfico",
+    "artists": [
+      "Rodrigo Agraz",
+      "Mariana Campa",
+      "Marisol Villanueva",
+      "Humberto Mendoza",
+      "Lola Ramírez"
+    ],
+    "venue": "Museo MURA",
+    "date": "2026-07-24",
+    "time": "18:00",
+    "cover": null,
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio para artistas escénicos y performers. Registro previo requerido.",
+    "needs_review": false,
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/DavYXMchitW/",
+    "found_at": "2026-07-13T17:58:17.079016+00:00"
+  },
+  {
+    "title": "Niérika",
+    "artists": [],
+    "venue": "MUSA",
+    "date": "2026-07-13",
+    "time": null,
+    "cover": "entrada libre",
+    "type": "opening",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Inauguración de arte wixárika. Exposición curada por Laura Ayala.",
+    "needs_review": false,
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/DavVPUslMtj/",
+    "found_at": "2026-07-13T17:58:28.505406+00:00"
+  },
+  {
+    "title": "Estalla Tour - Puebla",
+    "artists": [
+      "Curse"
+    ],
+    "venue": "Antiforo 207",
+    "date": "2026-08-15",
     "time": null,
     "cover": null,
     "type": "concert",
-    "ticket_url": null,
+    "ticket_url": "linktr.ee/coursemx",
     "age_restriction": null,
-    "notes": "Concierto de ska en vivo, foto de evento en progreso.",
+    "notes": "Estalla Tour, tour de rock",
     "needs_review": false,
-    "account": "peterphotoinfinito",
-    "post_url": "https://www.instagram.com/p/Dark7Kdq8ut/",
-    "found_at": "2026-07-12T17:02:39.878096+00:00"
+    "account": "course_mx",
+    "post_url": "https://www.instagram.com/p/Das2ZEwSKfn/",
+    "found_at": "2026-07-13T17:58:35.970040+00:00"
+  },
+  {
+    "title": "Estalla Tour - Guadalajara",
+    "artists": [
+      "Curse"
+    ],
+    "venue": "Ritual Cultural",
+    "date": "2026-09-05",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "linktr.ee/coursemx",
+    "age_restriction": null,
+    "notes": "Estalla Tour, en Guadalajara",
+    "needs_review": false,
+    "account": "course_mx",
+    "post_url": "https://www.instagram.com/p/Das2ZEwSKfn/",
+    "found_at": "2026-07-13T17:58:35.970060+00:00"
+  },
+  {
+    "title": "Estalla Tour - Edomex",
+    "artists": [
+      "Curse"
+    ],
+    "venue": "Satélite",
+    "date": "2026-09-26",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "linktr.ee/coursemx",
+    "age_restriction": null,
+    "notes": "Estalla Tour, Estado de México",
+    "needs_review": false,
+    "account": "course_mx",
+    "post_url": "https://www.instagram.com/p/Das2ZEwSKfn/",
+    "found_at": "2026-07-13T17:58:35.970065+00:00"
+  },
+  {
+    "title": "Estalla Tour - Sorpresa",
+    "artists": [
+      "Curse"
+    ],
+    "venue": null,
+    "date": "2026-10-17",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "linktr.ee/coursemx",
+    "age_restriction": null,
+    "notes": "Fecha sorpresa por anunciar, ubicación TBA",
+    "needs_review": true,
+    "account": "course_mx",
+    "post_url": "https://www.instagram.com/p/Das2ZEwSKfn/",
+    "found_at": "2026-07-13T17:58:35.970068+00:00"
   }
 ]
