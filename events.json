@@ -104,7 +104,8 @@
     "notes": "Grunge/hard rock/punk. First time Adios Shosanna in Guadalajara.",
     "account": "cuerdacmedios",
     "post_url": "https://www.instagram.com/p/DaONWYwGPC1/",
-    "found_at": "2026-07-05T02:47:37.819483+00:00"
+    "found_at": "2026-07-05T02:47:37.819483+00:00",
+    "needs_review": false
   },
   {
     "is_event": true,
@@ -1377,22 +1378,6 @@
     "found_at": "2026-07-13T17:58:17.079016+00:00"
   },
   {
-    "title": "Niérika",
-    "artists": [],
-    "venue": "MUSA",
-    "date": "2026-07-13",
-    "time": null,
-    "cover": "entrada libre",
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Inauguración de arte wixárika. Exposición curada por Laura Ayala.",
-    "needs_review": false,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/DavVPUslMtj/",
-    "found_at": "2026-07-13T17:58:28.505406+00:00"
-  },
-  {
     "title": "Estalla Tour - Puebla",
     "artists": [
       "Curse"
@@ -1463,5 +1448,313 @@
     "account": "course_mx",
     "post_url": "https://www.instagram.com/p/Das2ZEwSKfn/",
     "found_at": "2026-07-13T17:58:35.970068+00:00"
+  },
+  {
+    "title": "Monte Bongo - 25 años",
+    "artists": [
+      "Monte Bongo"
+    ],
+    "venue": "C4 Concert House",
+    "date": "2026-10-10",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Celebración de 25 años de reggae desde Guadalajara",
+    "needs_review": false,
+    "account": "c4concerthouse",
+    "post_url": "https://www.instagram.com/p/Dax80nEny57/",
+    "found_at": "2026-07-14T17:18:08.631526+00:00"
+  },
+  {
+    "title": "SkaCore",
+    "artists": [
+      "Sekta Core"
+    ],
+    "venue": "Foro Independencia",
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Concierto de SkaCore. Fecha no especificada en la imagen.",
+    "needs_review": true,
+    "account": "peterphotoinfinito",
+    "post_url": "https://www.instagram.com/p/DawXML7nEvA/",
+    "found_at": "2026-07-14T17:18:10.583162+00:00"
+  },
+  {
+    "title": "El hijo de la ballena - Paisajismo cubano de Armando Capó",
+    "artists": [
+      "Armando Capó"
+    ],
+    "venue": "Galería Sepia",
+    "date": "2026-07-17",
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Proyección documental, vinilos, tragos. A beneficio de cineastas cubanos.",
+    "needs_review": false,
+    "account": "pigmentofineartprint",
+    "post_url": "https://www.instagram.com/p/DawKurjjZAi/",
+    "found_at": "2026-07-14T17:18:13.260607+00:00"
+  },
+  {
+    "title": "La librería es el mundo. El mundo es la librería",
+    "artists": [
+      "Carlos Armenta"
+    ],
+    "venue": "MUPAG",
+    "date": "2026-08-08",
+    "time": "10:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Taller para formación de libreros, sesión 1 de 5",
+    "needs_review": false,
+    "account": "_a.rmenta_",
+    "post_url": "https://www.instagram.com/p/DawbJszRzRP/",
+    "found_at": "2026-07-14T17:18:17.611463+00:00"
+  },
+  {
+    "title": "La librería es el mundo. El mundo es la librería",
+    "artists": [
+      "Carlos Armenta"
+    ],
+    "venue": "MUPAG",
+    "date": "2026-08-15",
+    "time": "10:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Taller para formación de libreros, sesión 2 de 5",
+    "needs_review": false,
+    "account": "_a.rmenta_",
+    "post_url": "https://www.instagram.com/p/DawbJszRzRP/",
+    "found_at": "2026-07-14T17:18:17.611484+00:00"
+  },
+  {
+    "title": "La librería es el mundo. El mundo es la librería",
+    "artists": [
+      "Carlos Armenta"
+    ],
+    "venue": "MUPAG",
+    "date": "2026-08-22",
+    "time": "10:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Taller para formación de libreros, sesión 3 de 5",
+    "needs_review": false,
+    "account": "_a.rmenta_",
+    "post_url": "https://www.instagram.com/p/DawbJszRzRP/",
+    "found_at": "2026-07-14T17:18:17.611488+00:00"
+  },
+  {
+    "title": "La librería es el mundo. El mundo es la librería",
+    "artists": [
+      "Carlos Armenta"
+    ],
+    "venue": "MUPAG",
+    "date": "2026-08-29",
+    "time": "10:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Taller para formación de libreros, sesión 4 de 5",
+    "needs_review": false,
+    "account": "_a.rmenta_",
+    "post_url": "https://www.instagram.com/p/DawbJszRzRP/",
+    "found_at": "2026-07-14T17:18:17.611491+00:00"
+  },
+  {
+    "title": "La librería es el mundo. El mundo es la librería",
+    "artists": [
+      "Carlos Armenta"
+    ],
+    "venue": "MUPAG",
+    "date": "2026-09-05",
+    "time": "10:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Taller para formación de libreros, sesión 5 de 5",
+    "needs_review": false,
+    "account": "_a.rmenta_",
+    "post_url": "https://www.instagram.com/p/DawbJszRzRP/",
+    "found_at": "2026-07-14T17:18:17.611494+00:00"
+  },
+  {
+    "title": "Memoria del Agua (Guadalajara entre ríos)",
+    "artists": [
+      "Mar Medina López"
+    ],
+    "venue": "Plataforma",
+    "date": "2026-07-22",
+    "time": "12:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Charla abierta y creación colectiva sobre ríos desaparecidos de Guadalajara.",
+    "needs_review": false,
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DawJy_7ujnx/",
+    "found_at": "2026-07-14T17:18:22.515917+00:00"
+  },
+  {
+    "title": "León Benavente",
+    "artists": [
+      "León Benavente"
+    ],
+    "venue": "C3 Stage",
+    "date": "2026-11-07",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Uno de los directos más explosivos del rock español",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/Dax9X_XH0Sp/",
+    "found_at": "2026-07-14T17:18:25.427977+00:00"
+  },
+  {
+    "title": "Disidente",
+    "artists": [
+      "Disidente"
+    ],
+    "venue": "C4 Concert House",
+    "date": "2026-12-05",
+    "time": "21:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Tour. Boletos en TicketNow México.",
+    "needs_review": false,
+    "account": "disidenterock",
+    "post_url": "https://www.instagram.com/p/DavgSxPoUoe/",
+    "found_at": "2026-07-14T17:18:28.047806+00:00"
+  },
+  {
+    "title": "Christian Jean - Nómada Tour",
+    "artists": [
+      "Christian Jean"
+    ],
+    "venue": "C3 Stage",
+    "date": "2026-08-15",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Gira Nómada de Christian Jean (Reyno), escala en Guadalajara",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DawJ0GFH8cO/",
+    "found_at": "2026-07-14T17:18:30.570918+00:00"
+  },
+  {
+    "title": "Chapterhouse",
+    "artists": [
+      "Chapterhouse"
+    ],
+    "venue": "Bajo Circuito",
+    "date": "2026-09-24",
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://passline.mx",
+    "age_restriction": null,
+    "notes": "Banda inglesa shoegaze, primera vez en México",
+    "needs_review": false,
+    "account": "deeco.decoo",
+    "post_url": "https://www.instagram.com/p/DavlU_kFPAv/",
+    "found_at": "2026-07-14T17:18:33.883978+00:00"
+  },
+  {
+    "title": "Jawbreaker: Documental Anti Cimex",
+    "artists": [],
+    "venue": "Iglesia Primitiva",
+    "date": "2026-08-28",
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Documental sobre hardcore punk sueco, dirección Haglund & Sjödin",
+    "needs_review": false,
+    "account": "proyecciones_de_ultratumba",
+    "post_url": "https://www.instagram.com/p/DaxpPuIReWY/",
+    "found_at": "2026-07-14T17:18:43.030144+00:00"
+  },
+  {
+    "title": "Vanguardia Fest",
+    "artists": [
+      "Naype",
+      "Miray",
+      "Montenegrocro",
+      "Intergalactic Band",
+      "Fibonacci"
+    ],
+    "venue": "Cuerda Cultura",
+    "date": "2026-08-08",
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Primera edición del festival. Compra de boletos por DM.",
+    "needs_review": false,
+    "account": "naypeband",
+    "post_url": "https://www.instagram.com/p/DawTZPTtN9d/",
+    "found_at": "2026-07-14T17:18:45.727942+00:00"
+  },
+  {
+    "title": "MAX RC Live Concert",
+    "artists": [
+      "MAX RC"
+    ],
+    "venue": "Cuerda Cultura",
+    "date": "2026-08-19",
+    "time": null,
+    "cover": "$200mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Fase 1 de preventa. Link en biografía de @lapisci",
+    "needs_review": false,
+    "account": "lapisci.oficial",
+    "post_url": "https://www.instagram.com/p/DavlwjyMsuC/",
+    "found_at": "2026-07-14T17:18:52.115046+00:00"
+  },
+  {
+    "title": "Los de Abajo - Latin Ska Tour 2026",
+    "artists": [
+      "Los de Abajo"
+    ],
+    "venue": "Cuerda Cultura",
+    "date": "2026-09-04",
+    "time": "21:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.passline.mx",
+    "age_restriction": null,
+    "notes": "Banda de ska mexicano con más de tres décadas de trayectoria.",
+    "needs_review": false,
+    "account": "resonante_radio",
+    "post_url": "https://www.instagram.com/p/DavVrCrEat-/",
+    "found_at": "2026-07-14T17:18:57.941291+00:00"
   }
 ]
