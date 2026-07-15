@@ -228,16 +228,22 @@
   {
     "is_event": true,
     "title": "Mirror Revelations",
-    "artists": [],
-    "venue": null,
+    "artists": [
+      "Mirror Revelations",
+      "Hexagrams",
+      "5.nt",
+      "Evil Ent"
+    ],
+    "venue": "Foro Echo",
     "date": "2026-07-24",
-    "time": null,
-    "cover": null,
+    "time": "21:00",
+    "cover": "$150mxn",
     "type": "other",
     "notes": "Full lineup coming this week. Venue: afasia",
     "account": "afasia.mx",
     "post_url": "https://www.instagram.com/p/DafwBvHBpaQ/",
-    "found_at": "2026-07-07T18:03:58.601089+00:00"
+    "found_at": "2026-07-07T18:03:58.601089+00:00",
+    "needs_review": false
   },
   {
     "is_event": true,
@@ -403,7 +409,9 @@
     "notes": "Tickets via TicketNow México. Electronic/synth band performance.",
     "account": "c4concerthouse",
     "post_url": "https://www.instagram.com/p/DaWdRlPH2qQ/",
-    "found_at": "2026-07-07T18:04:45.638895+00:00"
+    "found_at": "2026-07-07T18:04:45.638895+00:00",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "needs_review": false
   },
   {
     "is_event": true,
@@ -1756,5 +1764,269 @@
     "account": "resonante_radio",
     "post_url": "https://www.instagram.com/p/DavVrCrEat-/",
     "found_at": "2026-07-14T17:18:57.941291+00:00"
+  },
+  {
+    "title": "Sucesos pop up show",
+    "artists": [
+      "Chamaco Perro",
+      "Réplica Anómala",
+      "Mística",
+      "Coela Studio",
+      "Sam Artlab",
+      "Valeria Torres",
+      "Antoniiiiiaa",
+      "Taller Junkie",
+      "Novie del Viento",
+      "Suprema Siempre",
+      "Foche",
+      "EMIZ",
+      "Inmundo",
+      "Jardín de Génesis",
+      "Amor de Limón",
+      "Erre.S",
+      "Bib Bip Radio",
+      "Changomarine",
+      "Paranipani",
+      "Remy Pocket",
+      "Caro Rangel",
+      "Belén Sintilde"
+    ],
+    "venue": "Impronta Casa Editora",
+    "date": "2026-07-18",
+    "time": "12:00",
+    "cover": "entrada libre",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Presentación en vivo Belén Sintilde 7:30pm. Pop up con música, gráfica, ropa, publicaciones.",
+    "needs_review": false,
+    "account": "otroespacio.gdl",
+    "post_url": "https://www.instagram.com/p/Dax_49vuMkM/",
+    "found_at": "2026-07-15T17:21:30.605352+00:00"
+  },
+  {
+    "title": "Kello González + Wohl + Tuner",
+    "artists": [
+      "Kello González",
+      "Wohl",
+      "Tuner"
+    ],
+    "venue": "Hake Al Rey",
+    "date": "2026-07-18",
+    "time": "18:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnow.com.mx",
+    "age_restriction": null,
+    "notes": "Metal progresivo e instrumental. Boletos disponibles vía TicketNow.",
+    "needs_review": false,
+    "account": "elritodelrock",
+    "post_url": "https://www.instagram.com/p/DawNnJ6gs6B/",
+    "found_at": "2026-07-15T17:21:33.256022+00:00"
+  },
+  {
+    "title": "Estas costas fueron bosques y se volverán desiertos",
+    "artists": [
+      "Irvyn Roho"
+    ],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Esculturas y dibujos sobre reconstrucción incompleta",
+    "needs_review": true,
+    "account": "palmagaleria",
+    "post_url": "https://www.instagram.com/p/Da0fHxFFtlV/",
+    "found_at": "2026-07-15T17:21:35.971791+00:00"
+  },
+  {
+    "title": "Luis Eduardo González. Artífice de la luz",
+    "artists": [
+      "Luis Eduardo González"
+    ],
+    "venue": "MUSA (Museo de las Artes, Universidad de Guadalajara)",
+    "date": null,
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición hasta 27 de septiembre 2026. Mar–Sáb 10–18h, Dom 10–15h",
+    "needs_review": false,
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/DayFGgGGmWz/",
+    "found_at": "2026-07-15T17:21:38.663136+00:00"
+  },
+  {
+    "title": "Tokyo Street X - Clausura",
+    "artists": [
+      "Karen Puente Pucky",
+      "Carolina Melon"
+    ],
+    "venue": "Galería Sepia",
+    "date": "2026-07-15",
+    "time": "20:00",
+    "cover": null,
+    "type": "dj",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Cierre de exposición con DJ set. Calle Gabriel Ramos Millán #81.",
+    "needs_review": false,
+    "account": "galeriasepiagdl",
+    "post_url": "https://www.instagram.com/p/DazQ2s4HAUi/",
+    "found_at": "2026-07-15T17:21:41.084097+00:00"
+  },
+  {
+    "title": "VEN, SEREMOS - Hip-Hop & Metal Show / Gris Lee Kuma B-Day",
+    "artists": [
+      "Gris Lee Kuma",
+      "Infera Art",
+      "Full Band Metal",
+      "El Loco Pierroth Pineda",
+      "Alex Days",
+      "Manueru O con trombón"
+    ],
+    "venue": "Foro Independencia",
+    "date": "2026-09-18",
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Primer llamado, más artistas por anunciar. Set drumless incluido.",
+    "needs_review": false,
+    "account": "grisleekuma",
+    "post_url": "https://www.instagram.com/p/DayICJjEbtk/",
+    "found_at": "2026-07-15T17:21:51.283594+00:00"
+  },
+  {
+    "title": "Insulini y Los Espantasuegras en vivo",
+    "artists": [
+      "Insulini y Los Espantasuegras"
+    ],
+    "venue": "Anexo Independencia",
+    "date": "2026-08-01",
+    "time": null,
+    "cover": "$300mxn general, $600mxn meet and greet",
+    "type": "concert",
+    "ticket_url": "https://www.ticketor.com/styledanceproducciones/tickets/insulini-y-los-espantasuegras-349361?v=3_807500914#buy",
+    "age_restriction": null,
+    "notes": "Noche de energía, fiesta y puro desmadre musical",
+    "needs_review": false,
+    "account": "styledanceproducciones",
+    "post_url": "https://www.instagram.com/p/DayZ0JDvt9L/",
+    "found_at": "2026-07-15T17:21:58.489275+00:00"
+  },
+  {
+    "title": "Los Tetas México 2026",
+    "artists": [
+      "Los Tetas",
+      "Hop Hop Diablo Funk",
+      "Moon Jungle",
+      "Gordo",
+      "MDM"
+    ],
+    "venue": "Anexo Independencia",
+    "date": "2026-08-07",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.passline.com/eventos/los-tetas-en-guadalajara",
+    "age_restriction": "+18",
+    "notes": "Pioneros del funk latinoamericano, himnos clásicos y actos invitados.",
+    "needs_review": false,
+    "account": "foroindependencia",
+    "post_url": "https://www.instagram.com/p/DayKFp5yWxg/",
+    "found_at": "2026-07-15T17:22:07.142338+00:00"
+  },
+  {
+    "title": "LOP DELLER Live Concert",
+    "artists": [
+      "LOP DELLER"
+    ],
+    "venue": "Cuerda Cultura",
+    "date": "2026-08-19",
+    "time": null,
+    "cover": "$200mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Fase 1 tickets. Ubicado en C. Garibaldi 580, Centro.",
+    "needs_review": false,
+    "account": "lapisci.oficial",
+    "post_url": "https://www.instagram.com/p/DayUO28skLk/",
+    "found_at": "2026-07-15T17:22:09.668091+00:00"
+  },
+  {
+    "title": "Exposiciones en Plataforma",
+    "artists": [],
+    "venue": "Plataforma",
+    "date": null,
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Recorrido de exposiciones. Fecha no especificada en post.",
+    "needs_review": true,
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DaywJs5DgTR/",
+    "found_at": "2026-07-15T17:22:24.656644+00:00"
+  },
+  {
+    "title": "Prefiesta del Mexafest GDL",
+    "artists": [],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Evento previo al Mexafest GDL, fecha exacta no especificada",
+    "needs_review": true,
+    "account": "slaveofforgiveness",
+    "post_url": "https://www.instagram.com/p/Dazd8k0tc-o/",
+    "found_at": "2026-07-15T17:22:31.786794+00:00"
+  },
+  {
+    "title": "Lil Supa - ANIMAL",
+    "artists": [
+      "Lil Supa"
+    ],
+    "venue": "C3 Stage",
+    "date": "2026-07-25",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Presentación en casa, promoción del disco ANIMAL",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/Da0jUOWGgxg/",
+    "found_at": "2026-07-15T17:22:34.757523+00:00"
+  },
+  {
+    "title": "Tufi + Pehuen",
+    "artists": [
+      "Tufi",
+      "Pehuen"
+    ],
+    "venue": "C3 Rooftop",
+    "date": "2026-09-04",
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Pop de autor y folk veracruzano. Dos maneras de mirar la canción mexicana.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DayumodAQEX/",
+    "found_at": "2026-07-15T17:22:37.264831+00:00"
   }
 ]
