@@ -98,7 +98,7 @@
     ],
     "venue": "Cuerda Cultura",
     "date": "2026-07-18",
-    "time": null,
+    "time": "19:30",
     "cover": "Cooperación Voluntaria",
     "type": "concert",
     "notes": "Grunge/hard rock/punk. First time Adios Shosanna in Guadalajara.",
@@ -598,25 +598,6 @@
     "found_at": "2026-07-08T17:27:43.610610+00:00"
   },
   {
-    "title": "Donde terminan las montañas",
-    "artists": [
-      "Cynthia Gutiérrez"
-    ],
-    "venue": "Galería Curro",
-    "date": "2026-07-15",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Última semana de exhibición. Cierra antes del 2026-07-15.",
-    "needs_review": false,
-    "account": "galeriacurro",
-    "post_url": "https://www.instagram.com/p/DadXtmulEQr/",
-    "found_at": "2026-07-08T17:27:46.562312+00:00",
-    "featured": false
-  },
-  {
     "title": "cierre en espacio cabeza",
     "artists": [
       "María Fernanda Enríquez",
@@ -655,24 +636,6 @@
     "account": "lamiscelaneagdl",
     "post_url": "https://www.instagram.com/p/Dagud4RtJHN/",
     "found_at": "2026-07-08T17:27:59.110898+00:00"
-  },
-  {
-    "title": "Ciclo de Cine x Mariana Casillas: Cine y Política - Cartografías de las crisis en la ciudad",
-    "artists": [
-      "Mariana Casillas"
-    ],
-    "venue": "Rayón (tres seis)",
-    "date": "2026-07-15",
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "PUSH (2019). Ciclo de cine sobre crisis urbanas.",
-    "needs_review": false,
-    "account": "rayon.376",
-    "post_url": "https://www.instagram.com/p/DagfVR7GqmK/",
-    "found_at": "2026-07-08T17:28:04.021615+00:00"
   },
   {
     "title": "Ciclo de Cine x Mariana Casillas: Cine y Política - Cartografías de las crisis en la ciudad",
@@ -1861,25 +1824,6 @@
     "found_at": "2026-07-15T17:21:38.663136+00:00"
   },
   {
-    "title": "Tokyo Street X - Clausura",
-    "artists": [
-      "Karen Puente Pucky",
-      "Carolina Melon"
-    ],
-    "venue": "Galería Sepia",
-    "date": "2026-07-15",
-    "time": "20:00",
-    "cover": null,
-    "type": "dj",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Cierre de exposición con DJ set. Calle Gabriel Ramos Millán #81.",
-    "needs_review": false,
-    "account": "galeriasepiagdl",
-    "post_url": "https://www.instagram.com/p/DazQ2s4HAUi/",
-    "found_at": "2026-07-15T17:21:41.084097+00:00"
-  },
-  {
     "title": "VEN, SEREMOS - Hip-Hop & Metal Show / Gris Lee Kuma B-Day",
     "artists": [
       "Gris Lee Kuma",
@@ -2028,5 +1972,23 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DayumodAQEX/",
     "found_at": "2026-07-15T17:22:37.264831+00:00"
+  },
+  {
+    "title": "ALIGHERI",
+    "artists": [
+      "ALIGHERI"
+    ],
+    "venue": "Cuerda Cultura",
+    "date": "2026-09-19",
+    "time": null,
+    "cover": "$200mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Concierto en vivo. Boletos fase 1 disponibles.",
+    "needs_review": false,
+    "account": "lapisci.oficial",
+    "post_url": "https://www.instagram.com/p/Da0vo62s0mN/",
+    "found_at": "2026-07-16T17:20:43.083649+00:00"
   }
 ]
