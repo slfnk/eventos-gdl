@@ -2,7 +2,7 @@ name: Daily event scan
 
 on:
   schedule:
-    - cron: "0 16 * * *"
+    - cron: "0 16 */2 * *"
   workflow_dispatch: {}
 
 permissions:
