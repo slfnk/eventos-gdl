@@ -202,6 +202,16 @@
     font-size: 0.92rem;
     margin-top: 0.15rem;
   }
+  .event .artists a { /* <- tweak artist-link style here */
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+  }
+  .event .artists a:hover,
+  .event .artists a:focus-visible {
+    color: var(--rosa);
+    border-bottom-color: var(--rosa);
+  }
   .event .meta {
     font-family: "IBM Plex Mono", monospace;
     font-size: 0.74rem;
@@ -741,7 +751,7 @@ function render() {
 
   const upcoming = events
     .map((ev, i) => ({ ...ev, _i: i }))
-    .filter(ev => (!ev.needs_review || editing) && (!ev.date || ev.date >= today) && pasaFiltro(ev));
+    .filter(ev => (!ev.needs_review || editing) && (!ev.date || (ev.end_date || ev.date) >= today) && pasaFiltro(ev));
 
   if (!upcoming.length) {
     main.innerHTML = filtroActivo === "todos"
@@ -750,13 +760,16 @@ function render() {
     return;
   }
 
-  const dated = upcoming.filter(e => e.date).sort((a, b) => a.date.localeCompare(b.date) || (a.time||"").localeCompare(b.time||""));
+  // multi-day events already underway show under today's date, not their (past) start day
+  const dispDate = e => (e.end_date && e.date < today) ? today : e.date;
+  const dated = upcoming.filter(e => e.date).sort((a, b) => dispDate(a).localeCompare(dispDate(b)) || (a.time||"").localeCompare(b.time||""));
   const undated = upcoming.filter(e => !e.date);
 
   const groups = new Map();
   for (const ev of dated) {
-    if (!groups.has(ev.date)) groups.set(ev.date, []);
-    groups.get(ev.date).push(ev);
+    const gd = dispDate(ev);
+    if (!groups.has(gd)) groups.set(gd, []);
+    groups.get(gd).push(ev);
   }
 
   let html = "";
@@ -802,8 +815,19 @@ function render() {
 
 function renderEvent(ev) {
   const artists = (ev.artists || []).join(", ");
+  const handles = ev.artist_handles || {};
+  const artistsHtml = (ev.artists || []).map(a => {
+    const h = handles[a];
+    return h
+      ? `<a href="https://www.instagram.com/${esc(h)}/" target="_blank" rel="noopener" title="@${esc(h)}">${esc(a)}</a>`
+      : esc(a);
+  }).join(", ");
   const meta = [];
   if (ev.time) meta.push(esc(fmtTime(ev.time)));
+  if (ev.end_date) {
+    const ed = localDate(ev.end_date);
+    if (ed) meta.push(`hasta el ${ed.getDate()} ${MESES[ed.getMonth()].toLowerCase()}`);
+  }
   if (ev.venue) meta.push(esc(ev.venue));
   if (ev.cover) meta.push(esc(fmtCover(ev.cover)));
   if (ev.age_restriction) meta.push(esc(ev.age_restriction));
@@ -811,7 +835,7 @@ function renderEvent(ev) {
   const slug = slugOf(ev);
   const pageUrl = location.origin + location.pathname;
   const waText = encodeURIComponent(
-    `${ev.title || artists || "Evento"} — ${ev.date || "fecha por confirmar"}` +
+    `${ev.title || artists || "Evento"} — ${ev.date ? ev.date + (ev.end_date ? " al " + ev.end_date : "") : "fecha por confirmar"}` +
     (ev.venue ? ` en ${ev.venue}` : "") + `\n${pageUrl}#${slug}`
   );
   const links = [];
@@ -826,7 +850,7 @@ function renderEvent(ev) {
   links.push(`<a href="https://wa.me/?text=${waText}" target="_blank" rel="noopener">compartir ↗</a>`);
   return `<article class="event${ev.featured ? " featured" : ""}" id="${esc(slug)}">
     <h2><span>${esc(ev.title || artists || "(sin título)")}</span>${ev.needs_review ? '<span class="revisar">revisar</span>' : ""}</h2>
-    ${artists && artists !== ev.title ? `<p class="artists">${esc(artists)}</p>` : ""}
+    ${artists && artists !== ev.title ? `<p class="artists">${artistsHtml}</p>` : ""}
     ${meta.length ? `<p class="meta">${meta.join('<span class="sep">·</span>')}</p>` : ""}
     ${ev.notes ? `<p class="notes">${esc(ev.notes)}</p>` : ""}
     <p class="links">${links.join('<span class="sep"> · </span>')}</p>
