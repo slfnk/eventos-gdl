@@ -30,7 +30,7 @@ ACCOUNTS_FILE = ROOT / "accounts.txt"
 SEEN_FILE = ROOT / "seen.json"
 EVENTS_FILE = ROOT / "events.json"
 
-POSTS_PER_ACCOUNT = 6          # latest N posts checked per account per run
+POSTS_PER_ACCOUNT = 5          # latest N posts checked per account per run (every-other-day cadence)
 MAX_POST_AGE_DAYS = 14         # ignore anything older (first-run guard)
 CLAUDE_MODEL = "claude-haiku-4-5"
 MAX_IMAGE_DIM = 1568           # resize cap keeps tokens + megapixels low
@@ -484,7 +484,13 @@ def main():
     seen_set = set(seen)
     all_events: list[dict] = load_json(EVENTS_FILE, [])
 
-    posts = fetch_posts(accounts)
+    # If the scrape fails (Apify quota, outage, bad token), degrade gracefully:
+    # still run expiry / dedupe / multi-day collapse / cancellations and commit.
+    try:
+        posts = fetch_posts(accounts)
+    except Exception as e:  # noqa: BLE001
+        print(f"⚠️ Scrape failed ({e}) — running maintenance only, no new posts.")
+        posts = []
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_POST_AGE_DAYS)
 
     new_events = []
