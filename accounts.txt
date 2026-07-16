@@ -13,7 +13,7 @@
 # foroindependencia
 # c3stage
 
-@cuerdacultura
+@cuerdacmedios
 @foro_diez
 @tanuyo.cc
 @c3rooftop
@@ -24,6 +24,9 @@
 @c4concerthouse
 @c3stage
 @staditche
+@foroboletomovil
+@pulquedegollado
+@907novecientosieteoficial
 
 # --- galleries ---
 # guadalajara90210
