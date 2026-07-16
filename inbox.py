@@ -24,6 +24,7 @@ from pipeline import (
     MAX_EVENTS_PER_POST,
     MAX_IMAGE_DIM,
     apply_cancellations,
+    collapse_multiday,
     dedupe_events,
     load_json,
     parse_extraction,
@@ -131,6 +132,9 @@ def main():
     events, dupes = dedupe_events(events)
     if dupes:
         print(f"Collapsed {dupes} duplicate listing(s).")
+    events, spans = collapse_multiday(events)
+    if spans:
+        print(f"Merged {spans} consecutive-day listing(s) into date ranges.")
     save_json(EVENTS_FILE, events)
 
     lines = []
