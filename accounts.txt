@@ -5,40 +5,40 @@
 
 # --- música ---
 
-@cuerdacmedios
-@foro_diez
-@tanuyo.cc
-@c3rooftop
-@ritual.cultural
 @afasia.mx
-@foroindependencia
-@hakealrey
 @c4concerthouse
 @c3stage
-@staditche
+@c3rooftop
+@cuerdacmedios
 @foroboletomovil
-@pulquedegollado
+@foro_diez
+@foroindependencia
+@hakealrey
 @907novecientosieteoficial
+@pulquedegollado
+@ritual.cultural
+@staditche
+@tanuyo.cc
 
 # --- galerías ---
 
-@iglesia.primitiva_
 @almacolectiva51
-@espaciocabeza
-@palmagaleria
-@tiroalblancogaleria
-@paramogaleria
-@galeriasepiagdl
-@muragdl
-@galeriacurro
-@musa.museodelasartes
-@plataformagdl
 @castillointerior_
+@espaciocabeza
 @espaciomorelosgdl
-@rayon.376
-@guadalajara90210
-@improntacasaeditora
-@otroespacio.gdl
+@galeriacurro
+@galeriasepiagdl
 @galeriatiroalblanco
+@guadalajara90210
+@iglesia.primitiva_
+@improntacasaeditora
+@muragdl
+@musa.museodelasartes
+@otroespacio.gdl
+@palmagaleria
+@plataformagdl
+@rayon.376
+@tiroalblancogaleria
+
 
 # --- colectivos ---
