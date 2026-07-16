@@ -1,17 +1,9 @@
 # One Instagram handle per line, @ optional. Lines starting with # are ignored.
-# THIS FILE IS THE PRODUCT. Curate it well. Start with 10-15, grow as you scout.
-#
-# Fill in real handles — verify each one exists before adding.
-# Categories to cover in GDL / Colonia Americana:
-#   - small concert venues / foros
-#   - art galleries
-#   - cultural centers
-#   - record shops that host in-stores
-#   - promoter collectives / bookers
+# THIS FILE IS THE PRODUCT. Curate it well.
+# "# --- label ---" lines are section headers: they group and label
+# the handles in the site header, in this file's order.
 
-# --- venues (examples, REPLACE with verified handles) ---
-# foroindependencia
-# c3stage
+# --- música ---
 
 @cuerdacmedios
 @foro_diez
@@ -28,8 +20,7 @@
 @pulquedegollado
 @907novecientosieteoficial
 
-# --- galleries ---
-# guadalajara90210
+# --- galerías ---
 
 @iglesia.primitiva_
 @almacolectiva51
@@ -50,9 +41,4 @@
 @otroespacio.gdl
 @galeriatiroalblanco
 
-
-
-# --- collectives / promoters ---
-
-
-
+# --- colectivos ---
