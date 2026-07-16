@@ -75,8 +75,10 @@ Each object in "events" has this shape:
 {{
   "title": "event or show name",
   "artists": ["performer/artist names"],
+  "artist_handles": {{"Artist Name": "instagram_handle_without_@"}},
   "venue": "venue name if shown, else null",
   "date": "YYYY-MM-DD or null if unparseable",
+  "end_date": "YYYY-MM-DD last day ONLY if the same event runs multiple consecutive days, else null",
   "time": "HH:MM 24h or null",
   "cover": "price like '$150mxn' or '$100mxn preventa, $150mxn taquilla' or 'entrada libre', or null",
   "type": "concert | exhibition | opening | dj | workshop | other",
@@ -98,6 +100,17 @@ Rules:
   programs ("todos los martes de julio", "live jazz daily"), expand into
   individual dated events within the stated period, most imminent first,
   up to {max_events} events maximum.
+- BUT: one continuous event that RUNS across consecutive days (a multi-day
+  workshop or laboratorio, an exhibition run, a festival with a single
+  program, "22, 23 y 24 de julio") is ONE event object — set "date" to the
+  first day and "end_date" to the last day. Do NOT return one object per
+  day. Only split into separate dated objects when each date has a DISTINCT
+  program or lineup.
+- "artist_handles": map performer names (spelled EXACTLY as in "artists")
+  to their Instagram handles, without the @. Include a mapping ONLY when
+  the caption explicitly tags that artist (@handle) and the match is
+  unambiguous. NEVER guess or invent a handle. Omit untagged artists;
+  use null if none are tagged. Do not include the venue's own handle.
 - ONLY include events in the Guadalajara metro area (Guadalajara, Zapopan,
   Tlaquepaque, Tonalá). If the location is clearly another city or country,
   exclude that event. If no city is shown, assume the venue's own space in GDL.
@@ -230,6 +243,57 @@ def dedupe_events(events: list[dict]) -> tuple[list[dict], int]:
     return out, dropped
 
 
+def _day_after(date_str: str) -> str:
+    d = datetime.strptime(date_str, "%Y-%m-%d") + timedelta(days=1)
+    return d.strftime("%Y-%m-%d")
+
+
+def collapse_multiday(events: list[dict]) -> tuple[list[dict], int]:
+    """Safety net for one continuous event listed once per consecutive day
+    (e.g. a 3-day laboratorio expanded into 3 entries by the model).
+    Same title + venue + time + source, consecutive/overlapping dates ->
+    one event with date = first day, end_date = last day."""
+    keyed: dict[tuple, list[dict]] = {}
+    out: list[dict] = []
+    for ev in events:
+        if not ev.get("date"):
+            out.append(ev)
+            continue
+        key = (_norm_title(ev.get("title")), ev.get("venue"),
+               ev.get("time"), ev.get("post_url") or ev.get("account"))
+        keyed.setdefault(key, []).append(ev)
+
+    collapsed = 0
+
+    def flush(run: list[dict]):
+        nonlocal collapsed
+        first = run[0]
+        if len(run) > 1:
+            last = max((e.get("end_date") or e["date"]) for e in run)
+            if last > first["date"]:
+                first["end_date"] = last
+            for e in run[1:]:  # backfill anything the kept copy lacks
+                for k, v in e.items():
+                    if k != "end_date" and first.get(k) in (None, "", []) \
+                            and v not in (None, "", []):
+                        first[k] = v
+            collapsed += len(run) - 1
+        out.append(first)
+
+    for evs in keyed.values():
+        evs.sort(key=lambda e: e["date"])
+        run = [evs[0]]
+        for ev in evs[1:]:
+            reach = _day_after(run[-1].get("end_date") or run[-1]["date"])
+            if ev["date"] <= reach:  # consecutive or overlapping day
+                run.append(ev)
+            else:
+                flush(run)
+                run = [ev]
+        flush(run)
+    return out, collapsed
+
+
 # ---------------------------------------------------------------- 1. scrape
 
 
@@ -289,6 +353,19 @@ def parse_extraction(text: str) -> tuple[list[dict], list[dict]]:
     for ev in events:
         ev["venue"] = normalize_venue(ev.get("venue"))
         ev["needs_review"] = ev.pop("confidence", "high") == "low"
+        # artist_handles: keep only clean {name: handle} string pairs, strip @/URLs
+        handles = {}
+        raw = ev.get("artist_handles")
+        if isinstance(raw, dict):
+            for name, h in raw.items():
+                if isinstance(name, str) and isinstance(h, str):
+                    h = h.strip().rstrip("/").split("/")[-1].lstrip("@").strip()
+                    if h and name.strip():
+                        handles[name.strip()] = h
+        ev["artist_handles"] = handles or None
+        # end_date must be a real range after date, else drop it
+        if ev.get("end_date") and (not ev.get("date") or str(ev["end_date"]) <= str(ev["date"])):
+            ev["end_date"] = None
     return events, cancels
 
 
@@ -361,6 +438,8 @@ def format_digest(events: list[dict], removed: list[dict] | None = None) -> str:
     events.sort(key=lambda e: e.get("date") or "9999-99-99")
     for ev in events:
         date = ev.get("date") or "fecha por confirmar"
+        if ev.get("end_date"):
+            date += f" → {ev['end_date']}"
         time = f" · {ev['time']}" if ev.get("time") else ""
         cover = f" · {ev['cover']}" if ev.get("cover") else ""
         flag = "⚠️ " if ev.get("needs_review") else ""
@@ -445,16 +524,19 @@ def main():
         elif not cancels:
             print("  not an event")
 
-    # merge, apply cancellations, drop past events
+    # merge, apply cancellations, drop past events (multi-day: keep until end_date)
     today_str = datetime.now(GDL_TZ).strftime("%Y-%m-%d")
     merged = [
         e for e in all_events + new_events
-        if (e.get("date") or "9999") >= today_str
+        if (e.get("end_date") or e.get("date") or "9999") >= today_str
     ]
     merged, removed = apply_cancellations(merged, all_cancellations)
     merged, dupes = dedupe_events(merged)
     if dupes:
         print(f"Collapsed {dupes} duplicate listing(s).")
+    merged, spans = collapse_multiday(merged)
+    if spans:
+        print(f"Merged {spans} consecutive-day listing(s) into date ranges.")
 
     save_json(SEEN_FILE, sorted(seen_set)[-5000:])  # cap file growth
     save_json(EVENTS_FILE, merged)
