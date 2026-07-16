@@ -70,6 +70,13 @@
     white-space: nowrap;
   }
   header .cuentas a:hover, header .cuentas a:focus-visible { color: var(--rosa); border-color: var(--rosa); }
+  header .cuentas .grupo { display: block; }
+  header .cuentas .grupolabel { /* <- tweak account-group label here */
+    color: var(--azul);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    margin-right: 0.9em;
+  }
   header .updated {
     font-family: "IBM Plex Mono", monospace;
     font-size: 0.68rem;
@@ -442,6 +449,12 @@
   body.wild header .cuentas a:hover, body.wild header .cuentas a:focus-visible {
     color: #000; background: var(--azul); border-color: var(--azul);
   }
+  body.wild header .cuentas .grupo { display: inline; }
+  body.wild header .cuentas .grupolabel {
+    text-transform: lowercase;
+    color: var(--azul);
+    margin: 0 0.7em 0 0.4em;
+  }
   @keyframes tira { to { transform: translateX(-50%); } }
 
   body.wild .day { border-top: 3px solid var(--ink); }
@@ -724,21 +737,29 @@ async function loadVenues() {
   } catch (e) { /* map links just fall back to search */ }
 }
 
-/* Header list of watched accounts, read from accounts.txt in the repo. */
+/* Header list of watched accounts, read from accounts.txt in the repo.
+   "# --- label ---" comment lines group the handles; file order is kept. */
 async function loadAccounts() {
   try {
     const r = await fetch("accounts.txt?t=" + Date.now());
     if (!r.ok) return;
-    const handles = (await r.text()).split("\n")
-      .map(l => l.trim().replace(/^@/, ""))
-      .filter(l => l && !l.startsWith("#"));
-    if (!handles.length) return;
-    // random order on every reload
-    for (let i = handles.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [handles[i], handles[j]] = [handles[j], handles[i]];
+    const groups = [];
+    let current = { label: null, handles: [] };
+    for (const raw of (await r.text()).split("\n")) {
+      const l = raw.trim();
+      if (!l) continue;
+      const m = l.match(/^#\s*-{2,}\s*(.+?)\s*-{2,}\s*$/);
+      if (m) {
+        if (current.handles.length) groups.push(current);
+        current = { label: m[1], handles: [] };
+        continue;
+      }
+      if (l.startsWith("#")) continue;
+      current.handles.push(l.replace(/^@/, ""));
     }
-    cuentasHandles = handles;
+    if (current.handles.length) groups.push(current);
+    if (!groups.length) return;
+    cuentasGroups = groups;
     renderCuentas();
   } catch (e) { /* header just stays without the list */ }
 }
@@ -1036,17 +1057,23 @@ async function persist() {
 const THEME_KEY = "cartelera_theme";
 const SIMBOLOS = ["⚗︎","☭","⛺︎","☬","☈","✇","☄︎"];
 const simbolo = SIMBOLOS[Math.floor(Math.random() * SIMBOLOS.length)];
-let cuentasHandles = [];
+let cuentasGroups = [];
 
 function renderCuentas() {
-  if (!cuentasHandles.length) return;
-  const strip = cuentasHandles
-    .map(h => `<a href="https://www.instagram.com/${esc(h)}/" target="_blank" rel="noopener">@${esc(h)}</a>`)
-    .join(" ");
-  document.getElementById("cuentas").innerHTML =
-    document.body.classList.contains("wild")
-      ? `<span class="tira">${strip} ${strip}</span>`  // duplicated for seamless loop
-      : strip;
+  if (!cuentasGroups.length) return;
+  const linkify = h => `<a href="https://www.instagram.com/${esc(h)}/" target="_blank" rel="noopener">@${esc(h)}</a>`;
+  if (document.body.classList.contains("wild")) {
+    const strip = cuentasGroups.map(g =>
+      (g.label ? `<span class="grupolabel">${esc(g.label)}</span> ` : "") +
+      g.handles.map(linkify).join(" ")
+    ).join(" ");
+    document.getElementById("cuentas").innerHTML =
+      `<span class="tira">${strip} ${strip}</span>`;  // duplicated for seamless loop
+  } else {
+    document.getElementById("cuentas").innerHTML = cuentasGroups.map(g =>
+      `<span class="grupo">${g.label ? `<span class="grupolabel">${esc(g.label)}</span> ` : ""}${g.handles.map(linkify).join(" ")}</span>`
+    ).join("");
+  }
 }
 
 function applyTheme(t) {
