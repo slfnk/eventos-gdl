@@ -1,6 +1,236 @@
 [
   {
     "is_event": true,
+    "title": "INYEON FT DVAN",
+    "artists": [
+      "INYEON",
+      "DVAN"
+    ],
+    "venue": "Galerías Sepia",
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "dj",
+    "notes": "Gallery event in Guadalajara. No date/time visible in image.",
+    "account": "tysa.mp3",
+    "post_url": "https://www.instagram.com/p/Dady4n4tU32/",
+    "found_at": "2026-07-07T18:04:00.599613+00:00"
+  },
+  {
+    "is_event": true,
+    "title": "We're All in the Same Boat",
+    "artists": [
+      "SUPERFLEX"
+    ],
+    "venue": "Plataforma",
+    "date": null,
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "notes": "Installation. Open Wednesday to Sunday. Ongoing exhibition.",
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DaT2nvIjmzC/",
+    "found_at": "2026-07-07T18:04:30.079785+00:00"
+  },
+  {
+    "title": "MAÑANA",
+    "artists": [
+      "Annika Kahrs",
+      "Iñaki Bonillas",
+      "Silvestre Borgatello",
+      "Martín Soto Climent",
+      "Rubén Méndez",
+      "y más de 25 artistas adicionales"
+    ],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Curada por Polina Stroganova. Más de 30 artistas locales e internacionales.",
+    "needs_review": false,
+    "account": "palmagaleria",
+    "post_url": "https://www.instagram.com/p/DZ-wAiOmRtf/",
+    "found_at": "2026-07-08T17:28:49.993615+00:00",
+    "featured": false
+  },
+  {
+    "title": "La naturaleza íntima de la vida. Ernst Saemisch",
+    "artists": [
+      "Ernst Saemisch"
+    ],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición curada por Eugenio Caballero. Obra 1902–1984.",
+    "needs_review": true,
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/Dai_nYxEgNI/",
+    "found_at": "2026-07-09T18:01:08.667242+00:00"
+  },
+  {
+    "title": "Guadalajara Chugg 2K26",
+    "artists": [],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "dj",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "DJ set con decoración religiosa y flores. Fecha exacta no visible.",
+    "needs_review": true,
+    "account": "guadalajarade.noche",
+    "post_url": "https://www.instagram.com/p/Dajb1vLjUY1/",
+    "found_at": "2026-07-09T18:01:20.049382+00:00"
+  },
+  {
+    "title": "Niérika. Visiones de la creación",
+    "artists": [
+      "José Benítez",
+      "Fidencio Benítez"
+    ],
+    "venue": "MUSA",
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición de arte wixárika. Fechas no especificadas en el anuncio.",
+    "needs_review": true,
+    "account": "cunorte_udg",
+    "post_url": "https://www.instagram.com/p/DamS5JqN9fI/",
+    "found_at": "2026-07-10T17:50:38.554683+00:00"
+  },
+  {
+    "title": "Billie Marten",
+    "artists": [
+      "Billie Marten"
+    ],
+    "venue": "C3 Rooftop",
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Giveaway para pase doble. Fecha del concierto no especificada.",
+    "needs_review": true,
+    "account": "ackpromoteofficial",
+    "post_url": "https://www.instagram.com/p/DaolHCbDYay/",
+    "found_at": "2026-07-12T17:02:30.864584+00:00"
+  },
+  {
+    "title": "Bazar Gordo 2da edición",
+    "artists": [],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Convocatoria para expositores. Fecha: finales de agosto. Requisito: habitar un cuerpo gordx.",
+    "needs_review": true,
+    "account": "paydemanzanita",
+    "post_url": "https://www.instagram.com/p/Daqc1T5j_R3/",
+    "found_at": "2026-07-12T17:02:36.892733+00:00"
+  },
+  {
+    "title": "SkaCore",
+    "artists": [
+      "Sekta Core"
+    ],
+    "venue": "Foro Independencia",
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Concierto de SkaCore. Fecha no especificada en la imagen.",
+    "needs_review": true,
+    "account": "peterphotoinfinito",
+    "post_url": "https://www.instagram.com/p/DawXML7nEvA/",
+    "found_at": "2026-07-14T17:18:10.583162+00:00"
+  },
+  {
+    "title": "Estas costas fueron bosques y se volverán desiertos",
+    "artists": [
+      "Irvyn Roho"
+    ],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Esculturas y dibujos sobre reconstrucción incompleta",
+    "needs_review": true,
+    "account": "palmagaleria",
+    "post_url": "https://www.instagram.com/p/Da0fHxFFtlV/",
+    "found_at": "2026-07-15T17:21:35.971791+00:00"
+  },
+  {
+    "title": "Luis Eduardo González. Artífice de la luz",
+    "artists": [
+      "Luis Eduardo González"
+    ],
+    "venue": "MUSA (Museo de las Artes, Universidad de Guadalajara)",
+    "date": null,
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición hasta 27 de septiembre 2026. Mar–Sáb 10–18h, Dom 10–15h",
+    "needs_review": false,
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/DayFGgGGmWz/",
+    "found_at": "2026-07-15T17:21:38.663136+00:00"
+  },
+  {
+    "title": "Exposiciones en Plataforma",
+    "artists": [],
+    "venue": "Plataforma",
+    "date": null,
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Recorrido de exposiciones. Fecha no especificada en post.",
+    "needs_review": true,
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DaywJs5DgTR/",
+    "found_at": "2026-07-15T17:22:24.656644+00:00"
+  },
+  {
+    "title": "Prefiesta del Mexafest GDL",
+    "artists": [],
+    "venue": null,
+    "date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Evento previo al Mexafest GDL, fecha exacta no especificada",
+    "needs_review": true,
+    "account": "slaveofforgiveness",
+    "post_url": "https://www.instagram.com/p/Dazd8k0tc-o/",
+    "found_at": "2026-07-15T17:22:31.786794+00:00"
+  },
+  {
+    "is_event": true,
     "title": "Siesta Acústica",
     "artists": [
       "Ximena Carstensen",
@@ -247,23 +477,6 @@
   },
   {
     "is_event": true,
-    "title": "INYEON FT DVAN",
-    "artists": [
-      "INYEON",
-      "DVAN"
-    ],
-    "venue": "Galerías Sepia",
-    "date": null,
-    "time": null,
-    "cover": null,
-    "type": "dj",
-    "notes": "Gallery event in Guadalajara. No date/time visible in image.",
-    "account": "tysa.mp3",
-    "post_url": "https://www.instagram.com/p/Dady4n4tU32/",
-    "found_at": "2026-07-07T18:04:00.599613+00:00"
-  },
-  {
-    "is_event": true,
     "title": "Verano Relax - Curso de Verano 2026",
     "artists": [
       "Pietro Morino"
@@ -346,22 +559,6 @@
     "account": "c4concerthouse",
     "post_url": "https://www.instagram.com/p/DaEHHC3H9qy/",
     "found_at": "2026-07-07T18:04:26.592805+00:00"
-  },
-  {
-    "is_event": true,
-    "title": "We're All in the Same Boat",
-    "artists": [
-      "SUPERFLEX"
-    ],
-    "venue": "Plataforma",
-    "date": null,
-    "time": null,
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "notes": "Installation. Open Wednesday to Sunday. Ongoing exhibition.",
-    "account": "plataformagdl",
-    "post_url": "https://www.instagram.com/p/DaT2nvIjmzC/",
-    "found_at": "2026-07-07T18:04:30.079785+00:00"
   },
   {
     "is_event": true,
@@ -619,25 +816,6 @@
     "featured": false
   },
   {
-    "title": "Maestros en Lucha - Entrevista sobre la CNTE",
-    "artists": [
-      "Aldo Santana (CNTE)",
-      "Eli González (entrevistadora)"
-    ],
-    "venue": "Casa Impronta",
-    "date": "2026-07-16",
-    "time": "18:30",
-    "cover": "entrada libre",
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Entrevista y conversatorio sobre la lucha magisterial de la CNTE.",
-    "needs_review": false,
-    "account": "lamiscelaneagdl",
-    "post_url": "https://www.instagram.com/p/Dagud4RtJHN/",
-    "found_at": "2026-07-08T17:27:59.110898+00:00"
-  },
-  {
     "title": "Ciclo de Cine x Mariana Casillas: Cine y Política - Cartografías de las crisis en la ciudad",
     "artists": [
       "Mariana Casillas"
@@ -672,42 +850,6 @@
     "account": "rayon.376",
     "post_url": "https://www.instagram.com/p/DagfVR7GqmK/",
     "found_at": "2026-07-08T17:28:04.021623+00:00"
-  },
-  {
-    "title": "Nunca Estás Solx - Alejandra Muñoz",
-    "artists": [
-      "Alejandra Muñoz"
-    ],
-    "venue": "Rayón #376",
-    "date": "2026-07-16",
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Inauguración de exposición. Curación: Paulina A. F. PECDA Jalisco 2025.",
-    "needs_review": false,
-    "account": "ascandra__",
-    "post_url": "https://www.instagram.com/p/DadXPq6qdhr/",
-    "found_at": "2026-07-08T17:28:11.420142+00:00"
-  },
-  {
-    "title": "Activación cámara minutera con Tomás Casademunt",
-    "artists": [
-      "Tomás Casademunt"
-    ],
-    "venue": null,
-    "date": "2026-07-16",
-    "time": "15:00",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Fotografía minutera tradicional. Registro previo requerido. Primeros participantes obtienen fotografía.",
-    "needs_review": false,
-    "account": "muragdl",
-    "post_url": "https://www.instagram.com/p/DaiTl4xM3QW/",
-    "found_at": "2026-07-08T17:28:18.200946+00:00"
   },
   {
     "title": "Steve Blanco plays the music of Imprints of Man - Solo Piano Mexico Tour 2026",
@@ -782,30 +924,6 @@
     "found_at": "2026-07-08T17:28:47.641135+00:00"
   },
   {
-    "title": "MAÑANA",
-    "artists": [
-      "Annika Kahrs",
-      "Iñaki Bonillas",
-      "Silvestre Borgatello",
-      "Martín Soto Climent",
-      "Rubén Méndez",
-      "y más de 25 artistas adicionales"
-    ],
-    "venue": null,
-    "date": null,
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Curada por Polina Stroganova. Más de 30 artistas locales e internacionales.",
-    "needs_review": false,
-    "account": "palmagaleria",
-    "post_url": "https://www.instagram.com/p/DZ-wAiOmRtf/",
-    "found_at": "2026-07-08T17:28:49.993615+00:00",
-    "featured": false
-  },
-  {
     "title": "Bestia Bebé",
     "artists": [
       "Bestia Bebé"
@@ -822,24 +940,6 @@
     "account": "elbrillante_",
     "post_url": "https://www.instagram.com/p/DagXBWfPjk-/",
     "found_at": "2026-07-08T17:28:57.249050+00:00"
-  },
-  {
-    "title": "Hierofanía — Conversación con Tuxamee",
-    "artists": [
-      "Irving de Jesús Segovia Pérez (Tuxamee)"
-    ],
-    "venue": "Plataforma",
-    "date": "2026-07-16",
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Charla sobre práctica artística, iconografía popular e identidad colectiva.",
-    "needs_review": false,
-    "account": "plataformagdl",
-    "post_url": "https://www.instagram.com/p/DajZjWPuxpJ/",
-    "found_at": "2026-07-09T18:00:58.968480+00:00"
   },
   {
     "title": "Jcesar con Tololoche",
@@ -864,24 +964,6 @@
     "found_at": "2026-07-09T18:01:01.272725+00:00"
   },
   {
-    "title": "La naturaleza íntima de la vida. Ernst Saemisch",
-    "artists": [
-      "Ernst Saemisch"
-    ],
-    "venue": null,
-    "date": null,
-    "time": null,
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición curada por Eugenio Caballero. Obra 1902–1984.",
-    "needs_review": true,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/Dai_nYxEgNI/",
-    "found_at": "2026-07-09T18:01:08.667242+00:00"
-  },
-  {
     "title": "Jota Moore en Guadalajara",
     "artists": [
       "Jota Moore",
@@ -900,22 +982,6 @@
     "account": "astronotas.music",
     "post_url": "https://www.instagram.com/p/DaitD1TCZgs/",
     "found_at": "2026-07-09T18:01:14.497021+00:00"
-  },
-  {
-    "title": "Guadalajara Chugg 2K26",
-    "artists": [],
-    "venue": null,
-    "date": null,
-    "time": null,
-    "cover": null,
-    "type": "dj",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "DJ set con decoración religiosa y flores. Fecha exacta no visible.",
-    "needs_review": true,
-    "account": "guadalajarade.noche",
-    "post_url": "https://www.instagram.com/p/Dajb1vLjUY1/",
-    "found_at": "2026-07-09T18:01:20.049382+00:00"
   },
   {
     "title": "RSRRCTD Carnal Pop-Up Store",
@@ -1046,25 +1112,6 @@
     "account": "c4concerthouse",
     "post_url": "https://www.instagram.com/p/DaliCmCDz_V/",
     "found_at": "2026-07-10T17:50:35.752640+00:00"
-  },
-  {
-    "title": "Niérika. Visiones de la creación",
-    "artists": [
-      "José Benítez",
-      "Fidencio Benítez"
-    ],
-    "venue": "MUSA",
-    "date": null,
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición de arte wixárika. Fechas no especificadas en el anuncio.",
-    "needs_review": true,
-    "account": "cunorte_udg",
-    "post_url": "https://www.instagram.com/p/DamS5JqN9fI/",
-    "found_at": "2026-07-10T17:50:38.554683+00:00"
   },
   {
     "title": "Lapisci Third Edition - Cuerda Cultura",
@@ -1233,24 +1280,6 @@
     "found_at": "2026-07-12T17:02:22.139748+00:00"
   },
   {
-    "title": "Billie Marten",
-    "artists": [
-      "Billie Marten"
-    ],
-    "venue": "C3 Rooftop",
-    "date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Giveaway para pase doble. Fecha del concierto no especificada.",
-    "needs_review": true,
-    "account": "ackpromoteofficial",
-    "post_url": "https://www.instagram.com/p/DaolHCbDYay/",
-    "found_at": "2026-07-12T17:02:30.864584+00:00"
-  },
-  {
     "title": "Alberca_Ambiental [#1] - MICRO festival",
     "artists": [],
     "venue": null,
@@ -1265,22 +1294,6 @@
     "account": "cerro_de.los_espejos",
     "post_url": "https://www.instagram.com/p/DaqfiUliXNF/",
     "found_at": "2026-07-12T17:02:33.164513+00:00"
-  },
-  {
-    "title": "Bazar Gordo 2da edición",
-    "artists": [],
-    "venue": null,
-    "date": null,
-    "time": null,
-    "cover": null,
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Convocatoria para expositores. Fecha: finales de agosto. Requisito: habitar un cuerpo gordx.",
-    "needs_review": true,
-    "account": "paydemanzanita",
-    "post_url": "https://www.instagram.com/p/Daqc1T5j_R3/",
-    "found_at": "2026-07-12T17:02:36.892733+00:00"
   },
   {
     "title": "LEVEDAD I – Laboratorio coreográfico",
@@ -1302,51 +1315,8 @@
     "needs_review": false,
     "account": "muragdl",
     "post_url": "https://www.instagram.com/p/DavYXMchitW/",
-    "found_at": "2026-07-13T17:58:17.078989+00:00"
-  },
-  {
-    "title": "LEVEDAD I – Laboratorio coreográfico",
-    "artists": [
-      "Rodrigo Agraz",
-      "Mariana Campa",
-      "Marisol Villanueva",
-      "Humberto Mendoza",
-      "Lola Ramírez"
-    ],
-    "venue": "Museo MURA",
-    "date": "2026-07-23",
-    "time": "18:00",
-    "cover": null,
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Laboratorio para artistas escénicos y performers. Registro previo requerido.",
-    "needs_review": false,
-    "account": "muragdl",
-    "post_url": "https://www.instagram.com/p/DavYXMchitW/",
-    "found_at": "2026-07-13T17:58:17.079012+00:00"
-  },
-  {
-    "title": "LEVEDAD I – Laboratorio coreográfico",
-    "artists": [
-      "Rodrigo Agraz",
-      "Mariana Campa",
-      "Marisol Villanueva",
-      "Humberto Mendoza",
-      "Lola Ramírez"
-    ],
-    "venue": "Museo MURA",
-    "date": "2026-07-24",
-    "time": "18:00",
-    "cover": null,
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Laboratorio para artistas escénicos y performers. Registro previo requerido.",
-    "needs_review": false,
-    "account": "muragdl",
-    "post_url": "https://www.instagram.com/p/DavYXMchitW/",
-    "found_at": "2026-07-13T17:58:17.079016+00:00"
+    "found_at": "2026-07-13T17:58:17.078989+00:00",
+    "end_date": "2026-07-24"
   },
   {
     "title": "Estalla Tour - Puebla",
@@ -1437,24 +1407,6 @@
     "account": "c4concerthouse",
     "post_url": "https://www.instagram.com/p/Dax80nEny57/",
     "found_at": "2026-07-14T17:18:08.631526+00:00"
-  },
-  {
-    "title": "SkaCore",
-    "artists": [
-      "Sekta Core"
-    ],
-    "venue": "Foro Independencia",
-    "date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Concierto de SkaCore. Fecha no especificada en la imagen.",
-    "needs_review": true,
-    "account": "peterphotoinfinito",
-    "post_url": "https://www.instagram.com/p/DawXML7nEvA/",
-    "found_at": "2026-07-14T17:18:10.583162+00:00"
   },
   {
     "title": "El hijo de la ballena - Paisajismo cubano de Armando Capó",
@@ -1788,42 +1740,6 @@
     "found_at": "2026-07-15T17:21:33.256022+00:00"
   },
   {
-    "title": "Estas costas fueron bosques y se volverán desiertos",
-    "artists": [
-      "Irvyn Roho"
-    ],
-    "venue": null,
-    "date": null,
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Esculturas y dibujos sobre reconstrucción incompleta",
-    "needs_review": true,
-    "account": "palmagaleria",
-    "post_url": "https://www.instagram.com/p/Da0fHxFFtlV/",
-    "found_at": "2026-07-15T17:21:35.971791+00:00"
-  },
-  {
-    "title": "Luis Eduardo González. Artífice de la luz",
-    "artists": [
-      "Luis Eduardo González"
-    ],
-    "venue": "MUSA (Museo de las Artes, Universidad de Guadalajara)",
-    "date": null,
-    "time": null,
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición hasta 27 de septiembre 2026. Mar–Sáb 10–18h, Dom 10–15h",
-    "needs_review": false,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/DayFGgGGmWz/",
-    "found_at": "2026-07-15T17:21:38.663136+00:00"
-  },
-  {
     "title": "VEN, SEREMOS - Hip-Hop & Metal Show / Gris Lee Kuma B-Day",
     "artists": [
       "Gris Lee Kuma",
@@ -1903,38 +1819,6 @@
     "account": "lapisci.oficial",
     "post_url": "https://www.instagram.com/p/DayUO28skLk/",
     "found_at": "2026-07-15T17:22:09.668091+00:00"
-  },
-  {
-    "title": "Exposiciones en Plataforma",
-    "artists": [],
-    "venue": "Plataforma",
-    "date": null,
-    "time": null,
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Recorrido de exposiciones. Fecha no especificada en post.",
-    "needs_review": true,
-    "account": "plataformagdl",
-    "post_url": "https://www.instagram.com/p/DaywJs5DgTR/",
-    "found_at": "2026-07-15T17:22:24.656644+00:00"
-  },
-  {
-    "title": "Prefiesta del Mexafest GDL",
-    "artists": [],
-    "venue": null,
-    "date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Evento previo al Mexafest GDL, fecha exacta no especificada",
-    "needs_review": true,
-    "account": "slaveofforgiveness",
-    "post_url": "https://www.instagram.com/p/Dazd8k0tc-o/",
-    "found_at": "2026-07-15T17:22:31.786794+00:00"
   },
   {
     "title": "Lil Supa - ANIMAL",
