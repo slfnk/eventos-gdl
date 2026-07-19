@@ -250,20 +250,6 @@
   },
   {
     "is_event": true,
-    "title": "TOKYO STREETS X - Mexico",
-    "artists": null,
-    "venue": null,
-    "date": "2026-07-17",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "notes": "Photography exhibition. Guided tours available via DM.",
-    "account": "mmagdalenoo",
-    "post_url": "https://www.instagram.com/p/DaRDZIHiaZ4/",
-    "found_at": "2026-07-05T02:47:12.572846+00:00"
-  },
-  {
-    "is_event": true,
     "title": "Diles Que No Me Maten",
     "artists": [
       "Diles Que No Me Maten",
@@ -320,25 +306,6 @@
   },
   {
     "is_event": true,
-    "title": "Adios Shosanna presenta 'Tristestar' EP",
-    "artists": [
-      "Adios Shosanna",
-      "Gibbons",
-      "Sin Sitio"
-    ],
-    "venue": "Cuerda Cultura",
-    "date": "2026-07-18",
-    "time": "19:30",
-    "cover": "Cooperación Voluntaria",
-    "type": "concert",
-    "notes": "Grunge/hard rock/punk. First time Adios Shosanna in Guadalajara.",
-    "account": "cuerdacmedios",
-    "post_url": "https://www.instagram.com/p/DaONWYwGPC1/",
-    "found_at": "2026-07-05T02:47:37.819483+00:00",
-    "needs_review": false
-  },
-  {
-    "is_event": true,
     "title": "The Brain Rage - Mexafest",
     "artists": [
       "The Brain Rage"
@@ -352,24 +319,6 @@
     "account": "daphnemor_",
     "post_url": "https://www.instagram.com/p/DaUPhx0M3pE/",
     "found_at": "2026-07-05T02:47:39.573267+00:00"
-  },
-  {
-    "is_event": true,
-    "title": "El Culto a la Diosa - Lanzamiento Oficial de Videoclip",
-    "artists": [
-      "El Culto a la Diosa",
-      "Freak la Femme",
-      "The Liquidambars"
-    ],
-    "venue": "Ritual Cultural",
-    "date": "2026-07-17",
-    "time": "20:00",
-    "cover": "$100 preventa, $150 taquilla",
-    "type": "concert",
-    "notes": "Videoclip launch event. Location: López Cotilla #570, Guadalajara, Jalisco",
-    "account": "elcultoaladiosa",
-    "post_url": "https://www.instagram.com/p/DaWd6KZDB1O/",
-    "found_at": "2026-07-05T02:47:41.700996+00:00"
   },
   {
     "is_event": true,
@@ -493,25 +442,6 @@
   },
   {
     "is_event": true,
-    "title": "El Error como Umbral",
-    "artists": [
-      "Joey Priego",
-      "Alejandro Zaragoza",
-      "Yuriko Cortes",
-      "Comunidad CAAV"
-    ],
-    "venue": "Museo Raúl Anguiano",
-    "date": "2026-07-17",
-    "time": "19:00",
-    "cover": null,
-    "type": "exhibition",
-    "notes": "Collective exhibition: photography, painting, drawing. Until July 26.",
-    "account": "muragdl",
-    "post_url": "https://www.instagram.com/p/DadVdjmxjPT/",
-    "found_at": "2026-07-07T18:04:08.365310+00:00"
-  },
-  {
-    "is_event": true,
     "title": "CRISIS - Presentación EP 'Ex Memoriae'",
     "artists": [
       "Crisis",
@@ -527,22 +457,6 @@
     "account": "crisishardcore",
     "post_url": "https://www.instagram.com/p/DaeJD21IVfa/",
     "found_at": "2026-07-07T18:04:14.828384+00:00"
-  },
-  {
-    "is_event": true,
-    "title": "P4R4S1T0",
-    "artists": [
-      "P4R4S1T0"
-    ],
-    "venue": "C3 ROOFTOP",
-    "date": "2026-07-18",
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "notes": "Groove metal with hardcore soul. Tickets via TicketNow México.",
-    "account": "c3stage",
-    "post_url": "https://www.instagram.com/p/Dadl5NEDziJ/",
-    "found_at": "2026-07-07T18:04:24.474412+00:00"
   },
   {
     "is_event": true,
@@ -644,24 +558,6 @@
     "account": "casamudrajazzclub",
     "post_url": "https://www.instagram.com/p/DaGc6hxOMLD/",
     "found_at": "2026-07-08T17:27:05.011192+00:00"
-  },
-  {
-    "title": "De vuelta a casa",
-    "artists": [
-      "Almost Done"
-    ],
-    "venue": "C3 Rooftop",
-    "date": "2026-07-17",
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Presentación del álbum. Regreso al circuito de la banda.",
-    "needs_review": false,
-    "account": "c3stage",
-    "post_url": "https://www.instagram.com/p/Dagz6MIAesP/",
-    "found_at": "2026-07-08T17:27:18.687745+00:00"
   },
   {
     "title": "Bad Bunny Jazz + Malambres",
@@ -984,26 +880,6 @@
     "found_at": "2026-07-09T18:01:14.497021+00:00"
   },
   {
-    "title": "RSRRCTD Carnal Pop-Up Store",
-    "artists": [
-      "Penguin",
-      "RSRRCTD",
-      "Xlitch"
-    ],
-    "venue": "Staditche",
-    "date": "2026-07-18",
-    "time": "14:00",
-    "cover": "entrada libre",
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Showroom con selección de piezas, archivo y nuevos lanzamientos.",
-    "needs_review": false,
-    "account": "resurrected.cult",
-    "post_url": "https://www.instagram.com/p/DaeQ8gCDGhf/",
-    "found_at": "2026-07-09T18:01:22.386359+00:00"
-  },
-  {
     "title": "Renee Tour",
     "artists": [
       "Renee"
@@ -1130,22 +1006,6 @@
     "found_at": "2026-07-10T17:51:02.605290+00:00"
   },
   {
-    "title": "SUCESOS Pop-Up Show",
-    "artists": [],
-    "venue": "Casa Impronta",
-    "date": "2026-07-18",
-    "time": "12:09",
-    "cover": null,
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Música, ilustración, tatuajes, ropa. Organizado por @otroespacio.gdl",
-    "needs_review": false,
-    "account": "improntacasaeditora",
-    "post_url": "https://www.instagram.com/p/DanyJGfMRG_/",
-    "found_at": "2026-07-11T17:01:49.504014+00:00"
-  },
-  {
     "title": "Taller: IMPI - Protege lo que creas",
     "artists": [],
     "venue": "rayón (tres siete seis)",
@@ -1214,27 +1074,6 @@
     "account": "oyeoyecl",
     "post_url": "https://www.instagram.com/p/DaoQwMNJ0z_/",
     "found_at": "2026-07-12T17:02:14.035113+00:00"
-  },
-  {
-    "title": "Matt Dodo en Guadalajara",
-    "artists": [
-      "Matt Dodo",
-      "Yo amo a Pao",
-      "Galgos",
-      "Unexpected Heroes"
-    ],
-    "venue": "Cuerda Cultura",
-    "date": "2026-07-17",
-    "time": "20:00",
-    "cover": "$100mxn",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Post rock. Matt Dodo es visitante acompañado por bandas locales.",
-    "needs_review": false,
-    "account": "mattdodomx",
-    "post_url": "https://www.instagram.com/p/DaoABUPJ1X2/",
-    "found_at": "2026-07-12T17:02:16.279141+00:00"
   },
   {
     "title": "Zojepze Zol / Jazzo / LVX Infera / Charlie The Plant",
@@ -1407,24 +1246,6 @@
     "account": "c4concerthouse",
     "post_url": "https://www.instagram.com/p/Dax80nEny57/",
     "found_at": "2026-07-14T17:18:08.631526+00:00"
-  },
-  {
-    "title": "El hijo de la ballena - Paisajismo cubano de Armando Capó",
-    "artists": [
-      "Armando Capó"
-    ],
-    "venue": "Galería Sepia",
-    "date": "2026-07-17",
-    "time": null,
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Proyección documental, vinilos, tragos. A beneficio de cineastas cubanos.",
-    "needs_review": false,
-    "account": "pigmentofineartprint",
-    "post_url": "https://www.instagram.com/p/DawKurjjZAi/",
-    "found_at": "2026-07-14T17:18:13.260607+00:00"
   },
   {
     "title": "La librería es el mundo. El mundo es la librería",
@@ -1679,65 +1500,6 @@
     "account": "resonante_radio",
     "post_url": "https://www.instagram.com/p/DavVrCrEat-/",
     "found_at": "2026-07-14T17:18:57.941291+00:00"
-  },
-  {
-    "title": "Sucesos pop up show",
-    "artists": [
-      "Chamaco Perro",
-      "Réplica Anómala",
-      "Mística",
-      "Coela Studio",
-      "Sam Artlab",
-      "Valeria Torres",
-      "Antoniiiiiaa",
-      "Taller Junkie",
-      "Novie del Viento",
-      "Suprema Siempre",
-      "Foche",
-      "EMIZ",
-      "Inmundo",
-      "Jardín de Génesis",
-      "Amor de Limón",
-      "Erre.S",
-      "Bib Bip Radio",
-      "Changomarine",
-      "Paranipani",
-      "Remy Pocket",
-      "Caro Rangel",
-      "Belén Sintilde"
-    ],
-    "venue": "Impronta Casa Editora",
-    "date": "2026-07-18",
-    "time": "12:00",
-    "cover": "entrada libre",
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Presentación en vivo Belén Sintilde 7:30pm. Pop up con música, gráfica, ropa, publicaciones.",
-    "needs_review": false,
-    "account": "otroespacio.gdl",
-    "post_url": "https://www.instagram.com/p/Dax_49vuMkM/",
-    "found_at": "2026-07-15T17:21:30.605352+00:00"
-  },
-  {
-    "title": "Kello González + Wohl + Tuner",
-    "artists": [
-      "Kello González",
-      "Wohl",
-      "Tuner"
-    ],
-    "venue": "Hake Al Rey",
-    "date": "2026-07-18",
-    "time": "18:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.ticketnow.com.mx",
-    "age_restriction": null,
-    "notes": "Metal progresivo e instrumental. Boletos disponibles vía TicketNow.",
-    "needs_review": false,
-    "account": "elritodelrock",
-    "post_url": "https://www.instagram.com/p/DawNnJ6gs6B/",
-    "found_at": "2026-07-15T17:21:33.256022+00:00"
   },
   {
     "title": "VEN, SEREMOS - Hip-Hop & Metal Show / Gris Lee Kuma B-Day",
