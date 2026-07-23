@@ -51,6 +51,21 @@ VENUE_ALIASES = {
     "foro larva": "Foro Larva",
     "casa mudra": "Casa Mudra",
     "foro independencia": "Foro Independencia",
+    # recurring venues that were slipping through as their own (unmapped) names.
+    # "anexo independencia" MUST stay above nothing that would swallow it; it's
+    # a distinct space next door to Foro Independencia.
+    "anexo independencia": "Anexo Independencia",
+    "c4 concert": "C4 Concert House",
+    "c3 rooftop": "C3 Rooftop",
+    "c3 stage": "C3 Stage",
+    "plataforma": "Plataforma",
+    "mupag": "MUPAG",
+    # canonicalize model spelling / case / plural drift onto existing venues
+    # (fragment match is substring-based, so these catch "Galerías Sepia",
+    #  "Ritval", "MUSA (Museo de las Artes...)", etc.)
+    "sepia": "Galería Sepia",
+    "ritval": "Ritual Cultural",
+    "musa": "MUSA Museo de las Artes",
 }
 
 # This is the full instruction set the Haiku model receives for every post.
@@ -137,6 +152,15 @@ Rules:
   "Foro Diez - Semillero Estudios").
 - Spanish day/month abbreviations are common (VIE, SÁB, ENE, JUL...).
 - Write the "notes" field in Spanish.
+- GALLERY SHOWS: exhibitions and openings often have no clock time. That's
+  fine — leave "time" null rather than guessing one. If the flier or caption
+  gives a run instead of a single day (an opening date and a closing date,
+  "del 5 al 30 de julio", "inauguración 5 jul · abierto hasta el 30"), set
+  "date" to the opening/first day and "end_date" to the closing/last day.
+- SPARSE POSTS: if a post carries almost no extractable event information —
+  no date, no clear event title, no venue, just a photo, a quote, or a vibe —
+  treat it as a recap or non-event and return "events": []. Do not invent an
+  event out of thin material.
 - If image and caption conflict, trust the image (the flier).
 """
 
