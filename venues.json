@@ -38,5 +38,25 @@
   "MUSA Museo de las Artes": {
     "address": "Av. Juárez 975, Col Americana",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6744117,-103.3590248&query_place_id=ChIJDYvqv-SxKIQRxTjiNIPPm1s"
+  },
+  "C4 Concert House": {
+    "address": "Av. Patria 2440, Colli Urbano, Zapopan",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6437905,-103.4213316&query_place_id=ChIJzxXiLwCtKIQR2apA-ZopeWA"
+  },
+  "C3 Rooftop": {
+    "address": "Av. Ignacio L. Vallarta 1488, Lafayette",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6748002,-103.3695376&query_place_id=ChIJUc7ScwCvKIQRCkLXKP_oB-4"
+  },
+  "MUPAG": {
+    "address": "Av. Alcalde 225, Zona Centro",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6799521,-103.3478543&query_place_id=ChIJZ6vIuDGwKIQRl9jpUOujhB4"
+  },
+  "Plataforma": {
+    "address": "Av. Ignacio L. Vallarta 1246, Col Americana",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6749583,-103.3637473&query_place_id=ChIJq4sCeCSvKIQRQWCIDVne0DM"
+  },
+  "Anexo Independencia": {
+    "address": "Epigmenio González 54, Mexicaltzingo",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=20.6662737,-103.3477076&query_place_id=ChIJYydgBPixKIQR846gBLPEpQA"
   }
 }
