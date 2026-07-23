@@ -39,22 +39,6 @@
     "featured": false
   },
   {
-    "title": "Exposiciones en Plataforma",
-    "artists": [],
-    "venue": "Plataforma",
-    "date": null,
-    "time": null,
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Recorrido de exposiciones. Fecha no especificada en post.",
-    "needs_review": true,
-    "account": "plataformagdl",
-    "post_url": "https://www.instagram.com/p/DaywJs5DgTR/",
-    "found_at": "2026-07-15T17:22:24.656644+00:00"
-  },
-  {
     "title": "Prefiesta del Mexafest GDL",
     "artists": [],
     "venue": null,
