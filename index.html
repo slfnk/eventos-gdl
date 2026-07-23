@@ -361,6 +361,12 @@
   }
   dialog input:focus, dialog textarea:focus { outline: none; border-bottom-color: var(--rosa); }
   dialog input[type="date"] { font-family: "IBM Plex Mono", monospace; font-size: 0.85rem; }
+  dialog select {
+    width: 100%; font: inherit; font-size: 0.9rem;
+    border: none; border-bottom: 1px solid var(--ink);
+    background: transparent; padding: 0.25rem 0; color: var(--ink); cursor: pointer;
+  }
+  dialog select:focus { outline: none; border-bottom-color: var(--rosa); }
   dialog .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
   dialog .toggle {
     display: flex; align-items: center; gap: 0.6rem;
@@ -551,7 +557,7 @@
     text-transform: lowercase; color: var(--azul);
     font-stretch: normal;
   }
-  body.wild dialog input, body.wild dialog textarea { color-scheme: dark; }
+  body.wild dialog input, body.wild dialog textarea, body.wild dialog select { color-scheme: dark; }
   body.wild dialog .toggle input:checked { background: var(--azul); }
   body.wild dialog .toggle input:checked::after { background: #000; }
   body.wild dialog .actions .save {
@@ -581,13 +587,14 @@
   body.eh {
     --paper: #3f5e49;   /* deep green field (darker than the accent green, so light text reads) */
     --ink:   #f6f4ea;   /* body text: near-white */
-    --ink-soft: #ded49a;/* soft text: pale yellow */
-    --azul:  #ffe98a;   /* headings / accents: warm yellow */
+    --ink-soft: #e4e8da;/* soft text: off-white (only the major text is yellow) */
+    --azul:  #ffe98a;   /* MAJOR text only: site name, event titles, big date numbers */
     --hair:  #5f7d68;   /* dividers: mid green */
     --rosa:  #fff0b0;   /* hover accent: light yellow */
     --amarillo: #fff3a8;/* featured highlight */
   }
-  body.eh header .about { color: #d3dcc9; }           /* pale, readable on green */
+  body.eh header .about { color: #d3dcc9; }              /* pale, readable on green */
+  body.eh header .cuentas .grupolabel { color: #eef1e7; }/* group labels off-white, not yellow */
   body.eh .event.featured h2 span { color: #16180f; } /* dark text on the yellow highlight */
   body.eh ::selection { background: var(--amarillo); color: #16180f; }
 
@@ -658,6 +665,15 @@
   <input id="f_artists" autocomplete="off">
   <label for="f_venue">lugar</label>
   <input id="f_venue" autocomplete="off">
+  <label for="f_type">tipo</label>
+  <select id="f_type">
+    <option value="concert">música / concierto</option>
+    <option value="dj">djs</option>
+    <option value="exhibition">arte / exhibición</option>
+    <option value="opening">inauguración</option>
+    <option value="workshop">taller</option>
+    <option value="other">otro</option>
+  </select>
   <div class="row">
     <div>
       <label for="f_date">fecha</label>
@@ -690,7 +706,7 @@
   <div class="prose">
     <p>Un experimento. La escena cultural de Guadalajara vive atrapada en historias que se borran a las 24 horas y en los feeds de cuarenta cuentas que nadie tiene tiempo de vigilar. Esto es un intento de sacarla de ahí.</p>
     <p>Un robot lee los flyers de esas cuentas cada pocos días, entiende qué dicen y los amontona en un solo lugar. Sin algoritmo decidiendo por ti, sin ads, sin tener que dar like para enterarte de que hay tocada el viernes.</p>
-    <p>¿Es perfecto? Para nada. A veces el robot alucina una fecha o se inventa un lugar — confirma en el post antes de salir de casa.</p>
+    <p>¿Es perfecto? Para nada. Por ahora solo lee <em>posts</em> — no ve historias ni se mete hasta el fondo de un carrusel. Y a veces alucina una fecha o se inventa un lugar, así que confirma en el post antes de salir de casa.</p>
     <p>El código es abierto y vive en <a href="https://github.com/slfnk/eventos-gdl" target="_blank" rel="noopener">GitHub</a>. Si quieres expandirlo, romperlo o montar tu propia cartelera en otra ciudad: adelante, es todo tuyo.</p>
   </div>
   <div class="actions"><button class="close" id="infoClose" type="button">cerrar</button></div>
@@ -975,7 +991,7 @@ function renderEvent(ev) {
   }
   links.push(`<a href="https://wa.me/?text=${waText}" target="_blank" rel="noopener">compartir ↗</a>`);
   return `<article class="event${ev.featured ? " featured" : ""}" id="${esc(slug)}">
-    <h2><span>${esc(ev.title || artists || "(sin título)")}</span>${TAGS[ev.type] ? `<span class="tag ${TAGCLASS[ev.type] || ""}">${TAGS[ev.type]}</span>` : ""}${ev.needs_review ? '<span class="revisar">revisar</span>' : ""}</h2>
+    <h2><span>${esc(ev.title || artists || "(sin título)")}</span>${!ev.featured && TAGS[ev.type] ? `<span class="tag ${TAGCLASS[ev.type] || ""}">${TAGS[ev.type]}</span>` : ""}${ev.needs_review ? '<span class="revisar">revisar</span>' : ""}</h2>
     ${artists && artists !== ev.title ? `<p class="artists">${artistsHtml}</p>` : ""}
     ${meta.length ? `<p class="meta">${meta.join('<span class="sep">·</span>')}</p>` : ""}
     ${ev.notes ? `<p class="notes">${esc(ev.notes)}</p>` : ""}
@@ -1073,6 +1089,7 @@ function openEditor(index) {
   F("f_title").value = ev.title || "";
   F("f_artists").value = (ev.artists || []).join(", ");
   F("f_venue").value = ev.venue || "";
+  F("f_type").value = ev.type || "other";
   F("f_date").value = ev.date || "";
   F("f_time").value = ev.time || "";
   F("f_cover").value = ev.cover || "";
@@ -1090,6 +1107,7 @@ document.getElementById("saveBtn").addEventListener("click", async () => {
     title: F("f_title").value.trim() || null,
     artists: F("f_artists").value.split(",").map(s => s.trim()).filter(Boolean),
     venue: F("f_venue").value.trim() || null,
+    type: F("f_type").value,
     date: date || null,
     time: F("f_time").value.trim() || null,
     cover: F("f_cover").value.trim() || null,
@@ -1160,8 +1178,15 @@ async function persist() {
 
 /* ================= theme (claro / caótico / ¿eh?) ================= */
 const THEME_KEY = "cartelera_theme";
-const SIMBOLOS = ["⚗︎","☭","⛺︎","☬","☈","✇","☄︎"];
-const simbolo = SIMBOLOS[Math.floor(Math.random() * SIMBOLOS.length)];
+const SIMBOLOS = ["▲","⚗︎","☭","⛺︎","☬","☈","✇","☄︎"];  // ▲ = pyramid, shown on first-ever visit
+const SEEN_KEY = "cartelera_seen";
+let simbolo;
+if (!localStorage.getItem(SEEN_KEY)) {
+  simbolo = "▲";                          // first visit: always the pyramid
+  localStorage.setItem(SEEN_KEY, "1");
+} else {
+  simbolo = SIMBOLOS[Math.floor(Math.random() * SIMBOLOS.length)];  // refreshes: random
+}
 let cuentasGroups = [];
 
 function renderCuentas() {
