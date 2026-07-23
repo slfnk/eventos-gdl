@@ -20,7 +20,6 @@
 @ritual.cultural
 @staditche
 @tantuyo.cc
-@ccbreton
 
 # --- galerías ---
 
