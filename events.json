@@ -1442,7 +1442,7 @@
       "saitara_band": "saitara_band",
       "coolgirl69": "coolgirl69_"
     },
-    "venue": null,
+    "venue": "cuerda cultura",
     "date": "2026-07-26",
     "end_date": null,
     "time": null,
@@ -1453,6 +1453,8 @@
     "notes": "Información disponible vía DM con @ondasyraices",
     "needs_review": false,
     "account": "flier callejero",
-    "found_at": "2026-07-23T20:37:36.345847+00:00"
+    "found_at": "2026-07-23T20:37:36.345847+00:00",
+    "post_url": null,
+    "featured": false
   }
 ]
