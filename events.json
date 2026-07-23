@@ -1607,5 +1607,59 @@
     "needs_review": false,
     "account": "flier callejero",
     "found_at": "2026-07-23T20:36:44.939967+00:00"
+  },
+  {
+    "title": "Tertulia de Atmósferas y Ruido",
+    "artists": [
+      "Lepus and Pulse",
+      "Animales Vertebrados",
+      "Norwayy",
+      "Botanica de los Angeles"
+    ],
+    "artist_handles": {
+      "Lepus and Pulse": "lepus_npulse",
+      "Animales Vertebrados": "animales.vertebrados",
+      "Norwayy": "norwayy.mx",
+      "Botanica de los Angeles": "botanicadelosaangeles"
+    },
+    "venue": "Tantuyo CC",
+    "date": "2026-07-24",
+    "end_date": "2026-07-26",
+    "time": "21:00",
+    "cover": "$100mxn preventa, $150mxn taquilla",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "And Friends Collective presenta combo tapaño generacional con artistas de síntesis e indie",
+    "needs_review": false,
+    "account": "flier callejero",
+    "found_at": "2026-07-23T20:37:33.736893+00:00"
+  },
+  {
+    "title": "Ondas y Raíces Ocultas",
+    "artists": [
+      "wyyr",
+      "silentoirofficial",
+      "saitara_band",
+      "coolgirl69"
+    ],
+    "artist_handles": {
+      "wyyr": "wyyrd_",
+      "silentoirofficial": "silentoirofficial",
+      "saitara_band": "saitara_band",
+      "coolgirl69": "coolgirl69_"
+    },
+    "venue": null,
+    "date": "2026-07-26",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Información disponible vía DM con @ondasyraices",
+    "needs_review": false,
+    "account": "flier callejero",
+    "found_at": "2026-07-23T20:37:36.345847+00:00"
   }
 ]
