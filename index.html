@@ -54,6 +54,18 @@
     margin-top: 0.6rem;
     letter-spacing: 0.04em;
   }
+  header .sub .info-btn {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.66rem; line-height: 1;
+    width: 1.4em; height: 1.4em; padding: 0;
+    margin-left: 0.25em;
+    border: 1px solid var(--ink-soft); border-radius: 999px;
+    background: none; color: var(--ink-soft);
+    cursor: pointer; vertical-align: middle;
+  }
+  header .sub .info-btn:hover, header .sub .info-btn:focus-visible {
+    color: var(--rosa); border-color: var(--rosa);
+  }
   header .cuentas {
     font-family: "IBM Plex Mono", monospace;
     font-size: 0.7rem;
@@ -71,8 +83,8 @@
   }
   header .cuentas a:hover, header .cuentas a:focus-visible { color: var(--rosa); border-color: var(--rosa); }
   header .cuentas .grupo { display: block; }
-  /* breathing room between groups (música / galerías / …); ticker mode opts out */
-  body:not(.wild) header .cuentas .grupo + .grupo { margin-top: 0.75rem; }
+  /* breathing room between groups (música / galerías / …) */
+  header .cuentas .grupo + .grupo { margin-top: 0.75rem; }
   header .cuentas .grupolabel { /* <- tweak account-group label here */
     color: var(--azul);
     text-transform: uppercase;
@@ -267,10 +279,6 @@
     white-space: nowrap;
     color: var(--ink-soft);
   }
-  .event h2 .tag.t-musica { color: var(--azul); }
-  .event h2 .tag.t-arte   { color: var(--rosa); }
-  .event h2 .tag.t-djs    { color: var(--ink-soft); }
-  .event h2 .tag.t-taller { color: var(--ink-soft); }
 
   /* ---------- footer / admin ---------- */
   footer {
@@ -452,32 +460,24 @@
   body.wild #themeToggle { font-family: "Space Mono", monospace; }
   body.wild #themeToggle:hover { color: var(--azul); border-color: var(--azul); }
 
-  /* handles ticker (wild only) */
+  /* handles block (wild) — framed pills, wraps normally (no marquee) */
   body.wild header .cuentas {
     max-width: none;
-    overflow: hidden; white-space: nowrap;
     border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair);
-    padding: 0.55rem 0;
+    padding: 0.7rem 0;
   }
-  body.wild header .cuentas .tira {
-    display: inline-block; padding-right: 2rem;
-    animation: tira 45s linear infinite;
-  }
-  body.wild header .cuentas:hover .tira { animation-play-state: paused; }
   body.wild header .cuentas a {
     border: 1px solid var(--hair); border-radius: 999px;
-    padding: 0.1em 0.6em; margin-right: 0.45em;
+    padding: 0.1em 0.6em; margin-right: 0.35em;
   }
   body.wild header .cuentas a:hover, body.wild header .cuentas a:focus-visible {
     color: #000; background: var(--azul); border-color: var(--azul);
   }
-  body.wild header .cuentas .grupo { display: inline; }
   body.wild header .cuentas .grupolabel {
     text-transform: lowercase;
     color: var(--azul);
-    margin: 0 0.7em 0 0.4em;
+    margin-right: 0.5em;
   }
-  @keyframes tira { to { transform: translateX(-50%); } }
 
   body.wild .day { border-top: 3px solid var(--ink); }
   body.wild .datemark .num {
@@ -574,24 +574,48 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
-    body.wild header .cuentas { white-space: normal; }
-    body.wild header .cuentas .tira { animation: none; display: inline; padding: 0; }
     body.wild .event, body.wild .addbar button, body.wild dialog .actions .save { transition: none; }
   }
 
-  /* ================= modo "¿eh?" (body.eh) — green & white inverted ================= */
+  /* ================= modo "¿eh?" (body.eh) — green field, white/yellow ink ================= */
   body.eh {
-    --paper: #628d6c;   /* was the white page → now the green field */
-    --azul:  #fbfbf7;   /* was the green accent → now near-white     */
-    --ink:   #16180f;   /* body text stays dark: stays legible on green */
-    --ink-soft: #24382b;/* soft text: deep green for contrast on the field */
-    --hair:  #7ba585;   /* dividers: a lighter green */
-    --rosa:  #ffd76b;   /* hover accent: warm, pops on green */
-    --amarillo: #fff3a8;/* featured highlight unchanged */
+    --paper: #3f5e49;   /* deep green field (darker than the accent green, so light text reads) */
+    --ink:   #f6f4ea;   /* body text: near-white */
+    --ink-soft: #ded49a;/* soft text: pale yellow */
+    --azul:  #ffe98a;   /* headings / accents: warm yellow */
+    --hair:  #5f7d68;   /* dividers: mid green */
+    --rosa:  #fff0b0;   /* hover accent: light yellow */
+    --amarillo: #fff3a8;/* featured highlight */
   }
-  body.eh header .about { color: #33503c; }          /* readable on green */
-  body.eh .event.featured h2 span { color: #16180f; }/* dark text on the yellow highlight */
+  body.eh header .about { color: #d3dcc9; }           /* pale, readable on green */
+  body.eh .event.featured h2 span { color: #16180f; } /* dark text on the yellow highlight */
   body.eh ::selection { background: var(--amarillo); color: #16180f; }
+
+  /* ---------- info / about popover ---------- */
+  #infoDialog { max-width: 30rem; }
+  #infoDialog .prose p {
+    font-size: 0.92rem; line-height: 1.58;
+    margin-bottom: 0.85rem; color: var(--ink);
+  }
+  #infoDialog .prose p:last-child { margin-bottom: 0; }
+  #infoDialog .prose a {
+    text-decoration: none; border-bottom: 1px solid var(--ink-soft);
+  }
+  #infoDialog .prose a:hover, #infoDialog .prose a:focus-visible {
+    color: var(--rosa); border-color: var(--rosa);
+  }
+  #infoDialog .actions { margin-top: 1.4rem; display: flex; justify-content: flex-end; }
+  #infoDialog .actions .close {
+    font-family: "IBM Plex Mono", monospace; font-size: 0.72rem;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    background: var(--ink); color: var(--paper);
+    border: none; padding: 0.5rem 1.1rem; cursor: pointer;
+  }
+  #infoDialog .actions .close:hover { background: var(--rosa); }
+  body.wild #infoDialog .actions .close {
+    background: var(--azul); color: #000; text-transform: lowercase;
+    box-shadow: 3px 3px 0 var(--rosa); font-family: "Space Mono", monospace;
+  }
 </style>
 </head>
 <body>
@@ -599,7 +623,7 @@
 <header>
   <h1>Cartelera GDL<span id="simbolo"></span></h1>
   <button id="themeToggle" type="button"></button>
-  <p class="sub">Lo bueno que está pasando en Guadalajara</p>
+  <p class="sub">Lo bueno que está pasando en Guadalajara <button id="infoBtn" class="info-btn" type="button" aria-label="¿qué es esto?">?</button></p>
   <p class="updated" id="updated"></p>
   <p class="cuentas" id="cuentas"></p>
   <p class="about about-claro">Un robot lee estas cuentas cada pocos días para que
@@ -622,7 +646,7 @@
 <main id="main"><div class="status">cargando…</div></main>
 
 <footer>
-  <span></span>
+  <span><a href="https://www.instagram.com/cultistresults/" target="_blank" rel="noopener">contacto</a></span>
   <button id="editToggle" type="button">editar</button>
 </footer>
 
@@ -659,6 +683,17 @@
     <button class="cancel" id="cancelBtn" type="button">cancelar</button>
   </div>
   <p class="err" id="editorErr"></p>
+</dialog>
+
+<dialog id="infoDialog">
+  <h3>¿qué es esto?</h3>
+  <div class="prose">
+    <p>Un experimento. La escena cultural de Guadalajara vive atrapada en historias que se borran a las 24 horas y en los feeds de cuarenta cuentas que nadie tiene tiempo de vigilar. Esto es un intento de sacarla de ahí.</p>
+    <p>Un robot lee los flyers de esas cuentas cada pocos días, entiende qué dicen y los amontona en un solo lugar. Sin algoritmo decidiendo por ti, sin ads, sin tener que dar like para enterarte de que hay tocada el viernes.</p>
+    <p>¿Es perfecto? Para nada. A veces el robot alucina una fecha o se inventa un lugar — confirma en el post antes de salir de casa.</p>
+    <p>El código es abierto y vive en <a href="https://github.com/slfnk/eventos-gdl" target="_blank" rel="noopener">GitHub</a>. Si quieres expandirlo, romperlo o montar tu propia cartelera en otra ciudad: adelante, es todo tuyo.</p>
+  </div>
+  <div class="actions"><button class="close" id="infoClose" type="button">cerrar</button></div>
 </dialog>
 
 <script>
@@ -1132,21 +1167,12 @@ let cuentasGroups = [];
 function renderCuentas() {
   if (!cuentasGroups.length) return;
   const linkify = h => `<a href="https://www.instagram.com/${esc(h)}/" target="_blank" rel="noopener">@${esc(h)}</a>`;
-  if (document.body.classList.contains("wild")) {
-    const strip = cuentasGroups.map(g =>
-      (g.label ? `<span class="grupolabel">${esc(g.label)}</span> ` : "") +
-      g.handles.map(linkify).join(" ")
-    ).join(" ");
-    document.getElementById("cuentas").innerHTML =
-      `<span class="tira">${strip} ${strip}</span>`;  // duplicated for seamless loop
-  } else {
-    document.getElementById("cuentas").innerHTML = cuentasGroups.map(g =>
-      `<span class="grupo">${g.label ? `<span class="grupolabel">${esc(g.label)}</span> ` : ""}${g.handles.map(linkify).join(" ")}</span>`
-    ).join("");
-  }
+  document.getElementById("cuentas").innerHTML = cuentasGroups.map(g =>
+    `<span class="grupo">${g.label ? `<span class="grupolabel">${esc(g.label)}</span> ` : ""}${g.handles.map(linkify).join(" ")}</span>`
+  ).join("");
 }
 
-const THEME_CYCLE = ["claro", "wild", "eh"];
+const THEME_CYCLE = ["claro", "eh", "wild"];
 const THEME_LABEL = { claro: "¿sí?", wild: "¿no?", eh: "¿eh?" };
 
 function applyTheme(t) {
@@ -1166,6 +1192,15 @@ document.getElementById("themeToggle").addEventListener("click", () => {
 });
 applyTheme(localStorage.getItem(THEME_KEY) || "claro");
 renderFiltros();
+
+/* ---- info / about popover ---- */
+document.getElementById("infoBtn").addEventListener("click", () =>
+  document.getElementById("infoDialog").showModal());
+document.getElementById("infoClose").addEventListener("click", () =>
+  document.getElementById("infoDialog").close());
+document.getElementById("infoDialog").addEventListener("click", e => {
+  if (e.target.id === "infoDialog") e.target.close();  // click backdrop to dismiss
+});
 
 load();
 </script>
