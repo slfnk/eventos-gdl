@@ -1428,7 +1428,9 @@
     "notes": "And Friends Collective presenta combo tapaño generacional con artistas de síntesis e indie",
     "needs_review": false,
     "account": "flier callejero",
-    "found_at": "2026-07-23T20:37:33.736893+00:00"
+    "found_at": "2026-07-23T20:37:33.736893+00:00",
+    "post_url": null,
+    "featured": true
   },
   {
     "title": "Ondas y Raíces Ocultas",
