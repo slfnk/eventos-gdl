@@ -1581,5 +1581,31 @@
     "account": "lapisci.oficial",
     "post_url": "https://www.instagram.com/p/Da0vo62s0mN/",
     "found_at": "2026-07-16T17:20:43.083649+00:00"
+  },
+  {
+    "title": "Nocturna Masquerade Fest - Darkwave/Minimal",
+    "artists": [
+      "Lovataraxx",
+      "senselessptity",
+      "juandeaves",
+      "rael_mcgrim"
+    ],
+    "artist_handles": {
+      "senselessptity": "senselessptity",
+      "juandeaves": "juandeaves",
+      "rael_mcgrim": "rael_mcgrim"
+    },
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-07-23",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "dj",
+    "ticket_url": "https://www.ticketoverdrive.com",
+    "age_restriction": null,
+    "notes": "Darkwave/Minimal synth. Boletos en TicketOverdrive.com",
+    "needs_review": false,
+    "account": "flier callejero",
+    "found_at": "2026-07-23T20:36:44.939967+00:00"
   }
 ]
