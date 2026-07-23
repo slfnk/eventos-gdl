@@ -1399,7 +1399,9 @@
     "notes": "Darkwave/Minimal synth. Boletos en TicketOverdrive.com",
     "needs_review": false,
     "account": "flier callejero",
-    "found_at": "2026-07-23T20:36:44.939967+00:00"
+    "found_at": "2026-07-23T20:36:44.939967+00:00",
+    "post_url": null,
+    "featured": true
   },
   {
     "title": "Tertulia de Atmósferas y Ruido",
