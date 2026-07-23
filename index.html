@@ -212,7 +212,7 @@
     letter-spacing: -0.01em;
     line-height: 1.3;
   }
-  .event.featured h2 span {
+  .event.featured h2 span:not(.tag):not(.revisar) {
     background: var(--amarillo);
     padding: 0.05em 0.25em;
     box-decoration-break: clone;
@@ -516,7 +516,7 @@
     text-transform: lowercase;
     color: var(--ink);
   }
-  body.wild .event.featured h2 span { background: var(--azul); color: #000; }
+  body.wild .event.featured h2 span:not(.tag):not(.revisar) { background: var(--azul); color: #000; }
   body.wild .event .revisar {
     color: var(--rosa); border-color: var(--rosa);
     display: inline-block; transform: rotate(-1.5deg);
@@ -595,7 +595,7 @@
   }
   body.eh header .about { color: #d3dcc9; }              /* pale, readable on green */
   body.eh header .cuentas .grupolabel { color: #eef1e7; }/* group labels off-white, not yellow */
-  body.eh .event.featured h2 span { color: #16180f; } /* dark text on the yellow highlight */
+  body.eh .event.featured h2 span:not(.tag):not(.revisar) { color: #16180f; } /* dark text on the yellow highlight */
   body.eh ::selection { background: var(--amarillo); color: #16180f; }
 
   /* ---------- info / about popover ---------- */
@@ -991,7 +991,7 @@ function renderEvent(ev) {
   }
   links.push(`<a href="https://wa.me/?text=${waText}" target="_blank" rel="noopener">compartir ↗</a>`);
   return `<article class="event${ev.featured ? " featured" : ""}" id="${esc(slug)}">
-    <h2><span>${esc(ev.title || artists || "(sin título)")}</span>${!ev.featured && TAGS[ev.type] ? `<span class="tag ${TAGCLASS[ev.type] || ""}">${TAGS[ev.type]}</span>` : ""}${ev.needs_review ? '<span class="revisar">revisar</span>' : ""}</h2>
+    <h2><span>${esc(ev.title || artists || "(sin título)")}</span>${TAGS[ev.type] ? `<span class="tag ${TAGCLASS[ev.type] || ""}">${TAGS[ev.type]}</span>` : ""}${ev.needs_review ? '<span class="revisar">revisar</span>' : ""}</h2>
     ${artists && artists !== ev.title ? `<p class="artists">${artistsHtml}</p>` : ""}
     ${meta.length ? `<p class="meta">${meta.join('<span class="sep">·</span>')}</p>` : ""}
     ${ev.notes ? `<p class="notes">${esc(ev.notes)}</p>` : ""}
@@ -1178,11 +1178,11 @@ async function persist() {
 
 /* ================= theme (claro / caótico / ¿eh?) ================= */
 const THEME_KEY = "cartelera_theme";
-const SIMBOLOS = ["▲","⚗︎","☭","⛺︎","☬","☈","✇","☄︎"];  // ▲ = pyramid, shown on first-ever visit
+const SIMBOLOS = ["⚗︎","☭","⛺︎","☬","☈","✇","☄︎"];
 const SEEN_KEY = "cartelera_seen";
 let simbolo;
 if (!localStorage.getItem(SEEN_KEY)) {
-  simbolo = "▲";                          // first visit: always the pyramid
+  simbolo = "⛺︎";                         // first visit: always the tent (favorite)
   localStorage.setItem(SEEN_KEY, "1");
 } else {
   simbolo = SIMBOLOS[Math.floor(Math.random() * SIMBOLOS.length)];  // refreshes: random
