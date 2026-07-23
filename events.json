@@ -231,25 +231,6 @@
   },
   {
     "is_event": true,
-    "title": "Siesta Acústica",
-    "artists": [
-      "Ximena Carstensen",
-      "Paola Meza",
-      "Cuervo Glez",
-      "Anne Gouverneur"
-    ],
-    "venue": "Foro Diez - Semillero Estudios",
-    "date": "2026-07-21",
-    "time": "19:30",
-    "cover": null,
-    "type": "concert",
-    "notes": "Acoustic siesta event. Address: Priv Andrés Terán 31, Col Americana",
-    "account": "ximena_cars",
-    "post_url": "https://www.instagram.com/p/DaN0sDXCslp/",
-    "found_at": "2026-07-05T02:46:57.008837+00:00"
-  },
-  {
-    "is_event": true,
     "title": "Diles Que No Me Maten",
     "artists": [
       "Diles Que No Me Maten",
@@ -710,24 +691,6 @@
     "post_url": "https://www.instagram.com/p/Daeei_4jSni/",
     "found_at": "2026-07-08T17:27:53.415066+00:00",
     "featured": false
-  },
-  {
-    "title": "Ciclo de Cine x Mariana Casillas: Cine y Política - Cartografías de las crisis en la ciudad",
-    "artists": [
-      "Mariana Casillas"
-    ],
-    "venue": "Rayón (tres seis)",
-    "date": "2026-07-22",
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "SIN SENAS PARTICULARES (2020). Ciclo de cine sobre crisis urbanas.",
-    "needs_review": false,
-    "account": "rayon.376",
-    "post_url": "https://www.instagram.com/p/DagfVR7GqmK/",
-    "found_at": "2026-07-08T17:28:04.021620+00:00"
   },
   {
     "title": "Ciclo de Cine x Mariana Casillas: Cine y Política - Cartografías de las crisis en la ciudad",
@@ -1336,24 +1299,6 @@
     "account": "_a.rmenta_",
     "post_url": "https://www.instagram.com/p/DawbJszRzRP/",
     "found_at": "2026-07-14T17:18:17.611494+00:00"
-  },
-  {
-    "title": "Memoria del Agua (Guadalajara entre ríos)",
-    "artists": [
-      "Mar Medina López"
-    ],
-    "venue": "Plataforma",
-    "date": "2026-07-22",
-    "time": "12:00",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Charla abierta y creación colectiva sobre ríos desaparecidos de Guadalajara.",
-    "needs_review": false,
-    "account": "plataformagdl",
-    "post_url": "https://www.instagram.com/p/DawJy_7ujnx/",
-    "found_at": "2026-07-14T17:18:22.515917+00:00"
   },
   {
     "title": "León Benavente",
