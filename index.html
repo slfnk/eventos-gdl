@@ -71,6 +71,8 @@
   }
   header .cuentas a:hover, header .cuentas a:focus-visible { color: var(--rosa); border-color: var(--rosa); }
   header .cuentas .grupo { display: block; }
+  /* breathing room between groups (música / galerías / …); ticker mode opts out */
+  body:not(.wild) header .cuentas .grupo + .grupo { margin-top: 0.75rem; }
   header .cuentas .grupolabel { /* <- tweak account-group label here */
     color: var(--azul);
     text-transform: uppercase;
@@ -249,6 +251,26 @@
     margin-top: 0.3rem;
     font-style: italic;
   }
+
+  /* ---------- type pill (after the title) ---------- */
+  .event h2 .tag {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.58rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 0.55em;
+    padding: 0.18em 0.55em;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    white-space: nowrap;
+    color: var(--ink-soft);
+  }
+  .event h2 .tag.t-musica { color: var(--azul); }
+  .event h2 .tag.t-arte   { color: var(--rosa); }
+  .event h2 .tag.t-djs    { color: var(--ink-soft); }
+  .event h2 .tag.t-taller { color: var(--ink-soft); }
 
   /* ---------- footer / admin ---------- */
   footer {
@@ -556,6 +578,20 @@
     body.wild header .cuentas .tira { animation: none; display: inline; padding: 0; }
     body.wild .event, body.wild .addbar button, body.wild dialog .actions .save { transition: none; }
   }
+
+  /* ================= modo "¿eh?" (body.eh) — green & white inverted ================= */
+  body.eh {
+    --paper: #628d6c;   /* was the white page → now the green field */
+    --azul:  #fbfbf7;   /* was the green accent → now near-white     */
+    --ink:   #16180f;   /* body text stays dark: stays legible on green */
+    --ink-soft: #24382b;/* soft text: deep green for contrast on the field */
+    --hair:  #7ba585;   /* dividers: a lighter green */
+    --rosa:  #ffd76b;   /* hover accent: warm, pops on green */
+    --amarillo: #fff3a8;/* featured highlight unchanged */
+  }
+  body.eh header .about { color: #33503c; }          /* readable on green */
+  body.eh .event.featured h2 span { color: #16180f; }/* dark text on the yellow highlight */
+  body.eh ::selection { background: var(--amarillo); color: #16180f; }
 </style>
 </head>
 <body>
@@ -563,13 +599,13 @@
 <header>
   <h1>Cartelera GDL<span id="simbolo"></span></h1>
   <button id="themeToggle" type="button"></button>
-  <p class="sub">CONCIERTOS · EVENTOS · FOROS · GALERÍAS · I LOVE CULTURE</p>
+  <p class="sub">Lo bueno que está pasando en Guadalajara</p>
   <p class="updated" id="updated"></p>
   <p class="cuentas" id="cuentas"></p>
-  <p class="about about-claro">Un robot lee los flyers de estas cuentas cada mañana para que
+  <p class="about about-claro">Un robot lee estas cuentas cada pocos días para que
   tú no tengas que vivir en Instagram.<br>
   A veces le falla el ojo — confirma fecha y precio en el post antes de salir.</p>
-  <p class="about about-wild">un robot lee los flyers de estas cuentas cada mañana para que
+  <p class="about about-wild">un robot lee estas cuentas cada pocos días para que
   tú no tengas que vivir en instagram.<br>
   a veces alucina — checa fecha y precio en el post antes de salir 🙏</p>
 </header>
@@ -627,7 +663,7 @@
 
 <script>
 /* ================= config ================= */
-const GH_OWNER = "scottfunk";        // <-- your GitHub username
+const GH_OWNER = "slfnk";            // <-- your GitHub username
 const GH_REPO  = "eventos-gdl";      // <-- your repo name
 const GH_FILE  = "events.json";
 const GH_BRANCH = "main";
@@ -635,6 +671,8 @@ const GH_BRANCH = "main";
 /* ================= state ================= */
 let events = [];
 let editIndex = null; // null = adding
+let curatedSet = new Set();   // handles currently in accounts.txt (lowercased)
+let venueHandleMap = {};      // venue name (lc) -> its canonical curated handle
 
 const MESES = ["ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO",
                "JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE"];
@@ -656,6 +694,10 @@ const CATEGORIA = {
   workshop: "arte",
 };
 let filtroActivo = "todos";
+
+/* ---- type -> short pill shown after the title ---- */
+const TAGS = { concert: "música", dj: "djs", exhibition: "arte", opening: "arte", workshop: "taller" };
+const TAGCLASS = { concert: "t-musica", dj: "t-djs", exhibition: "t-arte", opening: "t-arte", workshop: "t-taller" };
 
 function pasaFiltro(ev) {
   if (filtroActivo === "todos") return true;
@@ -761,6 +803,7 @@ async function loadAccounts() {
     if (!groups.length) return;
     cuentasGroups = groups;
     renderCuentas();
+    if (events.length) render();  // event cards need curatedSet for collab re-attribution
   } catch (e) { /* header just stays without the list */ }
 }
 
@@ -769,6 +812,25 @@ function render() {
   const main = document.getElementById("main");
   const today = todayStr();
   const editing = document.body.classList.contains("editing");
+
+  // which handles are *currently* curated in accounts.txt
+  curatedSet = new Set(cuentasGroups.flatMap(g => g.handles.map(h => h.toLowerCase())));
+  // learn each venue's canonical handle from posts that came from a curated account,
+  // so collab posts scraped under a collaborator can be re-attributed to the venue.
+  venueHandleMap = {};
+  if (curatedSet.size) {
+    const tally = {};
+    for (const ev of events) {
+      if (ev.venue && ev.account && curatedSet.has(ev.account.toLowerCase())) {
+        const k = ev.venue.toLowerCase();
+        if (!tally[k]) tally[k] = {};
+        tally[k][ev.account] = (tally[k][ev.account] || 0) + 1;
+      }
+    }
+    for (const k in tally) {
+      venueHandleMap[k] = Object.entries(tally[k]).sort((a, b) => b[1] - a[1])[0][0];
+    }
+  }
 
   const upcoming = events
     .map((ev, i) => ({ ...ev, _i: i }))
@@ -852,7 +914,15 @@ function renderEvent(ev) {
   if (ev.venue) meta.push(esc(ev.venue));
   if (ev.cover) meta.push(esc(fmtCover(ev.cover)));
   if (ev.age_restriction) meta.push(esc(ev.age_restriction));
-  const showAccount = ev.account && !NON_IG_SOURCES.has(ev.account);
+  // collab posts get scraped under a collaborator's handle; if the scraped account
+  // isn't one we curate, re-attribute to the venue's canonical handle when we know it.
+  let srcHandle = ev.account;
+  let srcCurated = ev.account && curatedSet.has(ev.account.toLowerCase());
+  if (!srcCurated && ev.venue) {
+    const mapped = venueHandleMap[ev.venue.toLowerCase()];
+    if (mapped) { srcHandle = mapped; srcCurated = true; }
+  }
+  const showAccount = srcHandle && !NON_IG_SOURCES.has(srcHandle);
   const slug = slugOf(ev);
   const pageUrl = location.origin + location.pathname;
   const waText = encodeURIComponent(
@@ -870,12 +940,12 @@ function renderEvent(ev) {
   }
   links.push(`<a href="https://wa.me/?text=${waText}" target="_blank" rel="noopener">compartir ↗</a>`);
   return `<article class="event${ev.featured ? " featured" : ""}" id="${esc(slug)}">
-    <h2><span>${esc(ev.title || artists || "(sin título)")}</span>${ev.needs_review ? '<span class="revisar">revisar</span>' : ""}</h2>
+    <h2><span>${esc(ev.title || artists || "(sin título)")}</span>${TAGS[ev.type] ? `<span class="tag ${TAGCLASS[ev.type] || ""}">${TAGS[ev.type]}</span>` : ""}${ev.needs_review ? '<span class="revisar">revisar</span>' : ""}</h2>
     ${artists && artists !== ev.title ? `<p class="artists">${artistsHtml}</p>` : ""}
     ${meta.length ? `<p class="meta">${meta.join('<span class="sep">·</span>')}</p>` : ""}
     ${ev.notes ? `<p class="notes">${esc(ev.notes)}</p>` : ""}
     <p class="links">${links.join('<span class="sep"> · </span>')}</p>
-    ${showAccount ? `<p class="fuente"><a href="https://www.instagram.com/${esc(ev.account)}/" target="_blank" rel="noopener">@${esc(ev.account)}</a></p>` : ""}
+    ${showAccount ? `<p class="fuente"><a href="https://www.instagram.com/${esc(srcHandle)}/" target="_blank" rel="noopener">@${esc(srcHandle)}</a></p>` : ""}
     <div class="admintools">
       <button type="button" data-edit="${ev._i}">editar</button>
       <button type="button" class="del" data-del="${ev._i}">borrar</button>
@@ -1053,7 +1123,7 @@ async function persist() {
 }
 
 
-/* ================= theme (claro / caótico) ================= */
+/* ================= theme (claro / caótico / ¿eh?) ================= */
 const THEME_KEY = "cartelera_theme";
 const SIMBOLOS = ["⚗︎","☭","⛺︎","☬","☈","✇","☄︎"];
 const simbolo = SIMBOLOS[Math.floor(Math.random() * SIMBOLOS.length)];
@@ -1076,15 +1146,21 @@ function renderCuentas() {
   }
 }
 
+const THEME_CYCLE = ["claro", "wild", "eh"];
+const THEME_LABEL = { claro: "¿sí?", wild: "¿no?", eh: "¿eh?" };
+
 function applyTheme(t) {
-  document.body.classList.toggle("wild", t === "wild");
-  document.getElementById("themeToggle").textContent = t === "wild" ? "¿no?" : "¿sí?";
+  if (!THEME_CYCLE.includes(t)) t = "claro";
+  document.body.classList.remove("wild", "eh");
+  if (t !== "claro") document.body.classList.add(t);
+  document.getElementById("themeToggle").textContent = THEME_LABEL[t];
   document.getElementById("simbolo").textContent = " " + simbolo;
   renderCuentas();
 }
 
 document.getElementById("themeToggle").addEventListener("click", () => {
-  const next = (localStorage.getItem(THEME_KEY) || "claro") === "wild" ? "claro" : "wild";
+  const cur = localStorage.getItem(THEME_KEY) || "claro";
+  const next = THEME_CYCLE[(THEME_CYCLE.indexOf(cur) + 1) % THEME_CYCLE.length];
   localStorage.setItem(THEME_KEY, next);
   applyTheme(next);
 });
