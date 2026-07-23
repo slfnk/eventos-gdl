@@ -39,22 +39,6 @@
     "featured": false
   },
   {
-    "title": "Prefiesta del Mexafest GDL",
-    "artists": [],
-    "venue": null,
-    "date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Evento previo al Mexafest GDL, fecha exacta no especificada",
-    "needs_review": true,
-    "account": "slaveofforgiveness",
-    "post_url": "https://www.instagram.com/p/Dazd8k0tc-o/",
-    "found_at": "2026-07-15T17:22:31.786794+00:00"
-  },
-  {
     "is_event": true,
     "title": "Diles Que No Me Maten",
     "artists": [
