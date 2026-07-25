@@ -1431,5 +1431,43 @@
     "found_at": "2026-07-23T20:37:36.345847+00:00",
     "post_url": null,
     "featured": true
+  },
+  {
+    "title": "Cordus Carnis: Música, Performance, Instalación",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Centro Cultural",
+    "date": "2026-07-25",
+    "end_date": null,
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "performance",
+    "ticket_url": null,
+    "age_restriction": "+18",
+    "notes": "Engendra Tapatio. Evento preferentemente para mayores de 18 años.",
+    "needs_review": false,
+    "account": "flier callejero",
+    "found_at": "2026-07-25T16:15:19.192122+00:00"
+  },
+  {
+    "title": "¡Lágrima Inmensa Tour",
+    "artists": [
+      "Fulgior",
+      "@loveannittonight",
+      "@fantasma_electrico"
+    ],
+    "artist_handles": null,
+    "venue": "Hake Al Rey",
+    "date": "2026-07-25",
+    "end_date": null,
+    "time": "20:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Doom, luto y sintetizadores. Preventa con descuento por DM.",
+    "needs_review": false,
+    "account": "flier callejero",
+    "found_at": "2026-07-25T16:15:22.041545+00:00"
   }
 ]
