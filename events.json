@@ -196,26 +196,6 @@
   },
   {
     "is_event": true,
-    "title": "Mirror Revelations",
-    "artists": [
-      "Mirror Revelations",
-      "Hexagrams",
-      "5.nt",
-      "Evil Ent"
-    ],
-    "venue": "Foro Echo",
-    "date": "2026-07-24",
-    "time": "21:00",
-    "cover": "$150mxn",
-    "type": "other",
-    "notes": "Full lineup coming this week. Venue: afasia",
-    "account": "afasia.mx",
-    "post_url": "https://www.instagram.com/p/DafwBvHBpaQ/",
-    "found_at": "2026-07-07T18:03:58.601089+00:00",
-    "needs_review": false
-  },
-  {
-    "is_event": true,
     "title": "CRISIS - Presentación EP 'Ex Memoriae'",
     "artists": [
       "Crisis",
@@ -332,25 +312,6 @@
     "account": "casamudrajazzclub",
     "post_url": "https://www.instagram.com/p/DaGc6hxOMLD/",
     "found_at": "2026-07-08T17:27:05.011192+00:00"
-  },
-  {
-    "title": "Bad Bunny Jazz + Malambres",
-    "artists": [
-      "Bad Bunny Jazz",
-      "Malambres"
-    ],
-    "venue": "Casa Mudra",
-    "date": "2026-07-23",
-    "time": "20:30",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Jueves de Sorpresas en Casa Mudra",
-    "needs_review": false,
-    "account": "casamudrajazzclub",
-    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
-    "found_at": "2026-07-08T17:27:29.748856+00:00"
   },
   {
     "title": "Mac Miller Acoustic + El Xanto",
@@ -574,28 +535,6 @@
     "found_at": "2026-07-08T17:28:57.249050+00:00"
   },
   {
-    "title": "Jcesar con Tololoche",
-    "artists": [
-      "Jcesar",
-      "Siempre Amoroso",
-      "Artemio Charlatan",
-      "Gato Aguilera",
-      "Gazthly"
-    ],
-    "venue": "Ritval",
-    "date": "2026-07-24",
-    "time": "19:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Presentación oficial con tololoche y elenco estelar",
-    "needs_review": false,
-    "account": "dickson.records",
-    "post_url": "https://www.instagram.com/p/DajPKAZRexs/",
-    "found_at": "2026-07-09T18:01:01.272725+00:00"
-  },
-  {
     "title": "Jota Moore en Guadalajara",
     "artists": [
       "Jota Moore",
@@ -776,24 +715,6 @@
     "found_at": "2026-07-11T17:01:55.490249+00:00"
   },
   {
-    "title": "One Direction",
-    "artists": [
-      "One Direction"
-    ],
-    "venue": "C3 Stage",
-    "date": "2026-07-24",
-    "time": "19:00",
-    "cover": "$200mxn (1D Full Experience), $100mxn (General)",
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Imagen muestra banda británica-irlandesa; fecha 24•07 en caption",
-    "needs_review": true,
-    "account": "c3stage",
-    "post_url": "https://www.instagram.com/p/DaoOsoXGYB0/",
-    "found_at": "2026-07-11T17:02:05.831315+00:00"
-  },
-  {
     "title": "Noche de Boleros - Catalina y Las Bordonas de Oro",
     "artists": [
       "Catalina y Las Bordonas de Oro"
@@ -869,29 +790,6 @@
     "account": "cerro_de.los_espejos",
     "post_url": "https://www.instagram.com/p/DaqfiUliXNF/",
     "found_at": "2026-07-12T17:02:33.164513+00:00"
-  },
-  {
-    "title": "LEVEDAD I – Laboratorio coreográfico",
-    "artists": [
-      "Rodrigo Agraz",
-      "Mariana Campa",
-      "Marisol Villanueva",
-      "Humberto Mendoza",
-      "Lola Ramírez"
-    ],
-    "venue": "Museo MURA",
-    "date": "2026-07-22",
-    "time": "18:00",
-    "cover": null,
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Laboratorio para artistas escénicos y performers. Registro previo requerido.",
-    "needs_review": false,
-    "account": "muragdl",
-    "post_url": "https://www.instagram.com/p/DavYXMchitW/",
-    "found_at": "2026-07-13T17:58:17.078989+00:00",
-    "end_date": "2026-07-24"
   },
   {
     "title": "Estalla Tour - Puebla",
@@ -1354,34 +1252,6 @@
     "account": "lapisci.oficial",
     "post_url": "https://www.instagram.com/p/Da0vo62s0mN/",
     "found_at": "2026-07-16T17:20:43.083649+00:00"
-  },
-  {
-    "title": "Nocturna Masquerade Fest - Darkwave/Minimal",
-    "artists": [
-      "Lovataraxx",
-      "senselessptity",
-      "juandeaves",
-      "rael_mcgrim"
-    ],
-    "artist_handles": {
-      "senselessptity": "senselessptity",
-      "juandeaves": "juandeaves",
-      "rael_mcgrim": "rael_mcgrim"
-    },
-    "venue": "Tantuyo Centro Cultural",
-    "date": "2026-07-23",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.ticketoverdrive.com",
-    "age_restriction": null,
-    "notes": "Darkwave/Minimal synth. Boletos en TicketOverdrive.com",
-    "needs_review": false,
-    "account": "flier callejero",
-    "found_at": "2026-07-23T20:36:44.939967+00:00",
-    "post_url": "https://www.instagram.com/p/Da04bY6mJQr/?img_index=1",
-    "featured": true
   },
   {
     "title": "Ondas y Raíces Ocultas",
