@@ -1416,18 +1416,20 @@
     "title": "Cordus Carnis: Música, Performance, Instalación",
     "artists": [],
     "artist_handles": null,
-    "venue": "Centro Cultural",
+    "venue": "Staditche Centro Cultural",
     "date": "2026-07-25",
     "end_date": null,
     "time": "19:00",
     "cover": "entrada libre",
-    "type": "performance",
+    "type": "other",
     "ticket_url": null,
     "age_restriction": "+18",
     "notes": "Engendra Tapatio. Evento preferentemente para mayores de 18 años.",
     "needs_review": false,
     "account": "flier callejero",
-    "found_at": "2026-07-25T16:15:19.192122+00:00"
+    "found_at": "2026-07-25T16:15:19.192122+00:00",
+    "post_url": "https://www.instagram.com/p/DaT-_EPM0Tz/",
+    "featured": false
   },
   {
     "title": "¡Lágrima Inmensa Tour",
