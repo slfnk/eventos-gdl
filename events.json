@@ -1,25 +1,5 @@
 [
   {
-    "title": "Niérika. Visiones de la creación",
-    "artists": [
-      "José Benítez",
-      "Fidencio Benítez"
-    ],
-    "venue": "MUSA",
-    "date": "2026-07-26",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición de arte wixárika. Fechas no especificadas en el anuncio.",
-    "needs_review": false,
-    "account": "cunorte_udg",
-    "post_url": "https://www.instagram.com/p/DamS5JqN9fI/",
-    "found_at": "2026-07-10T17:50:38.554683+00:00",
-    "featured": false
-  },
-  {
     "title": "Luis Eduardo González. Artífice de la luz",
     "artists": [
       "Luis Eduardo González"
@@ -230,22 +210,6 @@
   },
   {
     "is_event": true,
-    "title": "Fuera de cancha",
-    "artists": [
-      "Simon Barber"
-    ],
-    "venue": "Plataforma",
-    "date": "2026-07-26",
-    "time": null,
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "notes": "Chivas archive and photography exhibition by JOVEM, FIFA World Cup 2026",
-    "account": "plataformagdl",
-    "post_url": "https://www.instagram.com/p/DaCH-YLDqqF/",
-    "found_at": "2026-07-07T18:04:39.951709+00:00"
-  },
-  {
-    "is_event": true,
     "title": "Insitemusic Concert",
     "artists": [
       "Insitemusic"
@@ -350,24 +314,6 @@
     "account": "casamudrajazzclub",
     "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
     "found_at": "2026-07-08T17:27:29.748874+00:00"
-  },
-  {
-    "title": "Paisaje Abrupto",
-    "artists": [
-      "Esteban Leñero"
-    ],
-    "venue": "guadalajara90210",
-    "date": "2026-07-25",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Solo show. Horarios: jueves-viernes 15-19h, sábado 11-15h",
-    "needs_review": false,
-    "account": "guadalajara90210",
-    "post_url": "https://www.instagram.com/p/DadgK8ml1oE/",
-    "found_at": "2026-07-08T17:27:33.156275+00:00"
   },
   {
     "title": "Debut Album Release",
@@ -497,24 +443,6 @@
     "account": "heladosprod",
     "post_url": "https://www.instagram.com/p/DaOJblYpD3g/",
     "found_at": "2026-07-08T17:28:23.975674+00:00"
-  },
-  {
-    "title": "En una estrella mi mamá, en una estrella un potro salvaje, en una estrella un maní",
-    "artists": [
-      "Rena Kudoh"
-    ],
-    "venue": "guadalajara90210 GDL",
-    "date": "2026-07-25",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición individual de cerámica. Abierto jueves-viernes 15-19h, sábado 11-15h",
-    "needs_review": false,
-    "account": "guadalajara90210",
-    "post_url": "https://www.instagram.com/p/DaS2kINl4As/",
-    "found_at": "2026-07-08T17:28:47.641135+00:00"
   },
   {
     "title": "Bestia Bebé",
@@ -679,22 +607,6 @@
     "account": "lapisci.oficial",
     "post_url": "https://www.instagram.com/p/Dal9OwaNuVA/",
     "found_at": "2026-07-10T17:51:02.605290+00:00"
-  },
-  {
-    "title": "Taller: IMPI - Protege lo que creas",
-    "artists": [],
-    "venue": "rayón (tres siete seis)",
-    "date": "2026-07-25",
-    "time": "09:00",
-    "cover": "$850mxn",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Registro de marcas en México ante el IMPI. Para artistas, diseñadores, creadores.",
-    "needs_review": false,
-    "account": "rayon.376",
-    "post_url": "https://www.instagram.com/p/Daoe3e9vTVD/",
-    "found_at": "2026-07-11T17:01:52.145966+00:00"
   },
   {
     "title": "Psychedfest",
@@ -1199,24 +1111,6 @@
     "found_at": "2026-07-15T17:22:09.668091+00:00"
   },
   {
-    "title": "Lil Supa - ANIMAL",
-    "artists": [
-      "Lil Supa"
-    ],
-    "venue": "C3 Stage",
-    "date": "2026-07-25",
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Presentación en casa, promoción del disco ANIMAL",
-    "needs_review": false,
-    "account": "c3stage",
-    "post_url": "https://www.instagram.com/p/Da0jUOWGgxg/",
-    "found_at": "2026-07-15T17:22:34.757523+00:00"
-  },
-  {
     "title": "Tufi + Pehuen",
     "artists": [
       "Tufi",
@@ -1252,76 +1146,5 @@
     "account": "lapisci.oficial",
     "post_url": "https://www.instagram.com/p/Da0vo62s0mN/",
     "found_at": "2026-07-16T17:20:43.083649+00:00"
-  },
-  {
-    "title": "Ondas y Raíces Ocultas",
-    "artists": [
-      "wyyr",
-      "silentoirofficial",
-      "saitara_band",
-      "coolgirl69"
-    ],
-    "artist_handles": {
-      "wyyr": "wyyrd_",
-      "silentoirofficial": "silentoirofficial",
-      "saitara_band": "saitara_band",
-      "coolgirl69": "coolgirl69_"
-    },
-    "venue": "cuerda cultura",
-    "date": "2026-07-26",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Información disponible vía DM con @ondasyraices",
-    "needs_review": false,
-    "account": "flier callejero",
-    "found_at": "2026-07-23T20:37:36.345847+00:00",
-    "post_url": null,
-    "featured": true
-  },
-  {
-    "title": "Cordus Carnis: Música, Performance, Instalación",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Staditche Centro Cultural",
-    "date": "2026-07-25",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": "+18",
-    "notes": "Engendra Tapatio. Evento preferentemente para mayores de 18 años.",
-    "needs_review": false,
-    "account": "flier callejero",
-    "found_at": "2026-07-25T16:15:19.192122+00:00",
-    "post_url": "https://www.instagram.com/p/DaT-_EPM0Tz/",
-    "featured": false
-  },
-  {
-    "title": "¡Lágrima Inmensa Tour",
-    "artists": [
-      "Fulgior",
-      "@loveannittonight",
-      "@fantasma_electrico"
-    ],
-    "artist_handles": null,
-    "venue": "Hake Al Rey",
-    "date": "2026-07-25",
-    "end_date": null,
-    "time": "20:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Doom, luto y sintetizadores. Preventa con descuento por DM.",
-    "needs_review": false,
-    "account": "flier callejero",
-    "found_at": "2026-07-25T16:15:22.041545+00:00",
-    "post_url": "https://www.instagram.com/p/DbBp2HykY0E/?img_index=1",
-    "featured": false
   }
 ]
