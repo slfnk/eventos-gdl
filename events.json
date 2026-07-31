@@ -260,43 +260,6 @@
     "found_at": "2026-07-07T18:04:48.246318+00:00"
   },
   {
-    "title": "Bad Bunny Jazz con Malambres",
-    "artists": [
-      "Malambres"
-    ],
-    "venue": "Casa Mudra",
-    "date": "2026-07-30",
-    "time": "20:30",
-    "cover": "$100mxn",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Éxitos de Bad Bunny reinventados en jazz. Todos los jueves de julio.",
-    "needs_review": false,
-    "account": "casamudrajazzclub",
-    "post_url": "https://www.instagram.com/p/DaGc6hxOMLD/",
-    "found_at": "2026-07-08T17:27:05.011192+00:00"
-  },
-  {
-    "title": "Mac Miller Acoustic + El Xanto",
-    "artists": [
-      "Mac Miller Acoustic",
-      "El Xanto"
-    ],
-    "venue": "Casa Mudra",
-    "date": "2026-07-29",
-    "time": "20:30",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Miércoles de Homenajes Acústicos",
-    "needs_review": false,
-    "account": "casamudrajazzclub",
-    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
-    "found_at": "2026-07-08T17:27:29.748868+00:00"
-  },
-  {
     "title": "Queen Jazz Tribute + Charlie Hörn Trío",
     "artists": [
       "Queen Jazz Tribute",
@@ -371,24 +334,6 @@
     "post_url": "https://www.instagram.com/p/Daeei_4jSni/",
     "found_at": "2026-07-08T17:27:53.415066+00:00",
     "featured": false
-  },
-  {
-    "title": "Ciclo de Cine x Mariana Casillas: Cine y Política - Cartografías de las crisis en la ciudad",
-    "artists": [
-      "Mariana Casillas"
-    ],
-    "venue": "Rayón (tres seis)",
-    "date": "2026-07-29",
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "HACER CIUDAD (2012). Ciclo de cine sobre crisis urbanas.",
-    "needs_review": false,
-    "account": "rayon.376",
-    "post_url": "https://www.instagram.com/p/DagfVR7GqmK/",
-    "found_at": "2026-07-08T17:28:04.021623+00:00"
   },
   {
     "title": "Steve Blanco plays the music of Imprints of Man - Solo Piano Mexico Tour 2026",
