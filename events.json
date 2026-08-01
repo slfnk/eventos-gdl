@@ -176,24 +176,6 @@
   },
   {
     "is_event": true,
-    "title": "CRISIS - Presentación EP 'Ex Memoriae'",
-    "artists": [
-      "Crisis",
-      "Omega",
-      "HIUB"
-    ],
-    "venue": "Hake Al Rey",
-    "date": "2026-07-31",
-    "time": "19:00",
-    "cover": "$120 preventa / $150 general",
-    "type": "concert",
-    "notes": "Hardcore/metal show. Third band TBA. Tickets on sale July 17.",
-    "account": "crisishardcore",
-    "post_url": "https://www.instagram.com/p/DaeJD21IVfa/",
-    "found_at": "2026-07-07T18:04:14.828384+00:00"
-  },
-  {
-    "is_event": true,
     "title": "Ladrones",
     "artists": [
       "Ladrones"
@@ -258,25 +240,6 @@
     "account": "plataformagdl",
     "post_url": "https://www.instagram.com/p/DaJjlR9uVYO/",
     "found_at": "2026-07-07T18:04:48.246318+00:00"
-  },
-  {
-    "title": "Queen Jazz Tribute + Charlie Hörn Trío",
-    "artists": [
-      "Queen Jazz Tribute",
-      "Charlie Hörn Trío"
-    ],
-    "venue": "Casa Mudra",
-    "date": "2026-07-31",
-    "time": "20:30",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Viernes de Legado en Casa Mudra",
-    "needs_review": false,
-    "account": "casamudrajazzclub",
-    "post_url": "https://www.instagram.com/p/DaQr-2lB9KT/",
-    "found_at": "2026-07-08T17:27:29.748874+00:00"
   },
   {
     "title": "Debut Album Release",
