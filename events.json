@@ -208,24 +208,6 @@
   },
   {
     "is_event": true,
-    "title": "Maria Daniela y Su Sonido Lässer",
-    "artists": [
-      "Maria Daniela y Su Sonido Lässer"
-    ],
-    "venue": "C4 Concert House",
-    "date": "2026-08-01",
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "notes": "Tickets via TicketNow México. Electronic/synth band performance.",
-    "account": "c4concerthouse",
-    "post_url": "https://www.instagram.com/p/DaWdRlPH2qQ/",
-    "found_at": "2026-07-07T18:04:45.638895+00:00",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "needs_review": false
-  },
-  {
-    "is_event": true,
     "title": "AV",
     "artists": [
       "Rafa Esparza",
@@ -959,24 +941,6 @@
     "account": "grisleekuma",
     "post_url": "https://www.instagram.com/p/DayICJjEbtk/",
     "found_at": "2026-07-15T17:21:51.283594+00:00"
-  },
-  {
-    "title": "Insulini y Los Espantasuegras en vivo",
-    "artists": [
-      "Insulini y Los Espantasuegras"
-    ],
-    "venue": "Anexo Independencia",
-    "date": "2026-08-01",
-    "time": null,
-    "cover": "$300mxn general, $600mxn meet and greet",
-    "type": "concert",
-    "ticket_url": "https://www.ticketor.com/styledanceproducciones/tickets/insulini-y-los-espantasuegras-349361?v=3_807500914#buy",
-    "age_restriction": null,
-    "notes": "Noche de energía, fiesta y puro desmadre musical",
-    "needs_review": false,
-    "account": "styledanceproducciones",
-    "post_url": "https://www.instagram.com/p/DayZ0JDvt9L/",
-    "found_at": "2026-07-15T17:21:58.489275+00:00"
   },
   {
     "title": "Los Tetas México 2026",
