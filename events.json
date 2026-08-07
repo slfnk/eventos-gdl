@@ -171,6 +171,29 @@
     "found_at": "2026-08-05T17:30:47.643480+00:00"
   },
   {
+    "title": "Paisajes Literarios (La náusea, Jean-Paul Sartre II)",
+    "artists": [
+      "CURRO",
+      "Francisco Ugarte"
+    ],
+    "artist_handles": {
+      "Francisco Ugarte": "estudiofranciscougarte"
+    },
+    "venue": null,
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Edición limitada de 53 piezas únicas. Contactar para información.",
+    "needs_review": true,
+    "account": "galeriacurro",
+    "post_url": "https://www.instagram.com/p/DbqukxAlP3d/",
+    "found_at": "2026-08-07T16:50:15.331784+00:00"
+  },
+  {
     "title": "Luis Eduardo González. Artífice de la luz",
     "artists": [
       "Luis Eduardo González"
@@ -616,26 +639,6 @@
     "found_at": "2026-07-10T17:50:26.530234+00:00"
   },
   {
-    "title": "Raíz Latina Vol. 2",
-    "artists": [
-      "Sergio H. Celis",
-      "Isa de la Mora",
-      "Pablo Daniel Navarro"
-    ],
-    "venue": "Foro Diez",
-    "date": "2026-08-06",
-    "time": "19:30",
-    "cover": "$300mxn preventa, $350mxn taquilla",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Concierto de música latina. Boletos por DM con los artistas.",
-    "needs_review": false,
-    "account": "idelamo",
-    "post_url": "https://www.instagram.com/p/DalkVmppHTH/",
-    "found_at": "2026-07-10T17:50:30.954238+00:00"
-  },
-  {
     "title": "Akribb",
     "artists": [
       "Akribb"
@@ -1052,7 +1055,14 @@
     "needs_review": false,
     "account": "naypeband",
     "post_url": "https://www.instagram.com/p/DawTZPTtN9d/",
-    "found_at": "2026-07-14T17:18:45.727942+00:00"
+    "found_at": "2026-07-14T17:18:45.727942+00:00",
+    "artist_handles": {
+      "Naype": "naypeband",
+      "Miray": "miraymusica",
+      "Intergalactic Band": "intergalactic_band",
+      "Montenegro": "montenegrogdl",
+      "Fibonacci": "fibonaccirock"
+    }
   },
   {
     "title": "MAX RC Live Concert",
@@ -1804,29 +1814,6 @@
     "found_at": "2026-08-05T17:29:00.986428+00:00"
   },
   {
-    "title": "ARMA BLANCA - Presentación de poemario",
-    "artists": [
-      "Sayuri Sánchez",
-      "Juliana de la Torre",
-      "Luis Fernando Ortega",
-      "Lizzie Castro"
-    ],
-    "artist_handles": null,
-    "venue": "Impronta Casa Editora",
-    "date": "2026-08-06",
-    "end_date": null,
-    "time": "19:00",
-    "cover": null,
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Presentación de poemario, colección Prueba de autor",
-    "needs_review": false,
-    "account": "manosanta_editores",
-    "post_url": "https://www.instagram.com/p/Dbir2XfA6Ha/",
-    "found_at": "2026-08-05T17:29:04.585983+00:00"
-  },
-  {
     "title": "Paloma Morphy",
     "artists": [
       "Paloma Morphy"
@@ -1876,26 +1863,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DbjptIOn2jF/",
     "found_at": "2026-08-05T17:29:21.995573+00:00"
-  },
-  {
-    "title": "Tierra desnuda",
-    "artists": [
-      "Karian Amaya"
-    ],
-    "artist_handles": null,
-    "venue": "Museo Raúl Anguiano",
-    "date": "2026-08-06",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Inauguración. Escultura, video, vidrio y fotograbado sobre paisaje.",
-    "needs_review": false,
-    "account": "muragdl",
-    "post_url": "https://www.instagram.com/p/DbTci_FR8Ci/",
-    "found_at": "2026-08-05T17:29:25.669089+00:00"
   },
   {
     "title": "Corintia y Gram Jr.",
@@ -2032,28 +1999,6 @@
     "account": "otroespacio.gdl",
     "post_url": "https://www.instagram.com/p/DbdYJo0uN1z/",
     "found_at": "2026-08-05T17:29:44.268235+00:00"
-  },
-  {
-    "title": "Inmersión Sonora",
-    "artists": [
-      "Benjamín Zárate"
-    ],
-    "artist_handles": {
-      "Benjamín Zárate": "psicoterapeuta_musical"
-    },
-    "venue": "Plataforma",
-    "date": "2026-08-06",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Sesión de escucha guiada. Cupo lleno según actualización.",
-    "needs_review": false,
-    "account": "plataformagdl",
-    "post_url": "https://www.instagram.com/p/DbZXIvmjsYw/",
-    "found_at": "2026-08-05T17:29:50.138614+00:00"
   },
   {
     "title": "Biombo: Feria de publicaciones independientes e ilustración 9a. edición",
@@ -2205,7 +2150,10 @@
       "A Skylit Drive",
       "AM:AM"
     ],
-    "artist_handles": null,
+    "artist_handles": {
+      "Tresseises": "tresseisesmx",
+      "AM AM": "am.am.music"
+    },
     "venue": "Foro Boletomóvil",
     "date": "2026-10-19",
     "end_date": null,
@@ -2221,25 +2169,317 @@
     "found_at": "2026-08-05T17:31:02.414789+00:00"
   },
   {
-    "title": "Francisco Ugarte - Paisajes literarios (La náusea, Jean-Paul Sartre II)",
+    "title": "Pijamada",
     "artists": [
-      "Francisco Ugarte"
+      "Meyer",
+      "DJ Chulow",
+      "El Terror de GDL",
+      "Raquel Key Mercado",
+      "Moctezzzuma Bel",
+      "Santos JSD"
     ],
     "artist_handles": {
-      "Francisco Ugarte": "estudiofranciscougarte"
+      "Meyer": "meyerbxd",
+      "DJ Chulow": "djchulow",
+      "El Terror de GDL": "elterrordegdl",
+      "Raquel Key Mercado": "raquel.keymercado",
+      "Moctezzzuma Bel": "moctezzzuma.bel",
+      "Santos JSD": "santos.jsd"
     },
-    "venue": "Galería CURRO",
-    "date": "2026-08-05",
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-08-29",
     "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "dj",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Performance secreto de ángeles y demonios. Viaje onírico.",
+    "needs_review": false,
+    "account": "elterrordegdl",
+    "post_url": "https://www.instagram.com/p/DbmPm86Mrru/",
+    "found_at": "2026-08-07T16:49:07.902482+00:00"
+  },
+  {
+    "title": "Billions of Comrades - Trotop Tour 2026",
+    "artists": [
+      "Billions of Comrades",
+      "Encoma"
+    ],
+    "artist_handles": null,
+    "venue": "Ritual Cultural",
+    "date": "2026-09-18",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://passline.com",
+    "age_restriction": "+18",
+    "notes": "Dance-punk europeo. Buscan banda adicional para abrir.",
+    "needs_review": false,
+    "account": "rockhardprods",
+    "post_url": "https://www.instagram.com/p/DbuCatIkS1X/",
+    "found_at": "2026-08-07T16:49:11.076557+00:00"
+  },
+  {
+    "title": "Pop Dots: Recolección de materiales y documentación de procesos",
+    "artists": [
+      "Luis Cárdenas",
+      "Melissa Aldrete"
+    ],
+    "artist_handles": null,
+    "venue": "Proyecto La Esquina",
+    "date": "2026-08-13",
+    "end_date": null,
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Charla abierta sobre procesos artísticos y práctica del colectivo Pop Dots",
+    "needs_review": false,
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DbrML7huNOd/",
+    "found_at": "2026-08-07T16:49:15.912201+00:00"
+  },
+  {
+    "title": "Alizzz Tour",
+    "artists": [
+      "Alizzz"
+    ],
+    "artist_handles": {
+      "Alizzz": "alizzz"
+    },
+    "venue": "C3 Stage",
+    "date": "2026-10-22",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Boletos a la venta 11 de agosto a las 10:00",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DbtuMLBD2zK/",
+    "found_at": "2026-08-07T16:49:33.481113+00:00"
+  },
+  {
+    "title": "Peda con Puros Track de Puchito",
+    "artists": [
+      "C. Pampanito"
+    ],
+    "artist_handles": null,
+    "venue": "C3 Rooftop",
+    "date": "2026-08-28",
+    "end_date": null,
+    "time": "21:00",
+    "cover": "$100mxn",
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Fiesta con rolas de El Madrileño. Viernes 28 de agosto.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/Dbre8FfGx_4/",
+    "found_at": "2026-08-07T16:49:37.153526+00:00"
+  },
+  {
+    "title": "La naturaleza íntima de la vida. Ernst Saemisch (1902-1984)",
+    "artists": [
+      "Ernst Saemisch"
+    ],
+    "artist_handles": null,
+    "venue": "MUSA Museo de las Artes",
+    "date": "2026-08-06",
+    "end_date": "2026-08-23",
     "time": null,
     "cover": null,
     "type": "exhibition",
     "ticket_url": null,
     "age_restriction": null,
-    "notes": "Edición limitada de 53 piezas únicas. Disponible a partir del 5 de agosto.",
+    "notes": "Más de 200 obras en planta alta del museo.",
     "needs_review": false,
-    "account": "galeriacurro",
-    "post_url": "https://www.instagram.com/p/DbeDcesN1wV/",
-    "found_at": "2026-08-05T17:31:16.690712+00:00"
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/Dbt2SwWPjkt/",
+    "found_at": "2026-08-07T16:49:43.784347+00:00"
+  },
+  {
+    "title": "BIZARRONOIZE",
+    "artists": [
+      "LN3RT33",
+      "ZAZALOVER09",
+      "DSGSTNG677",
+      "VAMPIRO_TRISTE"
+    ],
+    "artist_handles": {
+      "LN3RT33": "ln3rt33",
+      "ZAZALOVER09": "zazalover09",
+      "DSGSTNG677": "dsgstng677",
+      "VAMPIRO_TRISTE": "vampiro_triste"
+    },
+    "venue": "Pulque Degollado",
+    "date": "2026-08-28",
+    "end_date": null,
+    "time": null,
+    "cover": "entrada libre",
+    "type": "dj",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Último viernes del mes, pulque y bailongo hardcore",
+    "needs_review": false,
+    "account": "ln3rt33",
+    "post_url": "https://www.instagram.com/p/DbuSSvYjRng/",
+    "found_at": "2026-08-07T16:49:48.143649+00:00"
+  },
+  {
+    "title": "Pesa Más La Duda Tour - Mar Lara",
+    "artists": [
+      "Mar Lara"
+    ],
+    "artist_handles": {
+      "Mar Lara": "mar.laras"
+    },
+    "venue": "Cuerda Cultura",
+    "date": "2026-08-07",
+    "end_date": null,
+    "time": "20:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://passline.com",
+    "age_restriction": null,
+    "notes": "Inauguración del tour, celebración de cumpleaños con anuncios especiales",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/Dbr1ih2DrxM/",
+    "found_at": "2026-08-07T16:50:05.566147+00:00"
+  },
+  {
+    "title": "Festival Woodstockhousen",
+    "artists": [],
+    "artist_handles": null,
+    "venue": null,
+    "date": "2026-08-15",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://woodstockhausen-ciudad-de-mexico.boletia.com/",
+    "age_restriction": null,
+    "notes": "Primera edición mexicana en CDMX. Difunde talento emergente.",
+    "needs_review": true,
+    "account": "afasia.mx",
+    "post_url": "https://www.instagram.com/p/DbvuhSWkelP/",
+    "found_at": "2026-08-07T16:50:11.997255+00:00"
+  },
+  {
+    "title": "SR GALA Volume I: Dark Carnival",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Foro Independencia",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Noche de música, arte, moda y performance.",
+    "needs_review": false,
+    "account": "srgala_",
+    "post_url": "https://www.instagram.com/p/DbthrdmzhOf/",
+    "found_at": "2026-08-07T16:50:20.911768+00:00"
+  },
+  {
+    "title": "Los Tetas",
+    "artists": [
+      "Los Tetas"
+    ],
+    "artist_handles": null,
+    "venue": "Anexo",
+    "date": "2026-08-07",
+    "end_date": null,
+    "time": "20:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Banda desde Chile",
+    "needs_review": false,
+    "account": "foroindependencia",
+    "post_url": "https://www.instagram.com/p/Dbqt9V3vm0_/",
+    "found_at": "2026-08-07T16:50:26.494388+00:00"
+  },
+  {
+    "title": "Oceangraves",
+    "artists": [
+      "Oceangraves"
+    ],
+    "artist_handles": {
+      "Oceangraves": "oceangravesmx"
+    },
+    "venue": "Foro Independencia",
+    "date": "2026-08-08",
+    "end_date": null,
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Banda mexicana",
+    "needs_review": false,
+    "account": "foroindependencia",
+    "post_url": "https://www.instagram.com/p/Dbqt9V3vm0_/",
+    "found_at": "2026-08-07T16:50:26.494411+00:00"
+  },
+  {
+    "title": "Dead Congregation en Guadalajara",
+    "artists": [
+      "Dead Congregation",
+      "Necroferum",
+      "Abject Mentor",
+      "Sarcoma",
+      "Naberiuz"
+    ],
+    "artist_handles": {
+      "Abject Mentor": "abjectmentor",
+      "Naberiuz": "naberiuz"
+    },
+    "venue": "Foro Independencia",
+    "date": "2026-12-04",
+    "end_date": null,
+    "time": "20:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.passline.com",
+    "age_restriction": null,
+    "notes": "Banda griega de Death Metal underground. Acceso todas las edades.",
+    "needs_review": false,
+    "account": "mobagencymx",
+    "post_url": "https://www.instagram.com/p/Dbrd9MNTiXO/",
+    "found_at": "2026-08-07T16:50:30.540579+00:00"
+  },
+  {
+    "title": "YTDW con Martes de Ministro",
+    "artists": [
+      "YTDW",
+      "Martes de Ministro"
+    ],
+    "artist_handles": {
+      "Martes de Ministro": "martesdeministro"
+    },
+    "venue": "Foro Independencia",
+    "date": "2026-08-07",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Ensayo presentado en Live Salas, con toda la clika",
+    "needs_review": false,
+    "account": "moy666.mp3",
+    "post_url": "https://www.instagram.com/p/DbtzSNzIRKQ/",
+    "found_at": "2026-08-07T16:50:33.452985+00:00"
   }
 ]
