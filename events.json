@@ -194,6 +194,30 @@
     "found_at": "2026-08-07T16:50:15.331784+00:00"
   },
   {
+    "title": "Exposición jóvenes creadores 2026",
+    "artists": [
+      "Ricardo Mejorada",
+      "Joao Rodriguez"
+    ],
+    "artist_handles": {
+      "Ricardo Mejorada": "ricardo_mejorada",
+      "Joao Rodriguez": "joaorodriguez"
+    },
+    "venue": null,
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición de jóvenes creadores, captura muestra de obra artística.",
+    "needs_review": true,
+    "account": "galeria_artetalento",
+    "post_url": "https://www.instagram.com/p/Dbw3ZFRtScI/",
+    "found_at": "2026-08-09T16:29:48.905493+00:00"
+  },
+  {
     "title": "Luis Eduardo González. Artífice de la luz",
     "artists": [
       "Luis Eduardo González"
@@ -266,7 +290,14 @@
     "account": "paquito_ramirezdrums",
     "post_url": "https://www.instagram.com/p/DaBWveGJl_0/",
     "found_at": "2026-07-05T02:47:31.348668+00:00",
-    "featured": true
+    "featured": true,
+    "artist_handles": {
+      "El Viejo Rancio": "elviejorancio.tl",
+      "The Fresh Days": "the.fresh.days",
+      "Los Mangurrianes Heavy Blues": "losmangurrianesheavyblues",
+      "Gordo Banda": "gordobanda"
+    },
+    "needs_review": false
   },
   {
     "is_event": true,
@@ -452,27 +483,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DagYa6FAfO5/",
     "found_at": "2026-07-08T17:27:43.610610+00:00"
-  },
-  {
-    "title": "cierre en espacio cabeza",
-    "artists": [
-      "María Fernanda Enríquez",
-      "Javier Velázquez Cabrero",
-      "Valeria Villegas"
-    ],
-    "venue": null,
-    "date": "2026-08-08",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "En vista hasta el 8 de agosto. Agendar por DM.",
-    "needs_review": false,
-    "account": "espaciocabeza",
-    "post_url": "https://www.instagram.com/p/Daeei_4jSni/",
-    "found_at": "2026-07-08T17:27:53.415066+00:00",
-    "featured": false
   },
   {
     "title": "Steve Blanco plays the music of Imprints of Man - Solo Piano Mexico Tour 2026",
@@ -709,27 +719,6 @@
     "found_at": "2026-07-12T17:02:14.035113+00:00"
   },
   {
-    "title": "Zojepze Zol / Jazzo / LVX Infera / Charlie The Plant",
-    "artists": [
-      "Zojepze Zol",
-      "Jazzo",
-      "LVX Infera",
-      "Charlie The Plant"
-    ],
-    "venue": "Ritual Cultural",
-    "date": "2026-08-07",
-    "time": "20:30",
-    "cover": "$100mxn",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Masacre sonora con 4 propuestas de sonido único",
-    "needs_review": false,
-    "account": "zojepze_zol",
-    "post_url": "https://www.instagram.com/p/DarHsLyNbvt/",
-    "found_at": "2026-07-12T17:02:19.418437+00:00"
-  },
-  {
     "title": "Antidoping - La Era del León Tour",
     "artists": [
       "Antidoping",
@@ -856,24 +845,6 @@
     "account": "c4concerthouse",
     "post_url": "https://www.instagram.com/p/Dax80nEny57/",
     "found_at": "2026-07-14T17:18:08.631526+00:00"
-  },
-  {
-    "title": "La librería es el mundo. El mundo es la librería",
-    "artists": [
-      "Carlos Armenta"
-    ],
-    "venue": "MUPAG",
-    "date": "2026-08-08",
-    "time": "10:00",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Taller para formación de libreros, sesión 1 de 5",
-    "needs_review": false,
-    "account": "_a.rmenta_",
-    "post_url": "https://www.instagram.com/p/DawbJszRzRP/",
-    "found_at": "2026-07-14T17:18:17.611463+00:00"
   },
   {
     "title": "La librería es el mundo. El mundo es la librería",
@@ -1036,35 +1007,6 @@
     "found_at": "2026-07-14T17:18:43.030144+00:00"
   },
   {
-    "title": "Vanguardia Fest",
-    "artists": [
-      "Naype",
-      "Miray",
-      "Montenegrocro",
-      "Intergalactic Band",
-      "Fibonacci"
-    ],
-    "venue": "Cuerda Cultura",
-    "date": "2026-08-08",
-    "time": "19:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Primera edición del festival. Compra de boletos por DM.",
-    "needs_review": false,
-    "account": "naypeband",
-    "post_url": "https://www.instagram.com/p/DawTZPTtN9d/",
-    "found_at": "2026-07-14T17:18:45.727942+00:00",
-    "artist_handles": {
-      "Naype": "naypeband",
-      "Miray": "miraymusica",
-      "Intergalactic Band": "intergalactic_band",
-      "Montenegro": "montenegrogdl",
-      "Fibonacci": "fibonaccirock"
-    }
-  },
-  {
     "title": "MAX RC Live Concert",
     "artists": [
       "MAX RC"
@@ -1125,28 +1067,6 @@
     "account": "grisleekuma",
     "post_url": "https://www.instagram.com/p/DayICJjEbtk/",
     "found_at": "2026-07-15T17:21:51.283594+00:00"
-  },
-  {
-    "title": "Los Tetas México 2026",
-    "artists": [
-      "Los Tetas",
-      "Hop Hop Diablo Funk",
-      "Moon Jungle",
-      "Gordo",
-      "MDM"
-    ],
-    "venue": "Anexo Independencia",
-    "date": "2026-08-07",
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.passline.com/eventos/los-tetas-en-guadalajara",
-    "age_restriction": "+18",
-    "notes": "Pioneros del funk latinoamericano, himnos clásicos y actos invitados.",
-    "needs_review": false,
-    "account": "foroindependencia",
-    "post_url": "https://www.instagram.com/p/DayKFp5yWxg/",
-    "found_at": "2026-07-15T17:22:07.142338+00:00"
   },
   {
     "title": "LOP DELLER Live Concert",
@@ -1294,36 +1214,6 @@
     "found_at": "2026-08-05T17:26:47.289066+00:00"
   },
   {
-    "title": "STADITCHE 1er Aniversario",
-    "artists": [
-      "Ferazzz",
-      "Cristo Josue",
-      "Sonic Bob",
-      "Pipo",
-      "Tonto Taller",
-      "Guadalajara de Noche"
-    ],
-    "artist_handles": {
-      "Ferazzz": "ferazzzzzzz",
-      "Cristo Josue": "cristodiosin",
-      "Sonic Bob": "sonicbobbi",
-      "Pipo": "notarealhero_"
-    },
-    "venue": "STADITCHE",
-    "date": "2026-08-07",
-    "end_date": null,
-    "time": "20:00",
-    "cover": "$150mxn",
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Ceremonia de casamiento, jam session, DJ set, pop up.",
-    "needs_review": false,
-    "account": "imtheslimeee",
-    "post_url": "https://www.instagram.com/p/DbWye_dGnEs/",
-    "found_at": "2026-08-05T17:26:53.884736+00:00"
-  },
-  {
     "title": "La Barranca - Acústico",
     "artists": [
       "La Barranca"
@@ -1366,27 +1256,6 @@
     "account": "c4concerthouse",
     "post_url": "https://www.instagram.com/p/Dbotk17j9W_/",
     "found_at": "2026-08-05T17:26:59.849646+00:00"
-  },
-  {
-    "title": "Los Villanos Blues Band - Show Especial de Reapertura",
-    "artists": [
-      "Los Villanos Blues Band",
-      "Christian Jimenez (Troker)"
-    ],
-    "artist_handles": null,
-    "venue": "El Bretón",
-    "date": "2026-08-07",
-    "end_date": null,
-    "time": "22:00",
-    "cover": "$100mxn",
-    "type": "concert",
-    "ticket_url": "https://passline.com",
-    "age_restriction": null,
-    "notes": "Reapertura con invitado especial Christian Jimenez de Troker.",
-    "needs_review": false,
-    "account": "ccbreton",
-    "post_url": "https://www.instagram.com/p/DbHv_ChRO-k/",
-    "found_at": "2026-08-05T17:27:03.202664+00:00"
   },
   {
     "title": "Kuruali + Over Look + Claroscuro + Sehno 5 + Bedframe",
@@ -1474,58 +1343,6 @@
     "found_at": "2026-08-05T17:27:24.238816+00:00"
   },
   {
-    "title": "Mar Lara - Tour Pesa Más La Duda",
-    "artists": [
-      "Mar Lara"
-    ],
-    "artist_handles": {
-      "Mar Lara": "mar.laras"
-    },
-    "venue": "Cuerda",
-    "date": "2026-08-07",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://passline.mx",
-    "age_restriction": null,
-    "notes": "Tour Pesa Más La Duda",
-    "needs_review": false,
-    "account": "cuerdacmedios",
-    "post_url": "https://www.instagram.com/p/Dbn7NsBlIoz/",
-    "found_at": "2026-08-05T17:27:40.078915+00:00"
-  },
-  {
-    "title": "Vanguardia Fest",
-    "artists": [
-      "Naye Band",
-      "Mira Música",
-      "Montenegro",
-      "Intergalactic Band",
-      "Fibonacci Rock"
-    ],
-    "artist_handles": {
-      "Naye Band": "naypeband",
-      "Mira Música": "miraymusica",
-      "Montenegro": "montenegrogdl",
-      "Intergalactic Band": "intergalactic_band",
-      "Fibonacci Rock": "fibonaccirock"
-    },
-    "venue": "Cuerda",
-    "date": "2026-08-08",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Entradas vía DM con las bandas",
-    "needs_review": false,
-    "account": "cuerdacmedios",
-    "post_url": "https://www.instagram.com/p/Dbn7NsBlIoz/",
-    "found_at": "2026-08-05T17:27:40.078938+00:00"
-  },
-  {
     "title": "Yorka (Chile)",
     "artists": [
       "Yorka"
@@ -1592,92 +1409,6 @@
     "found_at": "2026-08-05T17:27:59.435023+00:00"
   },
   {
-    "title": "Nigrum + Wrathfulness",
-    "artists": [
-      "Musta Valitus",
-      "Saturnal Ascension",
-      "Wrathfulness",
-      "Nigrum"
-    ],
-    "artist_handles": null,
-    "venue": "907",
-    "date": "2026-08-08",
-    "end_date": null,
-    "time": "20:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Black metal concert. Doors 8pm, Nigrum closes at 11:30pm.",
-    "needs_review": false,
-    "account": "wrathfulness218",
-    "post_url": "https://www.instagram.com/p/DbmJCPqtUL4/",
-    "found_at": "2026-08-05T17:28:05.429731+00:00"
-  },
-  {
-    "title": "Proyección Especial: Intrépidos Punks",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Iglesia Primitiva",
-    "date": "2026-08-07",
-    "end_date": null,
-    "time": "20:00",
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Restauración 4K sin censura, película clásica mexicana 1988",
-    "needs_review": false,
-    "account": "iglesia.primitiva_",
-    "post_url": "https://www.instagram.com/p/DbMh7iZM-RZ/",
-    "found_at": "2026-08-05T17:28:09.841128+00:00"
-  },
-  {
-    "title": "Jóvenes Creadores 2026",
-    "artists": [
-      "Alex V. Franco",
-      "Alemich",
-      "Ari Enríquez",
-      "Brenda Grajeda Chávez",
-      "Carlos Ramírez",
-      "Cecilia Matus",
-      "Daniela Hernández",
-      "Diego Escalante",
-      "Emmar",
-      "Eremen Santiago",
-      "Erre De Verde",
-      "Jaymich",
-      "Jorge Llanos",
-      "Lorena Alejandra",
-      "Ludwig Khole",
-      "Miranda García",
-      "Nicolás Arce",
-      "Orizaba 24",
-      "Pams",
-      "Papá Páramo",
-      "Pía Gutiérrez",
-      "Sara Marín",
-      "Sofy Studie",
-      "Valeria Piña",
-      "Verónica Ramírez",
-      "Victoria Zepeda"
-    ],
-    "artist_handles": null,
-    "venue": "Museo MURA",
-    "date": "2026-08-07",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Inauguración de exposición colectiva de arte contemporáneo.",
-    "needs_review": false,
-    "account": "muragdl",
-    "post_url": "https://www.instagram.com/p/DbVmssGR47v/",
-    "found_at": "2026-08-05T17:28:14.841645+00:00"
-  },
-  {
     "title": "Ka Baird, Ximena Bedoya, Shahzad Ismaily, Sebastián Rojas, Hugo Quezada",
     "artists": [
       "Ka Baird",
@@ -1700,46 +1431,6 @@
     "account": "afasia.mx",
     "post_url": "https://www.instagram.com/p/DbZdhqUEZxm/",
     "found_at": "2026-08-05T17:28:23.620118+00:00"
-  },
-  {
-    "title": "Sesión de Dibujo Musicalizada",
-    "artists": [
-      "paula palomar"
-    ],
-    "artist_handles": null,
-    "venue": "Museo de Arte Raúl Anguiano (MURA)",
-    "date": "2026-08-08",
-    "end_date": null,
-    "time": "12:00",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Anatomía, luz, sombra y proporción. Registro: curaduriamura@guadalajara.gob.mx",
-    "needs_review": false,
-    "account": "muragdl",
-    "post_url": "https://www.instagram.com/p/DbqaNRmRaJ2/",
-    "found_at": "2026-08-05T17:28:27.226725+00:00"
-  },
-  {
-    "title": "Valeria Villegas - fulguraciones",
-    "artists": [
-      "Valeria Villegas"
-    ],
-    "artist_handles": null,
-    "venue": null,
-    "date": "2026-07-28",
-    "end_date": "2026-08-08",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Primera exposición individual. Curaduría: Diego González Gómez / Marco Valtierra",
-    "needs_review": false,
-    "account": "espaciocabeza",
-    "post_url": "https://www.instagram.com/p/DbV_FO3kbHH/",
-    "found_at": "2026-08-05T17:28:31.032658+00:00"
   },
   {
     "title": "Avandaro + Acrobata + Rise/Fall + Sempro",
@@ -1768,28 +1459,6 @@
     "account": "tresseisesmx",
     "post_url": "https://www.instagram.com/p/DbTs_7AGjdl/",
     "found_at": "2026-08-05T17:28:45.270211+00:00"
-  },
-  {
-    "title": "Azules al Sol. Cianotipia y pintura sobre lino",
-    "artists": [
-      "Alejandro Melgoza"
-    ],
-    "artist_handles": {
-      "Alejandro Melgoza": "mel.goza"
-    },
-    "venue": "MUSA Museo de las Artes",
-    "date": "2026-08-08",
-    "end_date": null,
-    "time": "12:00",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": "https://forms.gle/qKrNZMVtpYt7TB7K8",
-    "age_restriction": null,
-    "notes": "Cupo limitado a 25 participantes. Registro previo requerido.",
-    "needs_review": false,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/Dblq2tUvvwa/",
-    "found_at": "2026-08-05T17:28:57.502413+00:00"
   },
   {
     "title": "From a Faraway Meadow (Desde un prado lejano)",
@@ -2019,28 +1688,6 @@
     "found_at": "2026-08-05T17:29:53.560176+00:00"
   },
   {
-    "title": "Artista del Mes: Andrea Vega",
-    "artists": [
-      "Andrea Vega"
-    ],
-    "artist_handles": {
-      "Andrea Vega": "andreavegaart"
-    },
-    "venue": "rayón tres siete seis seis",
-    "date": "2026-08-07",
-    "end_date": null,
-    "time": "19:00",
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición de pintura contemporánea, obra poética y sensibilidad visual.",
-    "needs_review": false,
-    "account": "rayon.376",
-    "post_url": "https://www.instagram.com/p/DbbEVSNxvVS/",
-    "found_at": "2026-08-05T17:30:02.626903+00:00"
-  },
-  {
     "title": "Arma tu show",
     "artists": [],
     "artist_handles": null,
@@ -2100,28 +1747,6 @@
     "account": "rayon.376",
     "post_url": "https://www.instagram.com/p/DbgOXptEadz/",
     "found_at": "2026-08-05T17:30:32.971975+00:00"
-  },
-  {
-    "title": "Emociones desbordadas, bordes desdibujados",
-    "artists": [
-      "Andrea Vega"
-    ],
-    "artist_handles": {
-      "Andrea Vega": "andreavega"
-    },
-    "venue": "Rayón 376",
-    "date": "2026-08-07",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición individual. Cuatro años de trabajo: pinturas, bordados, dibujos, fotografías, bocetos y escritos.",
-    "needs_review": false,
-    "account": "andreavegaart",
-    "post_url": "https://www.instagram.com/p/DbdmmqlRs8b/",
-    "found_at": "2026-08-05T17:30:41.080441+00:00"
   },
   {
     "title": "Gemelos Tour 2K26 - Ayax & Prok",
@@ -2333,28 +1958,6 @@
     "found_at": "2026-08-07T16:49:48.143649+00:00"
   },
   {
-    "title": "Pesa Más La Duda Tour - Mar Lara",
-    "artists": [
-      "Mar Lara"
-    ],
-    "artist_handles": {
-      "Mar Lara": "mar.laras"
-    },
-    "venue": "Cuerda Cultura",
-    "date": "2026-08-07",
-    "end_date": null,
-    "time": "20:30",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://passline.com",
-    "age_restriction": null,
-    "notes": "Inauguración del tour, celebración de cumpleaños con anuncios especiales",
-    "needs_review": false,
-    "account": "cuerdacmedios",
-    "post_url": "https://www.instagram.com/p/Dbr1ih2DrxM/",
-    "found_at": "2026-08-07T16:50:05.566147+00:00"
-  },
-  {
     "title": "Festival Woodstockhousen",
     "artists": [],
     "artist_handles": null,
@@ -2391,48 +1994,6 @@
     "found_at": "2026-08-07T16:50:20.911768+00:00"
   },
   {
-    "title": "Los Tetas",
-    "artists": [
-      "Los Tetas"
-    ],
-    "artist_handles": null,
-    "venue": "Anexo",
-    "date": "2026-08-07",
-    "end_date": null,
-    "time": "20:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Banda desde Chile",
-    "needs_review": false,
-    "account": "foroindependencia",
-    "post_url": "https://www.instagram.com/p/Dbqt9V3vm0_/",
-    "found_at": "2026-08-07T16:50:26.494388+00:00"
-  },
-  {
-    "title": "Oceangraves",
-    "artists": [
-      "Oceangraves"
-    ],
-    "artist_handles": {
-      "Oceangraves": "oceangravesmx"
-    },
-    "venue": "Foro Independencia",
-    "date": "2026-08-08",
-    "end_date": null,
-    "time": "19:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Banda mexicana",
-    "needs_review": false,
-    "account": "foroindependencia",
-    "post_url": "https://www.instagram.com/p/Dbqt9V3vm0_/",
-    "found_at": "2026-08-07T16:50:26.494411+00:00"
-  },
-  {
     "title": "Dead Congregation en Guadalajara",
     "artists": [
       "Dead Congregation",
@@ -2460,26 +2021,376 @@
     "found_at": "2026-08-07T16:50:30.540579+00:00"
   },
   {
-    "title": "YTDW con Martes de Ministro",
+    "title": "Esteban Gómez González + Vitálic",
     "artists": [
-      "YTDW",
-      "Martes de Ministro"
+      "Esteban Gómez González",
+      "Vitálic"
     ],
     "artist_handles": {
-      "Martes de Ministro": "martesdeministro"
+      "Esteban Gómez González": "egomezgonz",
+      "Vitálic": "vitalicomx"
+    },
+    "venue": "Cuerda Cultura",
+    "date": "2026-08-14",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.instagram.com/aremamx",
+    "age_restriction": null,
+    "notes": "Tour 'Mi Lugar Feliz'. Temas solista y con Odisseo.",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DbvzI3ex8fH/",
+    "found_at": "2026-08-09T16:29:06.441322+00:00"
+  },
+  {
+    "title": "Distortion Session by Indigo Kollektiv",
+    "artists": [
+      "Tovar",
+      "Esaúl",
+      "Mahatma",
+      "Yisxs",
+      "Iternous",
+      "Smvega"
+    ],
+    "artist_handles": {
+      "Tovar": "tobar.wav",
+      "Esaúl": "esaull.beats",
+      "Mahatma": "mahatma_project",
+      "Yisxs": "yisxs_sh13",
+      "Iternous": "iternous_dj",
+      "Smvega": "smvega9"
+    },
+    "venue": "Galería Sepia",
+    "date": "2026-08-14",
+    "end_date": null,
+    "time": "17:00",
+    "cover": "$70mxn",
+    "type": "dj",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Experiencia inmersiva con visuales analógicos, techno, melodic, indie, dark disco.",
+    "needs_review": false,
+    "account": "indigo.kollectiv",
+    "post_url": "https://www.instagram.com/p/DbwwT3-uW9j/",
+    "found_at": "2026-08-09T16:29:10.465964+00:00"
+  },
+  {
+    "title": "MetalCore Tapatío",
+    "artists": [
+      "Ocean Graves"
+    ],
+    "artist_handles": {
+      "Ocean Graves": "oceangravesmx"
     },
     "venue": "Foro Independencia",
-    "date": "2026-08-07",
+    "date": "2026-08-09",
     "end_date": null,
     "time": null,
     "cover": null,
     "type": "concert",
     "ticket_url": null,
     "age_restriction": null,
-    "notes": "Ensayo presentado en Live Salas, con toda la clika",
+    "notes": "Concierto de metal core tapatío en Foro Independencia.",
     "needs_review": false,
-    "account": "moy666.mp3",
-    "post_url": "https://www.instagram.com/p/DbtzSNzIRKQ/",
-    "found_at": "2026-08-07T16:50:33.452985+00:00"
+    "account": "peterphotoinfinito",
+    "post_url": "https://www.instagram.com/p/DbzjmxtqyJL/",
+    "found_at": "2026-08-09T16:29:15.615592+00:00"
+  },
+  {
+    "title": "/\\/",
+    "artists": [
+      "Rafa Esparza",
+      "Maria Maea"
+    ],
+    "artist_handles": {
+      "Rafa Esparza": "elrafaesparza",
+      "Maria Maea": "maeamaria"
+    },
+    "venue": null,
+    "date": "2026-08-08",
+    "end_date": "2026-09-04",
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Instalación de sitio específico, curaduría Sacha Craddock",
+    "needs_review": false,
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DbybNkuubUE/",
+    "found_at": "2026-08-09T16:29:18.808290+00:00"
+  },
+  {
+    "title": "Los Cogelones - Bailar Tour",
+    "artists": [
+      "Los Cogelones"
+    ],
+    "artist_handles": {
+      "Los Cogelones": "los_cogelones_music"
+    },
+    "venue": "Anexo Independencia",
+    "date": "2026-10-16",
+    "end_date": null,
+    "time": null,
+    "cover": "$200mxn preventa especial, $250mxn preventa general, $350mxn día del evento",
+    "type": "concert",
+    "ticket_url": "https://www.passline.com/eventos/los-cogelones-en-guadalajara",
+    "age_restriction": null,
+    "notes": "Lanzamiento del álbum 'Bailar'. Primera vez en Guadalajara.",
+    "needs_review": false,
+    "account": "foroindependencia",
+    "post_url": "https://www.instagram.com/p/DbwVJEgu8Bx/",
+    "found_at": "2026-08-09T16:29:29.036298+00:00"
+  },
+  {
+    "title": "Rosalía - Sesión de escucha",
+    "artists": [
+      "Rosalía"
+    ],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-08-13",
+    "end_date": null,
+    "time": "21:00",
+    "cover": "$50mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Experiencia inmersiva explorando LUX, MOTOMAMI, El Mal Querer",
+    "needs_review": false,
+    "account": "club.lento",
+    "post_url": "https://www.instagram.com/p/Dbwf9uxpXg0/",
+    "found_at": "2026-08-09T16:29:32.361121+00:00"
+  },
+  {
+    "title": "Insurgencia Vol. IV",
+    "artists": [
+      "Mulvivientes",
+      "Encabronaos",
+      "Sobresoxo",
+      "Skarmatasm",
+      "Pantano"
+    ],
+    "artist_handles": null,
+    "venue": null,
+    "date": "2026-08-15",
+    "end_date": null,
+    "time": "07:30",
+    "cover": "entrada libre",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Punk, grunge. Puertas 7:00 horas. Pulque Degollado.",
+    "needs_review": false,
+    "account": "pantanogdl",
+    "post_url": "https://www.instagram.com/p/Dby-cPsBkGR/",
+    "found_at": "2026-08-09T16:29:38.666530+00:00"
+  },
+  {
+    "title": "Solitario Mondragón",
+    "artists": [
+      "Solitario Mondragón"
+    ],
+    "artist_handles": {
+      "Solitario Mondragón": "solitario_mondragon"
+    },
+    "venue": "C3 Rooftop",
+    "date": "2026-11-29",
+    "end_date": null,
+    "time": "20:00",
+    "cover": "$300mxn general, $600mxn meet & greet",
+    "type": "concert",
+    "ticket_url": "www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Sesión de rap con jazz y bajos. Santa Suerte presenta.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DbwoyFkgQtk/",
+    "found_at": "2026-08-09T16:29:52.408521+00:00"
+  },
+  {
+    "title": "Connan Mockasin",
+    "artists": [
+      "Connan Mockasin"
+    ],
+    "artist_handles": {
+      "Connan Mockasin": "connanmockasin"
+    },
+    "venue": "C3 Rooftop",
+    "date": "2026-11-05",
+    "end_date": null,
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": "+18",
+    "notes": "Cantautor neozelandés, universo de melodías impredecibles",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DbvxG5Jk4WF/",
+    "found_at": "2026-08-09T16:29:55.640463+00:00"
+  },
+  {
+    "title": "Woodstock Hausen 2026",
+    "artists": [
+      "Ximena Bedoya",
+      "Fausto Arellano",
+      "Germán Bringas",
+      "Ka Baird",
+      "Shahzad Ismaily",
+      "Sebastián Rojas"
+    ],
+    "artist_handles": null,
+    "venue": "Luzy",
+    "date": "2026-08-15",
+    "end_date": null,
+    "time": "21:00",
+    "cover": "$150mxn preventa, $250mxn día del show",
+    "type": "concert",
+    "ticket_url": "https://woodstockhausen-ciudad-de-mexico.boletia.com",
+    "age_restriction": null,
+    "notes": "Festival con múltiples artistas internacionales, arranque 9pm",
+    "needs_review": false,
+    "account": "afasia.mx",
+    "post_url": "https://www.instagram.com/p/Dbyma_wPUAH/",
+    "found_at": "2026-08-09T16:29:59.758549+00:00"
+  },
+  {
+    "title": "Morti",
+    "artists": [
+      "Morti"
+    ],
+    "artist_handles": {
+      "Morti": "mortioficial"
+    },
+    "venue": "Casa Umbral",
+    "date": "2026-10-14",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.passline.com/eventos/morti-puebla",
+    "age_restriction": null,
+    "notes": "Gira México y Colombia 2026",
+    "needs_review": false,
+    "account": "mortilyrics",
+    "post_url": "https://www.instagram.com/p/DbxZIWBIT37/",
+    "found_at": "2026-08-09T16:30:14.581885+00:00"
+  },
+  {
+    "title": "Morti",
+    "artists": [
+      "Morti"
+    ],
+    "artist_handles": {
+      "Morti": "mortioficial"
+    },
+    "venue": "Rockxy Bar",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.passline.com/eventos/morti-bogota",
+    "age_restriction": null,
+    "notes": "Bogotá, Colombia",
+    "needs_review": false,
+    "account": "mortilyrics",
+    "post_url": "https://www.instagram.com/p/DbxZIWBIT37/",
+    "found_at": "2026-08-09T16:30:14.581908+00:00"
+  },
+  {
+    "title": "Morti",
+    "artists": [
+      "Morti"
+    ],
+    "artist_handles": {
+      "Morti": "mortioficial"
+    },
+    "venue": "El Callejón",
+    "date": "2026-10-21",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.passline.com/eventos/morti-leon",
+    "age_restriction": null,
+    "notes": "León, México",
+    "needs_review": false,
+    "account": "mortilyrics",
+    "post_url": "https://www.instagram.com/p/DbxZIWBIT37/",
+    "found_at": "2026-08-09T16:30:14.581913+00:00"
+  },
+  {
+    "title": "Morti",
+    "artists": [
+      "Morti"
+    ],
+    "artist_handles": {
+      "Morti": "mortioficial"
+    },
+    "venue": "Ritual Cultural",
+    "date": "2026-10-22",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.passline.com/eventos/morti-gdl",
+    "age_restriction": null,
+    "notes": "Guadalajara",
+    "needs_review": false,
+    "account": "mortilyrics",
+    "post_url": "https://www.instagram.com/p/DbxZIWBIT37/",
+    "found_at": "2026-08-09T16:30:14.581915+00:00"
+  },
+  {
+    "title": "Morti - Fin de Gira",
+    "artists": [
+      "Morti"
+    ],
+    "artist_handles": {
+      "Morti": "mortioficial"
+    },
+    "venue": "Segundo Piso Live",
+    "date": "2026-10-25",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.passline.com/eventos/morti-cdmx-fin-de-gira",
+    "age_restriction": null,
+    "notes": "CDMX, 24 octubre sold out",
+    "needs_review": false,
+    "account": "mortilyrics",
+    "post_url": "https://www.instagram.com/p/DbxZIWBIT37/",
+    "found_at": "2026-08-09T16:30:14.581920+00:00"
+  },
+  {
+    "title": "Profane the Cosmos",
+    "artists": [
+      "Infernal Thorns",
+      "Necronos",
+      "Old Throne",
+      "Astral Funebris"
+    ],
+    "artist_handles": {
+      "Infernal Thorns": "infernalthorns",
+      "Necronos": "necronosband"
+    },
+    "venue": "Ritual Cultural",
+    "date": "2026-09-03",
+    "end_date": null,
+    "time": "20:00",
+    "cover": "$150mxn preventa, $200mxn taquilla",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Death Metal. Banda chilena Infernal Thorns en su primer tour por México.",
+    "needs_review": false,
+    "account": "utter_silence_prods",
+    "post_url": "https://www.instagram.com/p/DbzPq_bxDpJ/",
+    "found_at": "2026-08-09T16:30:19.706859+00:00"
   }
 ]
