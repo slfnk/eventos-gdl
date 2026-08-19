@@ -505,6 +505,28 @@
     "found_at": "2026-08-17T16:23:23.706441+00:00"
   },
   {
+    "title": "Remus",
+    "artists": [
+      "Xitlalitl Rodríguez Mendoza"
+    ],
+    "artist_handles": {
+      "Xitlalitl Rodríguez Mendoza": "pollitaconpapos"
+    },
+    "venue": null,
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Presentación libro poema sobre historia Guadalajara y Matute Remus",
+    "needs_review": true,
+    "account": "improntacasaeditora",
+    "post_url": "https://www.instagram.com/p/DcJ4f18EsEB/",
+    "found_at": "2026-08-19T16:26:05.572494+00:00"
+  },
+  {
     "title": "Luis Eduardo González. Artífice de la luz",
     "artists": [
       "Luis Eduardo González"
@@ -539,7 +561,9 @@
     "notes": "Full band, new album 'Escrito en Agua', local opening act",
     "account": "afasia.mx",
     "post_url": "https://www.instagram.com/p/DaEBpuvMt6T/",
-    "found_at": "2026-07-05T02:47:14.398436+00:00"
+    "found_at": "2026-07-05T02:47:14.398436+00:00",
+    "ticket_url": "https://boletia.com",
+    "needs_review": false
   },
   {
     "is_event": true,
@@ -2277,13 +2301,15 @@
   },
   {
     "title": "FENÓMENO VITAL",
-    "artists": [],
+    "artists": [
+      "Talien Corona Ojeda"
+    ],
     "artist_handles": null,
     "venue": "MUSA Museo de las Artes",
     "date": "2026-08-20",
     "end_date": null,
     "time": "19:30",
-    "cover": null,
+    "cover": "entrada libre",
     "type": "opening",
     "ticket_url": null,
     "age_restriction": null,
@@ -2864,26 +2890,6 @@
       "Eduardo Esquivel"
     ],
     "artist_handles": null,
-    "venue": "Tantuyo Centro Cultural",
-    "date": "2026-08-18",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "other",
-    "ticket_url": "https://forms.gle/GTqcuQ4F51unfVzXA",
-    "age_restriction": null,
-    "notes": "Proyección de largometraje ganador del GIFF",
-    "needs_review": false,
-    "account": "jaliscocine",
-    "post_url": "https://www.instagram.com/p/Db_-iRLlHje/",
-    "found_at": "2026-08-15T16:19:55.340717+00:00"
-  },
-  {
-    "title": "La Eterna Adolescente",
-    "artists": [
-      "Eduardo Esquivel"
-    ],
-    "artist_handles": null,
     "venue": "Edificio Arroniz",
     "date": "2026-08-24",
     "end_date": null,
@@ -3302,24 +3308,6 @@
     "found_at": "2026-08-17T16:23:11.766491+00:00"
   },
   {
-    "title": "Tenampa Brass Band",
-    "artists": [
-      "Tenampa Brass Band"
-    ],
-    "artist_handles": null,
-    "venue": "Bretón",
-    "date": "2026-08-17",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "notes": "Llenando el Bretón en una gran noche",
-    "needs_review": false,
-    "account": "ccbreton",
-    "post_url": "https://www.instagram.com/p/DcJVTvaRlV2/",
-    "found_at": "2026-08-17T16:23:20.714960+00:00"
-  },
-  {
     "title": "Niñxs",
     "artists": [
       "Kani Lapuerta"
@@ -3496,5 +3484,441 @@
     "account": "umbralibre",
     "post_url": "https://www.instagram.com/p/DcFa4NcRZpH/",
     "found_at": "2026-08-17T16:23:55.328606+00:00"
+  },
+  {
+    "title": "La Última Cochinada",
+    "artists": [
+      "Ninas Cochinas",
+      "Timoti la Moto Casco",
+      "Ninia Perro"
+    ],
+    "artist_handles": {
+      "Ninas Cochinas": "ninascochinas",
+      "Timoti la Moto Casco": "timotilamotocasco",
+      "Ninia Perro": "niniaperro"
+    },
+    "venue": "Cuerda Cultura",
+    "date": "2026-08-21",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Últimas preventas en Instagram de Ninas Cochinas. Banda sorpresa por anunciar.",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DcMJBOKEV5F/",
+    "found_at": "2026-08-19T16:25:34.716386+00:00"
+  },
+  {
+    "title": "Fight Night / 10 Aniversario Black Box",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "C4 Concert House",
+    "date": "2026-09-25",
+    "end_date": null,
+    "time": "16:00",
+    "cover": null,
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Combates de boxeo, adrenalina, música. La fiesta del boxeo.",
+    "needs_review": false,
+    "account": "fightnightmex",
+    "post_url": "https://www.instagram.com/p/DcCH8XtCCbo/",
+    "found_at": "2026-08-19T16:25:38.004750+00:00"
+  },
+  {
+    "title": "Vida Recta Tour - Parkside Plugs",
+    "artists": [
+      "Parkside Plugs",
+      "DSDL661"
+    ],
+    "artist_handles": {
+      "Parkside Plugs": "elninodelparke",
+      "DSDL661": "dsdl661_mx"
+    },
+    "venue": "907 Centro Cultural",
+    "date": "2026-08-28",
+    "end_date": null,
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "passline.com",
+    "age_restriction": null,
+    "notes": "Artista invitado DSDL661. Todas edades, puertas abiertas 7 PM.",
+    "needs_review": false,
+    "account": "cazares_pl",
+    "post_url": "https://www.instagram.com/p/DcOgBBRkY15/",
+    "found_at": "2026-08-19T16:25:41.471106+00:00"
+  },
+  {
+    "title": "COVERS",
+    "artists": [
+      "Hernán González"
+    ],
+    "artist_handles": {
+      "Hernán González": "elhernann"
+    },
+    "venue": null,
+    "date": "2026-08-18",
+    "end_date": "2026-08-23",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Cover a obra de Miguel Calderón. Presentada por Otro Espacio.",
+    "needs_review": false,
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DcMPDV1K3_D/",
+    "found_at": "2026-08-19T16:25:44.003381+00:00"
+  },
+  {
+    "title": "Alien Fest",
+    "artists": [
+      "Monteolympo",
+      "Sulleiman",
+      "Bylf",
+      "Banana Punch"
+    ],
+    "artist_handles": {
+      "Monteolympo": "monteolympo_band",
+      "Sulleiman": "sulleiman_oficial",
+      "Bylf": "bylf._",
+      "Banana Punch": "bananapunchband"
+    },
+    "venue": "Cuerda Cultura",
+    "date": "2026-08-22",
+    "end_date": null,
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.passline.mx",
+    "age_restriction": null,
+    "notes": "Festival temático extraterrestre con cuatro bandas",
+    "needs_review": false,
+    "account": "antiescena.tv",
+    "post_url": "https://www.instagram.com/p/DcMO11OI1-f/",
+    "found_at": "2026-08-19T16:25:48.116577+00:00"
+  },
+  {
+    "title": "Madonna & Kylie: Love Sensation Experience",
+    "artists": [
+      "Madonna",
+      "Kylie Minogue",
+      "Elena Bravo"
+    ],
+    "artist_handles": null,
+    "venue": "Foro Independencia",
+    "date": "2026-09-12",
+    "end_date": null,
+    "time": "20:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://eventos.ticketnowmexico.com/MADONNACONFESSIONS2EXPERIENCE",
+    "age_restriction": null,
+    "notes": "Performance by Elena Bravo, DJs y sorpresas",
+    "needs_review": false,
+    "account": "styledanceproducciones",
+    "post_url": "https://www.instagram.com/p/DcMVPNbSYb8/",
+    "found_at": "2026-08-19T16:26:00.404446+00:00"
+  },
+  {
+    "title": "Noche de Música y Museo - Orquesta de Cámara Higinio Ruvalcaba",
+    "artists": [
+      "Orquesta de Cámara Higinio Ruvalcaba",
+      "Sergio Ramírez Cárdenas"
+    ],
+    "artist_handles": null,
+    "venue": "Paraninfo \"Enrique Díaz de León\"",
+    "date": "2026-08-21",
+    "end_date": null,
+    "time": "18:00",
+    "cover": "entrada libre",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Obras de Shoenberg, Webern, Revueltas y Álvarez. Cupo limitado.",
+    "needs_review": false,
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/DcJr2UVPpZW/",
+    "found_at": "2026-08-19T16:26:13.997090+00:00"
+  },
+  {
+    "title": "La Última Cochinada (Por ahora)",
+    "artists": [
+      "Niñas Cochinas",
+      "Ninia Perro",
+      "Timoti Lamotocasco"
+    ],
+    "artist_handles": {
+      "Niñas Cochinas": "ninascochinas",
+      "Ninia Perro": "niniaperro",
+      "Timoti Lamotocasco": "timotilamotocasco"
+    },
+    "venue": "Cuerda",
+    "date": "2026-08-20",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Invitadxs y banda sorpresa. Boletos vía DM.",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DcJpBTVkTeE/",
+    "found_at": "2026-08-19T16:26:26.530354+00:00"
+  },
+  {
+    "title": "Yendo Rápido A Ningún Lugar",
+    "artists": [
+      "Bestia Bebe"
+    ],
+    "artist_handles": {
+      "Bestia Bebe": "bestiabebe"
+    },
+    "venue": "Cuerda",
+    "date": "2026-08-21",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://passline.mx",
+    "age_restriction": null,
+    "notes": "Presentación de álbum. Boletos vía Passline.",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DcJpBTVkTeE/",
+    "found_at": "2026-08-19T16:26:26.530374+00:00"
+  },
+  {
+    "title": "Alien Fest vol. 1",
+    "artists": [
+      "Monte Olympo",
+      "Banana Punch",
+      "Sulleiman",
+      "BYLF"
+    ],
+    "artist_handles": {
+      "Monte Olympo": "monteolympo_band",
+      "Banana Punch": "bananapunchband",
+      "Sulleiman": "sulleiman_oficial",
+      "BYLF": "bylf._"
+    },
+    "venue": "Cuerda",
+    "date": "2026-08-22",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://passline.mx",
+    "age_restriction": null,
+    "notes": "Festival presentado por FVM. Boletos vía Passline.",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DcJpBTVkTeE/",
+    "found_at": "2026-08-19T16:26:26.530378+00:00"
+  },
+  {
+    "title": "Ornitia + Jvno",
+    "artists": [
+      "Ornitia",
+      "Jvno"
+    ],
+    "artist_handles": {
+      "Jvno": "jvnomx"
+    },
+    "venue": "El Bretón S",
+    "date": "2026-08-21",
+    "end_date": null,
+    "time": "20:00",
+    "cover": "entrada libre",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Con Gram Jr. Guitarras, energía y música brutal.",
+    "needs_review": false,
+    "account": "corintiamx",
+    "post_url": "https://www.instagram.com/p/DcMfWyyCz-K/",
+    "found_at": "2026-08-19T16:26:30.559994+00:00"
+  },
+  {
+    "title": "Koyaanisqatsi (1982) - Ciclo de Cine Transformaciones",
+    "artists": [
+      "Godfrey Reggio"
+    ],
+    "artist_handles": null,
+    "venue": null,
+    "date": "2026-08-19",
+    "end_date": null,
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Proyección de película documental. Ciclo x Sandy Manzo.",
+    "needs_review": false,
+    "account": "rayon.376",
+    "post_url": "https://www.instagram.com/p/DcMycjsvRoU/",
+    "found_at": "2026-08-19T16:26:34.012727+00:00"
+  },
+  {
+    "title": "Tercer Aniversario",
+    "artists": [
+      "Acróbata"
+    ],
+    "artist_handles": {
+      "Acróbata": "acrobatamx"
+    },
+    "venue": "Hake Al Rey",
+    "date": "2026-08-22",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Tercer aniversario del venue. Preventas por DM.",
+    "needs_review": false,
+    "account": "tresseisesmx",
+    "post_url": "https://www.instagram.com/p/DcKX_aRN8ie/",
+    "found_at": "2026-08-19T16:26:50.554069+00:00"
+  },
+  {
+    "title": "Mi Compa el Chino",
+    "artists": [
+      "GRLS"
+    ],
+    "artist_handles": null,
+    "venue": "C3 Rooftop",
+    "date": "2026-10-01",
+    "end_date": null,
+    "time": "20:00",
+    "cover": null,
+    "type": "dj",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": "+18",
+    "notes": "Propuesta electrónica relajada en terraza.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DcMoboKgdh7/",
+    "found_at": "2026-08-19T16:26:54.686509+00:00"
+  },
+  {
+    "title": "Inner Wave + Valgur",
+    "artists": [
+      "Inner Wave",
+      "Valgur"
+    ],
+    "artist_handles": {
+      "Inner Wave": "innerwave",
+      "Valgur": "soyvalgur"
+    },
+    "venue": "C3 Stage",
+    "date": "2026-09-18",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Evento en vivo. Boletos en taquillas o TicketNow México.",
+    "needs_review": false,
+    "account": "echoesmx__",
+    "post_url": "https://www.instagram.com/p/DcKbaR_gtsJ/",
+    "found_at": "2026-08-19T16:27:12.420788+00:00"
+  },
+  {
+    "title": "Luxury Kiki Ball",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-09-19",
+    "end_date": null,
+    "time": "16:00",
+    "cover": null,
+    "type": "other",
+    "notes": "Recepción 16:00, Rollcall 17:00. Noche de lujos.",
+    "needs_review": false,
+    "account": "ixcy_bratzy",
+    "post_url": "https://www.instagram.com/p/DcKXEDZOij-/",
+    "found_at": "2026-08-19T16:27:15.619336+00:00"
+  },
+  {
+    "title": "Iridiscente MX x No Conocas A Tus Ídolos - Bazar de Bandas",
+    "artists": [
+      "Gazthly",
+      "Los Huxleys",
+      "Oniri Exp",
+      "Cat Vendetta",
+      "Pasajera O Testigo"
+    ],
+    "artist_handles": {
+      "Gazthly": "gazthly",
+      "Los Huxleys": "loshuxleys.official",
+      "Oniri Exp": "oniriexp",
+      "Cat Vendetta": "cat.vendetta",
+      "Pasajera O Testigo": "pasajera_o_testigo"
+    },
+    "venue": "Staditche",
+    "date": "2026-09-04",
+    "end_date": null,
+    "time": "16:00",
+    "cover": "$60mxn preventa, $100mxn día del evento",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Bazar de bandas independientes con múltiples expositores y merch.",
+    "needs_review": false,
+    "account": "iridiscente.mx",
+    "post_url": "https://www.instagram.com/p/DcMZLtnluOi/",
+    "found_at": "2026-08-19T16:27:23.064327+00:00"
+  },
+  {
+    "title": "Un Perro Perro Andaluz + R. Oliva + Club Nocturno",
+    "artists": [
+      "Un Perro Perro Andaluz",
+      "R. Oliva",
+      "Club Nocturno"
+    ],
+    "artist_handles": {
+      "Un Perro Perro Andaluz": "unperroperroandaluz",
+      "R. Oliva": "_roliva_",
+      "Club Nocturno": "clubnocturno_"
+    },
+    "venue": "Anexo Independencia",
+    "date": "2026-08-21",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://passline.com",
+    "age_restriction": null,
+    "notes": "Early Bid agotados. R. Oliva set live desde Culiacán.",
+    "needs_review": false,
+    "account": "politimbral",
+    "post_url": "https://www.instagram.com/p/DcKJn48ODB8/",
+    "found_at": "2026-08-19T16:27:41.059925+00:00"
+  },
+  {
+    "title": "Convocatoria Abierta - Ilustración Digital, Artes Plásticas, Diseño de Modas",
+    "artists": null,
+    "artist_handles": null,
+    "venue": "Foro Independencia",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Convocatoria abierta para diseñadores, artistas plásticos y digitales.",
+    "needs_review": false,
+    "account": "srgala_",
+    "post_url": "https://www.instagram.com/p/DcKTHKhFNFp/",
+    "found_at": "2026-08-19T16:27:44.297262+00:00"
   }
 ]
