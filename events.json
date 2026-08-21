@@ -718,7 +718,10 @@
     "needs_review": false,
     "account": "elbrillante_",
     "post_url": "https://www.instagram.com/p/DagXBWfPjk-/",
-    "found_at": "2026-07-08T17:28:57.249050+00:00"
+    "found_at": "2026-07-08T17:28:57.249050+00:00",
+    "artist_handles": {
+      "Bestia Bebé": "bestiabebe"
+    }
   },
   {
     "title": "Jota Moore en Guadalajara",
@@ -775,24 +778,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DalQ2p-gZmK/",
     "found_at": "2026-07-10T17:50:20.740242+00:00"
-  },
-  {
-    "title": "Swallow the Sun",
-    "artists": [
-      "Swallow the Sun"
-    ],
-    "venue": "C3 Rooftop",
-    "date": "2026-08-19",
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Banda de doom metal contemporáneo en terraza",
-    "needs_review": false,
-    "account": "c3stage",
-    "post_url": "https://www.instagram.com/p/DanoenXn8wb/",
-    "found_at": "2026-07-10T17:50:24.086518+00:00"
   },
   {
     "title": "Akribb",
@@ -932,8 +917,8 @@
     ],
     "venue": "Ritual Cultural",
     "date": "2026-09-05",
-    "time": null,
-    "cover": null,
+    "time": "19:00",
+    "cover": "$100mxn preventa (limitado a 50 boletos), $120mxn general, $150mxn taquilla día del show",
     "type": "concert",
     "ticket_url": "linktr.ee/coursemx",
     "age_restriction": null,
@@ -1122,24 +1107,6 @@
     "found_at": "2026-07-14T17:18:43.030144+00:00"
   },
   {
-    "title": "MAX RC Live Concert",
-    "artists": [
-      "MAX RC"
-    ],
-    "venue": "Cuerda Cultura",
-    "date": "2026-08-19",
-    "time": null,
-    "cover": "$200mxn",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Fase 1 de preventa. Link en biografía de @lapisci",
-    "needs_review": false,
-    "account": "lapisci.oficial",
-    "post_url": "https://www.instagram.com/p/DavlwjyMsuC/",
-    "found_at": "2026-07-14T17:18:52.115046+00:00"
-  },
-  {
     "title": "Los de Abajo - Latin Ska Tour 2026",
     "artists": [
       "Los de Abajo"
@@ -1182,24 +1149,6 @@
     "account": "grisleekuma",
     "post_url": "https://www.instagram.com/p/DayICJjEbtk/",
     "found_at": "2026-07-15T17:21:51.283594+00:00"
-  },
-  {
-    "title": "LOP DELLER Live Concert",
-    "artists": [
-      "LOP DELLER"
-    ],
-    "venue": "Cuerda Cultura",
-    "date": "2026-08-19",
-    "time": null,
-    "cover": "$200mxn",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Fase 1 tickets. Ubicado en C. Garibaldi 580, Centro.",
-    "needs_review": false,
-    "account": "lapisci.oficial",
-    "post_url": "https://www.instagram.com/p/DayUO28skLk/",
-    "found_at": "2026-07-15T17:22:09.668091+00:00"
   },
   {
     "title": "Tufi + Pehuen",
@@ -2300,26 +2249,6 @@
     "found_at": "2026-08-11T16:55:52.916960+00:00"
   },
   {
-    "title": "FENÓMENO VITAL",
-    "artists": [
-      "Talien Corona Ojeda"
-    ],
-    "artist_handles": null,
-    "venue": "MUSA Museo de las Artes",
-    "date": "2026-08-20",
-    "end_date": null,
-    "time": "19:30",
-    "cover": "entrada libre",
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Inauguración. Curador: Taller Corona Ojeda",
-    "needs_review": false,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/Db4GUaOAUWq/",
-    "found_at": "2026-08-11T16:55:52.916974+00:00"
-  },
-  {
     "title": "Noches de música y museo",
     "artists": [
       "Orquesta de Cámara Higinio Ruvalcaba"
@@ -2432,33 +2361,6 @@
     "account": "pensarq_",
     "post_url": "https://www.instagram.com/p/Db9HD7XMesH/",
     "found_at": "2026-08-13T16:52:34.745848+00:00"
-  },
-  {
-    "title": "Presentación del libro REMUS",
-    "artists": [
-      "Xitlálitl Rodríguez Mendoza",
-      "Ale Carrillo",
-      "Erandi Barbosa Garibay",
-      "Carlos Armenta"
-    ],
-    "artist_handles": {
-      "Xitlálitl Rodríguez Mendoza": "pollitaconpapos",
-      "Ale Carrillo": "alecarrillogl",
-      "Carlos Armenta": "_a.rmenta_"
-    },
-    "venue": "Impronta Casa Editora",
-    "date": "2026-08-20",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Presentación de libro con sorpresas y regalos para asistentes.",
-    "needs_review": false,
-    "account": "improntacasaeditora",
-    "post_url": "https://www.instagram.com/p/Db6ss2ePzhZ/",
-    "found_at": "2026-08-13T16:52:42.770818+00:00"
   },
   {
     "title": "La Corte observa",
@@ -2755,26 +2657,6 @@
     "account": "aosraosr",
     "post_url": "https://www.instagram.com/p/Db6UwZ4knUA/",
     "found_at": "2026-08-13T16:54:39.622946+00:00"
-  },
-  {
-    "title": "Punto de Cruce - Mesa de Diálogo sobre Gestión Cultural Independiente",
-    "artists": [],
-    "artist_handles": {
-      "Yuriko Cortés": "archivomuertx"
-    },
-    "venue": null,
-    "date": "2026-08-20",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Mesa de diálogo moderada por Yuriko Cortés sobre cultura independiente",
-    "needs_review": false,
-    "account": "staditche",
-    "post_url": "https://www.instagram.com/p/Db9SlQMHxtz/",
-    "found_at": "2026-08-13T16:54:48.840346+00:00"
   },
   {
     "title": "Celebración 53 años Hip Hop",
@@ -3177,9 +3059,9 @@
     "date": "2026-10-03",
     "end_date": null,
     "time": null,
-    "cover": null,
+    "cover": "$300mxn preventa especial, $400mxn preventa general, $500mxn día del evento",
     "type": "concert",
-    "ticket_url": null,
+    "ticket_url": "Passline",
     "age_restriction": null,
     "notes": "Banda ska punk. Gira México.",
     "needs_review": false,
@@ -3244,32 +3126,6 @@
     "found_at": "2026-08-17T16:22:46.670720+00:00"
   },
   {
-    "title": "mattd0e + Arturo de la Trumpet & Brass Armada",
-    "artists": [
-      "mattd0e",
-      "Arturo de la Trumpet",
-      "Brass Armada"
-    ],
-    "artist_handles": {
-      "mattd0e": "toomanyzooz",
-      "Arturo de la Trumpet": "arturodelatrumpet",
-      "Brass Armada": "brass.armada"
-    },
-    "venue": "C3 Rooftop",
-    "date": "2026-08-20",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Fiesta de metales y ritmo. NYC artist mattd0e con Arturo y Brass Armada.",
-    "needs_review": false,
-    "account": "c3stage",
-    "post_url": "https://www.instagram.com/p/DcFJLvpgQTW/",
-    "found_at": "2026-08-17T16:22:53.548677+00:00"
-  },
-  {
     "title": "Artífice de la luz",
     "artists": [
       "Luis Eduardo González"
@@ -3293,7 +3149,7 @@
     "title": "Laboratorio de Cartonería",
     "artists": [],
     "artist_handles": null,
-    "venue": null,
+    "venue": "rayon.376",
     "date": "2026-08-22",
     "end_date": null,
     "time": "10:00",
@@ -3647,32 +3503,6 @@
     "found_at": "2026-08-19T16:26:13.997090+00:00"
   },
   {
-    "title": "La Última Cochinada (Por ahora)",
-    "artists": [
-      "Niñas Cochinas",
-      "Ninia Perro",
-      "Timoti Lamotocasco"
-    ],
-    "artist_handles": {
-      "Niñas Cochinas": "ninascochinas",
-      "Ninia Perro": "niniaperro",
-      "Timoti Lamotocasco": "timotilamotocasco"
-    },
-    "venue": "Cuerda",
-    "date": "2026-08-20",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Invitadxs y banda sorpresa. Boletos vía DM.",
-    "needs_review": false,
-    "account": "cuerdacmedios",
-    "post_url": "https://www.instagram.com/p/DcJpBTVkTeE/",
-    "found_at": "2026-08-19T16:26:26.530354+00:00"
-  },
-  {
     "title": "Yendo Rápido A Ningún Lugar",
     "artists": [
       "Bestia Bebe"
@@ -3746,26 +3576,6 @@
     "found_at": "2026-08-19T16:26:30.559994+00:00"
   },
   {
-    "title": "Koyaanisqatsi (1982) - Ciclo de Cine Transformaciones",
-    "artists": [
-      "Godfrey Reggio"
-    ],
-    "artist_handles": null,
-    "venue": null,
-    "date": "2026-08-19",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Proyección de película documental. Ciclo x Sandy Manzo.",
-    "needs_review": false,
-    "account": "rayon.376",
-    "post_url": "https://www.instagram.com/p/DcMycjsvRoU/",
-    "found_at": "2026-08-19T16:26:34.012727+00:00"
-  },
-  {
     "title": "Tercer Aniversario",
     "artists": [
       "Acróbata"
@@ -3776,8 +3586,8 @@
     "venue": "Hake Al Rey",
     "date": "2026-08-22",
     "end_date": null,
-    "time": null,
-    "cover": null,
+    "time": "18:00",
+    "cover": "$150mxn preventa",
     "type": "concert",
     "ticket_url": null,
     "age_restriction": null,
@@ -3920,5 +3730,408 @@
     "account": "srgala_",
     "post_url": "https://www.instagram.com/p/DcKTHKhFNFp/",
     "found_at": "2026-08-19T16:27:44.297262+00:00"
+  },
+  {
+    "title": "Encuentro sin Candados - Mesa 1: Hacia un nuevo monopolio de la cultura",
+    "artists": [
+      "José Flores Sosa",
+      "Xitlalitl Rodríguez Mendoza"
+    ],
+    "artist_handles": null,
+    "venue": "Salón Clementina Díaz y de Ovando",
+    "date": "2026-08-26",
+    "end_date": null,
+    "time": "14:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Discusión sobre libre acceso, IA y privatización de la cultura.",
+    "needs_review": false,
+    "account": "_a.rmenta_",
+    "post_url": "https://www.instagram.com/p/DcR6_g8CZTK/",
+    "found_at": "2026-08-21T16:26:21.096381+00:00"
+  },
+  {
+    "title": "Candelabro",
+    "artists": [
+      "Candelabro"
+    ],
+    "artist_handles": {
+      "Candelabro": "candelabro.candelabro"
+    },
+    "venue": "C4 Concert House",
+    "date": "2026-10-24",
+    "end_date": null,
+    "time": "20:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Art rock, primera vez en C4. Boletos en venta.",
+    "needs_review": false,
+    "account": "c4concerthouse",
+    "post_url": "https://www.instagram.com/p/DcTwVAEIY9R/",
+    "found_at": "2026-08-21T16:26:25.990417+00:00"
+  },
+  {
+    "title": "Sesión de Dibujo: Práctica con modelo",
+    "artists": [
+      "Tereza Vázquez"
+    ],
+    "artist_handles": null,
+    "venue": "Museo de Arte Raúl Anguiano (MURA)",
+    "date": "2026-08-22",
+    "end_date": null,
+    "time": "12:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Explorar anatomía humana, luz, sombra y proporción. Nivel básico.",
+    "needs_review": false,
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/DcRHSukRONf/",
+    "found_at": "2026-08-21T16:26:29.909849+00:00"
+  },
+  {
+    "title": "Digipop",
+    "artists": [
+      "EQ",
+      "Patch+",
+      "Helen Sun",
+      "Sonic Emerson"
+    ],
+    "artist_handles": {
+      "EQ": "eq__connection",
+      "Patch+": "patchwemakeitlookeasy",
+      "Helen Sun": "helensun__",
+      "Sonic Emerson": "sonicemerson"
+    },
+    "venue": "C3 Stage",
+    "date": "2026-09-26",
+    "end_date": null,
+    "time": "21:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Electrónica, pop e música independiente digital internacional.",
+    "needs_review": false,
+    "account": "panicconcept",
+    "post_url": "https://www.instagram.com/p/DcR3NAfpIJq/",
+    "found_at": "2026-08-21T16:26:39.818721+00:00"
+  },
+  {
+    "title": "Doyle",
+    "artists": [
+      "Doyle"
+    ],
+    "artist_handles": null,
+    "venue": "Foro Independencia",
+    "date": "2026-11-28",
+    "end_date": null,
+    "time": null,
+    "cover": "$600mxn preventa (limitada a 100 boletos), $700mxn preventa general",
+    "type": "concert",
+    "ticket_url": "https://www.passline.com/eventos/doyle-en-guadalajara",
+    "age_restriction": null,
+    "notes": "Primera vez en Guadalajara. Doyle Wolfgang von Frankenstein (Misfits).",
+    "needs_review": false,
+    "account": "mimamamemimagdl",
+    "post_url": "https://www.instagram.com/p/DcRYKVgBtf0/",
+    "found_at": "2026-08-21T16:26:48.890773+00:00"
+  },
+  {
+    "title": "Inauguración: Fenómeno Vital",
+    "artists": [],
+    "artist_handles": null,
+    "venue": null,
+    "date": "2026-08-21",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "opening",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Curada por @talieneco. Fecha y venue no especificados en imagen.",
+    "needs_review": true,
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/DcSNv9nmhW3/",
+    "found_at": "2026-08-21T16:26:54.239617+00:00"
+  },
+  {
+    "title": "Forseps",
+    "artists": [
+      "Forseps"
+    ],
+    "artist_handles": {
+      "Forseps": "forsepsoficial"
+    },
+    "venue": "C4 Concert House",
+    "date": "2026-10-02",
+    "end_date": null,
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Regreso de Forseps a Guadalajara con José y compañía",
+    "needs_review": false,
+    "account": "c4concerthouse",
+    "post_url": "https://www.instagram.com/p/DcSBPGutpm5/",
+    "found_at": "2026-08-21T16:27:02.618008+00:00"
+  },
+  {
+    "title": "Con Mi Diabla - Videoclip Premiere",
+    "artists": [
+      "Gibbons Mx"
+    ],
+    "artist_handles": null,
+    "venue": null,
+    "date": "2026-08-26",
+    "end_date": null,
+    "time": "19:00",
+    "cover": null,
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Estreno de videoclip en YouTube canal Gibbons Mx. Grabado en Cuerda Cultura.",
+    "needs_review": false,
+    "account": "gibbonsrockmx",
+    "post_url": "https://www.instagram.com/p/DcSboxqOl2w/",
+    "found_at": "2026-08-21T16:27:05.145980+00:00"
+  },
+  {
+    "title": "Charla de clausura — COVERS",
+    "artists": [
+      "Viviana Kuri",
+      "Hiram Constantino",
+      "Christian Gómez Vega",
+      "Tonatiuh López"
+    ],
+    "artist_handles": {
+      "Viviana Kuri": "vivianakuri",
+      "Hiram Constantino": "hiconstantino",
+      "Christian Gómez Vega": "detodolloro",
+      "Tonatiuh López": "tonatiuhlj"
+    },
+    "venue": "Plataforma",
+    "date": "2026-08-23",
+    "end_date": null,
+    "time": "12:00",
+    "cover": "entrada libre",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Conversación curatorial sobre exposición COVERS, últimos días de la muestra.",
+    "needs_review": false,
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DcOuvLmqlaG/",
+    "found_at": "2026-08-21T16:27:10.751882+00:00"
+  },
+  {
+    "title": "Itinerario",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Caile a Mi House",
+    "date": "2026-10-09",
+    "end_date": "2026-10-10",
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "notes": "Evento de dos días en Guadalajara. Detalles limitados en el flier.",
+    "needs_review": true,
+    "account": "caileamihouse",
+    "post_url": "https://www.instagram.com/p/DcRz9-ElUAV/",
+    "found_at": "2026-08-21T16:27:21.144229+00:00"
+  },
+  {
+    "title": "AKRILLA",
+    "artists": [
+      "AKRILLA"
+    ],
+    "artist_handles": {
+      "AKRILLA": "akribb"
+    },
+    "venue": "C4 Concert House",
+    "date": "2026-10-09",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Evento en C4 Concert House, Guadalajara.",
+    "needs_review": false,
+    "account": "c4concerthouse",
+    "post_url": "https://www.instagram.com/p/DcPbxkWAesO/",
+    "found_at": "2026-08-21T16:27:25.481414+00:00"
+  },
+  {
+    "title": "Laboratorio Intensivo de Cianotipia Experimental",
+    "artists": [
+      "Chubby Hernández"
+    ],
+    "artist_handles": {
+      "Chubby Hernández": "chuby_hernandez"
+    },
+    "venue": null,
+    "date": "2026-09-17",
+    "end_date": "2026-09-19",
+    "time": null,
+    "cover": null,
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "3 sesiones. Colaboración con Jardín Studio Creativo.",
+    "needs_review": false,
+    "account": "rayon.376",
+    "post_url": "https://www.instagram.com/p/DcR-Qijmq5L/",
+    "found_at": "2026-08-21T16:27:37.926331+00:00"
+  },
+  {
+    "title": "Orgullo y Prejuicio",
+    "artists": [
+      "Roberto Salomón"
+    ],
+    "artist_handles": null,
+    "venue": "El Bretón",
+    "date": "2026-09-24",
+    "end_date": null,
+    "time": "20:30",
+    "cover": "$250mxn",
+    "type": "concert",
+    "ticket_url": "https://tinyurl.com/oypgdlj",
+    "age_restriction": null,
+    "notes": "Recital piano reimaginando partitura Dario Marianelli",
+    "needs_review": false,
+    "account": "robertosalomonmusic",
+    "post_url": "https://www.instagram.com/p/DcPlT_iNTp0/",
+    "found_at": "2026-08-21T16:27:41.318690+00:00"
+  },
+  {
+    "title": "Temisto - Tercer Aniversario",
+    "artists": [
+      "Temisto",
+      "Oceangraves"
+    ],
+    "artist_handles": {
+      "Oceangraves": "oceangravesmx"
+    },
+    "venue": "Hake Al Rey",
+    "date": "2026-08-23",
+    "end_date": null,
+    "time": "18:00",
+    "cover": "$150mxn preventa, $200mxn taquilla",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Colaboración especial con Oceangraves. 2 años sin tocar en vivo.",
+    "needs_review": false,
+    "account": "tresseisesmx",
+    "post_url": "https://www.instagram.com/p/DcSX79kt3mS/",
+    "found_at": "2026-08-21T16:27:57.305179+00:00"
+  },
+  {
+    "title": "Agostokin - Festival de Rock & Poesía",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Hake Al Rey",
+    "date": "2026-08-28",
+    "end_date": null,
+    "time": "19:00",
+    "cover": "$150mxn preventa",
+    "type": "concert",
+    "ticket_url": "poetasimpropios.org",
+    "age_restriction": null,
+    "notes": "Festival de rock y poesía. Boletos en preventa.",
+    "needs_review": false,
+    "account": "poetasimpropios",
+    "post_url": "https://www.instagram.com/p/DcNhcCRsJzR/",
+    "found_at": "2026-08-21T16:28:00.747428+00:00"
+  },
+  {
+    "title": "Mesa de diálogo: Retos y condiciones para el desarrollo de las artistas en Jalisco",
+    "artists": [
+      "Miriam Rodriguez",
+      "Elizabeth Carrillo",
+      "Angelina Fernández"
+    ],
+    "artist_handles": {
+      "Miriam Rodriguez": "miriam.rodriguezm",
+      "Elizabeth Carrillo": "elizaabstrac"
+    },
+    "venue": null,
+    "date": "2026-08-22",
+    "end_date": null,
+    "time": "16:30",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Modera Alejandra Ruiz. En marco de exposición 'Derecho al mal'.",
+    "needs_review": false,
+    "account": "rayon.376",
+    "post_url": "https://www.instagram.com/p/DcPe1AmP6UW/",
+    "found_at": "2026-08-21T16:28:14.358789+00:00"
+  },
+  {
+    "title": "It's artificial – Dance'on 26 para Cipactli & orgánicos",
+    "artists": [
+      "Sergio Aguilar Félix"
+    ],
+    "artist_handles": null,
+    "venue": "Museo Raúl Anguiano (MURA)",
+    "date": "2026-08-22",
+    "end_date": null,
+    "time": "14:00",
+    "cover": null,
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Propuesta audiovisual de resonancias biosintéticas sobre lo orgánico y sintético.",
+    "needs_review": false,
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/DcO2DdDxHv2/",
+    "found_at": "2026-08-21T16:28:18.307996+00:00"
+  },
+  {
+    "title": "eskere",
+    "artists": [
+      "A Donde Vamos",
+      "Belén Sintilde",
+      "Hasel (DJ Set)",
+      "Binkan!",
+      "Carmen",
+      "Intti Er",
+      "Ivania",
+      "Malora + Arigarlo",
+      "Margaroth",
+      "Sanchez1000"
+    ],
+    "artist_handles": {
+      "Belén Sintilde": "belen.sintilde",
+      "Binkan!": "binkanbinkanbinkan",
+      "Carmen": "lacarmenxoxo",
+      "Intti Er": "intti.fr",
+      "Malora + Arigarlo": "malora___",
+      "Arigarlo": "arigarlo",
+      "Margaroth": "margaroth_",
+      "Sanchez1000": "sanchez1000_"
+    },
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-08-21",
+    "end_date": null,
+    "time": "19:00",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://ra.co",
+    "age_restriction": null,
+    "notes": "Puertas a las 18:30. Shows inician a las 19:00.",
+    "needs_review": false,
+    "account": "bipbipradio",
+    "post_url": "https://www.instagram.com/p/DcPn1SHjIGZ/",
+    "found_at": "2026-08-21T16:28:35.410667+00:00"
   }
 ]
