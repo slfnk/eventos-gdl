@@ -616,22 +616,6 @@
   },
   {
     "is_event": true,
-    "title": "The Brain Rage - Mexafest",
-    "artists": [
-      "The Brain Rage"
-    ],
-    "venue": "Cuerda Cultura GDL",
-    "date": "2026-08-29",
-    "time": "18:00",
-    "cover": "$150 preventa / $200 día del evento",
-    "type": "concert",
-    "notes": "Progressive groove metal band from Puebla. 10 year trajectory.",
-    "account": "daphnemor_",
-    "post_url": "https://www.instagram.com/p/DaUPhx0M3pE/",
-    "found_at": "2026-07-05T02:47:39.573267+00:00"
-  },
-  {
-    "is_event": true,
     "title": "Cartas de Vincent en Guadalajara",
     "artists": [
       "Cartas de Vincent",
@@ -714,24 +698,6 @@
     "account": "plataformagdl",
     "post_url": "https://www.instagram.com/p/DaJjlR9uVYO/",
     "found_at": "2026-07-07T18:04:48.246318+00:00"
-  },
-  {
-    "title": "Comisario Pantera",
-    "artists": [
-      "Comisario Pantera"
-    ],
-    "venue": "C3 Rooftop",
-    "date": "2026-08-29",
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Balada romántica mexicana con guitarras y voces que confiesan.",
-    "needs_review": false,
-    "account": "c3stage",
-    "post_url": "https://www.instagram.com/p/DagYa6FAfO5/",
-    "found_at": "2026-07-08T17:27:43.610610+00:00"
   },
   {
     "title": "Renee Tour",
@@ -978,24 +944,6 @@
       "Carlos Armenta"
     ],
     "venue": "MUPAG",
-    "date": "2026-08-29",
-    "time": "10:00",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Taller para formación de libreros, sesión 4 de 5",
-    "needs_review": false,
-    "account": "_a.rmenta_",
-    "post_url": "https://www.instagram.com/p/DawbJszRzRP/",
-    "found_at": "2026-07-14T17:18:17.611491+00:00"
-  },
-  {
-    "title": "La librería es el mundo. El mundo es la librería",
-    "artists": [
-      "Carlos Armenta"
-    ],
-    "venue": "MUPAG",
     "date": "2026-09-05",
     "time": "10:00",
     "cover": "entrada libre",
@@ -1228,28 +1176,6 @@
     "found_at": "2026-08-05T17:26:57.195149+00:00"
   },
   {
-    "title": "Hello Sea Horse - Primer Aniversario Radio ITESO",
-    "artists": [
-      "Hello Sea Horse"
-    ],
-    "artist_handles": {
-      "Hello Sea Horse": "helloseahorse"
-    },
-    "venue": "C4 Concert House",
-    "date": "2026-08-29",
-    "end_date": null,
-    "time": null,
-    "cover": "entrada libre",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Celebración primer aniversario Radio ITESO. Boletos en programas en vivo.",
-    "needs_review": false,
-    "account": "c4concerthouse",
-    "post_url": "https://www.instagram.com/p/Dbotk17j9W_/",
-    "found_at": "2026-08-05T17:26:59.849646+00:00"
-  },
-  {
     "title": "Obscura",
     "artists": [
       "Obscura"
@@ -1365,24 +1291,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DbjptIOn2jF/",
     "found_at": "2026-08-05T17:29:21.995573+00:00"
-  },
-  {
-    "title": "Un solo mar / One Sea Only",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "MUSA Museo de las Artes",
-    "date": "2026-08-04",
-    "end_date": "2026-08-30",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Colaboración UdeG CUCosta × Newcastle University.",
-    "needs_review": false,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/DboTv_jj61x/",
-    "found_at": "2026-08-05T17:29:35.025215+00:00"
   },
   {
     "title": "Luis Eduardo González. Artífice de la Luz.",
@@ -1519,38 +1427,6 @@
     "account": "temistoprods",
     "post_url": "https://www.instagram.com/p/DbY0jhSIRtP/",
     "found_at": "2026-08-05T17:31:02.414789+00:00"
-  },
-  {
-    "title": "Pijamada",
-    "artists": [
-      "Meyer",
-      "DJ Chulow",
-      "El Terror de GDL",
-      "Raquel Key Mercado",
-      "Moctezzzuma Bel",
-      "Santos JSD"
-    ],
-    "artist_handles": {
-      "Meyer": "meyerbxd",
-      "DJ Chulow": "djchulow",
-      "El Terror de GDL": "elterrordegdl",
-      "Raquel Key Mercado": "raquel.keymercado",
-      "Moctezzzuma Bel": "moctezzzuma.bel",
-      "Santos JSD": "santos.jsd"
-    },
-    "venue": "Tantuyo Centro Cultural",
-    "date": "2026-08-29",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "dj",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Performance secreto de ángeles y demonios. Viaje onírico.",
-    "needs_review": false,
-    "account": "elterrordegdl",
-    "post_url": "https://www.instagram.com/p/DbmPm86Mrru/",
-    "found_at": "2026-08-07T16:49:07.902482+00:00"
   },
   {
     "title": "Billions of Comrades - Trotop Tour 2026",
@@ -1998,26 +1874,6 @@
     "found_at": "2026-08-11T16:55:38.821654+00:00"
   },
   {
-    "title": "La ciudad de las damas",
-    "artists": [
-      "Alejandra Ruiz"
-    ],
-    "artist_handles": null,
-    "venue": "MUSA Museo de las Artes",
-    "date": "2026-08-11",
-    "end_date": "2026-08-30",
-    "time": "12:00",
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Inicio programa artista en residencia",
-    "needs_review": false,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/Db4GUaOAUWq/",
-    "found_at": "2026-08-11T16:55:52.916956+00:00"
-  },
-  {
     "title": "Los panteones del performance",
     "artists": [
       "Cristina Garrido"
@@ -2038,40 +1894,6 @@
     "account": "galeriacurro",
     "post_url": "https://www.instagram.com/p/Db5rHz7jZEM/",
     "found_at": "2026-08-11T16:56:19.707625+00:00"
-  },
-  {
-    "title": "Bazar Gordo 2da Edición",
-    "artists": [
-      "Xanat Palacios",
-      "Miaulina",
-      "5gfairy",
-      "Agata Elixir",
-      "Dalla Darkness",
-      "Absenta Pecaminosa",
-      "Pay de Manzanita"
-    ],
-    "artist_handles": {
-      "Xanat Palacios": "xanat.palacios",
-      "Miaulina": "miaulina",
-      "5gfairy": "5gfairy",
-      "Agata Elixir": "agataelixir",
-      "Dalla Darkness": "dalla_darkness",
-      "Absenta Pecaminosa": "absenta_pecaminosa",
-      "Pay de Manzanita": "paydemanzanita"
-    },
-    "venue": "Stadiche",
-    "date": "2026-08-29",
-    "end_date": "2026-08-30",
-    "time": "12:00",
-    "cover": "entrada libre",
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Bazar con expositores, talento en vivo, moda, arte, comida. Evento LGBTQ+ y fat-positive.",
-    "needs_review": false,
-    "account": "clubgordix",
-    "post_url": "https://www.instagram.com/p/Db3xb8BEU1b/",
-    "found_at": "2026-08-11T16:56:24.027384+00:00"
   },
   {
     "title": "Interno_: Carlos Armenta - El libro transforma el espacio",
@@ -2174,37 +1996,6 @@
     "account": "palmagaleria",
     "post_url": "https://www.instagram.com/p/Db86TIKvrBm/",
     "found_at": "2026-08-13T16:53:03.199783+00:00"
-  },
-  {
-    "title": "Reggae Summer Party",
-    "artists": [
-      "La Yaga",
-      "Jezz-I Selectress",
-      "Romie King",
-      "Dr Myal",
-      "Huarache",
-      "Malaika Sylaire"
-    ],
-    "artist_handles": {
-      "La Yaga": "layaga_oficial",
-      "Dr Myal": "drmyal",
-      "Huarache": "soyhuarache",
-      "Jezz-I Selectress": "jezz_i.selectress",
-      "Malaika Sylaire": "malaiikaoficial"
-    },
-    "venue": "Foro Novecentoisiete Centro Cultural",
-    "date": "2026-08-29",
-    "end_date": null,
-    "time": "21:00",
-    "cover": "$250mxn preventa, $300mxn taquilla",
-    "type": "concert",
-    "ticket_url": "https://app.foro907.com",
-    "age_restriction": null,
-    "notes": "Sound System Vibes, compra en app Foro 907",
-    "needs_review": false,
-    "account": "907novecientosieteoficial",
-    "post_url": "https://www.instagram.com/p/Db-s5KlxTbN/",
-    "found_at": "2026-08-13T16:53:11.865746+00:00"
   },
   {
     "title": "XII Aniversario C3 Stage",
@@ -2960,34 +2751,6 @@
     "found_at": "2026-08-23T16:19:18.099492+00:00"
   },
   {
-    "title": "Mi lugar feliz - Dario Vital y Esteban Gómez González",
-    "artists": [
-      "Dario Vital",
-      "Esteban Gómez González",
-      "Rock and Lovers",
-      "Denn Montesinos"
-    ],
-    "artist_handles": {
-      "Dario Vital": "vitalicomx",
-      "Esteban Gómez González": "egomezgonz",
-      "Rock and Lovers": "rockandlovers",
-      "Denn Montesinos": "dennmontesinos"
-    },
-    "venue": "Cuerda Cultura",
-    "date": "2026-08-29",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Dario Vital en C3 Rooftop con Comisaurio",
-    "needs_review": false,
-    "account": "somosfansdifusion",
-    "post_url": "https://www.instagram.com/p/DcUXokdoPgB/",
-    "found_at": "2026-08-23T16:19:26.799652+00:00"
-  },
-  {
     "title": "Mi Primer Montaje - Mi Alegría",
     "artists": [],
     "artist_handles": null,
@@ -3004,28 +2767,6 @@
     "account": "comuna.9_",
     "post_url": "https://www.instagram.com/p/DcXb-kNkUdR/",
     "found_at": "2026-08-23T16:19:30.190885+00:00"
-  },
-  {
-    "title": "Reggae Summer Party",
-    "artists": [
-      "Malaika"
-    ],
-    "artist_handles": {
-      "Malaika": "malaiikaoficial"
-    },
-    "venue": "Foro 907",
-    "date": "2026-08-29",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Celebración de reggae en la ciudad, próximo sábado",
-    "needs_review": false,
-    "account": "layaga_oficial",
-    "post_url": "https://www.instagram.com/p/DcW7eSwu-lq/",
-    "found_at": "2026-08-23T16:19:42.987811+00:00"
   },
   {
     "title": "NARCOSATANIKO - NECROMORFO en vivo",
@@ -3099,68 +2840,6 @@
     "account": "foro_morenoamericano",
     "post_url": "https://www.instagram.com/p/Dcd6LsIOMJU/",
     "found_at": "2026-08-25T16:30:44.056671+00:00"
-  },
-  {
-    "title": "MexaFest GDL",
-    "artists": [
-      "Slave of Forgiveness",
-      "Alvath Metal",
-      "The Brain Rage",
-      "Zuper Faro",
-      "Implode the Empire",
-      "Mutant from the Nebula"
-    ],
-    "artist_handles": {
-      "Slave of Forgiveness": "slaveofforgiveness",
-      "Alvath Metal": "alvath.metal",
-      "The Brain Rage": "thebrainrage",
-      "Zuper Faro": "zuper_faro",
-      "Implode the Empire": "implodetheempire",
-      "Mutant from the Nebula": "mutantfromthenebula"
-    },
-    "venue": "Cuerda",
-    "date": "2026-08-29",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://passline.mx",
-    "age_restriction": null,
-    "notes": "Presentado por Mexapedia",
-    "needs_review": false,
-    "account": "cuerdacmedios",
-    "post_url": "https://www.instagram.com/p/Dcb5AA1EjsQ/",
-    "found_at": "2026-08-25T16:30:53.567501+00:00"
-  },
-  {
-    "title": "Bandas Emergentes vol. 39",
-    "artists": [
-      "Ovrcast Band Official",
-      "Skate Band",
-      "Los de Artem",
-      "Sergio Leasim",
-      "Buena Miseria"
-    ],
-    "artist_handles": {
-      "Ovrcast Band Official": "ovrcast.bandofficial",
-      "Skate Band": "skate_band_",
-      "Los de Artem": "los_de_artem",
-      "Sergio Leasim": "sergio_leasim_",
-      "Buena Miseria": "buena_miseria"
-    },
-    "venue": "Cuerda",
-    "date": "2026-08-30",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Boletaje vía DM con las bandas",
-    "needs_review": false,
-    "account": "cuerdacmedios",
-    "post_url": "https://www.instagram.com/p/Dcb5AA1EjsQ/",
-    "found_at": "2026-08-25T16:30:53.567505+00:00"
   },
   {
     "title": "Más sabe el gallo por viejo",
@@ -3307,38 +2986,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DceBK_muxFR/",
     "found_at": "2026-08-25T16:31:25.347803+00:00"
-  },
-  {
-    "title": "Road to Mexafest - Sábado",
-    "artists": [
-      "Implode The Empire",
-      "The Brain Rage",
-      "Slave of Forgiveness",
-      "Alvath",
-      "Zuper Faro",
-      "Mutant From The Nebula"
-    ],
-    "artist_handles": {
-      "Implode The Empire": "implodetheempire",
-      "The Brain Rage": "thebrainrage",
-      "Slave of Forgiveness": "slaveofforgiveness",
-      "Alvath": "alvath.metal",
-      "Zuper Faro": "zuper_faro",
-      "Mutant From The Nebula": "mutantfromthenebula"
-    },
-    "venue": "Cuerda Cultura",
-    "date": "2026-08-29",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Segundo día de Road to Mexafest en Cuerda Cultura.",
-    "needs_review": false,
-    "account": "_holasoyromi_",
-    "post_url": "https://www.instagram.com/p/Dcb-NiqvXvd/",
-    "found_at": "2026-08-25T16:31:34.684370+00:00"
   },
   {
     "title": "Luna Martinez - Postapocalipsis Tour",
@@ -3559,29 +3206,6 @@
     "found_at": "2026-08-28T00:44:19.471742+00:00"
   },
   {
-    "title": "Amann & The Wayward Sons con Little Swine",
-    "artists": [
-      "Amann & The Wayward Sons",
-      "Little Swine"
-    ],
-    "artist_handles": {
-      "Little Swine": "littleswineoficial"
-    },
-    "venue": "907 Novecientos Siete",
-    "date": "2026-08-29",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Little Swine abre el show. Presentado por Rock Hard Prods.",
-    "needs_review": false,
-    "account": "jennykarod",
-    "post_url": "https://www.instagram.com/p/DcfKBf0liT6/",
-    "found_at": "2026-08-28T00:44:23.691622+00:00"
-  },
-  {
     "title": "Snuffznuf",
     "artists": [
       "Snuffznuf"
@@ -3758,31 +3382,6 @@
     "found_at": "2026-08-28T00:44:41.078995+00:00"
   },
   {
-    "title": "Llamado al Culto",
-    "artists": [
-      "Ill Maestro",
-      "Pentagram",
-      "Betray Me"
-    ],
-    "artist_handles": {
-      "Pentagram": "pentagram_the_band",
-      "Betray Me": "betrayme_official"
-    },
-    "venue": "Foro Independencia",
-    "date": "2026-08-30",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "arena.mx",
-    "age_restriction": null,
-    "notes": "Convocatoria de Ill Maestro, metal/doom metal",
-    "needs_review": false,
-    "account": "nygmauniversum",
-    "post_url": "https://www.instagram.com/p/Dci9048xjNP/",
-    "found_at": "2026-08-28T00:44:45.707916+00:00"
-  },
-  {
     "title": "Fenómeno vital",
     "artists": [
       "Los Vitalistas"
@@ -3801,27 +3400,5 @@
     "account": "musa.museodelasartes",
     "post_url": "https://www.instagram.com/p/DchT2Kbv3SR/",
     "found_at": "2026-08-28T00:44:48.343009+00:00"
-  },
-  {
-    "title": "La Yaga",
-    "artists": [
-      "La Yaga"
-    ],
-    "artist_handles": {
-      "La Yaga": "layaga_oficial"
-    },
-    "venue": "907 Novecientos Siete Oficial",
-    "date": "2026-08-29",
-    "end_date": null,
-    "time": "20:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Regreso a la música tras pausa de 7 años",
-    "needs_review": false,
-    "account": "victormaganamx",
-    "post_url": "https://www.instagram.com/p/Dch6YYyI_NC/",
-    "found_at": "2026-08-28T00:45:09.822784+00:00"
   }
 ]
