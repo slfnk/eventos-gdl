@@ -1035,27 +1035,66 @@
     "found_at": "2026-09-19T18:22:33.192420+00:00"
   },
   {
-    "is_event": true,
-    "title": "Cartas de Vincent en Guadalajara",
+    "title": "Nu Metal - Ill Niño",
     "artists": [
-      "Cartas de Vincent",
-      "Will of One",
-      "Norte Verdadero"
+      "Ill Niño"
     ],
-    "venue": "Ritval Cultural",
-    "date": "2026-09-19",
-    "time": "20:00",
+    "artist_handles": {
+      "Ill Niño": "illninoofficial"
+    },
+    "venue": "Foro Independencia",
+    "date": null,
+    "end_date": null,
+    "time": null,
     "cover": null,
     "type": "concert",
-    "notes": "Lopez Cotilla 570, Guadalajara. Doors 19:30. Tickets at boletomovil.com",
-    "account": "conciertosmagmx",
-    "post_url": "https://www.instagram.com/p/Dac8YZ_OwKb/",
-    "found_at": "2026-07-06T18:13:45.890634+00:00",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Fecha no visible en imagen. Contactar venue para detalles.",
+    "needs_review": true,
+    "account": "peterphotoinfinito",
+    "post_url": "https://www.instagram.com/p/Ddf1fgPKGBH/",
+    "found_at": "2026-09-21T20:15:07.722448+00:00"
+  },
+  {
+    "title": "Paulina Goto Concert",
+    "artists": [
+      "Paulina Goto"
+    ],
     "artist_handles": {
-      "Cartas de Vincent": "cartasdevincent",
-      "El Norte Verdadero": "elnorteverdadero"
+      "Paulina Goto": "paulinagoto"
     },
-    "needs_review": false
+    "venue": null,
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.boletomovilmx.com",
+    "age_restriction": null,
+    "notes": "Fecha no especificada en la imagen o caption",
+    "needs_review": true,
+    "account": "paugotogdlof",
+    "post_url": "https://www.instagram.com/p/DdcnR8PxCUx/",
+    "found_at": "2026-09-21T20:15:15.566260+00:00"
+  },
+  {
+    "title": "Too hangover to play ping pong",
+    "artists": null,
+    "artist_handles": null,
+    "venue": null,
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Obra de arte en aluminio fundido. En @superattico__ y @castillointerior_",
+    "needs_review": true,
+    "account": "luigipensa",
+    "post_url": "https://www.instagram.com/p/Ddg0tNHAseq/",
+    "found_at": "2026-09-21T20:15:40.105169+00:00"
   },
   {
     "is_event": true,
@@ -1124,37 +1163,6 @@
     "account": "c4concerthouse",
     "post_url": "https://www.instagram.com/p/DaliCmCDz_V/",
     "found_at": "2026-07-10T17:50:35.752640+00:00"
-  },
-  {
-    "title": "Lapisci Third Edition - Cuerda Cultura",
-    "artists": [
-      "Ibarra Pearpero Neh",
-      "Aligheri",
-      "Camarena Rios",
-      "Max Rc Oficial",
-      "Uve Aguilar",
-      "Lopdeller"
-    ],
-    "venue": "Cuerda Cultura",
-    "date": "2026-09-19",
-    "time": null,
-    "cover": "$200mxn",
-    "type": "other",
-    "ticket_url": "https://passline.mx",
-    "age_restriction": null,
-    "notes": "Evento cultural en Guadalajara. Ubicación: C. Garibaldi 580, Centro.",
-    "needs_review": false,
-    "account": "lapisci.oficial",
-    "post_url": "https://www.instagram.com/p/Dal9OwaNuVA/",
-    "found_at": "2026-07-10T17:51:02.605290+00:00",
-    "artist_handles": {
-      "Ibarra Pearpero Neh": "ibarrapearperoneh",
-      "Aligheri": "aligheri_",
-      "Camarena Rios": "camarena_rios",
-      "Max Rc Oficial": "maxrc.oficial",
-      "Uve Aguilar": "uve.aguilar_",
-      "Lopdeller": "lopdeller"
-    }
   },
   {
     "title": "Noche de Boleros - Catalina y Las Bordonas de Oro",
@@ -1309,26 +1317,6 @@
     "artist_handles": {
       "Chapterhouse": "chapterhouse.official"
     }
-  },
-  {
-    "title": "Niñas en Vivo",
-    "artists": [
-      "Niñas"
-    ],
-    "artist_handles": null,
-    "venue": "El Bretón",
-    "date": "2026-09-20",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "$200mxn preventa, $250mxn venta",
-    "type": "concert",
-    "ticket_url": "https://passline.com",
-    "age_restriction": null,
-    "notes": "Octava edición. Boletos por DM o link de bio.",
-    "needs_review": false,
-    "account": "ninas.events",
-    "post_url": "https://www.instagram.com/p/DbmbZWRDZqS/",
-    "found_at": "2026-08-05T17:26:33.283708+00:00"
   },
   {
     "title": "La Barranca - Acústico",
@@ -1989,28 +1977,6 @@
     "found_at": "2026-08-15T16:19:32.344472+00:00"
   },
   {
-    "title": "OKILLS",
-    "artists": [
-      "OKILLS"
-    ],
-    "artist_handles": {
-      "OKILLS": "somosokills"
-    },
-    "venue": "C3 Rooftop",
-    "date": "2026-09-19",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Banda venezolana en terraza convertida en fiesta de playa.",
-    "needs_review": false,
-    "account": "c3stage",
-    "post_url": "https://www.instagram.com/p/DcAFTKiAb9q/",
-    "found_at": "2026-08-15T16:19:40.021323+00:00"
-  },
-  {
     "title": "LATAM TOUR 2026 - LASser",
     "artists": [
       "Lasser"
@@ -2051,62 +2017,6 @@
     "account": "rise_like_lions",
     "post_url": "https://www.instagram.com/p/DcE344ZSoJ2/",
     "found_at": "2026-08-17T16:22:31.715735+00:00"
-  },
-  {
-    "title": "Wetterbericht 2026 (Weather Report 2026)",
-    "artists": [
-      "Mailand/Innenhof",
-      "Sabina Lapteanu",
-      "Stephen Stahn",
-      "Matthias Klein",
-      "Lars Barrelmeyer",
-      "Rebecca Hafner",
-      "Felix Mahlknecht",
-      "Leo Köppen",
-      "Diego González Gómez",
-      "Ferdinand Knöbl",
-      "Philip Hagen",
-      "Erik Swars",
-      "Anna Sopova",
-      "Ronja Bellstorm",
-      "Lam Funke",
-      "Marco Valtierra",
-      "Benjamin Friedle",
-      "Maureen Muse"
-    ],
-    "artist_handles": {
-      "Mailand/Innenhof": "mailand_innenhof",
-      "Sabina Lapteanu": "sabina.lapteanu",
-      "Stephen Stahn": "stephen.stahn",
-      "Matthias Klein": "kleinmatthiasklein",
-      "Lars Barrelmeyer": "lars.barrelmeyer",
-      "Rebecca Hafner": "haefnerebecca",
-      "Felix Mahlknecht": "felix_mahlknecht",
-      "Leo Köppen": "leo_koeppen",
-      "Diego González Gómez": "_iego_",
-      "Ferdinand Knöbl": "ferdinandknoebl",
-      "Philip Hagen": "philip.s.hagen",
-      "Erik Swars": "erik.swars",
-      "Anna Sopova": "sopova_anna",
-      "Ronja Bellstorm": "ronja_the_art_whore",
-      "Lam Funke": "lam.funke",
-      "Marco Valtierra": "marcovaltierra",
-      "Benjamin Friedle": "benjaminfriedle",
-      "Maureen Muse": "maureeenmuse"
-    },
-    "venue": "Stannebeinplatz 7, Leipzig",
-    "date": "2026-08-20",
-    "end_date": "2026-09-20",
-    "time": "19:00",
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Grupo de exposición con 19 artistas de Leipzig.",
-    "needs_review": false,
-    "account": "plast_space",
-    "post_url": "https://www.instagram.com/p/DcG_GdCIAOQ/",
-    "found_at": "2026-08-17T16:22:46.670720+00:00"
   },
   {
     "title": "Artífice de la luz",
@@ -2239,22 +2149,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DcMoboKgdh7/",
     "found_at": "2026-08-19T16:26:54.686509+00:00"
-  },
-  {
-    "title": "Luxury Kiki Ball",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Tantuyo Centro Cultural",
-    "date": "2026-09-19",
-    "end_date": null,
-    "time": "16:00",
-    "cover": null,
-    "type": "other",
-    "notes": "Recepción 16:00, Rollcall 17:00. Noche de lujos.",
-    "needs_review": false,
-    "account": "ixcy_bratzy",
-    "post_url": "https://www.instagram.com/p/DcKXEDZOij-/",
-    "found_at": "2026-08-19T16:27:15.619336+00:00"
   },
   {
     "title": "Convocatoria Abierta - Ilustración Digital, Artes Plásticas, Diseño de Modas",
@@ -2405,28 +2299,6 @@
     "found_at": "2026-08-21T16:27:25.481414+00:00"
   },
   {
-    "title": "Laboratorio Intensivo de Cianotipia Experimental",
-    "artists": [
-      "Chubby Hernández"
-    ],
-    "artist_handles": {
-      "Chubby Hernández": "chuby_hernandez"
-    },
-    "venue": null,
-    "date": "2026-09-17",
-    "end_date": "2026-09-19",
-    "time": null,
-    "cover": null,
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "3 sesiones. Colaboración con Jardín Studio Creativo.",
-    "needs_review": false,
-    "account": "rayon.376",
-    "post_url": "https://www.instagram.com/p/DcR-Qijmq5L/",
-    "found_at": "2026-08-21T16:27:37.926331+00:00"
-  },
-  {
     "title": "Orgullo y Prejuicio",
     "artists": [
       "Roberto Salomón"
@@ -2535,28 +2407,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DceBK_muxFR/",
     "found_at": "2026-08-25T16:31:25.347803+00:00"
-  },
-  {
-    "title": "Luna Martinez - Postapocalipsis Tour",
-    "artists": [
-      "Luna Martinez"
-    ],
-    "artist_handles": {
-      "Luna Martínez": "lunamartinezoficial"
-    },
-    "venue": "Foro Boletomóvil",
-    "date": "2026-09-19",
-    "end_date": null,
-    "time": "20:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://boletomovil.com/evento/luna-martinez-postapocalipsis-2026-09-19",
-    "age_restriction": null,
-    "notes": "Meet & Greet incluido. Todas las edades.",
-    "needs_review": false,
-    "account": "lunamartinezoficial",
-    "post_url": "https://www.instagram.com/p/DccS7qQiRQT/",
-    "found_at": "2026-08-25T16:31:44.438156+00:00"
   },
   {
     "title": "Taller de automaquillaje",
@@ -3149,29 +2999,6 @@
     "found_at": "2026-09-05T17:56:03.319691+00:00"
   },
   {
-    "title": "RESONANCIA — Edición 01",
-    "artists": [
-      "IRAMNOIR y sus Cartas Negras",
-      "DJ RIFHES",
-      "Los Corvett",
-      "DJ GSUS"
-    ],
-    "artist_handles": null,
-    "venue": "Staditche",
-    "date": "2026-09-18",
-    "end_date": "2026-09-20",
-    "time": null,
-    "cover": "entrada libre",
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Festival multidisciplinario: moda, música, fashion films, K-pop, art performance, instalaciones.",
-    "needs_review": false,
-    "account": "infactorymx",
-    "post_url": "https://www.instagram.com/p/DcgvC3LxsZd/",
-    "found_at": "2026-09-05T17:56:12.139873+00:00"
-  },
-  {
     "title": "Artista del Mes: Chuby Hernández",
     "artists": [
       "Chuby Hernández"
@@ -3304,30 +3131,6 @@
     "account": "la_cruz_de_caca",
     "post_url": "https://www.instagram.com/p/Dcw-GEUpQrr/",
     "found_at": "2026-09-05T17:58:03.805962+00:00"
-  },
-  {
-    "title": "RIOT FW27 - Primera Colección",
-    "artists": [
-      "Banana Punch",
-      "Malvivientes",
-      "Buena Miseria",
-      "Griseo",
-      "5Cordura"
-    ],
-    "artist_handles": null,
-    "venue": "Anexo Independencia",
-    "date": "2026-09-19",
-    "end_date": null,
-    "time": null,
-    "cover": "entrada libre",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Debut de marca RIOT. Show en vivo con múltiples bandas y ambiente.",
-    "needs_review": false,
-    "account": "addicted_children",
-    "post_url": "https://www.instagram.com/p/Dc7P16ONXT3/",
-    "found_at": "2026-09-07T19:33:32.075820+00:00"
   },
   {
     "title": "Vamos al Noa Noa - Homenaje a Juan Gabriel",
@@ -3988,32 +3791,6 @@
     "found_at": "2026-09-09T19:03:03.472783+00:00"
   },
   {
-    "title": "Norte Verdadero + Cartas de Vincent + Will of One",
-    "artists": [
-      "Norte Verdadero",
-      "Cartas de Vincent",
-      "Will of One"
-    ],
-    "artist_handles": {
-      "Norte Verdadero": "elnorteverdadero",
-      "Cartas de Vincent": "cartasdevincent",
-      "Will of One": "willofoneofficial"
-    },
-    "venue": "Ritual Cultural",
-    "date": "2026-09-19",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Metalcore en español. Cupo limitado, adquirir tickets.",
-    "needs_review": false,
-    "account": "elnorteverdadero",
-    "post_url": "https://www.instagram.com/p/DdB_Fv9sBwu/",
-    "found_at": "2026-09-09T19:03:07.204805+00:00"
-  },
-  {
     "title": "Beta Oficial",
     "artists": [
       "Beta Oficial"
@@ -4388,24 +4165,6 @@
     "artists": [],
     "artist_handles": null,
     "venue": "Galería Sepia",
-    "date": "2026-09-19",
-    "end_date": null,
-    "time": "14:00",
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Sábados de 14:00 a 20:00. Merch de autor y productores locales.",
-    "needs_review": false,
-    "account": "conexionessocialesartisticas",
-    "post_url": "https://www.instagram.com/p/DdM4JxdiXdJ/",
-    "found_at": "2026-09-13T18:30:12.198711+00:00"
-  },
-  {
-    "title": "Showroom Galería Sepia",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Galería Sepia",
     "date": "2026-09-26",
     "end_date": null,
     "time": "14:00",
@@ -4511,68 +4270,6 @@
     "found_at": "2026-09-15T19:27:27.599599+00:00"
   },
   {
-    "title": "Atheist – Unquestionable Presence 35 Year Anniversary México Tour",
-    "artists": [
-      "Atheist"
-    ],
-    "artist_handles": {
-      "Atheist": "atheistband"
-    },
-    "venue": "Casa del Sol",
-    "date": "2026-09-19",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Hermosillo, fuera del área de Guadalajara",
-    "needs_review": false,
-    "account": "metal_inthe_north",
-    "post_url": "https://www.instagram.com/p/DdR46eThOUP/",
-    "found_at": "2026-09-15T19:27:33.737621+00:00"
-  },
-  {
-    "title": "Atheist – Unquestionable Presence 35 Year Anniversary México Tour",
-    "artists": [
-      "Atheist"
-    ],
-    "artist_handles": {
-      "Atheist": "atheistband"
-    },
-    "venue": "Fuck Off Room",
-    "date": "2026-09-20",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "CDMX, fuera del área de Guadalajara",
-    "needs_review": false,
-    "account": "metal_inthe_north",
-    "post_url": "https://www.instagram.com/p/DdR46eThOUP/",
-    "found_at": "2026-09-15T19:27:33.737624+00:00"
-  },
-  {
-    "title": "Taller de mantenimiento de plantas",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "El Bretón",
-    "date": "2026-09-20",
-    "end_date": null,
-    "time": "10:30",
-    "cover": "$600mxn",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "La Bárbara de las Plantas. Incluye kit, café y bocadillos. Cupo limitado, reserva por WhatsApp.",
-    "needs_review": false,
-    "account": "ccbreton",
-    "post_url": "https://www.instagram.com/p/DdUIJvToI6B/",
-    "found_at": "2026-09-15T19:27:45.271903+00:00"
-  },
-  {
     "title": "Alfonsina Las Ponchas - Séptimo Aniversario",
     "artists": [
       "Alfonsina Las Ponchas"
@@ -4591,24 +4288,6 @@
     "account": "alfonsinamusica",
     "post_url": "https://www.instagram.com/p/DdSEAoWiWtj/",
     "found_at": "2026-09-15T19:27:56.692549+00:00"
-  },
-  {
-    "title": "Toquin Spasmo",
-    "artists": [],
-    "artist_handles": null,
-    "venue": null,
-    "date": "2026-09-19",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Fecha visible en flyer pero parcialmente legible, sábado 19 sep",
-    "needs_review": true,
-    "account": "clondementtoficial",
-    "post_url": "https://www.instagram.com/p/DdNH8hyx1e6/",
-    "found_at": "2026-09-15T19:28:23.344548+00:00"
   },
   {
     "title": "Chapter House - Whirlpool (Presentación en vivo)",
@@ -4631,38 +4310,6 @@
     "account": "afasia.mx",
     "post_url": "https://www.instagram.com/p/DdUZjmAs7UY/",
     "found_at": "2026-09-15T19:28:27.614502+00:00"
-  },
-  {
-    "title": "Apertura de nuevo espacio en Pique Degollado 2.0",
-    "artists": [
-      "Fierabrás",
-      "Beluga",
-      "Iram Noir y sus cartas negras",
-      "La orquesta imaginaria",
-      "Gazthly",
-      "Isela de la lima",
-      "Aida O.",
-      "Marlem Castro",
-      "Vale Arunga / Vital madness",
-      "Tilichero0",
-      "Cachetito",
-      "Zurisadai Cazares",
-      "Andrea DAM"
-    ],
-    "artist_handles": null,
-    "venue": null,
-    "date": "2026-09-20",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "$80mxn",
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Apertura de nuevo espacio con música y arte en vivo.",
-    "needs_review": false,
-    "account": "iramnoir",
-    "post_url": "https://www.instagram.com/p/DdTLAd3IR9k/",
-    "found_at": "2026-09-15T19:29:10.782293+00:00"
   },
   {
     "title": "Ensayos para sostener un encuentro",
@@ -4731,32 +4378,6 @@
     "account": "rayon.376",
     "post_url": "https://www.instagram.com/p/DdUXtKwmsNN/",
     "found_at": "2026-09-15T19:29:20.319773+00:00"
-  },
-  {
-    "title": "Ilícito Guadalajara",
-    "artists": [
-      "Ill Niño",
-      "Acesoor",
-      "Dark Horae Prophety",
-      "Luna Breathe",
-      "Axl Vádze"
-    ],
-    "artist_handles": {
-      "Ill Niño": "illninoofficial"
-    },
-    "venue": "Foro Independencia",
-    "date": "2026-09-19",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://passline.com",
-    "age_restriction": null,
-    "notes": "Boletos en taquilla y Passline",
-    "needs_review": false,
-    "account": "foroindependencia",
-    "post_url": "https://www.instagram.com/p/DdUZ1oVFuRB/",
-    "found_at": "2026-09-15T19:29:24.241426+00:00"
   },
   {
     "title": "Extinción solar",
@@ -5068,26 +4689,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DdXnxnMGLGa/",
     "found_at": "2026-09-17T19:31:37.288359+00:00"
-  },
-  {
-    "title": "Sesión de Dibujo: Práctica con modelo",
-    "artists": [
-      "Tereza Vázquez"
-    ],
-    "artist_handles": null,
-    "venue": "Museo de Arte Raúl Anguiano (MURA)",
-    "date": "2026-09-19",
-    "end_date": null,
-    "time": "12:00",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Anatomía humana, luz, sombra y proporción. Nivel básico.",
-    "needs_review": false,
-    "account": "muragdl",
-    "post_url": "https://www.instagram.com/p/DdZGSOHRGWG/",
-    "found_at": "2026-09-17T19:31:41.714445+00:00"
   },
   {
     "title": "Presentación del vinilo: Sonido Radical Desde el Sur Continental",
@@ -5407,5 +5008,387 @@
     "account": "galeriatiroalblanco",
     "post_url": "https://www.instagram.com/p/Ddcojf4Bmhb/",
     "found_at": "2026-09-19T18:23:02.738714+00:00"
+  },
+  {
+    "title": "XII Aniversario del Foro Independencia con Big D and the Kids Table",
+    "artists": [
+      "Big D and the Kids Table"
+    ],
+    "artist_handles": {
+      "Big D and the Kids Table": "bigdandthekidstable"
+    },
+    "venue": "Foro Independencia",
+    "date": "2026-10-04",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://passline.mx",
+    "age_restriction": null,
+    "notes": "Ska-Punk de Boston. Últimos boletos preventa especial.",
+    "needs_review": false,
+    "account": "foroindependencia",
+    "post_url": "https://www.instagram.com/p/Ddj8Gx8lpnA/",
+    "found_at": "2026-09-21T20:14:45.341285+00:00"
+  },
+  {
+    "title": "Natural una última vez Tour - Guadalajara",
+    "artists": [
+      "Paulina Goto"
+    ],
+    "artist_handles": null,
+    "venue": "Foro boletomóvil",
+    "date": "2026-10-23",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.boletomovil.com",
+    "age_restriction": null,
+    "notes": "Primera parada de la gira. Boletos en venta.",
+    "needs_review": false,
+    "account": "paugoto.mx",
+    "post_url": "https://www.instagram.com/p/DdhfYWvtFOj/",
+    "found_at": "2026-09-21T20:14:59.309921+00:00"
+  },
+  {
+    "title": "Natural una última vez Tour - CDMX",
+    "artists": [
+      "Paulina Goto"
+    ],
+    "artist_handles": null,
+    "venue": "Lunario",
+    "date": "2026-12-16",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.boletomovil.com",
+    "age_restriction": null,
+    "notes": "Show en CDMX. Boletos en venta.",
+    "needs_review": false,
+    "account": "paugoto.mx",
+    "post_url": "https://www.instagram.com/p/DdhfYWvtFOj/",
+    "found_at": "2026-09-21T20:14:59.309947+00:00"
+  },
+  {
+    "title": "7 años de Las Ponchas",
+    "artists": [
+      "Todos Tus Muertos"
+    ],
+    "artist_handles": {
+      "Todos Tus Muertos": "todostusmuertos_oficial"
+    },
+    "venue": "CC Bretón",
+    "date": "2026-10-03",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Celebración 7 años, boleto en bio del perfil",
+    "needs_review": false,
+    "account": "alfonsinamusica",
+    "post_url": "https://www.instagram.com/p/DdjpFCLoFst/",
+    "found_at": "2026-09-21T20:15:01.847475+00:00"
+  },
+  {
+    "title": "Fenómeno vital",
+    "artists": [
+      "Jorge Alzaga",
+      "Alejandro Colunga",
+      "Pepín Hernández",
+      "Ramiro Torreblanca",
+      "Luis Valsoto"
+    ],
+    "artist_handles": null,
+    "venue": null,
+    "date": "2026-09-20",
+    "end_date": "2026-11-15",
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Más de 30 obras. Los Vitalistas, años 70, pintura figurativa.",
+    "needs_review": false,
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/DdhwmzapOlX/",
+    "found_at": "2026-09-21T20:15:12.952313+00:00"
+  },
+  {
+    "title": "Basura Acelerada - Exposición y activaciones",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Galería Sepia",
+    "date": "2026-09-26",
+    "end_date": null,
+    "time": "09:00",
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición abierta desde las 9am. Sesión música acelerada 7pm.",
+    "needs_review": false,
+    "account": "artetapatibio",
+    "post_url": "https://www.instagram.com/p/Ddfv1yUt3Dr/",
+    "found_at": "2026-09-21T20:15:19.659607+00:00"
+  },
+  {
+    "title": "Concierto de Jazz - Basura Acelerada",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Galería Sepia",
+    "date": "2026-09-26",
+    "end_date": null,
+    "time": "21:00",
+    "cover": "$100mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Concierto en planta alta. Cooperación $100 pesos.",
+    "needs_review": false,
+    "account": "artetapatibio",
+    "post_url": "https://www.instagram.com/p/Ddfv1yUt3Dr/",
+    "found_at": "2026-09-21T20:15:19.659639+00:00"
+  },
+  {
+    "title": "La ciudad de las damas",
+    "artists": [
+      "Alejandra Ruiz Rincón"
+    ],
+    "artist_handles": null,
+    "venue": "MUSA Museo de las Artes",
+    "date": "2026-09-19",
+    "end_date": "2026-10-04",
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Residencia artística. Urbe de cartón construida colectivamente.",
+    "needs_review": false,
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/DdeqJ1vjxYu/",
+    "found_at": "2026-09-21T20:15:22.422753+00:00"
+  },
+  {
+    "title": "Aún No Termina",
+    "artists": [
+      "Ignazio Cisneros",
+      "NAM",
+      "Jara",
+      "Glio Silvani",
+      "Connors"
+    ],
+    "artist_handles": null,
+    "venue": "Hake Alrey",
+    "date": "2026-11-22",
+    "end_date": null,
+    "time": "18:00",
+    "cover": "$100mxn preventa, $150mxn día del evento",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Cierre de año con 5 proyectos musicales colaborando",
+    "needs_review": false,
+    "account": "jori.oficial",
+    "post_url": "https://www.instagram.com/p/Ddhu_aXGBWj/",
+    "found_at": "2026-09-21T20:15:44.081152+00:00"
+  },
+  {
+    "title": "Cuando te toca, te toca",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-10-09",
+    "end_date": "2026-10-30",
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "ticket_url": "https://www.eventbrite.com.mx",
+    "age_restriction": null,
+    "notes": "Performance/teatro de terror y misterio en tres fechas: 9, 23 y 30 octubre",
+    "needs_review": false,
+    "account": "bullsk_productions",
+    "post_url": "https://www.instagram.com/p/DdhRIOEtDAz/",
+    "found_at": "2026-09-21T20:15:46.602879+00:00"
+  },
+  {
+    "title": "Open Studio | Plataforma Residencias — 4ta Generación",
+    "artists": [
+      "Santiago Gómez",
+      "Vico Valle"
+    ],
+    "artist_handles": {
+      "Santiago Gómez": "santiago_gomezch",
+      "Vico Valle": "vicovalle"
+    },
+    "venue": "Plataforma",
+    "date": "2026-09-25",
+    "end_date": "2026-09-27",
+    "time": null,
+    "cover": null,
+    "type": "opening",
+    "ticket_url": "https://www.instagram.com/mmmmmaterial",
+    "age_restriction": null,
+    "notes": "Acceso a través de Estación Material Vol. 5. Horarios: VIE 6-9PM, SÁB 1-9PM, DOM 11AM-6PM",
+    "needs_review": false,
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DdfA8Ujm6vZ/",
+    "found_at": "2026-09-21T20:15:57.855450+00:00"
+  },
+  {
+    "title": "Nothing Arrives Quite as It Left",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Superattico",
+    "date": "2026-09-21",
+    "end_date": "2026-09-24",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Primera muestra de Castillo Interior fuera de México. Por cita previa.",
+    "needs_review": false,
+    "account": "castillointerior_",
+    "post_url": "https://www.instagram.com/p/DdjMVb2CNrI/",
+    "found_at": "2026-09-21T20:16:02.114755+00:00"
+  },
+  {
+    "title": "Extinción solar",
+    "artists": [
+      "Ariana Díaz",
+      "Tikal Smildiger"
+    ],
+    "artist_handles": {
+      "Ariana Díaz": "ariaridiaz_",
+      "Tikal Smildiger": "tikaluchis"
+    },
+    "venue": "Castillo Interior",
+    "date": "2026-09-20",
+    "end_date": "2026-11-30",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Obra site-specific que ocupa muro y se extiende hacia afuera.",
+    "needs_review": false,
+    "account": "castillointerior_",
+    "post_url": "https://www.instagram.com/p/DdhS470kWy-/",
+    "found_at": "2026-09-21T20:16:07.083243+00:00"
+  },
+  {
+    "title": "Los Korucos en Guadalajara",
+    "artists": [
+      "Los Korucos",
+      "La Poronga",
+      "Huracán Skank",
+      "M.A.D.O."
+    ],
+    "artist_handles": {
+      "Los Korucos": "loskorucos",
+      "La Poronga": "laporongamx",
+      "Huracán Skank": "huracanskank",
+      "M.A.D.O.": "M.A.D.O."
+    },
+    "venue": "907",
+    "date": "2026-10-01",
+    "end_date": null,
+    "time": "19:30",
+    "cover": "$250mxn preventa, $350mxn taquilla, $100mxn menores de 12 años",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Invitados: La Poronga, Huracán Skank, M.A.D.O.",
+    "needs_review": false,
+    "account": "eltriangulodelgremio",
+    "post_url": "https://www.instagram.com/p/DdjkSVTDvjs/",
+    "found_at": "2026-09-21T20:16:17.388436+00:00"
+  },
+  {
+    "title": "RVINS 10 Aniversario",
+    "artists": [
+      "RVINS",
+      "Gerdo",
+      "Exentria",
+      "Cosmogony de México"
+    ],
+    "artist_handles": {
+      "RVINS": "rvins_gdl",
+      "Gerdo": "gerdoficial",
+      "Exentria": "exentriaband",
+      "Cosmogony de México": "cosmogonydemexico"
+    },
+    "venue": "907 Novecientos Siete",
+    "date": "2026-09-26",
+    "end_date": null,
+    "time": null,
+    "cover": "$200mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Celebración 10 aniversario RVINS",
+    "needs_review": false,
+    "account": "rvins_gdl",
+    "post_url": "https://www.instagram.com/p/DderZWHu2Vk/",
+    "found_at": "2026-09-21T20:16:25.569282+00:00"
+  },
+  {
+    "title": "RVINS con Señor Lobo y Primate",
+    "artists": [
+      "RVINS",
+      "Primate",
+      "Señor Lobo"
+    ],
+    "artist_handles": {
+      "RVINS": "rvins_gdl",
+      "Primate": "primaterockoficial",
+      "Señor Lobo": "senorlobooficial"
+    },
+    "venue": "Leyendas Music Club",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": null,
+    "cover": "$100mxn preventa, $150mxn taquilla",
+    "type": "concert",
+    "ticket_url": "https://www.eventbrite.com.mx/e/rvins-senor-lobo-y-primate-en-vivo-en-leyendas-del-rock-tickets-",
+    "age_restriction": null,
+    "notes": "Celebración 10 aniversario RVINS",
+    "needs_review": false,
+    "account": "rvins_gdl",
+    "post_url": "https://www.instagram.com/p/DderZWHu2Vk/",
+    "found_at": "2026-09-21T20:16:25.569309+00:00"
+  },
+  {
+    "title": "RVINS con Blackened Bullet e Ikarus",
+    "artists": [
+      "RVINS",
+      "Blackened Bullet",
+      "Ikarus",
+      "Black Epitaph"
+    ],
+    "artist_handles": {
+      "RVINS": "rvins_gdl",
+      "Blackened Bullet": "blackened_bullet",
+      "Ikarus": "ikarus.gdl",
+      "Black Epitaph": "black_epitaphofficial"
+    },
+    "venue": "Centro Cultural Calzada Shows",
+    "date": "2026-10-23",
+    "end_date": null,
+    "time": null,
+    "cover": "$80mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Celebración 10 aniversario RVINS",
+    "needs_review": false,
+    "account": "rvins_gdl",
+    "post_url": "https://www.instagram.com/p/DderZWHu2Vk/",
+    "found_at": "2026-09-21T20:16:25.569313+00:00"
   }
 ]
