@@ -1097,6 +1097,46 @@
     "found_at": "2026-09-21T20:15:40.105169+00:00"
   },
   {
+    "title": "The Nirvana Experience - The Buzz Lovers Mexico Tour",
+    "artists": [],
+    "artist_handles": null,
+    "venue": null,
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Gira por México. Fecha y venue no especificados en flier.",
+    "needs_review": true,
+    "account": "iam_paralax",
+    "post_url": "https://www.instagram.com/p/DdnQ4TejTWx/",
+    "found_at": "2026-09-23T19:24:52.093907+00:00"
+  },
+  {
+    "title": "Noche especial del rock con Sonic Emerson",
+    "artists": [
+      "Sonic Emerson"
+    ],
+    "artist_handles": {
+      "Sonic Emerson": "sonicemerson"
+    },
+    "venue": null,
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Presentación con nuevas canciones. Fecha y lugar no especificados en publicación.",
+    "needs_review": true,
+    "account": "asteria.live.mx",
+    "post_url": "https://www.instagram.com/p/DdkGqAUB8u0/",
+    "found_at": "2026-09-23T19:27:53.320745+00:00"
+  },
+  {
     "is_event": true,
     "title": "Aqui Hay Aqui Hay",
     "artists": [
@@ -3227,8 +3267,20 @@
   },
   {
     "title": "Estación Material, Vol. 5",
-    "artists": [],
-    "artist_handles": null,
+    "artists": [
+      "Alejandro Almanza Pereda",
+      "Francisco Ugarte",
+      "Cynthia Gutiérrez",
+      "Juan Manuel Salas",
+      "Artemio"
+    ],
+    "artist_handles": {
+      "Alejandro Almanza Pereda": "alejandroalmanzapereda",
+      "Francisco Ugarte": "estudiofranciscougarte",
+      "Cynthia Gutiérrez": "gallinero_en_llamas",
+      "Juan Manuel Salas": "juanmasalasv",
+      "Artemio": "artemio007"
+    },
     "venue": "Plataforma",
     "date": "2026-09-25",
     "end_date": "2026-09-27",
@@ -4336,28 +4388,6 @@
     "found_at": "2026-09-15T19:29:15.120365+00:00"
   },
   {
-    "title": "Adiós Paraíso — Inauguración y cóctel",
-    "artists": [
-      "Adiós Paraíso"
-    ],
-    "artist_handles": {
-      "Adiós Paraíso": "adios_paraiso"
-    },
-    "venue": "Rayón 376",
-    "date": "2026-09-22",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Fiesta de inauguración con Tequila 1800, Cerveza Pagán, Café Severo.",
-    "needs_review": false,
-    "account": "rayon.376",
-    "post_url": "https://www.instagram.com/p/DdUXtKwmsNN/",
-    "found_at": "2026-09-15T19:29:20.319748+00:00"
-  },
-  {
     "title": "Adiós Paraíso — Exposición",
     "artists": [
       "Adiós Paraíso"
@@ -4689,27 +4719,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DdXnxnMGLGa/",
     "found_at": "2026-09-17T19:31:37.288359+00:00"
-  },
-  {
-    "title": "Presentación del vinilo: Sonido Radical Desde el Sur Continental",
-    "artists": [
-      "El Jaibo",
-      "Takae Degenerada"
-    ],
-    "artist_handles": null,
-    "venue": "Ala Rota",
-    "date": "2026-09-22",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "$69mxn",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Recaudación apoya proceso penal de Sheveck. Alternancia Takae Degenerada.",
-    "needs_review": false,
-    "account": "afasia.mx",
-    "post_url": "https://www.instagram.com/p/DdZJu5qkYcQ/",
-    "found_at": "2026-09-17T19:31:49.582612+00:00"
   },
   {
     "title": "Dinamo - Set Acústico",
@@ -5390,5 +5399,786 @@
     "account": "rvins_gdl",
     "post_url": "https://www.instagram.com/p/DderZWHu2Vk/",
     "found_at": "2026-09-21T20:16:25.569313+00:00"
+  },
+  {
+    "title": "Silverio en Cautiverio",
+    "artists": [
+      "Silverio"
+    ],
+    "artist_handles": {
+      "Silverio": "silverionr"
+    },
+    "venue": "C4 Concert House",
+    "date": "2026-10-30",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Su Majestad Imperial Silverio presenta show en vivo.",
+    "needs_review": false,
+    "account": "c4concerthouse",
+    "post_url": "https://www.instagram.com/p/DdpAO9ZkwEk/",
+    "found_at": "2026-09-23T19:25:03.765199+00:00"
+  },
+  {
+    "title": "Vibrando Música 2025 - Monte Bongo XXV",
+    "artists": [
+      "Monte Bongo"
+    ],
+    "artist_handles": {
+      "Monte Bongo": "montebongmusic"
+    },
+    "venue": "Concert House",
+    "date": "2026-10-10",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnow.com.mx",
+    "age_restriction": null,
+    "notes": "Con invitados de honor Laguna Pai y Lengualserta XX Aniversario Tour",
+    "needs_review": false,
+    "account": "canica_revista",
+    "post_url": "https://www.instagram.com/p/DdjY_0ERpgr/",
+    "found_at": "2026-09-23T19:25:09.055756+00:00"
+  },
+  {
+    "title": "Noche Punk Rock - Amarillo presenta",
+    "artists": [
+      "HIUB",
+      "AFM",
+      "ALCANTARILLADO CRISOL",
+      "RUST CRUSH",
+      "FERISAAX"
+    ],
+    "artist_handles": null,
+    "venue": "El Bretón",
+    "date": "2026-09-26",
+    "end_date": null,
+    "time": "18:30",
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "elbreton.mx",
+    "age_restriction": null,
+    "notes": "Cartel punk rock local",
+    "needs_review": false,
+    "account": "ccbreton",
+    "post_url": "https://www.instagram.com/p/DdkLn7jtZer/",
+    "found_at": "2026-09-23T19:25:23.515683+00:00"
+  },
+  {
+    "title": "No Es Pop Tour - Budaya x Ponce",
+    "artists": [
+      "Budaya",
+      "Ponce",
+      "Emally Villa"
+    ],
+    "artist_handles": {
+      "Budaya": "budayamusic",
+      "Ponce": "poncemusica"
+    },
+    "venue": "Cuerda",
+    "date": "2026-09-25",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.boletia.com",
+    "age_restriction": null,
+    "notes": "Invitado especial Emally Villa. Evento en Garibaldi #580, Centro.",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DdnQNtikZc9/",
+    "found_at": "2026-09-23T19:25:29.398419+00:00"
+  },
+  {
+    "title": "Ecos Tour - Joel Deleón",
+    "artists": [
+      "Joel Deleón"
+    ],
+    "artist_handles": {
+      "Joel Deleón": "joeldeleon"
+    },
+    "venue": "Cuerda",
+    "date": "2026-09-26",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.boletia.com",
+    "age_restriction": null,
+    "notes": "Ex integrante CNCO. Artista de California. Evento en Garibaldi #580, Centro.",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DdnQNtikZc9/",
+    "found_at": "2026-09-23T19:25:29.398440+00:00"
+  },
+  {
+    "title": "AztLÁn, túnel del tiempo",
+    "artists": [
+      "Juan Capistrán"
+    ],
+    "artist_handles": {
+      "Juan Capistrán": "juan_capistran"
+    },
+    "venue": "Museo del Palacio de Bellas Artes",
+    "date": "2026-09-23",
+    "end_date": "2026-09-27",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Primera exposición dedicada al arte chicano. Curada por Rubén Ortiz-Torres y Jesse Lerner.",
+    "needs_review": false,
+    "account": "galeriacurro",
+    "post_url": "https://www.instagram.com/p/DdolSoquRxl/",
+    "found_at": "2026-09-23T19:25:37.403960+00:00"
+  },
+  {
+    "title": "Martha Pacheco. Archivo y memoria",
+    "artists": [
+      "Martha Pacheco"
+    ],
+    "artist_handles": null,
+    "venue": "MUSA Museo de las Artes",
+    "date": "2026-09-24",
+    "end_date": null,
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "opening",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Inauguración exposición fotografías, bocetos y obras.",
+    "needs_review": false,
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/DdkkfHAFFzf/",
+    "found_at": "2026-09-23T19:25:45.158902+00:00"
+  },
+  {
+    "title": "Ritual Anniversary",
+    "artists": [
+      "Ritual",
+      "Gerd",
+      "Ruins",
+      "Ebenidae",
+      "Extrusive"
+    ],
+    "artist_handles": {
+      "Gerd": "gerdoficial",
+      "Ebenidae": "exentriaband"
+    },
+    "venue": "907 Novecientos Siete Oficial",
+    "date": "2026-09-26",
+    "end_date": null,
+    "time": null,
+    "cover": "$200mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Celebración de 10 años de existencia de Ritual.",
+    "needs_review": false,
+    "account": "rvins_gdl",
+    "post_url": "https://www.instagram.com/p/DdndFTsJPxg/",
+    "found_at": "2026-09-23T19:25:48.472863+00:00"
+  },
+  {
+    "title": "Recorrido guiado de Tierra desnuda",
+    "artists": [
+      "Karian Amaya"
+    ],
+    "artist_handles": null,
+    "venue": "Museo MURA",
+    "date": "2026-09-27",
+    "end_date": null,
+    "time": "12:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Recorrido guiado con la artista sobre procesos y territorios",
+    "needs_review": false,
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/Ddo-F3ApujH/",
+    "found_at": "2026-09-23T19:25:52.605857+00:00"
+  },
+  {
+    "title": "Taller de Cianotipia",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Galería Sepia",
+    "date": "2026-10-03",
+    "end_date": "2026-10-31",
+    "time": "11:30",
+    "cover": "$550mxn",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "5 sesiones, sábados de octubre. Incluye materiales, café y galleta.",
+    "needs_review": false,
+    "account": "galeriasepiagdl",
+    "post_url": "https://www.instagram.com/p/DdmA0jfBODY/",
+    "found_at": "2026-09-23T19:26:00.243558+00:00"
+  },
+  {
+    "title": "Free Jazz Impro Libre",
+    "artists": [
+      "Roberto Tercero",
+      "Zyanya Yax",
+      "Luciano Sánchez",
+      "Beto Nares",
+      "Chino Ortega"
+    ],
+    "artist_handles": {
+      "Roberto Tercero": "robertoangel.mm",
+      "Chino Ortega": "chinoises"
+    },
+    "venue": "Galería Sepia",
+    "date": "2026-09-26",
+    "end_date": null,
+    "time": "21:00",
+    "cover": "$100mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Invitado desde Cuernavaca. Ubicada en Ramos Millán 81, Americana GDL.",
+    "needs_review": false,
+    "account": "zyanyayax",
+    "post_url": "https://www.instagram.com/p/DdhorV_pGKW/",
+    "found_at": "2026-09-23T19:26:08.388285+00:00"
+  },
+  {
+    "title": "Little El Crack - Welcome Back to Guadalajara",
+    "artists": [
+      "Little El Crack",
+      "Maxo en los controles"
+    ],
+    "artist_handles": {
+      "Maxo en los controles": "maxo_oficial_ir"
+    },
+    "venue": "Foro Diez",
+    "date": "2026-11-05",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Primer concierto del artista en Guadalajara. Invitados y sorpresas.",
+    "needs_review": false,
+    "account": "littleelcrack",
+    "post_url": "https://www.instagram.com/p/Ddh9vkJsNzy/",
+    "found_at": "2026-09-23T19:26:13.284426+00:00"
+  },
+  {
+    "title": "M.MANY Listening Party",
+    "artists": [
+      "M.MANY"
+    ],
+    "artist_handles": {
+      "M.MANY": "m.many8"
+    },
+    "venue": "Expo Arte",
+    "date": "2026-09-27",
+    "end_date": null,
+    "time": "17:30",
+    "cover": "No cover",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Evento de escucha en Expo Arte, sin entrada.",
+    "needs_review": false,
+    "account": "m.many8",
+    "post_url": "https://www.instagram.com/p/DdkpinvjFH-/",
+    "found_at": "2026-09-23T19:26:19.376398+00:00"
+  },
+  {
+    "title": "Parque Manantial",
+    "artists": [
+      "Culeybo"
+    ],
+    "artist_handles": null,
+    "venue": "Espacio Cabeza",
+    "date": "2026-09-25",
+    "end_date": "2026-11-07",
+    "time": "18:00",
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Primera exposición individual de Culeybo en México. Colaboración póstuma con pintores anónimos.",
+    "needs_review": false,
+    "account": "espaciocabeza",
+    "post_url": "https://www.instagram.com/p/DdkxHO4tKbK/",
+    "found_at": "2026-09-23T19:26:22.754749+00:00"
+  },
+  {
+    "title": "El cine nos amontona – Proyecciones, visuales, música, poesía",
+    "artists": [
+      "Mayo Gutiérrez",
+      "Luis Prada",
+      "Mario Rocha",
+      "Monserrat Cervantes",
+      "Eduardo 'Koko' Elli",
+      "Santiago Amorelli",
+      "Hernán Gutiérrez",
+      "David Silva",
+      "Alejandro Hernández",
+      "Nur Reyna",
+      "Agata Tabacu",
+      "Valentina Arteaga",
+      "Irati Dojura",
+      "Lucía Aylen Arias",
+      "Paulo Apodaca",
+      "Sam Amorelli",
+      "Saúl",
+      "Alex",
+      "Ricardo",
+      "Matheo"
+    ],
+    "artist_handles": {
+      "Nur Reyna": "nu3_chr000",
+      "Luis Prada": "luisprada_stmo",
+      "Lucía Aylen Arias": "lucaylen",
+      "Valentina Arteaga": "v__.__________",
+      "Irati Dojura": "iratidojura",
+      "Agata Tabacu": "agata.tabacu",
+      "Paulo Apodaca": "by_pauloapodaca",
+      "Monserrat Cervantes": "ecarvajal.o",
+      "Santiago Amorelli": "santiagoamorelli",
+      "Sam Amorelli": "moonzer.cc",
+      "Hernán Gutiérrez": "hernanastan",
+      "Saúl": "saul_gg_",
+      "Alex": "alex_hars"
+    },
+    "venue": "Pulque Degollado",
+    "date": "2026-09-23",
+    "end_date": null,
+    "time": "19:30",
+    "cover": "entrada libre",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Proyecciones, visuales, música y poesía desde Latinoamérica.",
+    "needs_review": false,
+    "account": "lucaylen",
+    "post_url": "https://www.instagram.com/p/DdmWI6wifDb/",
+    "found_at": "2026-09-23T19:26:31.548116+00:00"
+  },
+  {
+    "title": "Tinta y Tiempo Open Mic",
+    "artists": null,
+    "artist_handles": null,
+    "venue": "Ritual Cultural",
+    "date": "2026-09-30",
+    "end_date": null,
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Micrófono abierto de poesía. Participación completamente abierta.",
+    "needs_review": false,
+    "account": "liz.nvm",
+    "post_url": "https://www.instagram.com/p/DdlFbt3sKyd/",
+    "found_at": "2026-09-23T19:26:35.217179+00:00"
+  },
+  {
+    "title": "Picnic de Bandas",
+    "artists": [
+      "Taco Verde",
+      "Bedframe",
+      "Ozzlorian",
+      "Perro de Nieve",
+      "While We Breathe",
+      "Ajax Bleach",
+      "Quiere Llorar"
+    ],
+    "artist_handles": null,
+    "venue": "Plaza La Perla, Zapopan",
+    "date": "2026-09-27",
+    "end_date": null,
+    "time": "14:00",
+    "cover": "entrada libre",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Música en vivo, pizza y cerveza. Evento gratuito en plaza.",
+    "needs_review": false,
+    "account": "whilewebreatheofficial",
+    "post_url": "https://www.instagram.com/p/DdknaoEK9ZU/",
+    "found_at": "2026-09-23T19:26:39.563455+00:00"
+  },
+  {
+    "title": "Poder Decir - Laboratorio",
+    "artists": [
+      "Enrique Guízar"
+    ],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-09-29",
+    "end_date": null,
+    "time": "17:30",
+    "cover": "$200mxn",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio de expresión oral, escrita e improvisación escénica. Recurrente todos los martes.",
+    "needs_review": false,
+    "account": "don.nadie.poesia",
+    "post_url": "https://www.instagram.com/p/Ddmb2CpR_50/",
+    "found_at": "2026-09-23T19:26:54.941850+00:00"
+  },
+  {
+    "title": "Poder Decir - Laboratorio",
+    "artists": [
+      "Enrique Guízar"
+    ],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-10-06",
+    "end_date": null,
+    "time": "17:30",
+    "cover": "$200mxn",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio de expresión oral, escrita e improvisación escénica. Recurrente todos los martes.",
+    "needs_review": false,
+    "account": "don.nadie.poesia",
+    "post_url": "https://www.instagram.com/p/Ddmb2CpR_50/",
+    "found_at": "2026-09-23T19:26:54.941872+00:00"
+  },
+  {
+    "title": "Poder Decir - Laboratorio",
+    "artists": [
+      "Enrique Guízar"
+    ],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-10-13",
+    "end_date": null,
+    "time": "17:30",
+    "cover": "$200mxn",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio de expresión oral, escrita e improvisación escénica. Recurrente todos los martes.",
+    "needs_review": false,
+    "account": "don.nadie.poesia",
+    "post_url": "https://www.instagram.com/p/Ddmb2CpR_50/",
+    "found_at": "2026-09-23T19:26:54.941876+00:00"
+  },
+  {
+    "title": "Poder Decir - Laboratorio",
+    "artists": [
+      "Enrique Guízar"
+    ],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-10-20",
+    "end_date": null,
+    "time": "17:30",
+    "cover": "$200mxn",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio de expresión oral, escrita e improvisación escénica. Recurrente todos los martes.",
+    "needs_review": false,
+    "account": "don.nadie.poesia",
+    "post_url": "https://www.instagram.com/p/Ddmb2CpR_50/",
+    "found_at": "2026-09-23T19:26:54.941879+00:00"
+  },
+  {
+    "title": "Poder Decir - Laboratorio",
+    "artists": [
+      "Enrique Guízar"
+    ],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-10-27",
+    "end_date": null,
+    "time": "17:30",
+    "cover": "$200mxn",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio de expresión oral, escrita e improvisación escénica. Recurrente todos los martes.",
+    "needs_review": false,
+    "account": "don.nadie.poesia",
+    "post_url": "https://www.instagram.com/p/Ddmb2CpR_50/",
+    "found_at": "2026-09-23T19:26:54.941881+00:00"
+  },
+  {
+    "title": "Poder Decir - Laboratorio",
+    "artists": [
+      "Enrique Guízar"
+    ],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-11-03",
+    "end_date": null,
+    "time": "17:30",
+    "cover": "$200mxn",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio de expresión oral, escrita e improvisación escénica. Recurrente todos los martes.",
+    "needs_review": false,
+    "account": "don.nadie.poesia",
+    "post_url": "https://www.instagram.com/p/Ddmb2CpR_50/",
+    "found_at": "2026-09-23T19:26:54.941884+00:00"
+  },
+  {
+    "title": "Poder Decir - Laboratorio",
+    "artists": [
+      "Enrique Guízar"
+    ],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-11-10",
+    "end_date": null,
+    "time": "17:30",
+    "cover": "$200mxn",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio de expresión oral, escrita e improvisación escénica. Recurrente todos los martes.",
+    "needs_review": false,
+    "account": "don.nadie.poesia",
+    "post_url": "https://www.instagram.com/p/Ddmb2CpR_50/",
+    "found_at": "2026-09-23T19:26:54.941886+00:00"
+  },
+  {
+    "title": "Poder Decir - Laboratorio",
+    "artists": [
+      "Enrique Guízar"
+    ],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-11-17",
+    "end_date": null,
+    "time": "17:30",
+    "cover": "$200mxn",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio de expresión oral, escrita e improvisación escénica. Recurrente todos los martes.",
+    "needs_review": false,
+    "account": "don.nadie.poesia",
+    "post_url": "https://www.instagram.com/p/Ddmb2CpR_50/",
+    "found_at": "2026-09-23T19:26:54.941889+00:00"
+  },
+  {
+    "title": "Poder Decir - Laboratorio",
+    "artists": [
+      "Enrique Guízar"
+    ],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-11-24",
+    "end_date": null,
+    "time": "17:30",
+    "cover": "$200mxn",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio de expresión oral, escrita e improvisación escénica. Recurrente todos los martes.",
+    "needs_review": false,
+    "account": "don.nadie.poesia",
+    "post_url": "https://www.instagram.com/p/Ddmb2CpR_50/",
+    "found_at": "2026-09-23T19:26:54.941892+00:00"
+  },
+  {
+    "title": "Poder Decir - Laboratorio",
+    "artists": [
+      "Enrique Guízar"
+    ],
+    "artist_handles": null,
+    "venue": "Tantuyo Centro Cultural",
+    "date": "2026-12-01",
+    "end_date": null,
+    "time": "17:30",
+    "cover": "$200mxn",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Laboratorio de expresión oral, escrita e improvisación escénica. Recurrente todos los martes.",
+    "needs_review": false,
+    "account": "don.nadie.poesia",
+    "post_url": "https://www.instagram.com/p/Ddmb2CpR_50/",
+    "found_at": "2026-09-23T19:26:54.941894+00:00"
+  },
+  {
+    "title": "Cardellino",
+    "artists": [
+      "Cardellino"
+    ],
+    "artist_handles": {
+      "Cardellino": "cardellino"
+    },
+    "venue": "C3 Stage",
+    "date": "2026-10-29",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Concierto en C3 Stage, Guadalajara.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DdnFw9Ik2J4/",
+    "found_at": "2026-09-23T19:26:58.152113+00:00"
+  },
+  {
+    "title": "Fight Night 8 | Underground Fight | Digipop | Asia Menor | No Matter What",
+    "artists": [
+      "Digipop",
+      "Asia Menor",
+      "No Matter What"
+    ],
+    "artist_handles": {
+      "Asia Menor": "asiamen0r",
+      "No Matter What": "nomatterwhat.band"
+    },
+    "venue": "C3 Rooftop",
+    "date": "2026-09-26",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Doble cartelera: Fight Night 8 + Combat Underground. Box y música.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/Ddm0lsEk-jo/",
+    "found_at": "2026-09-23T19:27:05.847486+00:00"
+  },
+  {
+    "title": "Natural, una última vez Tour - Paulina Goto",
+    "artists": [
+      "Paulina Goto"
+    ],
+    "artist_handles": null,
+    "venue": "Foro Boletomóvil",
+    "date": "2026-10-23",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://bit.ly/naturalguadalajara",
+    "age_restriction": null,
+    "notes": "Tour de despedida de Paulina Goto cantando en vivo.",
+    "needs_review": false,
+    "account": "rocksuitemx",
+    "post_url": "https://www.instagram.com/p/Ddkil8rO7kq/",
+    "found_at": "2026-09-23T19:27:14.607743+00:00"
+  },
+  {
+    "title": "Lo que nos toca",
+    "artists": [
+      "Bárbara González Llamas",
+      "Carlos Ronquillo",
+      "David Rocha",
+      "Diana Ugalde",
+      "Eduardo Paniagua",
+      "Javier Eduardo Sánchez Hernández",
+      "César Estrada",
+      "Lorea de la Peña",
+      "Jimena Herrería",
+      "Ali Strada",
+      "Axel",
+      "Jose de Jesus De La Torre Anaya",
+      "Jovany Cuarenta",
+      "Leonardo Ascencio Ramírez",
+      "Ruby Jáuregui",
+      "Yatini Dominguez"
+    ],
+    "artist_handles": {
+      "Jimena Herrería": "mena.herreria",
+      "Ali Strada": "alistradaa",
+      "Axel": "axel.c_b_",
+      "Carlos Ronquillo": "ronquillo.gallery",
+      "David Rocha": "davidrochart",
+      "Eduardo Paniagua": "eduardo___sh",
+      "Jose de Jesus De La Torre Anaya": "joe_066",
+      "Jovany Cuarenta": "cuarenta.art",
+      "Leonardo Ascencio Ramírez": "leonardo_ascncio",
+      "Lorea de la Peña": "loreadlpe",
+      "Ruby Jáuregui": "rubygjauregui"
+    },
+    "venue": null,
+    "date": "2026-09-24",
+    "end_date": "2026-10-01",
+    "time": "19:00",
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Inauguración 24 sept 19:00. Exposición 25-30 sept. Clausura 1 oct 19:00-23:00.",
+    "needs_review": false,
+    "account": "staditche",
+    "post_url": "https://www.instagram.com/p/Ddmbmljn9PG/",
+    "found_at": "2026-09-23T19:27:20.971028+00:00"
+  },
+  {
+    "title": "Festival de Arte Conceptual La Cuarta Silla",
+    "artists": [],
+    "artist_handles": null,
+    "venue": null,
+    "date": "2026-09-24",
+    "end_date": "2026-09-27",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "11 sedes, 180 artistas. Festival multisede en Guadalajara.",
+    "needs_review": false,
+    "account": "festivaldearteconceptual",
+    "post_url": "https://www.instagram.com/p/DdmgipgiaGP/",
+    "found_at": "2026-09-23T19:27:23.714644+00:00"
+  },
+  {
+    "title": "Taller Payaso / Clown Makeup Workshop",
+    "artists": null,
+    "artist_handles": null,
+    "venue": "Staditche",
+    "date": "2026-11-07",
+    "end_date": null,
+    "time": "12:00",
+    "cover": "$250mxn preventa, $750mxn total",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Taller teórico-práctico de maquillaje payaso. Incluye materiales. Lleva espejo.",
+    "needs_review": false,
+    "account": "ojerademujer",
+    "post_url": "https://www.instagram.com/p/DdmVG0blj3r/",
+    "found_at": "2026-09-23T19:27:34.917246+00:00"
+  },
+  {
+    "title": "Sakando Jale Tour - Guadalajara",
+    "artists": [
+      "Sakando Jale"
+    ],
+    "artist_handles": null,
+    "venue": "Afasia",
+    "date": "2026-10-16",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Con Snuffznuf. Foro Echo mencionado en imagen.",
+    "needs_review": false,
+    "account": "tajak__",
+    "post_url": "https://www.instagram.com/p/DdmAbT2NN-b/",
+    "found_at": "2026-09-23T19:27:45.606012+00:00"
   }
 ]
