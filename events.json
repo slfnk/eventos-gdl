@@ -1465,48 +1465,6 @@
     "found_at": "2026-08-05T17:27:49.482546+00:00"
   },
   {
-    "title": "From a Faraway Meadow (Desde un prado lejano)",
-    "artists": [
-      "María Enríquez"
-    ],
-    "artist_handles": {
-      "María Enríquez": "maria.e.m"
-    },
-    "venue": "Espacio Cabeza",
-    "date": "2026-05-14",
-    "end_date": "2026-09-27",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Curada por Diego González Gómez y Marco Valtierra.",
-    "needs_review": false,
-    "account": "lowgroundpressure",
-    "post_url": "https://www.instagram.com/p/DbctJKRF4VQ/",
-    "found_at": "2026-08-05T17:29:00.986428+00:00"
-  },
-  {
-    "title": "Luis Eduardo González. Artífice de la Luz.",
-    "artists": [
-      "Luis Eduardo González"
-    ],
-    "artist_handles": null,
-    "venue": "MUSA Museo de las Artes",
-    "date": "2026-08-04",
-    "end_date": "2026-09-27",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Artista especializado en acuarelas.",
-    "needs_review": false,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/DboTv_jj61x/",
-    "found_at": "2026-08-05T17:29:35.025220+00:00"
-  },
-  {
     "title": "Niérika. Visiones de la creación José y Fidencio Benítez",
     "artists": [
       "José Benítez",
@@ -1526,40 +1484,6 @@
     "account": "musa.museodelasartes",
     "post_url": "https://www.instagram.com/p/DboTv_jj61x/",
     "found_at": "2026-08-05T17:29:35.025223+00:00"
-  },
-  {
-    "title": "Estación Material, Vol. 5",
-    "artists": [
-      "Hernán González",
-      "Denise Julieta",
-      "Chavis Mármol",
-      "Jonathan Miralda",
-      "Cosa Rapozo",
-      "Milagros Rojas",
-      "Marco Rountree"
-    ],
-    "artist_handles": {
-      "Hernán González": "elhernann",
-      "Denise Julieta": "denisejulieta",
-      "Chavis Mármol": "chavismarmol",
-      "Jonathan Miralda": "jonathanmiraldafuksman",
-      "Cosa Rapozo": "cosarapozo",
-      "Milagros Rojas": "milagrosrojas.a",
-      "Marco Rountree": "marcorountreecruz"
-    },
-    "venue": "Plataforma",
-    "date": "2026-09-24",
-    "end_date": "2026-09-27",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Feria de arte contemporáneo. Semana del Arte Guadalajara.",
-    "needs_review": false,
-    "account": "mmmmmaterial",
-    "post_url": "https://www.instagram.com/p/DbY0jjYlIKO/",
-    "found_at": "2026-08-05T17:29:37.548254+00:00"
   },
   {
     "title": "Gemelos Tour 2K26 - Ayax & Prok",
@@ -1911,28 +1835,6 @@
     "found_at": "2026-08-11T16:55:23.362181+00:00"
   },
   {
-    "title": "Los panteones del performance",
-    "artists": [
-      "Cristina Garrido"
-    ],
-    "artist_handles": {
-      "Cristina Garrido": "cristina__garrido__"
-    },
-    "venue": "Museo de Arte Carrillo Gil (MACG)",
-    "date": "2026-05-15",
-    "end_date": "2026-09-27",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Investigación artística-curatorial sobre desplazamientos de imágenes de performance art. Ciudad de México, no Guadalajara.",
-    "needs_review": true,
-    "account": "galeriacurro",
-    "post_url": "https://www.instagram.com/p/Db5rHz7jZEM/",
-    "found_at": "2026-08-11T16:56:19.707625+00:00"
-  },
-  {
     "title": "La Corte observa",
     "artists": [],
     "artist_handles": null,
@@ -2083,26 +1985,6 @@
     "account": "rise_like_lions",
     "post_url": "https://www.instagram.com/p/DcE344ZSoJ2/",
     "found_at": "2026-08-17T16:22:31.715735+00:00"
-  },
-  {
-    "title": "Artífice de la luz",
-    "artists": [
-      "Luis Eduardo González"
-    ],
-    "artist_handles": null,
-    "venue": "MUSA Museo de las Artes",
-    "date": "2026-08-16",
-    "end_date": "2026-09-27",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición de acuarela con demostración artística del artista.",
-    "needs_review": false,
-    "account": "eloccidental",
-    "post_url": "https://www.instagram.com/p/DcHBSFBAPP3/",
-    "found_at": "2026-08-17T16:23:08.391150+00:00"
   },
   {
     "title": "Catsu Fest Vol. 4",
@@ -2297,26 +2179,6 @@
     "account": "c4concerthouse",
     "post_url": "https://www.instagram.com/p/DcPbxkWAesO/",
     "found_at": "2026-08-21T16:27:25.481414+00:00"
-  },
-  {
-    "title": "NARCOSATANIKO - NECROMORFO en vivo",
-    "artists": [
-      "NECROMORFO"
-    ],
-    "artist_handles": null,
-    "venue": "Staditche",
-    "date": "2026-09-27",
-    "end_date": null,
-    "time": null,
-    "cover": "entrada libre",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Presentación álbum NARCOSATANIKO, única vez en vivo",
-    "needs_review": false,
-    "account": "necromorf0",
-    "post_url": "https://www.instagram.com/p/DcSQiHJxT5v/",
-    "found_at": "2026-08-23T16:20:09.420715+00:00"
   },
   {
     "title": "Freak La Femme + Peces Estrellas + más",
@@ -2770,28 +2632,6 @@
     "found_at": "2026-09-05T17:53:41.663670+00:00"
   },
   {
-    "title": "Vaguens - Nueva Década Tour",
-    "artists": [
-      "Vaguens",
-      "Sam Vazquez",
-      "The Velvet Nova"
-    ],
-    "artist_handles": null,
-    "venue": "El Bretón",
-    "date": "2026-09-27",
-    "end_date": null,
-    "time": "20:00",
-    "cover": "entrada +18",
-    "type": "concert",
-    "ticket_url": "https://passline.com",
-    "age_restriction": "+18",
-    "notes": "Vaguens Nueva Década Tour con invitados Sam Vazquez y The Velvet Nova.",
-    "needs_review": false,
-    "account": "ccbreton",
-    "post_url": "https://www.instagram.com/p/Dcr56EPgRG_/",
-    "found_at": "2026-09-05T17:53:54.646925+00:00"
-  },
-  {
     "title": "Lemon Bucket Orkestra y Xiranda",
     "artists": [
       "Lemon Bucket Orkestra",
@@ -3062,36 +2902,6 @@
     "account": "catsufest",
     "post_url": "https://www.instagram.com/p/Dc9uxIMTv3L/",
     "found_at": "2026-09-07T19:34:26.941026+00:00"
-  },
-  {
-    "title": "Estación Material, Vol. 5",
-    "artists": [
-      "Alejandro Almanza Pereda",
-      "Francisco Ugarte",
-      "Cynthia Gutiérrez",
-      "Juan Manuel Salas",
-      "Artemio"
-    ],
-    "artist_handles": {
-      "Alejandro Almanza Pereda": "alejandroalmanzapereda",
-      "Francisco Ugarte": "estudiofranciscougarte",
-      "Cynthia Gutiérrez": "gallinero_en_llamas",
-      "Juan Manuel Salas": "juanmasalasv",
-      "Artemio": "artemio007"
-    },
-    "venue": "Plataforma",
-    "date": "2026-09-25",
-    "end_date": "2026-09-27",
-    "time": "17:00",
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": "material.boletia.com",
-    "age_restriction": null,
-    "notes": "Feria de arte contemporáneo. 150+ obras, 60 artistas nacionales.",
-    "needs_review": false,
-    "account": "mmmmmaterial",
-    "post_url": "https://www.instagram.com/p/Dc_zMhiFG1a/",
-    "found_at": "2026-09-07T19:34:45.239708+00:00"
   },
   {
     "title": "SOFÍA México 2026",
@@ -3416,26 +3226,6 @@
     "found_at": "2026-09-09T19:01:52.344800+00:00"
   },
   {
-    "title": "Das Kapital Kunst",
-    "artists": [
-      "Jose Yisa"
-    ],
-    "artist_handles": null,
-    "venue": "Iglesia Primitiva",
-    "date": "2026-09-25",
-    "end_date": "2026-09-27",
-    "time": "10:00",
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "A partir del 28 de septiembre se debe agendar cita por inbox.",
-    "needs_review": false,
-    "account": "iglesia.primitiva_",
-    "post_url": "https://www.instagram.com/p/DdDBL5esJew/",
-    "found_at": "2026-09-09T19:01:58.201181+00:00"
-  },
-  {
     "title": "Extinción solar",
     "artists": [
       "Tikal Smildiger",
@@ -3523,24 +3313,6 @@
     "account": "hellbrothersmx",
     "post_url": "https://www.instagram.com/p/DdAr68Khqzo/",
     "found_at": "2026-09-09T19:02:35.128575+00:00"
-  },
-  {
-    "title": "Estación Material Vol. 5",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Material",
-    "date": "2026-09-25",
-    "end_date": "2026-09-27",
-    "time": null,
-    "cover": null,
-    "type": "other",
-    "ticket_url": "https://material.boletia.com/",
-    "age_restriction": null,
-    "notes": "Feria con agenda satelital de actividades. Boletos en boletia.",
-    "needs_review": false,
-    "account": "plataformagdl",
-    "post_url": "https://www.instagram.com/p/DdAbPQdjhtk/",
-    "found_at": "2026-09-09T19:02:46.025282+00:00"
   },
   {
     "title": "Plataforma - Próximo ciclo de exposiciones",
@@ -3689,31 +3461,6 @@
     "found_at": "2026-09-11T18:56:34.305224+00:00"
   },
   {
-    "title": "Antes del Fin",
-    "artists": [
-      "Zian Ka'an",
-      "Cuarteles",
-      "Reno Macc"
-    ],
-    "artist_handles": {
-      "Cuarteles": "cuartelesof",
-      "Reno Macc": "renomacc"
-    },
-    "venue": "Hake Al Rey",
-    "date": "2026-09-27",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "$80mxn preventa, $160mxn fase 2, $200mxn fase 3",
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Puertas 18:00. Tres proyectos en una noche.",
-    "needs_review": false,
-    "account": "zian_kaan",
-    "post_url": "https://www.instagram.com/p/DdIKWQZmxC2/",
-    "found_at": "2026-09-11T18:56:46.345484+00:00"
-  },
-  {
     "title": "ALL NIGHT LONG",
     "artists": [
       "Techno Ganas de Ti",
@@ -3738,26 +3485,6 @@
     "account": "techno.ganas.de.ti",
     "post_url": "https://www.instagram.com/p/DdHwYWPRByh/",
     "found_at": "2026-09-11T18:57:30.646507+00:00"
-  },
-  {
-    "title": "Luis Eduardo González - Exposición",
-    "artists": [
-      "Luis Eduardo González"
-    ],
-    "artist_handles": null,
-    "venue": null,
-    "date": "2026-09-10",
-    "end_date": "2026-09-27",
-    "time": null,
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición de luz en lienzo. Ubicación: Av. Juárez 975.",
-    "needs_review": false,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/DdH7CMuP1NI/",
-    "found_at": "2026-09-11T18:57:45.151411+00:00"
   },
   {
     "title": "Halloween Special: Missasinfonia & The Velvet 49",
@@ -4158,27 +3885,6 @@
     "found_at": "2026-09-17T19:31:55.718216+00:00"
   },
   {
-    "title": "El Desorden cósmico de la costumbre",
-    "artists": [
-      "Manuel Arrellín",
-      "Cristian Franco"
-    ],
-    "artist_handles": null,
-    "venue": "Iglesia Primitiva",
-    "date": "2026-09-25",
-    "end_date": "2026-09-27",
-    "time": "10:00",
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Instalación de arte. Agendar cita desde 28 sept.",
-    "needs_review": false,
-    "account": "iglesia.primitiva_",
-    "post_url": "https://www.instagram.com/p/DdZ05r3PcS0/",
-    "found_at": "2026-09-19T18:21:32.112098+00:00"
-  },
-  {
     "title": "Pablo Chill-E Tour",
     "artists": [
       "Pablo Chill-E"
@@ -4252,56 +3958,6 @@
     "account": "animales.vertebrados",
     "post_url": "https://www.instagram.com/p/DdZlcxaj_GS/",
     "found_at": "2026-09-19T18:21:52.508226+00:00"
-  },
-  {
-    "title": "Mientras colapsa, florece",
-    "artists": [
-      "Luis Alfonso Villalobos",
-      "Maximiliano Ruelas"
-    ],
-    "artist_handles": {
-      "Luis Alfonso Villalobos": "luisalfonso.villalobos",
-      "Maximiliano Ruelas": "maxruelas"
-    },
-    "venue": "Sala Roxy",
-    "date": "2026-09-25",
-    "end_date": "2026-09-27",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Curada por Zazil Barba y Sebastián Vizcaíno. Estudio ACME GDL.",
-    "needs_review": false,
-    "account": "palmagaleria",
-    "post_url": "https://www.instagram.com/p/DdcqrYGlDh4/",
-    "found_at": "2026-09-19T18:22:15.286124+00:00"
-  },
-  {
-    "title": "Picnic de Bandas",
-    "artists": [
-      "Taco Verde",
-      "Bedframe",
-      "Ozzlorian",
-      "Perro de Nieve",
-      "While We Breathe",
-      "Ajax Bleach",
-      "Quiere Llorar"
-    ],
-    "artist_handles": null,
-    "venue": "Pizza Perro Negro / La Perla",
-    "date": "2026-09-27",
-    "end_date": null,
-    "time": null,
-    "cover": "entrada libre",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Evento en Pizza Perro Negro dentro La Perla, totalmente gratis.",
-    "needs_review": false,
-    "account": "taco.verde",
-    "post_url": "https://www.instagram.com/p/DdaGqCRjZBJ/",
-    "found_at": "2026-09-19T18:22:19.677474+00:00"
   },
   {
     "title": "XII Aniversario Foro Independencia",
@@ -4518,30 +4174,6 @@
     "found_at": "2026-09-21T20:15:46.602879+00:00"
   },
   {
-    "title": "Open Studio | Plataforma Residencias — 4ta Generación",
-    "artists": [
-      "Santiago Gómez",
-      "Vico Valle"
-    ],
-    "artist_handles": {
-      "Santiago Gómez": "santiago_gomezch",
-      "Vico Valle": "vicovalle"
-    },
-    "venue": "Plataforma",
-    "date": "2026-09-25",
-    "end_date": "2026-09-27",
-    "time": null,
-    "cover": null,
-    "type": "opening",
-    "ticket_url": "https://www.instagram.com/mmmmmaterial",
-    "age_restriction": null,
-    "notes": "Acceso a través de Estación Material Vol. 5. Horarios: VIE 6-9PM, SÁB 1-9PM, DOM 11AM-6PM",
-    "needs_review": false,
-    "account": "plataformagdl",
-    "post_url": "https://www.instagram.com/p/DdfA8Ujm6vZ/",
-    "found_at": "2026-09-21T20:15:57.855450+00:00"
-  },
-  {
     "title": "Extinción solar",
     "artists": [
       "Ariana Díaz",
@@ -4692,48 +4324,6 @@
     "found_at": "2026-09-23T19:25:09.055756+00:00"
   },
   {
-    "title": "AztLÁn, túnel del tiempo",
-    "artists": [
-      "Juan Capistrán"
-    ],
-    "artist_handles": {
-      "Juan Capistrán": "juan_capistran"
-    },
-    "venue": "Museo del Palacio de Bellas Artes",
-    "date": "2026-09-23",
-    "end_date": "2026-09-27",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Primera exposición dedicada al arte chicano. Curada por Rubén Ortiz-Torres y Jesse Lerner.",
-    "needs_review": false,
-    "account": "galeriacurro",
-    "post_url": "https://www.instagram.com/p/DdolSoquRxl/",
-    "found_at": "2026-09-23T19:25:37.403960+00:00"
-  },
-  {
-    "title": "Recorrido guiado de Tierra desnuda",
-    "artists": [
-      "Karian Amaya"
-    ],
-    "artist_handles": null,
-    "venue": "Museo MURA",
-    "date": "2026-09-27",
-    "end_date": null,
-    "time": "12:00",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Recorrido guiado con la artista sobre procesos y territorios",
-    "needs_review": false,
-    "account": "muragdl",
-    "post_url": "https://www.instagram.com/p/Ddo-F3ApujH/",
-    "found_at": "2026-09-23T19:25:52.605857+00:00"
-  },
-  {
     "title": "Taller de Cianotipia",
     "artists": [],
     "artist_handles": null,
@@ -4775,28 +4365,6 @@
     "found_at": "2026-09-23T19:26:13.284426+00:00"
   },
   {
-    "title": "M.MANY Listening Party",
-    "artists": [
-      "M.MANY"
-    ],
-    "artist_handles": {
-      "M.MANY": "m.many8"
-    },
-    "venue": "Expo Arte",
-    "date": "2026-09-27",
-    "end_date": null,
-    "time": "17:30",
-    "cover": "No cover",
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Evento de escucha en Expo Arte, sin entrada.",
-    "needs_review": false,
-    "account": "m.many8",
-    "post_url": "https://www.instagram.com/p/DdkpinvjFH-/",
-    "found_at": "2026-09-23T19:26:19.376398+00:00"
-  },
-  {
     "title": "Parque Manantial",
     "artists": [
       "Culeybo"
@@ -4833,32 +4401,6 @@
     "account": "liz.nvm",
     "post_url": "https://www.instagram.com/p/DdlFbt3sKyd/",
     "found_at": "2026-09-23T19:26:35.217179+00:00"
-  },
-  {
-    "title": "Picnic de Bandas",
-    "artists": [
-      "Taco Verde",
-      "Bedframe",
-      "Ozzlorian",
-      "Perro de Nieve",
-      "While We Breathe",
-      "Ajax Bleach",
-      "Quiere Llorar"
-    ],
-    "artist_handles": null,
-    "venue": "Plaza La Perla, Zapopan",
-    "date": "2026-09-27",
-    "end_date": null,
-    "time": "14:00",
-    "cover": "entrada libre",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Música en vivo, pizza y cerveza. Evento gratuito en plaza.",
-    "needs_review": false,
-    "account": "whilewebreatheofficial",
-    "post_url": "https://www.instagram.com/p/DdknaoEK9ZU/",
-    "found_at": "2026-09-23T19:26:39.563455+00:00"
   },
   {
     "title": "Poder Decir - Laboratorio",
@@ -5150,24 +4692,6 @@
     "found_at": "2026-09-23T19:27:20.971028+00:00"
   },
   {
-    "title": "Festival de Arte Conceptual La Cuarta Silla",
-    "artists": [],
-    "artist_handles": null,
-    "venue": null,
-    "date": "2026-09-24",
-    "end_date": "2026-09-27",
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "11 sedes, 180 artistas. Festival multisede en Guadalajara.",
-    "needs_review": false,
-    "account": "festivaldearteconceptual",
-    "post_url": "https://www.instagram.com/p/DdmgipgiaGP/",
-    "found_at": "2026-09-23T19:27:23.714644+00:00"
-  },
-  {
     "title": "Taller Payaso / Clown Makeup Workshop",
     "artists": null,
     "artist_handles": null,
@@ -5434,26 +4958,6 @@
     "account": "fotoquesuena_kat",
     "post_url": "https://www.instagram.com/p/DdswLgUBNYI/",
     "found_at": "2026-09-25T19:48:07.096541+00:00"
-  },
-  {
-    "title": "Luis Eduardo González. Artífice de la luz",
-    "artists": [
-      "Luis Eduardo González"
-    ],
-    "artist_handles": null,
-    "venue": null,
-    "date": "2026-09-23",
-    "end_date": "2026-09-27",
-    "time": null,
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Última semana. Ubicación: Av. Juárez 975. Horarios: L-S 10:00-18:00, D 10:00-15:00",
-    "needs_review": false,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/DdpHthSSYdg/",
-    "found_at": "2026-09-25T19:48:14.458477+00:00"
   },
   {
     "title": "Flora y fauna, colección otoño-invierno 2026",
@@ -5759,31 +5263,6 @@
     "found_at": "2026-09-27T19:28:14.044810+00:00"
   },
   {
-    "title": "Listening Party M.Many",
-    "artists": [
-      "M.Many",
-      "Codiciados",
-      "Ginori"
-    ],
-    "artist_handles": {
-      "M.Many": "m.many8",
-      "Ginori": "ginori.bd"
-    },
-    "venue": "Pulque de Gollado",
-    "date": "2026-09-27",
-    "end_date": null,
-    "time": "17:30",
-    "cover": "entrada libre",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Proyección de corto, pulque, artistas invitados.",
-    "needs_review": false,
-    "account": "rotten.records",
-    "post_url": "https://www.instagram.com/p/DdxRRTbxqB1/",
-    "found_at": "2026-09-27T19:28:36.635135+00:00"
-  },
-  {
     "title": "María Enríquez – desde un prado lejano",
     "artists": [
       "María Enríquez"
@@ -5802,42 +5281,6 @@
     "account": "espaciocabeza",
     "post_url": "https://www.instagram.com/p/DdwxfCgS4MD/",
     "found_at": "2026-09-27T19:28:39.906679+00:00"
-  },
-  {
-    "title": "Días Feriados",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Ex Convento de Santa Teresa",
-    "date": "2026-09-27",
-    "end_date": null,
-    "time": "15:00",
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Último día de la feria de arte independiente. Cierra a las 20:00.",
-    "needs_review": false,
-    "account": "dias.feriados",
-    "post_url": "https://www.instagram.com/p/Ddw1XPYJx4a/",
-    "found_at": "2026-09-27T19:28:46.823816+00:00"
-  },
-  {
-    "title": "Estación Material, Vol. 5 – VOCAL talks",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Plataforma",
-    "date": "2026-09-26",
-    "end_date": "2026-09-27",
-    "time": "13:00",
-    "cover": null,
-    "type": "workshop",
-    "ticket_url": "material.boletia.com",
-    "age_restriction": null,
-    "notes": "3 charlas VOCAL sobre ayer y hoy del arte tapatío. Comida y bebidas disponibles.",
-    "needs_review": false,
-    "account": "mmmmmaterial",
-    "post_url": "https://www.instagram.com/p/DdwcwtQFDIk/",
-    "found_at": "2026-09-27T19:28:50.630827+00:00"
   },
   {
     "title": "Un amado umbral de revelaciones",
