@@ -1813,28 +1813,6 @@
     "found_at": "2026-08-11T16:55:10.829878+00:00"
   },
   {
-    "title": "Rata Blanca",
-    "artists": [
-      "Rata Blanca"
-    ],
-    "artist_handles": {
-      "Rata Blanca": "ratablancaoficial"
-    },
-    "venue": "C4 Concert House",
-    "date": "2026-10-01",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Banda argentina de rock clásico en C4 Guadalajara.",
-    "needs_review": false,
-    "account": "c4concerthouse",
-    "post_url": "https://www.instagram.com/p/Db37czvgeSb/",
-    "found_at": "2026-08-11T16:55:23.362181+00:00"
-  },
-  {
     "title": "La Corte observa",
     "artists": [],
     "artist_handles": null,
@@ -1939,32 +1917,6 @@
     "found_at": "2026-08-15T16:19:13.666373+00:00"
   },
   {
-    "title": "Rito War Fest",
-    "artists": [
-      "Shush",
-      "2ex",
-      "Rodeo Radio"
-    ],
-    "artist_handles": {
-      "Shush": "shushrock",
-      "2ex": "2exband",
-      "Rodeo Radio": "rodeoradio"
-    },
-    "venue": "Foro Independencia",
-    "date": "2026-10-02",
-    "end_date": null,
-    "time": null,
-    "cover": "entrada libre",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Festival de rock con bandas confirmadas. 1º y 10º aniversario.",
-    "needs_review": false,
-    "account": "elritodelrock",
-    "post_url": "https://www.instagram.com/p/DcAEPFxx-rU/",
-    "found_at": "2026-08-15T16:19:32.344472+00:00"
-  },
-  {
     "title": "Big D and the Kids Table",
     "artists": [
       "Big D and the Kids Table"
@@ -2039,28 +1991,6 @@
     "found_at": "2026-08-17T16:23:49.726663+00:00"
   },
   {
-    "title": "Mi Compa el Chino",
-    "artists": [
-      "GRLS"
-    ],
-    "artist_handles": {
-      "GRLS": "itsgrls"
-    },
-    "venue": "C3 Rooftop",
-    "date": "2026-10-01",
-    "end_date": null,
-    "time": "20:00",
-    "cover": null,
-    "type": "dj",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": "+18",
-    "notes": "Propuesta electrónica relajada en terraza.",
-    "needs_review": false,
-    "account": "c3stage",
-    "post_url": "https://www.instagram.com/p/DcMoboKgdh7/",
-    "found_at": "2026-08-19T16:26:54.686509+00:00"
-  },
-  {
     "title": "Convocatoria Abierta - Ilustración Digital, Artes Plásticas, Diseño de Modas",
     "artists": null,
     "artist_handles": null,
@@ -2119,28 +2049,6 @@
     "account": "mimamamemimagdl",
     "post_url": "https://www.instagram.com/p/DcRYKVgBtf0/",
     "found_at": "2026-08-21T16:26:48.890773+00:00"
-  },
-  {
-    "title": "Forseps",
-    "artists": [
-      "Forseps"
-    ],
-    "artist_handles": {
-      "Forseps": "forsepsoficial"
-    },
-    "venue": "C4 Concert House",
-    "date": "2026-10-02",
-    "end_date": null,
-    "time": "19:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Regreso de Forseps a Guadalajara con José y compañía",
-    "needs_review": false,
-    "account": "c4concerthouse",
-    "post_url": "https://www.instagram.com/p/DcSBPGutpm5/",
-    "found_at": "2026-08-21T16:27:02.618008+00:00"
   },
   {
     "title": "Itinerario",
@@ -2312,34 +2220,6 @@
     "account": "palmagaleria",
     "post_url": "https://www.instagram.com/p/DchFQQ2FOYj/",
     "found_at": "2026-08-28T00:43:52.671598+00:00"
-  },
-  {
-    "title": "Reverence to Paroxysm + Castleumbra",
-    "artists": [
-      "Reverence to Paroxysm",
-      "Castleumbra",
-      "Betrayme",
-      "Cursed God"
-    ],
-    "artist_handles": {
-      "Reverence to Paroxysm": "reverence_to_paroxysm",
-      "Castleumbra": "castleumbra",
-      "Betrayme": "betrayme_official",
-      "Cursed God": "cursedgod_official_bm"
-    },
-    "venue": "Ritual Cultural",
-    "date": "2026-10-02",
-    "end_date": null,
-    "time": "20:00",
-    "cover": "$200mxn",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Death metal, black metal, extreme metal. Soporte local desde Guadalajara.",
-    "needs_review": false,
-    "account": "catharsisdiy",
-    "post_url": "https://www.instagram.com/p/DchsTQKtfnm/",
-    "found_at": "2026-08-28T00:44:16.017208+00:00"
   },
   {
     "title": "Snuffznuf",
@@ -2709,29 +2589,6 @@
     "account": "randombattlesfree",
     "post_url": "https://www.instagram.com/p/Dc4czfTOy8x/",
     "found_at": "2026-09-05T17:55:26.267817+00:00"
-  },
-  {
-    "title": "Dotor",
-    "artists": [
-      "Dotor",
-      "Zojepze Zol"
-    ],
-    "artist_handles": {
-      "Zojepze Zol": "zojepze_zol"
-    },
-    "venue": "El Bretón",
-    "date": "2026-10-01",
-    "end_date": null,
-    "time": "21:00",
-    "cover": "$100mxn preventa, $150mxn día del evento",
-    "type": "concert",
-    "ticket_url": "https://www.passline.com",
-    "age_restriction": null,
-    "notes": "Puertas 20:00. Un año sin tocar en GDL.",
-    "needs_review": false,
-    "account": "donsr_oficial",
-    "post_url": "https://www.instagram.com/p/Dc1IB3_N9AU/",
-    "found_at": "2026-09-05T17:55:37.629319+00:00"
   },
   {
     "title": "RAIOTZ",
@@ -3255,24 +3112,6 @@
     "found_at": "2026-09-09T19:02:35.128575+00:00"
   },
   {
-    "title": "Plataforma - Próximo ciclo de exposiciones",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Material",
-    "date": "2026-10-01",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Más información y noticias por venir en octubre.",
-    "needs_review": true,
-    "account": "plataformagdl",
-    "post_url": "https://www.instagram.com/p/DdAbPQdjhtk/",
-    "found_at": "2026-09-09T19:02:46.025304+00:00"
-  },
-  {
     "title": "romaric",
     "artists": [
       "romaric"
@@ -3291,28 +3130,6 @@
     "account": "romaricband",
     "post_url": "https://www.instagram.com/p/DdEyqXyuEFN/",
     "found_at": "2026-09-09T19:03:03.472783+00:00"
-  },
-  {
-    "title": "Beta Oficial",
-    "artists": [
-      "Beta Oficial"
-    ],
-    "artist_handles": {
-      "Beta Oficial": "betaoficial"
-    },
-    "venue": "Hake Al Rey",
-    "date": "2026-10-02",
-    "end_date": null,
-    "time": null,
-    "cover": "$600mxn incluye disco y convivencia, $550mxn general",
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Venta de boletos en Ticket Now México",
-    "needs_review": false,
-    "account": "hakealrey",
-    "post_url": "https://www.instagram.com/p/DdDOhDLtaKh/",
-    "found_at": "2026-09-09T19:03:10.162363+00:00"
   },
   {
     "title": "Todo o Nada Tour - Guadalajara",
@@ -3619,26 +3436,6 @@
     "found_at": "2026-09-17T19:30:26.281710+00:00"
   },
   {
-    "title": "Donsr",
-    "artists": [
-      "Donsr"
-    ],
-    "artist_handles": null,
-    "venue": "El Bretón",
-    "date": "2026-10-01",
-    "end_date": null,
-    "time": "21:00",
-    "cover": "$100mxn preventa, $150mxn día del evento",
-    "type": "concert",
-    "ticket_url": "https://www.passline.com",
-    "age_restriction": null,
-    "notes": "Puertas 20:00. Invitados en el cartel.",
-    "needs_review": false,
-    "account": "donsr_oficial",
-    "post_url": "https://www.instagram.com/p/DdW5-fTND_t/",
-    "found_at": "2026-09-17T19:30:33.287220+00:00"
-  },
-  {
     "title": "All Things Urban Guadalajara Community Meetup",
     "artists": [],
     "artist_handles": null,
@@ -3655,26 +3452,6 @@
     "account": "allthingsurban_community",
     "post_url": "https://www.instagram.com/p/DdYm6rYNL6S/",
     "found_at": "2026-09-17T19:30:41.948699+00:00"
-  },
-  {
-    "title": "DON SR",
-    "artists": [
-      "DON SR"
-    ],
-    "artist_handles": null,
-    "venue": "El Bretón",
-    "date": "2026-10-01",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://elbreton.mx",
-    "age_restriction": null,
-    "notes": "Octubre 2026, venta en elbreton.mx",
-    "needs_review": false,
-    "account": "ccbreton",
-    "post_url": "https://www.instagram.com/p/DdZhyYwBNas/",
-    "found_at": "2026-09-17T19:30:56.877926+00:00"
   },
   {
     "title": "MOLINETTE CINEMA",
@@ -4138,34 +3915,6 @@
     "found_at": "2026-09-21T20:16:07.083243+00:00"
   },
   {
-    "title": "Los Korucos en Guadalajara",
-    "artists": [
-      "Los Korucos",
-      "La Poronga",
-      "Huracán Skank",
-      "M.A.D.O."
-    ],
-    "artist_handles": {
-      "Los Korucos": "loskorucos",
-      "La Poronga": "laporongamx",
-      "Huracán Skank": "huracanskank",
-      "M.A.D.O.": "M.A.D.O."
-    },
-    "venue": "907",
-    "date": "2026-10-01",
-    "end_date": null,
-    "time": "19:30",
-    "cover": "$250mxn preventa, $350mxn taquilla, $100mxn menores de 12 años",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Invitados: La Poronga, Huracán Skank, M.A.D.O.",
-    "needs_review": false,
-    "account": "eltriangulodelgremio",
-    "post_url": "https://www.instagram.com/p/DdjkSVTDvjs/",
-    "found_at": "2026-09-21T20:16:17.388436+00:00"
-  },
-  {
     "title": "RVINS con Señor Lobo y Primate",
     "artists": [
       "RVINS",
@@ -4547,53 +4296,6 @@
     "found_at": "2026-09-23T19:27:14.607743+00:00"
   },
   {
-    "title": "Lo que nos toca",
-    "artists": [
-      "Bárbara González Llamas",
-      "Carlos Ronquillo",
-      "David Rocha",
-      "Diana Ugalde",
-      "Eduardo Paniagua",
-      "Javier Eduardo Sánchez Hernández",
-      "César Estrada",
-      "Lorea de la Peña",
-      "Jimena Herrería",
-      "Ali Strada",
-      "Axel",
-      "Jose de Jesus De La Torre Anaya",
-      "Jovany Cuarenta",
-      "Leonardo Ascencio Ramírez",
-      "Ruby Jáuregui",
-      "Yatini Dominguez"
-    ],
-    "artist_handles": {
-      "Jimena Herrería": "mena.herreria",
-      "Ali Strada": "alistradaa",
-      "Axel": "axel.c_b_",
-      "Carlos Ronquillo": "ronquillo.gallery",
-      "David Rocha": "davidrochart",
-      "Eduardo Paniagua": "eduardo___sh",
-      "Jose de Jesus De La Torre Anaya": "joe_066",
-      "Jovany Cuarenta": "cuarenta.art",
-      "Leonardo Ascencio Ramírez": "leonardo_ascncio",
-      "Lorea de la Peña": "loreadlpe",
-      "Ruby Jáuregui": "rubygjauregui"
-    },
-    "venue": null,
-    "date": "2026-09-24",
-    "end_date": "2026-10-01",
-    "time": "19:00",
-    "cover": null,
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Inauguración 24 sept 19:00. Exposición 25-30 sept. Clausura 1 oct 19:00-23:00.",
-    "needs_review": false,
-    "account": "staditche",
-    "post_url": "https://www.instagram.com/p/Ddmbmljn9PG/",
-    "found_at": "2026-09-23T19:27:20.971028+00:00"
-  },
-  {
     "title": "Taller Payaso / Clown Makeup Workshop",
     "artists": null,
     "artist_handles": null,
@@ -4654,28 +4356,6 @@
     "found_at": "2026-09-25T19:46:53.084390+00:00"
   },
   {
-    "title": "Concierto",
-    "artists": [
-      "Zojepze Zol"
-    ],
-    "artist_handles": {
-      "Zojepze Zol": "zojepze_zol"
-    },
-    "venue": "CC Bretón",
-    "date": "2026-10-01",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Con carnales de Zojepze Zol",
-    "needs_review": false,
-    "account": "donsr_oficial",
-    "post_url": "https://www.instagram.com/p/Ddo-3PENgen/",
-    "found_at": "2026-09-25T19:47:08.042728+00:00"
-  },
-  {
     "title": "Mi Mascota Leila - Festejando el 10.º Aniversario de Jáula",
     "artists": [
       "Mi Mascota Leila",
@@ -4722,28 +4402,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DdrbNSMkwu_/",
     "found_at": "2026-09-25T19:47:36.153776+00:00"
-  },
-  {
-    "title": "Más vida, menos prisa - Documental + Conversatorio",
-    "artists": [
-      "Andalusia K. Soloff",
-      "Ana Itzel Mendez Díaz",
-      "Mariana Casillas"
-    ],
-    "artist_handles": null,
-    "venue": "Casa Impronta",
-    "date": "2026-10-01",
-    "end_date": null,
-    "time": "19:30",
-    "cover": "entrada libre",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Proyección documental sobre ciclismo, género y derecho a la ciudad.",
-    "needs_review": false,
-    "account": "marianacasge",
-    "post_url": "https://www.instagram.com/p/DdsHrLQt9iY/",
-    "found_at": "2026-09-25T19:47:44.471404+00:00"
   },
   {
     "title": "Catsu Fest Vol 3.5 Prefiesta",
@@ -4838,28 +4496,6 @@
     "account": "eldesiertodetrasdelaventana",
     "post_url": "https://www.instagram.com/p/DdneWSigY81/",
     "found_at": "2026-09-25T19:48:03.450609+00:00"
-  },
-  {
-    "title": "Lanzamiento de tema \"he venido\" de Iram Noir",
-    "artists": [
-      "Iram Noir"
-    ],
-    "artist_handles": {
-      "Iram Noir": "iramnoir"
-    },
-    "venue": null,
-    "date": "2026-10-02",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Lanzamiento de nuevo tema. Fragmento compartido en Instagram.",
-    "needs_review": true,
-    "account": "fotoquesuena_kat",
-    "post_url": "https://www.instagram.com/p/DdswLgUBNYI/",
-    "found_at": "2026-09-25T19:48:07.096541+00:00"
   },
   {
     "title": "Flora y fauna, colección otoño-invierno 2026",
