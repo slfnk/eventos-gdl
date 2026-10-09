@@ -1449,6 +1449,101 @@
     "found_at": "2026-10-07T20:58:46.065767+00:00"
   },
   {
+    "title": "Plaga de fin de milenio en las artes visuales",
+    "artists": [
+      "OTRO ESPACIO"
+    ],
+    "artist_handles": null,
+    "venue": null,
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Proyecto invitado TOMO 0010; autogestivo y nómada desde GDL.",
+    "needs_review": true,
+    "account": "tramite.buro.de.coleccionistas",
+    "post_url": "https://www.instagram.com/p/DePfJ-IgnBN/",
+    "found_at": "2026-10-09T20:29:52.757182+00:00"
+  },
+  {
+    "title": "BETA presentando su nuevo álbum 'A la Mitad'",
+    "artists": [
+      "BETA"
+    ],
+    "artist_handles": null,
+    "venue": null,
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Álbum nominado a Latin Grammy. Fotografía por @anaranjari",
+    "needs_review": true,
+    "account": "anaranjari",
+    "post_url": "https://www.instagram.com/p/DeLISd_GnWi/",
+    "found_at": "2026-10-09T20:30:19.626500+00:00"
+  },
+  {
+    "title": "Barragán & Robles León: Memoria y Materia",
+    "artists": [
+      "Miquel Adrià",
+      "Aldo Alvarez Tostado",
+      "Cesar Bejar",
+      "Isa Carrillo",
+      "Mathias Goeritz",
+      "Alberto Lopez Corcuera",
+      "Joselo Maderista",
+      "Ruben Mendez",
+      "Chucho Reyes",
+      "Veronica Rodriguez",
+      "Emanuel Tovar",
+      "Luis Alfonso Villalobos"
+    ],
+    "artist_handles": null,
+    "venue": "W. TAB ART",
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición de memoria y materia. Instagram: @galeriatiroalblanco",
+    "needs_review": true,
+    "account": "revisionesgdl",
+    "post_url": "https://www.instagram.com/p/DeQu21ROl3N/",
+    "found_at": "2026-10-09T20:31:32.699780+00:00"
+  },
+  {
+    "title": "Permanencia del fragmento | Cuerpos materiales",
+    "artists": [
+      "Andrea Torrencial",
+      "Daniela Plascencia",
+      "Míkkel",
+      "Suula",
+      "Zyanya López Arámburo"
+    ],
+    "artist_handles": null,
+    "venue": null,
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición colectiva curada por Daniel de Arenas. Diálogo materia-cuerpo.",
+    "needs_review": true,
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/DeRweCekTG6/",
+    "found_at": "2026-10-09T20:31:45.885927+00:00"
+  },
+  {
     "is_event": true,
     "title": "Aqui Hay Aqui Hay",
     "artists": [
@@ -2256,7 +2351,7 @@
     "venue": "C4 Concert House",
     "date": "2026-10-09",
     "end_date": null,
-    "time": null,
+    "time": "19:00",
     "cover": null,
     "type": "concert",
     "ticket_url": "https://www.ticketnowmexico.com",
@@ -4729,33 +4824,6 @@
     "found_at": "2026-09-27T19:28:54.160416+00:00"
   },
   {
-    "title": "VERSSO - Concierto de Apertura",
-    "artists": [
-      "VERSSO",
-      "MONDEYUN",
-      "MALORA",
-      "ARIGARLO",
-      "CARMEN",
-      "MDHNTR",
-      "ANISH",
-      "PROYECTO SORPRESA"
-    ],
-    "artist_handles": null,
-    "venue": "TRAS-PATIO",
-    "date": "2026-10-08",
-    "end_date": null,
-    "time": "18:00",
-    "cover": "entrada libre",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Acceso por invitación o registro en línea. Cupos limitados.",
-    "needs_review": false,
-    "account": "cuerdacultura",
-    "post_url": "https://www.instagram.com/p/DeH_52Mpf30/",
-    "found_at": "2026-10-05T22:18:43.697639+00:00"
-  },
-  {
     "title": "Jinda Midland Guadalajara",
     "artists": [
       "Samuel Herrera",
@@ -5123,42 +5191,6 @@
     "found_at": "2026-10-05T22:21:00.751708+00:00"
   },
   {
-    "title": "Visita guiada por Fenómeno Vital",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "MUSA Museo de las Artes",
-    "date": "2026-10-07",
-    "end_date": null,
-    "time": "17:00",
-    "cover": null,
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "A cargo de la curadora Talien Corona, miércoles 7 octubre",
-    "needs_review": false,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/Dd9rveVlHPN/",
-    "found_at": "2026-10-05T22:21:13.378726+00:00"
-  },
-  {
-    "title": "Recorrido arquitectónico",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "MUSA Museo de las Artes",
-    "date": "2026-10-08",
-    "end_date": null,
-    "time": "17:00",
-    "cover": null,
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "A cargo de Carlos Correa Ceseña, jueves 8 de octubre",
-    "needs_review": false,
-    "account": "musa.museodelasartes",
-    "post_url": "https://www.instagram.com/p/Dd9rveVlHPN/",
-    "found_at": "2026-10-05T22:21:13.378729+00:00"
-  },
-  {
     "title": "Trap Night Live Event",
     "artists": [
       "Ares JL",
@@ -5206,8 +5238,12 @@
   },
   {
     "title": "Duck The Lupus",
-    "artists": [],
-    "artist_handles": null,
+    "artists": [
+      "Baile Pendiente"
+    ],
+    "artist_handles": {
+      "Baile Pendiente": "iradobe"
+    },
     "venue": "907 Novecientos Siete",
     "date": "2026-11-20",
     "end_date": null,
@@ -5777,37 +5813,6 @@
     "found_at": "2026-10-07T20:58:34.607425+00:00"
   },
   {
-    "title": "Concierto de Apertura Versso Tras-Patio",
-    "artists": [
-      "Mondeyunn",
-      "Malora",
-      "Arigarlo",
-      "La Carmen",
-      "Anish Daw",
-      "Mdhntr"
-    ],
-    "artist_handles": {
-      "Mondeyunn": "mondeyunn",
-      "Malora": "malora___",
-      "Arigarlo": "arigarlo",
-      "La Carmen": "lacarmenxoxo",
-      "Anish Daw": "anish.daw"
-    },
-    "venue": "Cuerda - Versso",
-    "date": "2026-10-08",
-    "end_date": null,
-    "time": null,
-    "cover": "entrada libre",
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Registros gratis con @cuerdacultura",
-    "needs_review": false,
-    "account": "cuerdacmedios",
-    "post_url": "https://www.instagram.com/p/DeKe6nQGLhf/",
-    "found_at": "2026-10-07T20:58:41.332193+00:00"
-  },
-  {
     "title": "Sebastián Llosa - Fuera de Foco Tour",
     "artists": [
       "Sebastián Llosa"
@@ -5830,24 +5835,6 @@
     "found_at": "2026-10-07T20:58:41.332195+00:00"
   },
   {
-    "title": "Versso Tras-Patio",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Versso Tras-Patio",
-    "date": "2026-10-08",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Inauguración espacio emergente liderado por talento femenino",
-    "needs_review": false,
-    "account": "entrebutacas_oficial",
-    "post_url": "https://www.instagram.com/p/DeNNd4MiSek/",
-    "found_at": "2026-10-07T20:58:49.274994+00:00"
-  },
-  {
     "title": "Yosoytísea",
     "artists": [
       "Yosoytísea"
@@ -5866,24 +5853,6 @@
     "account": "yossbones",
     "post_url": "https://www.instagram.com/p/DeM8NT2TUAu/",
     "found_at": "2026-10-07T20:58:51.797801+00:00"
-  },
-  {
-    "title": "Sesiones de jazz y jam",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Pulque Degollado",
-    "date": "2026-10-07",
-    "end_date": null,
-    "time": "17:30",
-    "cover": "entrada libre",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Sesión semanal recurrente todos los miércoles",
-    "needs_review": false,
-    "account": "pulquedegollado",
-    "post_url": "https://www.instagram.com/p/DeL0n-tCUip/",
-    "found_at": "2026-10-07T20:58:55.866399+00:00"
   },
   {
     "title": "Sesiones de jazz y jam",
@@ -6056,44 +6025,6 @@
     "found_at": "2026-10-07T20:59:30.471472+00:00"
   },
   {
-    "title": "Concierto de Apertura Verso Foro",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Verso Foro",
-    "date": "2026-10-08",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Inauguración de nuevo foro. Equipo Cuerda Cultura.",
-    "needs_review": false,
-    "account": "cuerdacmedios",
-    "post_url": "https://www.instagram.com/p/DeNOmG6RcMO/",
-    "found_at": "2026-10-07T20:59:33.048361+00:00"
-  },
-  {
-    "title": "Mortiis",
-    "artists": [
-      "Mortiis"
-    ],
-    "artist_handles": null,
-    "venue": "Foro Independencia",
-    "date": "2026-10-08",
-    "end_date": null,
-    "time": "20:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Rock industrial desde Noruega",
-    "needs_review": false,
-    "account": "foroindependencia",
-    "post_url": "https://www.instagram.com/p/DeKbnhfycwv/",
-    "found_at": "2026-10-07T20:59:38.645290+00:00"
-  },
-  {
     "title": "Stay Design",
     "artists": [
       "Stay Design"
@@ -6147,7 +6078,7 @@
     },
     "venue": "Plataforma",
     "date": "2026-10-25",
-    "end_date": null,
+    "end_date": "2027-01-10",
     "time": null,
     "cover": null,
     "type": "opening",
@@ -6421,5 +6352,629 @@
     "account": "palmagaleria",
     "post_url": "https://www.instagram.com/p/DeKOTAnFETn/",
     "found_at": "2026-10-07T21:01:01.994672+00:00"
+  },
+  {
+    "title": "Talk & Tacos with Luis Alfonso Villalobos",
+    "artists": [
+      "Luis Alfonso Villalobos"
+    ],
+    "artist_handles": null,
+    "venue": "Pipeline Contemporary",
+    "date": "2026-10-13",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Conversación con artista y curador, Londres",
+    "needs_review": false,
+    "account": "alfonsosanchez0607",
+    "post_url": "https://www.instagram.com/p/DeRoZnzES8W/",
+    "found_at": "2026-10-09T20:29:49.034619+00:00"
+  },
+  {
+    "title": "RECOVECOS: Works by Luis Alfonso Villalobos",
+    "artists": [
+      "Luis Alfonso Villalobos"
+    ],
+    "artist_handles": null,
+    "venue": "Pipeline Contemporary",
+    "date": "2026-10-09",
+    "end_date": "2026-11-06",
+    "time": "12:00",
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Abierto miércoles-viernes 12-6pm o cita, Londres",
+    "needs_review": false,
+    "account": "alfonsosanchez0607",
+    "post_url": "https://www.instagram.com/p/DeRoZnzES8W/",
+    "found_at": "2026-10-09T20:29:49.034646+00:00"
+  },
+  {
+    "title": "Inauguración: Exhibición Especial de Gráfica Latina",
+    "artists": [
+      "Tatiana Gómez",
+      "José Menendez"
+    ],
+    "artist_handles": null,
+    "venue": "Ciudad Creativa Digital",
+    "date": "2026-10-21",
+    "end_date": "2026-10-24",
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "opening",
+    "ticket_url": "https://www.humanitix.com",
+    "age_restriction": null,
+    "notes": "Exhibición de carteles de Gráfica Latina, parte de Letrástica Type Festival 2026",
+    "needs_review": false,
+    "account": "letrasticafest",
+    "post_url": "https://www.instagram.com/p/DePeR8JIrnS/",
+    "found_at": "2026-10-09T20:29:56.294393+00:00"
+  },
+  {
+    "title": "RECOVECOS: Works by Luis Alfonso Villalobos",
+    "artists": [
+      "Luis Alfonso Villalobos"
+    ],
+    "artist_handles": null,
+    "venue": "PIPELINE Contemporary",
+    "date": "2026-10-08",
+    "end_date": "2026-11-07",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Miércoles-viernes 12-18h, cita previa otros días. Cierra 7 noviembre.",
+    "needs_review": false,
+    "account": "alfonsosanchez0607",
+    "post_url": "https://www.instagram.com/p/DePNCnlIf8s/",
+    "found_at": "2026-10-09T20:30:00.562071+00:00"
+  },
+  {
+    "title": "Sebastián Llosa - Fuera de Foco Tour",
+    "artists": [
+      "Sebastián Llosa"
+    ],
+    "artist_handles": null,
+    "venue": "Cuerda Cultura",
+    "date": "2026-10-09",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "passline.com",
+    "age_restriction": null,
+    "notes": "Primer show del cantautor peruano en Guadalajara.",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DePfXBLkeyj/",
+    "found_at": "2026-10-09T20:30:08.990426+00:00"
+  },
+  {
+    "title": "CIEN 10 años",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Foro Independencia",
+    "date": "2027-01-15",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Celebración de una década del proyecto musical CIEN",
+    "needs_review": false,
+    "account": "cien_jalisco",
+    "post_url": "https://www.instagram.com/p/DeSG2Gjz-T6/",
+    "found_at": "2026-10-09T20:30:11.897430+00:00"
+  },
+  {
+    "title": "Random Battles: Team Random vs Todos - JDominguez vs Juan Pinguino",
+    "artists": [
+      "JDominguez",
+      "Juan Pinguino"
+    ],
+    "artist_handles": {
+      "JDominguez": "jdominguezksk",
+      "Juan Pinguino": "juanpinguinogdl"
+    },
+    "venue": "Hake Al Rey",
+    "date": "2026-11-22",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Batalla de rap: round comedia stand-up, round batalla escrita acapella",
+    "needs_review": false,
+    "account": "randombattlesfree",
+    "post_url": "https://www.instagram.com/p/DeQbhE6OOQ0/",
+    "found_at": "2026-10-09T20:30:16.572433+00:00"
+  },
+  {
+    "title": "Yoss Bones en Guadalajara",
+    "artists": [
+      "Yoss Bones"
+    ],
+    "artist_handles": {
+      "Yoss Bones": "yossbones"
+    },
+    "venue": "Foro Boletomóvil",
+    "date": "2026-12-05",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.boletomovil.com",
+    "age_restriction": null,
+    "notes": "Rap, hip-hop y R&B. Presentado por Alzada Oficial.",
+    "needs_review": false,
+    "account": "astronotas.music",
+    "post_url": "https://www.instagram.com/p/DeQpLgXln1H/",
+    "found_at": "2026-10-09T20:30:26.621992+00:00"
+  },
+  {
+    "title": "La fiesta de los RIFFS pesados",
+    "artists": [
+      "Beneath the Horror",
+      "Enemy.906",
+      "Crisis Hardcore",
+      "Ocean Graves",
+      "Stay Design Band",
+      "The Constructor"
+    ],
+    "artist_handles": {
+      "Beneath the Horror": "beneaththehorror",
+      "Enemy.906": "enemy.906",
+      "Crisis Hardcore": "crisishardcore",
+      "Ocean Graves": "oceangravesmx",
+      "Stay Design Band": "staydesignband",
+      "The Constructor": "theconstructormx"
+    },
+    "venue": "Anexo Independencia",
+    "date": "2026-10-10",
+    "end_date": null,
+    "time": null,
+    "cover": "$200mxn preventa, $250mxn día del evento",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Show de hardcore/metal con bandas de Monterrey y apoyo local.",
+    "needs_review": false,
+    "account": "el_loco_pierroth_pineda",
+    "post_url": "https://www.instagram.com/p/DeQBqfePfvk/",
+    "found_at": "2026-10-09T20:30:35.560793+00:00"
+  },
+  {
+    "title": "Vulgar Feast 26 - 11 Aniversario Vulgar Topic",
+    "artists": [
+      "Acidez",
+      "P4R4S1T0",
+      "EntrePandemias",
+      "Rugnir",
+      "OphidianBlackMass",
+      "TheSummon"
+    ],
+    "artist_handles": null,
+    "venue": "Anexo Independencia",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": "19:30",
+    "cover": "entrada libre",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "11 años de Vulgar Topic. Rugnir y Ophidian Black Mass en escenario por primera vez.",
+    "needs_review": false,
+    "account": "vulgartopic",
+    "post_url": "https://www.instagram.com/p/DeP-GmutKzJ/",
+    "found_at": "2026-10-09T20:30:39.520316+00:00"
+  },
+  {
+    "title": "Exposición Individual",
+    "artists": null,
+    "artist_handles": null,
+    "venue": "Galería Sepia",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "opening",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Inauguración de exposición individual. Obra 'Nocturno' en exhibición.",
+    "needs_review": false,
+    "account": "ernestofloresmex",
+    "post_url": "https://www.instagram.com/p/DeQjtSglWin/",
+    "found_at": "2026-10-09T20:30:42.245396+00:00"
+  },
+  {
+    "title": "Spooky Party 3.0",
+    "artists": [],
+    "artist_handles": null,
+    "venue": null,
+    "date": "2026-10-16",
+    "end_date": null,
+    "time": "20:00",
+    "cover": null,
+    "type": "dj",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Barra libre 8-9pm, premio $5mil mejor disfraz grupal",
+    "needs_review": false,
+    "account": "mar_pamar",
+    "post_url": "https://www.instagram.com/p/DePZX53RuZ0/",
+    "found_at": "2026-10-09T20:30:45.755727+00:00"
+  },
+  {
+    "title": "Motus NEU + Lo atractivo de la resistencia",
+    "artists": [
+      "Motus NEU"
+    ],
+    "artist_handles": null,
+    "venue": "Iglesia Primitiva",
+    "date": "2026-10-15",
+    "end_date": null,
+    "time": "20:00",
+    "cover": "entrada libre",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Charla + concierto de free jazz. Ghilardi 120.",
+    "needs_review": false,
+    "account": "bezirkgdl",
+    "post_url": "https://www.instagram.com/p/DePYugsoNOB/",
+    "found_at": "2026-10-09T20:30:50.051207+00:00"
+  },
+  {
+    "title": "Trasladar y Traducir: Cynthia Gutiérrez en conversación",
+    "artists": [
+      "Cynthia Gutiérrez"
+    ],
+    "artist_handles": {
+      "Cynthia Gutiérrez": "gallinero_en_llamas"
+    },
+    "venue": "Museo de Arte Moderno",
+    "date": "2026-10-10",
+    "end_date": null,
+    "time": "13:30",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Conversación con Adriana Melchor Betancourt. Cupo limitado por sede.",
+    "needs_review": false,
+    "account": "galeriacurro",
+    "post_url": "https://www.instagram.com/p/DePFtyRGoJ2/",
+    "found_at": "2026-10-09T20:30:52.935410+00:00"
+  },
+  {
+    "title": "Fiesta de Apertura - TESTING Sound Lab",
+    "artists": [
+      "La Denia",
+      "Spivvot"
+    ],
+    "artist_handles": {
+      "La Denia": "ladeniaese",
+      "Spivvot": "espivvot"
+    },
+    "venue": "Staditche",
+    "date": "2026-10-15",
+    "end_date": null,
+    "time": "19:00",
+    "cover": "entrada libre",
+    "type": "opening",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Inauguración del nuevo estudio de música TESTING Sound Lab",
+    "needs_review": false,
+    "account": "testing.soundlab",
+    "post_url": "https://www.instagram.com/p/DeR20VWAexU/",
+    "found_at": "2026-10-09T20:31:10.497255+00:00"
+  },
+  {
+    "title": "Cinemanemic",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Pulque de Gollado",
+    "date": "2026-10-10",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "notes": "Evento de música y cine en vivo",
+    "needs_review": false,
+    "account": "cinemanemic",
+    "post_url": "https://www.instagram.com/p/DePCj7Mp2GM/",
+    "found_at": "2026-10-09T20:31:23.031875+00:00"
+  },
+  {
+    "title": "Cinemanemic",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Pulque de Gollado",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "notes": "Evento de música y cine en vivo",
+    "needs_review": false,
+    "account": "cinemanemic",
+    "post_url": "https://www.instagram.com/p/DePCj7Mp2GM/",
+    "found_at": "2026-10-09T20:31:23.031899+00:00"
+  },
+  {
+    "title": "Cinemanemic",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Pulque de Gollado",
+    "date": "2026-10-24",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "notes": "Evento de música y cine en vivo",
+    "needs_review": false,
+    "account": "cinemanemic",
+    "post_url": "https://www.instagram.com/p/DePCj7Mp2GM/",
+    "found_at": "2026-10-09T20:31:23.031903+00:00"
+  },
+  {
+    "title": "Cinemanemic",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Pulque de Gollado",
+    "date": "2026-10-30",
+    "end_date": "2026-10-31",
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "notes": "Evento de música y cine en vivo",
+    "needs_review": false,
+    "account": "cinemanemic",
+    "post_url": "https://www.instagram.com/p/DePCj7Mp2GM/",
+    "found_at": "2026-10-09T20:31:23.031906+00:00"
+  },
+  {
+    "title": "Cinemanemic",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Pulque de Gollado",
+    "date": "2026-11-06",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "notes": "Evento de música y cine en vivo",
+    "needs_review": false,
+    "account": "cinemanemic",
+    "post_url": "https://www.instagram.com/p/DePCj7Mp2GM/",
+    "found_at": "2026-10-09T20:31:23.031911+00:00"
+  },
+  {
+    "title": "Cinemanemic",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Pulque de Gollado",
+    "date": "2026-11-21",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "notes": "Evento de música y cine en vivo",
+    "needs_review": false,
+    "account": "cinemanemic",
+    "post_url": "https://www.instagram.com/p/DePCj7Mp2GM/",
+    "found_at": "2026-10-09T20:31:23.031913+00:00"
+  },
+  {
+    "title": "Cinemanemic",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Pulque de Gollado",
+    "date": "2026-11-23",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "notes": "Evento de música y cine en vivo",
+    "needs_review": false,
+    "account": "cinemanemic",
+    "post_url": "https://www.instagram.com/p/DePCj7Mp2GM/",
+    "found_at": "2026-10-09T20:31:23.031915+00:00"
+  },
+  {
+    "title": "Cinemanemic",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Pulque de Gollado",
+    "date": "2026-11-27",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "notes": "Evento de música y cine en vivo",
+    "needs_review": false,
+    "account": "cinemanemic",
+    "post_url": "https://www.instagram.com/p/DePCj7Mp2GM/",
+    "found_at": "2026-10-09T20:31:23.031917+00:00"
+  },
+  {
+    "title": "Red October",
+    "artists": [
+      "Lobotomia Misterio",
+      "Cymatique",
+      "Xoxø",
+      "Brvss",
+      "No.Persona",
+      "Etérea Letal"
+    ],
+    "artist_handles": {
+      "Lobotomia Misterio": "lobotomiamisterio",
+      "Cymatique": "cymatique",
+      "Xoxø": "soy_xoxomusic",
+      "Brvss": "brvss_",
+      "No.Persona": "no.persona_official",
+      "Etérea Letal": "eterealetal"
+    },
+    "venue": "Staditche - Centro Cultural",
+    "date": "2026-10-23",
+    "end_date": null,
+    "time": "20:00",
+    "cover": "$100mxn preventa, $150mxn puerta",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Visuales de terror y Halloween. Disfraz = puntos extra.",
+    "needs_review": false,
+    "account": "vec.creativo",
+    "post_url": "https://www.instagram.com/p/DePkBFiK26v/",
+    "found_at": "2026-10-09T20:31:28.196542+00:00"
+  },
+  {
+    "title": "Hop Hop Diablo Funk (full Band)",
+    "artists": [
+      "Hop Hop Diablo Funk"
+    ],
+    "artist_handles": null,
+    "venue": "Centro Cultural Bretón",
+    "date": "2026-10-09",
+    "end_date": null,
+    "time": "22:00",
+    "cover": "$150mxn preventa, $200mxn día del evento",
+    "type": "concert",
+    "ticket_url": "https://passline.com",
+    "age_restriction": null,
+    "notes": "Puertas 20:00. Concierto 22:00. Último día preventa.",
+    "needs_review": false,
+    "account": "hophopdiablofunk",
+    "post_url": "https://www.instagram.com/p/DePTkA9OsHm/",
+    "found_at": "2026-10-09T20:31:35.671732+00:00"
+  },
+  {
+    "title": "¡Viva el amor!",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Tantuyo CC",
+    "date": "2026-11-01",
+    "end_date": null,
+    "time": "19:00",
+    "cover": null,
+    "type": "other",
+    "ticket_url": "https://wa.me/3345888649",
+    "age_restriction": null,
+    "notes": "Reserva por WhatsApp. Segunda fecha 22 de noviembre.",
+    "needs_review": false,
+    "account": "mifechafavorita.oficial",
+    "post_url": "https://www.instagram.com/p/DeP_yN6OfF1/",
+    "found_at": "2026-10-09T20:31:39.870125+00:00"
+  },
+  {
+    "title": "¡Viva el amor!",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Tantuyo CC",
+    "date": "2026-11-22",
+    "end_date": null,
+    "time": "19:00",
+    "cover": null,
+    "type": "other",
+    "ticket_url": "https://wa.me/3345888649",
+    "age_restriction": null,
+    "notes": "Reserva por WhatsApp. Segunda función del evento.",
+    "needs_review": false,
+    "account": "mifechafavorita.oficial",
+    "post_url": "https://www.instagram.com/p/DeP_yN6OfF1/",
+    "found_at": "2026-10-09T20:31:39.870148+00:00"
+  },
+  {
+    "title": "Puma Blue",
+    "artists": [
+      "Puma Blue"
+    ],
+    "artist_handles": {
+      "Puma Blue": "pumablue"
+    },
+    "venue": "C3 Stage",
+    "date": "2026-11-04",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Concierto con audio Meyer Sound en sala oscura.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DeR4QfyAYwo/",
+    "found_at": "2026-10-09T20:31:52.322041+00:00"
+  },
+  {
+    "title": "Tipling Rock",
+    "artists": [
+      "Tipling Rock"
+    ],
+    "artist_handles": {
+      "Tipling Rock": "tiplingrock"
+    },
+    "venue": "C3 Stage",
+    "date": "2026-10-24",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketmaster.com.mx",
+    "age_restriction": null,
+    "notes": "Beach pop con guitarras. Regreso a Guadalajara tras 4 años.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DeNmKE_GEJC/",
+    "found_at": "2026-10-09T20:31:55.565407+00:00"
+  },
+  {
+    "title": "9 Años de Fiesta - Noche de Disfraces",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "C3 Stage",
+    "date": "2026-10-31",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "other",
+    "ticket_url": "https://www.instagram.com/ticketnowmexico",
+    "age_restriction": null,
+    "notes": "Concurso de disfraces, $5000 en efectivo de premios",
+    "needs_review": false,
+    "account": "somoselperreo",
+    "post_url": "https://www.instagram.com/p/DeNrm6hHMLb/",
+    "found_at": "2026-10-09T20:32:00.678086+00:00"
+  },
+  {
+    "title": "Indios",
+    "artists": [
+      "Indios"
+    ],
+    "artist_handles": {
+      "Indios": "indiosoficial"
+    },
+    "venue": "C3 Rooftop",
+    "date": "2026-10-30",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Regreso de Indios a C3 Rooftop después de nueve años.",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/DeQK84mDZl_/",
+    "found_at": "2026-10-09T20:32:03.401481+00:00"
   }
 ]
