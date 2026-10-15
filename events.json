@@ -1610,6 +1610,100 @@
     "found_at": "2026-10-13T20:59:26.339329+00:00"
   },
   {
+    "title": "Más Allá del Mundial – Michal Petros",
+    "artists": [
+      "Michal Petros"
+    ],
+    "artist_handles": {
+      "Michal Petros": "mkpetros"
+    },
+    "venue": null,
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Proyecto de fotografía documental en Guadalajara rumbo a 2026.",
+    "needs_review": true,
+    "account": "rayon.376",
+    "post_url": "https://www.instagram.com/p/DeeuQ3JkZHZ/",
+    "found_at": "2026-10-15T19:40:02.748960+00:00"
+  },
+  {
+    "title": "Babas Tutsipop",
+    "artists": [
+      "Animales Vertebrados",
+      "Píldora",
+      "Batoplas"
+    ],
+    "artist_handles": null,
+    "venue": "Foro Boletomóvil",
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Promoción 2x1 válida hasta viernes. SLP: cambio de sede a @sonicaslp",
+    "needs_review": true,
+    "account": "babastutsipop",
+    "post_url": "https://www.instagram.com/p/Defg7UmkbrI/",
+    "found_at": "2026-10-15T19:40:06.963623+00:00"
+  },
+  {
+    "title": "Sesión de dibujo Raya y Ruido",
+    "artists": [
+      "Eza Tereza Eza",
+      "Fito Delgado",
+      "Erick Gales",
+      "Marisol Villanueva"
+    ],
+    "artist_handles": {
+      "Eza Tereza Eza": "eza.tereza.eza",
+      "Fito Delgado": "fito_delgado",
+      "Erick Gales": "erickgales6",
+      "Marisol Villanueva": "marisol_villanueva.a"
+    },
+    "venue": "Mura",
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Sesión de dibujo con música en vivo. Fecha no visible en flier.",
+    "needs_review": true,
+    "account": "fresita_fersita",
+    "post_url": "https://www.instagram.com/p/DecJvSfvluB/",
+    "found_at": "2026-10-15T19:41:59.327231+00:00"
+  },
+  {
+    "title": "Nothing but the Color of Light",
+    "artists": [
+      "Francisco Ugarte"
+    ],
+    "artist_handles": {
+      "Francisco Ugarte": "estudiofranciscougarte"
+    },
+    "venue": "CURRO",
+    "date": null,
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición individual de dibujos al óleo. Fechas no especificadas.",
+    "needs_review": true,
+    "account": "galeriacurro",
+    "post_url": "https://www.instagram.com/p/DeebsXWSJF_/",
+    "found_at": "2026-10-15T19:42:34.597536+00:00"
+  },
+  {
     "is_event": true,
     "title": "Aqui Hay Aqui Hay",
     "artists": [
@@ -1975,28 +2069,6 @@
     "artist_handles": {
       "Morti": "mortioficial"
     },
-    "venue": "Casa Umbral",
-    "date": "2026-10-14",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.passline.com/eventos/morti-puebla",
-    "age_restriction": null,
-    "notes": "Gira México y Colombia 2026",
-    "needs_review": false,
-    "account": "mortilyrics",
-    "post_url": "https://www.instagram.com/p/DbxZIWBIT37/",
-    "found_at": "2026-08-09T16:30:14.581885+00:00"
-  },
-  {
-    "title": "Morti",
-    "artists": [
-      "Morti"
-    ],
-    "artist_handles": {
-      "Morti": "mortioficial"
-    },
     "venue": "Rockxy Bar",
     "date": "2026-10-17",
     "end_date": null,
@@ -2321,7 +2393,7 @@
     "venue": "Foro Independencia",
     "date": "2026-11-28",
     "end_date": null,
-    "time": null,
+    "time": "19:00",
     "cover": "$600mxn preventa (limitada a 100 boletos), $700mxn preventa general",
     "type": "concert",
     "ticket_url": "https://www.passline.com/eventos/doyle-en-guadalajara",
@@ -3503,8 +3575,12 @@
       "Rosvelt",
       "Ganjo Bassman"
     ],
-    "artist_handles": null,
-    "venue": null,
+    "artist_handles": {
+      "Dinamo": "dinamomx",
+      "Ganjo Bassman": "ganjobassman_official",
+      "Rosvelt Band": "rosveltband"
+    },
+    "venue": "Hake Al Rey",
     "date": "2026-10-23",
     "end_date": null,
     "time": "19:00",
@@ -3903,26 +3979,6 @@
     "account": "espaciocabeza",
     "post_url": "https://www.instagram.com/p/DdkxHO4tKbK/",
     "found_at": "2026-09-23T19:26:22.754749+00:00"
-  },
-  {
-    "title": "Poder Decir - Laboratorio",
-    "artists": [
-      "Enrique Guízar"
-    ],
-    "artist_handles": null,
-    "venue": "Tantuyo Centro Cultural",
-    "date": "2026-10-13",
-    "end_date": null,
-    "time": "17:30",
-    "cover": "$200mxn",
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Laboratorio de expresión oral, escrita e improvisación escénica. Recurrente todos los martes.",
-    "needs_review": false,
-    "account": "don.nadie.poesia",
-    "post_url": "https://www.instagram.com/p/Ddmb2CpR_50/",
-    "found_at": "2026-09-23T19:26:54.941876+00:00"
   },
   {
     "title": "Poder Decir - Laboratorio",
@@ -5309,24 +5365,6 @@
     "artists": [],
     "artist_handles": null,
     "venue": "Pulque Degollado",
-    "date": "2026-10-14",
-    "end_date": null,
-    "time": "17:30",
-    "cover": "entrada libre",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Sesión semanal recurrente todos los miércoles",
-    "needs_review": false,
-    "account": "pulquedegollado",
-    "post_url": "https://www.instagram.com/p/DeL0n-tCUip/",
-    "found_at": "2026-10-07T20:58:55.866421+00:00"
-  },
-  {
-    "title": "Sesiones de jazz y jam",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Pulque Degollado",
     "date": "2026-10-21",
     "end_date": null,
     "time": "17:30",
@@ -5690,26 +5728,6 @@
     "account": "palmagaleria",
     "post_url": "https://www.instagram.com/p/DeKOTAnFETn/",
     "found_at": "2026-10-07T21:01:01.994672+00:00"
-  },
-  {
-    "title": "Talk & Tacos with Luis Alfonso Villalobos",
-    "artists": [
-      "Luis Alfonso Villalobos"
-    ],
-    "artist_handles": null,
-    "venue": "Pipeline Contemporary",
-    "date": "2026-10-13",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "workshop",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Conversación con artista y curador, Londres",
-    "needs_review": false,
-    "account": "alfonsosanchez0607",
-    "post_url": "https://www.instagram.com/p/DeRoZnzES8W/",
-    "found_at": "2026-10-09T20:29:49.034619+00:00"
   },
   {
     "title": "RECOVECOS: Works by Luis Alfonso Villalobos",
@@ -6587,26 +6605,12 @@
   },
   {
     "title": "Rey León 2: Ciclo de Cine x Licenciado Dominguez",
-    "artists": null,
-    "artist_handles": null,
-    "venue": null,
-    "date": "2026-10-14",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "exhibition",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Proyección: Frank (2014). Tertulia posterior, chelas.",
-    "needs_review": false,
-    "account": "rayon.376",
-    "post_url": "https://www.instagram.com/p/DecVIMEmhn8/",
-    "found_at": "2026-10-13T20:58:07.080059+00:00"
-  },
-  {
-    "title": "Rey León 2: Ciclo de Cine x Licenciado Dominguez",
-    "artists": null,
-    "artist_handles": null,
+    "artists": [
+      "Licenciado Dominguez"
+    ],
+    "artist_handles": {
+      "Licenciado Dominguez": "licenciadodominguez"
+    },
     "venue": null,
     "date": "2026-10-21",
     "end_date": null,
@@ -6623,8 +6627,12 @@
   },
   {
     "title": "Rey León 2: Ciclo de Cine x Licenciado Dominguez",
-    "artists": null,
-    "artist_handles": null,
+    "artists": [
+      "Licenciado Dominguez"
+    ],
+    "artist_handles": {
+      "Licenciado Dominguez": "licenciadodominguez"
+    },
     "venue": null,
     "date": "2026-10-28",
     "end_date": null,
@@ -6641,8 +6649,12 @@
   },
   {
     "title": "Rey León 2: Ciclo de Cine x Licenciado Dominguez",
-    "artists": null,
-    "artist_handles": null,
+    "artists": [
+      "Licenciado Dominguez"
+    ],
+    "artist_handles": {
+      "Licenciado Dominguez": "licenciadodominguez"
+    },
     "venue": null,
     "date": "2026-11-04",
     "end_date": null,
@@ -6971,5 +6983,654 @@
     "account": "castillointerior_",
     "post_url": "https://www.instagram.com/p/DeZzc4Qhi2Z/",
     "found_at": "2026-10-13T20:59:20.499539+00:00"
+  },
+  {
+    "title": "Cerámica Tapatía Vol. 2",
+    "artists": [],
+    "artist_handles": null,
+    "venue": null,
+    "date": "2026-10-31",
+    "end_date": null,
+    "time": "11:00",
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Bazar de piezas únicas y stock de proyectos locales de cerámica",
+    "needs_review": false,
+    "account": "rayon.376",
+    "post_url": "https://www.instagram.com/p/Dec8ENsPkPm/",
+    "found_at": "2026-10-15T19:39:59.249092+00:00"
+  },
+  {
+    "title": "Festival Del Oriente 2026",
+    "artists": [
+      "Grupo Parivaar",
+      "Jessy Shakti"
+    ],
+    "artist_handles": null,
+    "venue": "Galería Sepia",
+    "date": "2026-10-23",
+    "end_date": "2026-10-25",
+    "time": null,
+    "cover": "entrada libre (performances en sala planta alta: $100mxn por día o $200mxn por 3 días, incluye bebida e incienso)",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Danzas, música, ceremonias, experiencias. Inauguración VIE 5:30, SÁB ceremonia 5:00, DOM matinée 11:00.",
+    "needs_review": false,
+    "account": "galeriasepiagdl",
+    "post_url": "https://www.instagram.com/p/DedIQWlHE_-/",
+    "found_at": "2026-10-15T19:40:12.485674+00:00"
+  },
+  {
+    "title": "¿Y qué hago yo con todo esto?",
+    "artists": [],
+    "artist_handles": {
+      "licenciadodominguez": "licenciadodominguez"
+    },
+    "venue": "Rayón 376",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": "18:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Espacio plástico, intercambio de ideas, cartel colaborativo",
+    "needs_review": false,
+    "account": "a.a.alejos",
+    "post_url": "https://www.instagram.com/p/DehryCTx4Kd/",
+    "found_at": "2026-10-15T19:40:17.104838+00:00"
+  },
+  {
+    "title": "Siesta Acústica",
+    "artists": [
+      "Cuervo Glez",
+      "Moe González",
+      "Valentina González",
+      "Anne Gouverneur"
+    ],
+    "artist_handles": {
+      "Cuervo Glez": "cuervoglez",
+      "Moe González": "moe.gonzalez.official",
+      "Valentina González": "valentinaglezr",
+      "Anne Gouverneur": "anne.gouverneur"
+    },
+    "venue": "Foro Diez",
+    "date": "2026-10-29",
+    "end_date": null,
+    "time": "19:30",
+    "cover": "$250mxn",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Décima edición. Reservaciones: +52 33 10 70 50 78",
+    "needs_review": false,
+    "account": "foro_diez",
+    "post_url": "https://www.instagram.com/p/Dehs6hcmbvN/",
+    "found_at": "2026-10-15T19:40:21.338757+00:00"
+  },
+  {
+    "title": "Presentación de libro: Formas de entrelazar el pensamiento: prácticas artísticas y otros saberes",
+    "artists": [
+      "Piedad Martínez",
+      "Claudia Kleemann",
+      "Florencia Guillén",
+      "Carlos Armenta"
+    ],
+    "artist_handles": {
+      "Piedad Martínez": "pie_dad.mg",
+      "Claudia Kleemann": "claukleemann",
+      "Florencia Guillén": "florenciaguillenbel"
+    },
+    "venue": "FIL MTY",
+    "date": "2026-10-16",
+    "end_date": null,
+    "time": "10:00",
+    "cover": null,
+    "type": "opening",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Presentación de libro ARTES EAAD en Feria Internacional del Libro.",
+    "needs_review": false,
+    "account": "artlab_gdl",
+    "post_url": "https://www.instagram.com/p/Deei96DRsRc/",
+    "found_at": "2026-10-15T19:40:29.652315+00:00"
+  },
+  {
+    "title": "Segunda Megamarcha - No a la Represión, Agua Limpia",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Parque Rojo",
+    "date": "2026-10-18",
+    "end_date": null,
+    "time": "11:00",
+    "cover": "entrada libre",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Marcha social por agua limpia y contra represión.",
+    "needs_review": false,
+    "account": "_a.rmenta_",
+    "post_url": "https://www.instagram.com/p/DedRrDcRrsY/",
+    "found_at": "2026-10-15T19:40:39.211111+00:00"
+  },
+  {
+    "title": "COVERS | TRÁMITE-BURÓ DE COLECCIONISTAS, TOMO 0010",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "MACQ (Museo de Arte Contemporáneo Querétaro)",
+    "date": "2026-10-14",
+    "end_date": "2026-11-08",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Exposición colectiva curada por Hiram Constantino, Sala 3 planta alta.",
+    "needs_review": false,
+    "account": "elmacq",
+    "post_url": "https://www.instagram.com/p/DefzRU5DPdu/",
+    "found_at": "2026-10-15T19:40:42.746106+00:00"
+  },
+  {
+    "title": "BENZ J en el Roof",
+    "artists": [
+      "BENZ J"
+    ],
+    "artist_handles": {
+      "BENZ J": "b3nz_jota"
+    },
+    "venue": "C3 Rooftop",
+    "date": "2026-11-14",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Disco nuevo, celebración 10 años C3",
+    "needs_review": false,
+    "account": "c3stage",
+    "post_url": "https://www.instagram.com/p/Dehb4Ezj3JF/",
+    "found_at": "2026-10-15T19:41:01.324754+00:00"
+  },
+  {
+    "title": "Luis Fercán - Gira Cerezos en Flor",
+    "artists": [
+      "Luis Fercán",
+      "Getsy Guzmán"
+    ],
+    "artist_handles": {
+      "Luis Fercán": "luisfercan",
+      "Getsy Guzmán": "getsyguzman"
+    },
+    "venue": "Foro Independencia",
+    "date": "2026-10-29",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Show invitado: Getsy Guzmán. Presentado por Santeras Producciones, Vibess.es, Cien Jalisco y Vama Produ.",
+    "needs_review": false,
+    "account": "vama.produ",
+    "post_url": "https://www.instagram.com/p/DedMRh3Ru8d/",
+    "found_at": "2026-10-15T19:41:05.896796+00:00"
+  },
+  {
+    "title": "MI HISTORIA",
+    "artists": [
+      "AMÍLCAR"
+    ],
+    "artist_handles": null,
+    "venue": null,
+    "date": "2026-10-16",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Lanzamiento de single reggae. Disponible en plataformas digitales.",
+    "needs_review": true,
+    "account": "amilcar.ok",
+    "post_url": "https://www.instagram.com/p/DecZAgShg0i/",
+    "found_at": "2026-10-15T19:41:09.377942+00:00"
+  },
+  {
+    "title": "Walter Esaú + Rafa Arreguín",
+    "artists": [
+      "Walter Esaú",
+      "Rafa Arreguín"
+    ],
+    "artist_handles": {
+      "Walter Esaú": "walteresaumx",
+      "Rafa Arreguín": "rafaarreguinmx"
+    },
+    "venue": "Cuerda",
+    "date": "2026-10-16",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://passline.mx",
+    "age_restriction": null,
+    "notes": "Indie Folk desde Michoacán",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DedH8wdkYxH/",
+    "found_at": "2026-10-15T19:41:18.112427+00:00"
+  },
+  {
+    "title": "Bandas Emergentes vol. 41",
+    "artists": [
+      "Roose",
+      "Parábola",
+      "Thymiama",
+      "Malquerido",
+      "Ruido Portátil",
+      "Imperial"
+    ],
+    "artist_handles": {
+      "Roose": "roose___roose",
+      "Parábola": "parabola_band_",
+      "Thymiama": "thymiama_lls",
+      "Malquerido": "malqueridoel",
+      "Ruido Portátil": "ruido_portatil",
+      "Imperial": "somosimperialband"
+    },
+    "venue": "Cuerda",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Venta de boletos vía DM con las bandas",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DedH8wdkYxH/",
+    "found_at": "2026-10-15T19:41:18.112444+00:00"
+  },
+  {
+    "title": "Dan Rosales",
+    "artists": [
+      "Dan Rosales"
+    ],
+    "artist_handles": {
+      "Dan Rosales": "danrosales.mx"
+    },
+    "venue": "Versso",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://boletopolis.com",
+    "age_restriction": null,
+    "notes": "Artista de Monterrey. Invitados: Alyna, Checo Music",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DedH8wdkYxH/",
+    "found_at": "2026-10-15T19:41:18.112449+00:00"
+  },
+  {
+    "title": "Vialacteaween",
+    "artists": [
+      "Vía Láctea"
+    ],
+    "artist_handles": {
+      "Vía Láctea": "via_lacteaband"
+    },
+    "venue": "Versso",
+    "date": "2026-10-18",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Invitados: Aryon, Andrómeda. Temática Halloween",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DedH8wdkYxH/",
+    "found_at": "2026-10-15T19:41:18.112452+00:00"
+  },
+  {
+    "title": "Walter Esaú + Rafa Arreguín",
+    "artists": [
+      "Walter Esaú",
+      "Rafa Arreguín"
+    ],
+    "artist_handles": {
+      "Walter Esaú": "walteresaumx",
+      "Rafa Arreguín": "rafaarreguinmx"
+    },
+    "venue": "Cuerda Cultura",
+    "date": "2026-10-16",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "passline.com",
+    "age_restriction": null,
+    "notes": "Cantautores michoacanos. Últimas preventas disponibles.",
+    "needs_review": false,
+    "account": "cuerdacmedios",
+    "post_url": "https://www.instagram.com/p/DefPbhCmDOL/",
+    "found_at": "2026-10-15T19:41:22.546650+00:00"
+  },
+  {
+    "title": "Rifa de obra + Noche de karaoke en Stadiuche",
+    "artists": [
+      "Hiram Constantino",
+      "Lorea de la Peña",
+      "Paola Reyes",
+      "Mars"
+    ],
+    "artist_handles": {
+      "Hiram Constantino": "hiconstantino",
+      "Lorea de la Peña": "loreadlpe",
+      "Paola Reyes": "paola_reyesgr",
+      "Mars": "m.m.a.r.s"
+    },
+    "venue": "López Cotilla 858",
+    "date": "2026-10-16",
+    "end_date": null,
+    "time": "19:00",
+    "cover": "$100mxn",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Recaudación de fondos para afectados en la marcha. Boleto incluye participación en rifa.",
+    "needs_review": false,
+    "account": "ferazzzzzzz",
+    "post_url": "https://www.instagram.com/p/DedN3SAN9pE/",
+    "found_at": "2026-10-15T19:41:27.529174+00:00"
+  },
+  {
+    "title": "Conferencia de Prensa: ¡No al Endeudamiento y Privatización de Nuestra Agua!",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "Patio del Congreso del Estado de Jalisco",
+    "date": "2026-10-15",
+    "end_date": null,
+    "time": "09:00",
+    "cover": "entrada libre",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Manifestación contra privatización del agua y endeudamiento.",
+    "needs_review": false,
+    "account": "festivaldearteconceptual",
+    "post_url": "https://www.instagram.com/p/DefQY-rAXou/",
+    "found_at": "2026-10-15T19:41:34.709921+00:00"
+  },
+  {
+    "title": "Revenge Metallica",
+    "artists": [
+      "Revenge Metallica"
+    ],
+    "artist_handles": {
+      "Revenge Metallica": "revenge.metallica"
+    },
+    "venue": "C4 Concert House",
+    "date": "2027-02-06",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Experiencia total, tributo a Metallica",
+    "needs_review": false,
+    "account": "c4concerthouse",
+    "post_url": "https://www.instagram.com/p/DehVX33lhpC/",
+    "found_at": "2026-10-15T19:41:38.884478+00:00"
+  },
+  {
+    "title": "Sesión de Dibujo: Práctica con modelo",
+    "artists": [
+      "Tereza Vázquez"
+    ],
+    "artist_handles": null,
+    "venue": "Museo de Arte Raúl Anguiano (MURA)",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": "12:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Explorar anatomía humana, luz, sombra y proporción. Nivel básico.",
+    "needs_review": false,
+    "account": "muragdl",
+    "post_url": "https://www.instagram.com/p/DehYRmlxDp3/",
+    "found_at": "2026-10-15T19:41:43.089975+00:00"
+  },
+  {
+    "title": "TR/ST",
+    "artists": [
+      "TR/ST"
+    ],
+    "artist_handles": null,
+    "venue": "C4 Concert House",
+    "date": "2026-12-04",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": "https://www.ticketnowmexico.com",
+    "age_restriction": null,
+    "notes": "Darkwave y synth-pop. Proyecto de Robert Alfons.",
+    "needs_review": false,
+    "account": "ackpromoteofficial",
+    "post_url": "https://www.instagram.com/p/DehjXJfpIY2/",
+    "found_at": "2026-10-15T19:41:48.676250+00:00"
+  },
+  {
+    "title": "La paradoja de la contención",
+    "artists": [
+      "Vico Valle",
+      "Santiago Gómez"
+    ],
+    "artist_handles": {
+      "Vico Valle": "vicovalle",
+      "Santiago Gómez": "santiago_gomezch"
+    },
+    "venue": "Plataforma",
+    "date": "2026-10-25",
+    "end_date": "2026-11-15",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Cuarta generación Plataforma Residencias. Investigación sobre maíz y barro.",
+    "needs_review": false,
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/DefMQz5CeWb/",
+    "found_at": "2026-10-15T19:41:54.756682+00:00"
+  },
+  {
+    "title": "AWXENO Halloween",
+    "artists": [
+      "Dope Doppelgänger"
+    ],
+    "artist_handles": {
+      "Dope Doppelgänger": "dope__doppelganger"
+    },
+    "venue": "Pulque de Gollado",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": "20:00",
+    "cover": "$50mxn preventa, $80mxn taquilla",
+    "type": "other",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Concurso de disfraz, exposición arte colectiva, música en vivo, instalación de TVs análogas.",
+    "needs_review": false,
+    "account": "ajeno.mx",
+    "post_url": "https://www.instagram.com/p/DehUWMFETGC/",
+    "found_at": "2026-10-15T19:42:03.572932+00:00"
+  },
+  {
+    "title": "Avireno Halloween",
+    "artists": [
+      "Al-Herula Livo Blorth",
+      "Baches Y Andrea Armont",
+      "Bethilde In La Coating",
+      "Desti Salsitas",
+      "Evill Elvis",
+      "Janke Cosecha",
+      "Hibrini Reptiliano",
+      "Dis",
+      "Year Vini",
+      "Ifack",
+      "Brosthic",
+      "Flora Peykusg",
+      "Saul Stajla",
+      "Gabriela Holsmera"
+    ],
+    "artist_handles": null,
+    "venue": "Pulque de Gollado",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": "20:00",
+    "cover": "$50mxn preventa, $80mxn taquilla",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Planta baja, Liceo #176. Halloween edition.",
+    "needs_review": false,
+    "account": "sonido_analogo_",
+    "post_url": "https://www.instagram.com/p/DefNYnYh4l2/",
+    "found_at": "2026-10-15T19:42:08.924507+00:00"
+  },
+  {
+    "title": "TRAP NIGHT",
+    "artists": [
+      "HDN Crew"
+    ],
+    "artist_handles": {
+      "HDN Crew": "hdncrew"
+    },
+    "venue": "Hake Al Rey",
+    "date": "2026-10-18",
+    "end_date": null,
+    "time": null,
+    "cover": null,
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Con artistas invitados. Contactar por DM para más información.",
+    "needs_review": false,
+    "account": "hakealrey",
+    "post_url": "https://www.instagram.com/p/DehYUszlNd7/",
+    "found_at": "2026-10-15T19:42:16.508958+00:00"
+  },
+  {
+    "title": "Orogénesis",
+    "artists": [
+      "Julieta Beltrán Lazo"
+    ],
+    "artist_handles": {
+      "Julieta Beltrán Lazo": "julieta_belazo"
+    },
+    "venue": "Proyecto La Esquina",
+    "date": "2026-10-25",
+    "end_date": "2027-01-10",
+    "time": null,
+    "cover": null,
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Instalación cerámica. Inauguración 25 de octubre 2026.",
+    "needs_review": false,
+    "account": "plataformagdl",
+    "post_url": "https://www.instagram.com/p/Dec1OODCUaL/",
+    "found_at": "2026-10-15T19:42:23.337678+00:00"
+  },
+  {
+    "title": "Noche de Museo",
+    "artists": [],
+    "artist_handles": null,
+    "venue": "MUSA Museo de las Artes",
+    "date": "2026-10-16",
+    "end_date": null,
+    "time": "18:00",
+    "cover": "entrada libre",
+    "type": "exhibition",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Horario extendido hasta 21:00 H. Última entrada 20:30 H.",
+    "needs_review": false,
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/Deeyu3vFMuo/",
+    "found_at": "2026-10-15T19:42:28.531411+00:00"
+  },
+  {
+    "title": "Café estético. Vitalistas en contexto",
+    "artists": [
+      "Talien Corona"
+    ],
+    "artist_handles": null,
+    "venue": "MUSA Museo de las Artes",
+    "date": "2026-10-17",
+    "end_date": null,
+    "time": "12:00",
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": "https://forms.gle/Fk3KMZPJLbDkwq9q9",
+    "age_restriction": null,
+    "notes": "Cupo limitado. Primera de tres sesiones sobre obra Fenómeno vital.",
+    "needs_review": false,
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/Deeyu3vFMuo/",
+    "found_at": "2026-10-15T19:42:28.531432+00:00"
+  },
+  {
+    "title": "Recorrido arquitectónico guiado: MUSA desde su historia",
+    "artists": [
+      "Carlos Correa Ceseña"
+    ],
+    "artist_handles": null,
+    "venue": "MUSA Museo de las Artes",
+    "date": "2026-10-15",
+    "end_date": null,
+    "time": null,
+    "cover": "entrada libre",
+    "type": "workshop",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Recorrido guiado por experto en arquitectura del edificio.",
+    "needs_review": false,
+    "account": "musa.museodelasartes",
+    "post_url": "https://www.instagram.com/p/DefwEJLlP98/",
+    "found_at": "2026-10-15T19:42:32.173463+00:00"
+  },
+  {
+    "title": "Nocturna Masquerade Fest - 16 Aniversario",
+    "artists": [
+      "Kanon"
+    ],
+    "artist_handles": null,
+    "venue": "Fenebrís",
+    "date": "2026-11-21",
+    "end_date": null,
+    "time": null,
+    "cover": "entrada libre",
+    "type": "concert",
+    "ticket_url": null,
+    "age_restriction": null,
+    "notes": "Banda mexicana de rock, post-punk industrial y darkwave.",
+    "needs_review": false,
+    "account": "nocturnamasqueradefest",
+    "post_url": "https://www.instagram.com/p/DecvGHkEnQq/",
+    "found_at": "2026-10-15T19:42:38.085305+00:00"
   }
 ]
