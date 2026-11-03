@@ -2304,26 +2304,6 @@
     "found_at": "2026-08-11T16:55:10.829878+00:00"
   },
   {
-    "title": "Dethklok – 20 Years of Brutality",
-    "artists": [
-      "Dethklok"
-    ],
-    "artist_handles": null,
-    "venue": "Foro Independencia",
-    "date": "2026-11-01",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.boletomovil.com",
-    "age_restriction": null,
-    "notes": "Death metal, meet & greet VIP en DethklokLive.com",
-    "needs_review": false,
-    "account": "caciquemx",
-    "post_url": "https://www.instagram.com/p/Db8gfemMXFB/",
-    "found_at": "2026-08-13T16:52:56.420418+00:00"
-  },
-  {
     "title": "Segunda exposición individual - Julieta Beltrán Lazo",
     "artists": [
       "Julieta Beltrán Lazo"
@@ -3503,26 +3483,6 @@
     "found_at": "2026-09-25T19:50:04.371184+00:00"
   },
   {
-    "title": "Motherflowers",
-    "artists": [
-      "Motherflowers"
-    ],
-    "artist_handles": null,
-    "venue": "C3 Rooftop",
-    "date": "2026-11-01",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "https://www.ticketnowmexico.com",
-    "age_restriction": null,
-    "notes": "Primera vez en Guadalajara, material de Que Vayan y Lo Cuenten",
-    "needs_review": false,
-    "account": "c3stage",
-    "post_url": "https://www.instagram.com/p/DdubRtZk7hg/",
-    "found_at": "2026-09-27T19:28:14.044810+00:00"
-  },
-  {
     "title": "María Enríquez – desde un prado lejano",
     "artists": [
       "María Enríquez"
@@ -3885,24 +3845,6 @@
     "artists": [],
     "artist_handles": null,
     "venue": "Centro Cultural Tantuyo",
-    "date": "2026-11-01",
-    "end_date": null,
-    "time": "19:00",
-    "cover": null,
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Una historia que invita a abrazar el dolor",
-    "needs_review": false,
-    "account": "mifechafavorita.oficial",
-    "post_url": "https://www.instagram.com/p/DeIcYwou1u4/",
-    "found_at": "2026-10-07T21:00:25.919953+00:00"
-  },
-  {
-    "title": "Mi Fecha Favorita",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Centro Cultural Tantuyo",
     "date": "2026-11-22",
     "end_date": null,
     "time": "19:00",
@@ -4129,24 +4071,6 @@
     "artists": [],
     "artist_handles": null,
     "venue": "Tantuyo CC",
-    "date": "2026-11-01",
-    "end_date": null,
-    "time": "19:00",
-    "cover": null,
-    "type": "other",
-    "ticket_url": "https://wa.me/3345888649",
-    "age_restriction": null,
-    "notes": "Reserva por WhatsApp. Segunda fecha 22 de noviembre.",
-    "needs_review": false,
-    "account": "mifechafavorita.oficial",
-    "post_url": "https://www.instagram.com/p/DeP_yN6OfF1/",
-    "found_at": "2026-10-09T20:31:39.870125+00:00"
-  },
-  {
-    "title": "¡Viva el amor!",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Tantuyo CC",
     "date": "2026-11-22",
     "end_date": null,
     "time": "19:00",
@@ -4181,57 +4105,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DeR4QfyAYwo/",
     "found_at": "2026-10-09T20:31:52.322041+00:00"
-  },
-  {
-    "title": "Batalla de las Bandas – Halloween Edition",
-    "artists": [
-      "Alessandria",
-      "Calliband",
-      "Carabel",
-      "Cimatica",
-      "Ciudad Liturgica",
-      "Contrasena",
-      "Corazón de Cenicero",
-      "Disayowal",
-      "The Execution",
-      "Estado Feral",
-      "Flor Cadaver",
-      "Kanon",
-      "Luka Jhons",
-      "Missnight",
-      "Mondeyun",
-      "Ozz Lorian",
-      "Plastic Model",
-      "Po/Card's",
-      "Raydel",
-      "Repugnancia",
-      "The Fuel",
-      "Cuervo Eléctrico",
-      "El Culto a la Diosa",
-      "Monte Olympo",
-      "Pirámide Lattice",
-      "RPC Trío Power"
-    ],
-    "artist_handles": {
-      "Pirámide Lattice": "piramidelattice",
-      "RPC Trío Power": "rpctriopower",
-      "Monte Olympo": "monteolympo_band",
-      "Cuervo Eléctrico": "cuervoelectricomx",
-      "El Culto a la Diosa": "elcultoaladiosa"
-    },
-    "venue": "C4 Concert House",
-    "date": "2026-11-01",
-    "end_date": null,
-    "time": "15:00",
-    "cover": "entrada libre",
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Disfraz obligatorio. Premios: $5000 banda ganadora, $5000 mejor disfraz.",
-    "needs_review": false,
-    "account": "batalladelasbandass",
-    "post_url": "https://www.instagram.com/p/DeUo8c1O2pC/",
-    "found_at": "2026-10-11T19:52:44.287853+00:00"
   },
   {
     "title": "Ximena Carstensen",
@@ -4888,27 +4761,6 @@
     "found_at": "2026-10-21T19:54:17.475117+00:00"
   },
   {
-    "title": "How to End the Reincarnation System - Inauguración",
-    "artists": [
-      "Los Delgallo",
-      "Florencia Álvarez"
-    ],
-    "artist_handles": null,
-    "venue": "Museo MURA",
-    "date": "2026-10-30",
-    "end_date": "2026-11-01",
-    "time": "21:00",
-    "cover": "entrada libre",
-    "type": "opening",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Exposición de gráfica, ilustración y universo musical",
-    "needs_review": false,
-    "account": "muragdl",
-    "post_url": "https://www.instagram.com/p/DeubQmBRJTI/",
-    "found_at": "2026-10-21T19:55:44.466574+00:00"
-  },
-  {
     "title": "Bazar cultural de las mujeres migrantes y refugiadas vol. 9",
     "artists": [
       "Cubanísimo"
@@ -4995,22 +4847,6 @@
     "account": "afasia.mx",
     "post_url": "https://www.instagram.com/p/DesGsvxGXUR/",
     "found_at": "2026-10-21T19:56:35.231576+00:00"
-  },
-  {
-    "title": "Una historia que nos invita a abrazar el dolor",
-    "artists": [],
-    "artist_handles": null,
-    "venue": "Tantuyo.cc",
-    "date": "2026-11-01",
-    "end_date": null,
-    "time": "19:00",
-    "cover": null,
-    "type": "other",
-    "notes": "Experiencia reflexiva, divertida y llena de energía honrando a los que se han ido.",
-    "needs_review": false,
-    "account": "mifechafavorita.oficial",
-    "post_url": "https://www.instagram.com/p/Depm78mu2Gl/",
-    "found_at": "2026-10-21T19:56:49.448447+00:00"
   },
   {
     "title": "Una historia que nos invita a abrazar el dolor",
@@ -5230,29 +5066,6 @@
     "account": "tsa_la",
     "post_url": "https://www.instagram.com/p/Dezc76CzCgl/",
     "found_at": "2026-10-23T19:46:21.213422+00:00"
-  },
-  {
-    "title": "LEE EYE - Desde Colombia",
-    "artists": [
-      "LEE EYE",
-      "Tropicana"
-    ],
-    "artist_handles": {
-      "LEE EYE": "leeeyeeeeeee"
-    },
-    "venue": "Anexo Independencia",
-    "date": "2026-11-01",
-    "end_date": null,
-    "time": "19:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": "bmbxpass.com",
-    "age_restriction": null,
-    "notes": "Artista colombiana, meet 18:00, puertas 19:00",
-    "needs_review": false,
-    "account": "tropicana.mc",
-    "post_url": "https://www.instagram.com/p/De0bLfHt5tL/",
-    "found_at": "2026-10-23T19:46:25.178113+00:00"
   },
   {
     "title": "Novecientosiete Metal Fest",
@@ -5517,38 +5330,6 @@
     "found_at": "2026-10-27T20:23:01.803474+00:00"
   },
   {
-    "title": "Bandas Emergentes Vol. 42",
-    "artists": [
-      "los_de_artem",
-      "jacer_spe",
-      "clarissajimenezm",
-      "why_edison__",
-      "opher_nunez",
-      "magnetic.river"
-    ],
-    "artist_handles": {
-      "los_de_artem": "los_de_artem",
-      "jacer_spe": "jacer_spe",
-      "clarissajimenezm": "clarissajimenezm",
-      "why_edison__": "why_edison__",
-      "opher_nunez": "opher_nunez",
-      "magnetic.river": "magnetic.river"
-    },
-    "venue": "Cuerda",
-    "date": "2026-11-01",
-    "end_date": null,
-    "time": null,
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Bandas emergentes, contacto vía DM",
-    "needs_review": false,
-    "account": "cuerdacmedios",
-    "post_url": "https://www.instagram.com/p/DfAi5DOmNmA/",
-    "found_at": "2026-10-27T20:23:26.191337+00:00"
-  },
-  {
     "title": "Concierto Día de Muertos - Recital de avance",
     "artists": [
       "Alumnos de Guitarra, Canto y Coro de Formare Academia de Música"
@@ -5779,28 +5560,6 @@
     "found_at": "2026-10-29T20:48:34.504443+00:00"
   },
   {
-    "title": "DEATHLOK",
-    "artists": [
-      "Deathlok"
-    ],
-    "artist_handles": {
-      "Deathlok": "deathlok_official"
-    },
-    "venue": "Foro Independencia",
-    "date": "2026-11-01",
-    "end_date": null,
-    "time": "19:00",
-    "cover": null,
-    "type": "concert",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Domingo 1 de noviembre",
-    "needs_review": false,
-    "account": "foroindependencia",
-    "post_url": "https://www.instagram.com/p/DfA8iNQFsdF/",
-    "found_at": "2026-10-29T20:48:44.956118+00:00"
-  },
-  {
     "title": "FALTIAN",
     "artists": [
       "FALTIAN"
@@ -5874,26 +5633,6 @@
     "account": "c3stage",
     "post_url": "https://www.instagram.com/p/DfFzLW2mXmo/",
     "found_at": "2026-10-29T20:49:01.027150+00:00"
-  },
-  {
-    "title": "Another Body - Documental y Tertulia Filosófica",
-    "artists": [
-      "Fernando Juárez"
-    ],
-    "artist_handles": null,
-    "venue": "Tantuyo Centro Cultural",
-    "date": "2026-11-01",
-    "end_date": null,
-    "time": "19:00",
-    "cover": "entrada libre",
-    "type": "other",
-    "ticket_url": null,
-    "age_restriction": null,
-    "notes": "Documental sobre deepfakes y privacidad. Tertulia con Dr. Fernando Juárez.",
-    "needs_review": false,
-    "account": "tantuyo.cc",
-    "post_url": "https://www.instagram.com/p/DfFX9Ugi5oW/",
-    "found_at": "2026-10-29T20:49:04.595692+00:00"
   },
   {
     "title": "Nonpalidece 30 Años - Gira Mex 2027",
